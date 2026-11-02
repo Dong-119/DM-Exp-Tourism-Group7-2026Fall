@@ -71,6 +71,9 @@ class RouteMiningTests(unittest.TestCase):
         self.assertEqual(route["steps"][1]["poi"], "休息点")
         self.assertEqual(route["steps"][1]["poi_kind"], "descriptive_location")
         self.assertEqual(route["steps"][-1]["step_type"], "exit")
+        for step in route["steps"]:
+            span = step["source_span"]
+            self.assertEqual(document["clean_content"][span["start"]:span["end"]], step["source_quote"])
 
     def test_traveler_annotations_are_evidence_anchored_and_normalized(self):
         content = (
@@ -120,6 +123,26 @@ class RouteMiningTests(unittest.TestCase):
         self.assertEqual(result["traveler_route_alignment"], 0.8)
         self.assertEqual(result["shared_order_consistency"], 1.0)
         self.assertEqual(result["traveler_only_pois"], ["珍宝馆"])
+
+    def test_comparison_metrics_deduplicate_repeated_stops(self):
+        official = {
+            "route_id": "official",
+            "scenic_name": "故宫",
+            "steps": [make_step(i, name, source_quote=name) for i, name in enumerate(
+                ["午门", "御花园", "午门"], start=1
+            )],
+        }
+        traveler = {
+            "route_id": "traveler",
+            "steps": [make_step(i, name, source_quote=name) for i, name in enumerate(
+                ["午门", "御花园"], start=1
+            )],
+        }
+        result = compare_routes(official, traveler)
+        self.assertEqual(result["official_route_step_count"], 3)
+        self.assertEqual(result["official_route_distinct_poi_count"], 2)
+        self.assertEqual(result["shared_poi_count"], 2)
+        self.assertEqual(result["official_route_coverage"], 1.0)
 
     def test_parent_and_child_are_not_normalized_to_same_place(self):
         self.assertEqual(canonical_name("紫禁城"), "紫禁城")

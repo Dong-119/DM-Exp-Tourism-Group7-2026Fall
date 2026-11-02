@@ -259,7 +259,8 @@ def parse_numbered_timed_route(document: dict[str, Any]) -> dict[str, Any]:
         if match:
             order = int(match.group(1))
             start_time, end_time, raw_label, activity = match.group(2, 3, 4, 5)
-            label_start = offset + match.start(4)
+            line_start = offset + match.start()
+            line_end = offset + len(line.rstrip("\r\n"))
             activity = re.split(r"[，,]此步骤共", activity, maxsplit=1)[0].strip()
             steps.append(
                 make_step(
@@ -272,8 +273,8 @@ def parse_numbered_timed_route(document: dict[str, Any]) -> dict[str, Any]:
                     time_source="explicit_in_source",
                     activity=activity,
                     step_type="entry" if order == 1 else "visit",
-                    start=label_start,
-                    end=label_start + len(raw_label.strip()),
+                    start=line_start,
+                    end=line_end,
                 )
             )
         offset += len(line)
@@ -352,8 +353,10 @@ def lcs_length(left: list[str], right: list[str]) -> int:
 
 
 def compare_routes(official: dict[str, Any], traveler: dict[str, Any]) -> dict[str, Any]:
-    official_ids = [step["poi_id"] for step in official["steps"]]
-    traveler_ids = [step["poi_id"] for step in traveler["steps"]]
+    official_steps = _unique_steps(official["steps"])
+    traveler_steps = _unique_steps(traveler["steps"])
+    official_ids = [step["poi_id"] for step in official_steps]
+    traveler_ids = [step["poi_id"] for step in traveler_steps]
     official_set = set(official_ids)
     traveler_set = set(traveler_ids)
     shared = [point for point in official_ids if point in traveler_set]
@@ -370,11 +373,13 @@ def compare_routes(official: dict[str, Any], traveler: dict[str, Any]) -> dict[s
             "traveler_route_alignment": "Shared distinct POIs / traveler route POIs.",
             "shared_order_consistency": "LCS length of the two shared-POI sequences / number of shared distinct POIs.",
         },
-        "official_route_step_count": len(official_ids),
-        "traveler_route_step_count": len(traveler_ids),
-        "shared_pois_in_official_order": [step["poi"] for step in official["steps"] if step["poi_id"] in traveler_set],
-        "traveler_only_pois": [step["poi"] for step in traveler["steps"] if step["poi_id"] not in official_set],
-        "official_only_pois": [step["poi"] for step in official["steps"] if step["poi_id"] not in traveler_set],
+        "official_route_step_count": len(official["steps"]),
+        "traveler_route_step_count": len(traveler["steps"]),
+        "official_route_distinct_poi_count": len(official_ids),
+        "traveler_route_distinct_poi_count": len(traveler_ids),
+        "shared_pois_in_official_order": [step["poi"] for step in official_steps if step["poi_id"] in traveler_set],
+        "traveler_only_pois": [step["poi"] for step in traveler_steps if step["poi_id"] not in official_set],
+        "official_only_pois": [step["poi"] for step in official_steps if step["poi_id"] not in traveler_set],
         "shared_poi_count": len(shared),
         "official_route_coverage": len(shared) / len(set(official_ids)) if official_ids else 0.0,
         "traveler_route_alignment": len(shared) / len(set(traveler_ids)) if traveler_ids else 0.0,
@@ -382,6 +387,16 @@ def compare_routes(official: dict[str, Any], traveler: dict[str, Any]) -> dict[s
         "shared_order_lcs_length": shared_order,
         "time_comparison": "Not calculated: neither source provides comparable per-stop or time-of-day data.",
     }
+
+
+def _unique_steps(steps: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    seen: set[str] = set()
+    result = []
+    for step in steps:
+        if step["poi_id"] not in seen:
+            seen.add(step["poi_id"])
+            result.append(step)
+    return result
 
 
 def validate_routes(routes: list[dict[str, Any]], documents: dict[str, dict[str, Any]]) -> None:
@@ -399,4 +414,3 @@ def validate_routes(routes: list[dict[str, Any]], documents: dict[str, dict[str,
                     raise ValueError(f"Evidence span mismatch in {route['route_id']} step {step['order']}")
             if step["poi"] != canonical_name(step["poi"]):
                 raise ValueError(f"Unnormalized POI in {route['route_id']}: {step['poi']}")
-
