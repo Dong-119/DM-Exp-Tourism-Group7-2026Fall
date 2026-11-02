@@ -1,8 +1,5 @@
 # DM-Exp-Tourism-GroupX-2026Fall
-
-《数据挖掘》探索性实验：景区游览指南程序性知识挖掘。
-
-项目采用 `src/tourism_mining/` 源码布局。实验三实现路线解析、层级构建和路线对比。
+《数据挖掘》探索性实验｜旅游领域文本挖掘与知识图谱构建｜含数据预处理、实体识别、路线解析、共指消解、条件抽取、图谱融合及旅游规划Agent全流程实现｜支持可复现运行与失败反思记录
 
 ## 环境要求
 
@@ -19,7 +16,7 @@ python -c "import sys; print(sys.executable); print(sys.version)"
 
 输出路径应指向仓库的 `.venv`。如果 PowerShell 不允许激活脚本，跳过激活，改用 `.venv\Scripts\python.exe` 执行下面命令。
 
-## 安装并运行实验三
+## 实验项目3：游览路线的层级结构挖掘
 
 ```powershell
 python -m pip install --no-build-isolation -e .
@@ -41,3 +38,16 @@ python -m unittest discover -s tests -p "test_*.py" -v
 ```
 
 若不激活虚拟环境，将命令中的 `python` 替换为 `.venv\Scripts\python.exe`。也可使用 `py -3.9 -m venv .venv` 显式指定 Python 3.9。请确保从仓库根目录运行，这样默认输入和输出路径才能正确解析。
+
+## 实验项目5：条件性游览建议的抽取
+
+[代码、Notebook与结果](experiments/exp05/) · [使用说明](experiments/exp05/使用说明.md)
+
+使用实验一提供的48篇结构化文章，提取条件及对应行动，生成95条主体建议和10条其他地点建议，并保留来源原句和字符位置。
+
+```bash
+cd experiments/exp05
+python -m pip install -r requirements.txt
+python run_experiment.py
+python verify.py
+```

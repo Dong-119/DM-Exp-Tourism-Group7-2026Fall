@@ -1,0 +1,501 @@
+{
+  "sample_count": 30,
+  "positive_cases": 21,
+  "negative_cases": 9,
+  "methods": {
+    "基础规则": {
+      "positive_relation_hits": 15,
+      "exact_pair_matches": 15,
+      "negative_false_positives": 3,
+      "cases": [
+        {
+          "case_id": "A001",
+          "doc_id": "GG_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A002",
+          "doc_id": "GG_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A003",
+          "doc_id": "GG_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A004",
+          "doc_id": "GG_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A005",
+          "doc_id": "GG_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A006",
+          "doc_id": "GG_S03",
+          "positive": true,
+          "relation_hit": false,
+          "exact_pair": false,
+          "false_positive": false
+        },
+        {
+          "case_id": "A007",
+          "doc_id": "GG_S03",
+          "positive": true,
+          "relation_hit": false,
+          "exact_pair": false,
+          "false_positive": false
+        },
+        {
+          "case_id": "A008",
+          "doc_id": "GG_S03",
+          "positive": false,
+          "relation_hit": false,
+          "exact_pair": false,
+          "false_positive": true
+        },
+        {
+          "case_id": "A009",
+          "doc_id": "GG_S03",
+          "positive": false,
+          "relation_hit": false,
+          "exact_pair": false,
+          "false_positive": false
+        },
+        {
+          "case_id": "A010",
+          "doc_id": "GG_S03",
+          "positive": false,
+          "relation_hit": false,
+          "exact_pair": false,
+          "false_positive": false
+        },
+        {
+          "case_id": "A011",
+          "doc_id": "YHY_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A012",
+          "doc_id": "YHY_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A013",
+          "doc_id": "YHY_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A014",
+          "doc_id": "YHY_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A015",
+          "doc_id": "YHY_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A016",
+          "doc_id": "YHY_S03",
+          "positive": true,
+          "relation_hit": false,
+          "exact_pair": false,
+          "false_positive": false
+        },
+        {
+          "case_id": "A017",
+          "doc_id": "YHY_S03",
+          "positive": true,
+          "relation_hit": false,
+          "exact_pair": false,
+          "false_positive": false
+        },
+        {
+          "case_id": "A018",
+          "doc_id": "YHY_S03",
+          "positive": false,
+          "relation_hit": false,
+          "exact_pair": false,
+          "false_positive": true
+        },
+        {
+          "case_id": "A019",
+          "doc_id": "YHY_S03",
+          "positive": false,
+          "relation_hit": false,
+          "exact_pair": false,
+          "false_positive": false
+        },
+        {
+          "case_id": "A020",
+          "doc_id": "YHY_S03",
+          "positive": false,
+          "relation_hit": false,
+          "exact_pair": false,
+          "false_positive": false
+        },
+        {
+          "case_id": "A021",
+          "doc_id": "TT_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A022",
+          "doc_id": "TT_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A023",
+          "doc_id": "TT_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A024",
+          "doc_id": "TT_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A025",
+          "doc_id": "TT_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A026",
+          "doc_id": "TT_S03",
+          "positive": true,
+          "relation_hit": false,
+          "exact_pair": false,
+          "false_positive": false
+        },
+        {
+          "case_id": "A027",
+          "doc_id": "TT_S03",
+          "positive": true,
+          "relation_hit": false,
+          "exact_pair": false,
+          "false_positive": false
+        },
+        {
+          "case_id": "A028",
+          "doc_id": "TT_S03",
+          "positive": false,
+          "relation_hit": false,
+          "exact_pair": false,
+          "false_positive": true
+        },
+        {
+          "case_id": "A029",
+          "doc_id": "TT_S03",
+          "positive": false,
+          "relation_hit": false,
+          "exact_pair": false,
+          "false_positive": false
+        },
+        {
+          "case_id": "A030",
+          "doc_id": "TT_S03",
+          "positive": false,
+          "relation_hit": false,
+          "exact_pair": false,
+          "false_positive": false
+        }
+      ]
+    },
+    "改进规则": {
+      "positive_relation_hits": 18,
+      "exact_pair_matches": 18,
+      "negative_false_positives": 0,
+      "cases": [
+        {
+          "case_id": "A001",
+          "doc_id": "GG_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A002",
+          "doc_id": "GG_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A003",
+          "doc_id": "GG_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A004",
+          "doc_id": "GG_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A005",
+          "doc_id": "GG_S03",
+          "positive": true,
+          "relation_hit": false,
+          "exact_pair": false,
+          "false_positive": false
+        },
+        {
+          "case_id": "A006",
+          "doc_id": "GG_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A007",
+          "doc_id": "GG_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A008",
+          "doc_id": "GG_S03",
+          "positive": false,
+          "relation_hit": false,
+          "exact_pair": false,
+          "false_positive": false
+        },
+        {
+          "case_id": "A009",
+          "doc_id": "GG_S03",
+          "positive": false,
+          "relation_hit": false,
+          "exact_pair": false,
+          "false_positive": false
+        },
+        {
+          "case_id": "A010",
+          "doc_id": "GG_S03",
+          "positive": false,
+          "relation_hit": false,
+          "exact_pair": false,
+          "false_positive": false
+        },
+        {
+          "case_id": "A011",
+          "doc_id": "YHY_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A012",
+          "doc_id": "YHY_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A013",
+          "doc_id": "YHY_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A014",
+          "doc_id": "YHY_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A015",
+          "doc_id": "YHY_S03",
+          "positive": true,
+          "relation_hit": false,
+          "exact_pair": false,
+          "false_positive": false
+        },
+        {
+          "case_id": "A016",
+          "doc_id": "YHY_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A017",
+          "doc_id": "YHY_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A018",
+          "doc_id": "YHY_S03",
+          "positive": false,
+          "relation_hit": false,
+          "exact_pair": false,
+          "false_positive": false
+        },
+        {
+          "case_id": "A019",
+          "doc_id": "YHY_S03",
+          "positive": false,
+          "relation_hit": false,
+          "exact_pair": false,
+          "false_positive": false
+        },
+        {
+          "case_id": "A020",
+          "doc_id": "YHY_S03",
+          "positive": false,
+          "relation_hit": false,
+          "exact_pair": false,
+          "false_positive": false
+        },
+        {
+          "case_id": "A021",
+          "doc_id": "TT_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A022",
+          "doc_id": "TT_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A023",
+          "doc_id": "TT_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A024",
+          "doc_id": "TT_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A025",
+          "doc_id": "TT_S03",
+          "positive": true,
+          "relation_hit": false,
+          "exact_pair": false,
+          "false_positive": false
+        },
+        {
+          "case_id": "A026",
+          "doc_id": "TT_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A027",
+          "doc_id": "TT_S03",
+          "positive": true,
+          "relation_hit": true,
+          "exact_pair": true,
+          "false_positive": false
+        },
+        {
+          "case_id": "A028",
+          "doc_id": "TT_S03",
+          "positive": false,
+          "relation_hit": false,
+          "exact_pair": false,
+          "false_positive": false
+        },
+        {
+          "case_id": "A029",
+          "doc_id": "TT_S03",
+          "positive": false,
+          "relation_hit": false,
+          "exact_pair": false,
+          "false_positive": false
+        },
+        {
+          "case_id": "A030",
+          "doc_id": "TT_S03",
+          "positive": false,
+          "relation_hit": false,
+          "exact_pair": false,
+          "false_positive": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "case_id": "A001",
+    "doc_id": "GG_S03",
+    "condition_type": "weather",
+    "source_span": "如果下小雨且现场仍允许游览，则减少露天停留，按现场指引选择可进入的避雨处",
+    "reference_condition": "如果下小雨且现场仍允许游览",
+    "reference_advice": "减少露天停留，按现场指引选择可进入的避雨处"
+  },
+  {
+    "case_id": "A002",
+    "doc_id": "GG_S03",
+    "condition_type": "weather",
+    "source_span": "如果出现雷雨或临时闭园，则停止户外行程并服从管理",
+    "reference_condition": "如果出现雷雨或临时闭园",
+    "reference_advice": "停止户外行程并服从管理"
+  },
+  {
+    "case_id": "A003",
+    "doc_id": "GG_S03",
+    "condition_type": "visitor",
+    "source_span": "若带孩子且孩子已经疲劳，建议先休息，并取消珍宝馆支线",
+    "reference_condition": "若带孩子且孩子已经疲劳",
+    "reference_advice": "先休息，并取消珍宝馆支线"
+  },
+  {
+    "case_id": "A004",
+    "doc_id": "GG_S03",
+    "condition_type": "preference",
+    "source_span": "如果仅仅想拍照，可以在太和殿安排短暂停留",
+    "reference_condition": "如果仅仅想拍照",
+    "reference_advice": "在太和殿安排短暂停留"
+  },
+  {
+    "case_id": "A005",
+    "doc_id": "GG_S03",
+    "condition_type": "availability",
+    "source_span": "如果珍宝馆当天未开放，则取消该支线，沿现场开放通道继续参观;不要把旧攻略里的展陈名称当作已经确认的当日安排",
+    "reference_condition": "如果珍宝馆当天未开放",
+    "reference_advice": "取消该支线，沿现场开放通道继续参观;不要把旧攻略里的展陈名称当作已经确认的当日安排"
+  },
+  {
+    "case_id": "A006",
+    "doc_id": "GG_S03",
+    "condition_type": "combined",
+    "source_span": "只有体力允许并且相关区域开放，才加入下午支线",
+    "reference_condition": "只有体力允许并且相关区域开放",
+    "reference_advice": "加入下午支线"
+  },
+  {
+    "case_id": "A007",
+    "doc_id": "GG_S03",
+    "condition_type": "negation",
+    "source_span": "除非天气与开放情况得到确认，否则不承诺乘船、登高或进入特定院落",
+    "reference_condition": "除非天气与开放情况得到确认",
+    "reference_advice": "不承诺乘船、登高或进入特定院落"
+  },
+  {
+    "case_id": "A008",
+    "doc_id": "GG_S03",
+    "condition_type": "negative_control",
+    "source_span": "如果我上次早点出门就好了",
+    "reference_condition": null,
+    "reference_advice": null
+  },
+  {
+    "case_id": "A009",
+    "doc_id": "GG_S03",
+    "condition_type": "negative_control",
+    "source_span": "建议先看导览图",
+    "reference_condition": null,
+    "reference_advice": null
+  },
+  {
+    "case_id": "A010",
+    "doc_id": "GG_S03",
+    "condition_type": "negative_control",
+    "source_span": "我们可以继续讨论建筑名称",
+    "reference_condition": null,
+    "reference_advice": null
+  },
+  {
+    "case_id": "A011",
+    "doc_id": "YHY_S03",
+    "condition_type": "weather",
+    "source_span": "如果下小雨且现场仍允许游览，则减少露天停留，按现场指引选择可进入的避雨处",
+    "reference_condition": "如果下小雨且现场仍允许游览",
+    "reference_advice": "减少露天停留，按现场指引选择可进入的避雨处"
+  },
+  {
+    "case_id": "A012",
+    "doc_id": "YHY_S03",
+    "condition_type": "weather",
+    "source_span": "如果出现雷雨或临时闭园，则停止户外行程并服从管理",
+    "reference_condition": "如果出现雷雨或临时闭园",
+    "reference_advice": "停止户外行程并服从管理"
+  },
+  {
+    "case_id": "A013",
+    "doc_id": "YHY_S03",
+    "condition_type": "visitor",
+    "source_span": "若带孩子且孩子已经疲劳，建议先休息，并取消佛香阁支线",
+    "reference_condition": "若带孩子且孩子已经疲劳",
+    "reference_advice": "先休息，并取消佛香阁支线"
+  },
+  {
+    "case_id": "A014",
+    "doc_id": "YHY_S03",
+    "condition_type": "preference",
+    "source_span": "如果仅仅想拍照，可以在仁寿殿安排短暂停留",
+    "reference_condition": "如果仅仅想拍照",
+    "reference_advice": "在仁寿殿安排短暂停留"
+  },
+  {
+    "case_id": "A015",
+    "doc_id": "YHY_S03",
+    "condition_type": "availability",
+    "source_span": "如果游船因大风停航，则取消乘船并改为沿开放岸线步行;即使买好了行程计划，也不能把停航写成可乘船",
+    "reference_condition": "如果游船因大风停航",
+    "reference_advice": "取消乘船并改为沿开放岸线步行;即使买好了行程计划，也不能把停航写成可乘船"
+  },
+  {
+    "case_id": "A016",
+    "doc_id": "YHY_S03",
+    "condition_type": "combined",
+    "source_span": "只有体力允许并且相关区域开放，才加入下午支线",
+    "reference_condition": "只有体力允许并且相关区域开放",
+    "reference_advice": "加入下午支线"
+  },
+  {
+    "case_id": "A017",
+    "doc_id": "YHY_S03",
+    "condition_type": "negation",
+    "source_span": "除非天气与开放情况得到确认，否则不承诺乘船、登高或进入特定院落",
+    "reference_condition": "除非天气与开放情况得到确认",
+    "reference_advice": "不承诺乘船、登高或进入特定院落"
+  },
+  {
+    "case_id": "A018",
+    "doc_id": "YHY_S03",
+    "condition_type": "negative_control",
+    "source_span": "如果我上次早点出门就好了",
+    "reference_condition": null,
+    "reference_advice": null
+  },
+  {
+    "case_id": "A019",
+    "doc_id": "YHY_S03",
+    "condition_type": "negative_control",
+    "source_span": "建议先看导览图",
+    "reference_condition": null,
+    "reference_advice": null
+  },
+  {
+    "case_id": "A020",
+    "doc_id": "YHY_S03",
+    "condition_type": "negative_control",
+    "source_span": "我们可以继续讨论建筑名称",
+    "reference_condition": null,
+    "reference_advice": null
+  },
+  {
+    "case_id": "A021",
+    "doc_id": "TT_S03",
+    "condition_type": "weather",
+    "source_span": "如果下小雨且现场仍允许游览，则减少露天停留，按现场指引选择可进入的避雨处",
+    "reference_condition": "如果下小雨且现场仍允许游览",
+    "reference_advice": "减少露天停留，按现场指引选择可进入的避雨处"
+  },
+  {
+    "case_id": "A022",
+    "doc_id": "TT_S03",
+    "condition_type": "weather",
+    "source_span": "如果出现雷雨或临时闭园，则停止户外行程并服从管理",
+    "reference_condition": "如果出现雷雨或临时闭园",
+    "reference_advice": "停止户外行程并服从管理"
+  },
+  {
+    "case_id": "A023",
+    "doc_id": "TT_S03",
+    "condition_type": "visitor",
+    "source_span": "若带孩子且孩子已经疲劳，建议先休息，并取消斋宫支线",
+    "reference_condition": "若带孩子且孩子已经疲劳",
+    "reference_advice": "先休息，并取消斋宫支线"
+  },
+  {
+    "case_id": "A024",
+    "doc_id": "TT_S03",
+    "condition_type": "preference",
+    "source_span": "如果仅仅想拍照，可以在圜丘安排短暂停留",
+    "reference_condition": "如果仅仅想拍照",
+    "reference_advice": "在圜丘安排短暂停留"
+  },
+  {
+    "case_id": "A025",
+    "doc_id": "TT_S03",
+    "condition_type": "availability",
+    "source_span": "如果斋宫当天未开放，则取消该支线，保留祈年殿与长廊的参观;不能仅凭较旧的资料确认所有院落均已开放",
+    "reference_condition": "如果斋宫当天未开放",
+    "reference_advice": "取消该支线，保留祈年殿与长廊的参观;不能仅凭较旧的资料确认所有院落均已开放"
+  },
+  {
+    "case_id": "A026",
+    "doc_id": "TT_S03",
+    "condition_type": "combined",
+    "source_span": "只有体力允许并且相关区域开放，才加入下午支线",
+    "reference_condition": "只有体力允许并且相关区域开放",
+    "reference_advice": "加入下午支线"
+  },
+  {
+    "case_id": "A027",
+    "doc_id": "TT_S03",
+    "condition_type": "negation",
+    "source_span": "除非天气与开放情况得到确认，否则不承诺乘船、登高或进入特定院落",
+    "reference_condition": "除非天气与开放情况得到确认",
+    "reference_advice": "不承诺乘船、登高或进入特定院落"
+  },
+  {
+    "case_id": "A028",
+    "doc_id": "TT_S03",
+    "condition_type": "negative_control",
+    "source_span": "如果我上次早点出门就好了",
+    "reference_condition": null,
+    "reference_advice": null
+  },
+  {
+    "case_id": "A029",
+    "doc_id": "TT_S03",
+    "condition_type": "negative_control",
+    "source_span": "建议先看导览图",
+    "reference_condition": null,
+    "reference_advice": null
+  },
+  {
+    "case_id": "A030",
+    "doc_id": "TT_S03",
+    "condition_type": "negative_control",
+    "source_span": "我们可以继续讨论建筑名称",
+    "reference_condition": null,
+    "reference_advice": null
+  }
+]
