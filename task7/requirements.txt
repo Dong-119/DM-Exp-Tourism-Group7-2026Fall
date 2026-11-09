@@ -1,0 +1,2 @@
+# 运行 CLI、图谱工具和回归测试均只需 Python >= 3.9 标准库。
+# 文档生成可选：python-docx, matplotlib

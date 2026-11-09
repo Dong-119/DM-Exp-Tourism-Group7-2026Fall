@@ -19,7 +19,7 @@
 <text x="705" y="144" text-anchor="middle" font-size="12" fill="#334155">occurs_in</text>
 <rect x="850" y="135" width="500" height="28" rx="5" fill="#c2410c"/>
 <text x="865" y="154" font-size="14" fill="white">time · morning</text>
-<text x="1380" y="154" font-size="12" fill="#475569">source_document=GG_T01；source_type=task3</text>
+<text x="1380" y="154" font-size="12" fill="#475569">source_document=GG_S01；source_type=task3</text>
 <text x="35" y="199" font-size="13" fill="#64748b">3</text>
 <rect x="75" y="177" width="500" height="28" rx="5" fill="#1d4ed8"/>
 <text x="90" y="196" font-size="14" fill="white">poi · 乾清宫附近休息点</text>
@@ -123,7 +123,7 @@
 <text x="705" y="690" text-anchor="middle" font-size="12" fill="#334155">occurs_in</text>
 <rect x="850" y="681" width="500" height="28" rx="5" fill="#c2410c"/>
 <text x="865" y="700" font-size="14" fill="white">time · afternoon</text>
-<text x="1380" y="700" font-size="12" fill="#475569">source_document=GG_T01；source_type=task3</text>
+<text x="1380" y="700" font-size="12" fill="#475569">source_document=GG_S01；source_type=task3</text>
 <text x="35" y="745" font-size="13" fill="#64748b">16</text>
 <rect x="75" y="723" width="500" height="28" rx="5" fill="#1d4ed8"/>
 <text x="90" y="742" font-size="14" fill="white">poi · 神武门</text>

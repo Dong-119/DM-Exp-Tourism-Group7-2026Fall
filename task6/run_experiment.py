@@ -20,6 +20,8 @@ ENTITY_INPUT = ROOT / "task2" / "task2_jieba_final" / "result" / "v2" / "entitie
 ROUTE_INPUT = ROOT / "data" / "processed" / "experiment3" / "routes.json"
 ADVICE_INPUT = ROOT / "task5" / "results" / "条件建议映射表.json"
 OUTPUT = Path(__file__).resolve().parent / "results"
+EDGE_TYPES = ["contains", "mentions_poi", "mentions_transport", "mentions_time",
+              "has_route", "visits", "next", "occurs_in", "has_activity", "has_condition", "recommends"]
 
 
 def node_id(kind: str, *parts: str) -> str:
@@ -36,7 +38,20 @@ def add_node(graph: nx.MultiDiGraph, identifier: str, kind: str, label: str, **a
 
 
 def add_edge(graph: nx.MultiDiGraph, source: str, target: str, relation: str, **attrs: Any) -> None:
-    graph.add_edge(source, target, key=relation, relation=relation, **attrs)
+    # visits/next 是访问事件，键必须区分路线和步骤；其他关系合并来源而非覆盖来源。
+    key = (json.dumps([relation, attrs.get("route_id"), attrs.get("order")], ensure_ascii=False)
+           if relation in {"visits", "next"} else relation)
+    document = attrs.get("source_document")
+    provenance = attrs.get("provenance_kind")
+    if graph.has_edge(source, target, key):
+        existing = graph[source][target][key]
+        for field, value in [("source_documents", document), ("provenance_kinds", provenance)]:
+            existing[field] = sorted(set(existing.get(field, [])) | ({value} if value else set()))
+        existing["evidence_count"] = existing.get("evidence_count", 1) + 1
+    else:
+        graph.add_edge(source, target, key=key, relation=relation, **attrs,
+                       source_documents=[document] if document else [],
+                       provenance_kinds=[provenance] if provenance else [], evidence_count=1)
 
 
 def load_json(path: Path) -> Any:
@@ -79,11 +94,12 @@ def load_graph() -> tuple[nx.MultiDiGraph, dict[str, Any]]:
                 source_kinds=[document.get("provenance_kind", "unknown")],
             )
             relation = {
-                "poi": "contains",
+                "poi": "mentions_poi",
                 "transport": "mentions_transport",
                 "time": "mentions_time",
             }[kind]
-            add_edge(graph, scenic_id, entity_id, relation, source_document=document.get("doc_id"), source_type="task2")
+            add_edge(graph, scenic_id, entity_id, relation, source_document=document.get("doc_id"), source_type="task2",
+                     provenance_kind=document.get("provenance_kind", "unknown"))
             source_links[entity_id].add(document.get("doc_id", ""))
             diagnostics[f"task2_{kind}"] += 1
 
@@ -91,24 +107,26 @@ def load_graph() -> tuple[nx.MultiDiGraph, dict[str, Any]]:
         scenic = route["scenic_name"]
         scenic_id = node_id("scenic", scenic)
         route_id = node_id("route", route["route_id"])
-        add_node(graph, route_id, "route", route["route_id"], route_kind=route["route_kind"], document_id=route["document_id"])
-        add_edge(graph, scenic_id, route_id, "has_route", source_document=route["document_id"], source_type="task3")
+        provenance = route.get("provenance_kind", "unknown")
+        add_node(graph, route_id, "route", route["route_id"], route_kind=route["route_kind"], document_id=route["document_id"], provenance_kind=provenance, reference_url=route.get("reference_url"))
+        add_edge(graph, scenic_id, route_id, "has_route", source_document=route["document_id"], source_type="task3", provenance_kind=provenance)
         previous = None
         for step in route["steps"]:
             poi_id = node_id("poi", scenic, step["poi"])
             add_node(graph, poi_id, "poi", step["poi"], scenic_name=scenic, poi_kind=step["poi_kind"], source_count=1, source_kinds=["task3"])
-            add_edge(graph, route_id, poi_id, "visits", order=step["order"], step_type=step["step_type"], source_document=route["document_id"], source_type="task3")
+            add_edge(graph, scenic_id, poi_id, "contains", source_document=route["document_id"], source_type="task3", provenance_kind=provenance)
+            add_edge(graph, route_id, poi_id, "visits", order=step["order"], route_id=route["route_id"], step_type=step["step_type"], source_document=route["document_id"], source_type="task3", provenance_kind=provenance)
             if previous is not None:
-                add_edge(graph, previous, poi_id, "next", order=step["order"], route_id=route["route_id"], source_type="task3")
+                add_edge(graph, previous, poi_id, "next", order=step["order"], route_id=route["route_id"], source_document=route["document_id"], source_type="task3", provenance_kind=provenance)
             previous = poi_id
             if step.get("time_slot") and step["time_slot"] != "unknown":
                 time_id = node_id("time", step["time_slot"])
                 add_node(graph, time_id, "time", step["time_slot"], source_count=1, source_kinds=["task3"])
-                add_edge(graph, poi_id, time_id, "occurs_in", source_document=route["document_id"], source_type="task3")
+                add_edge(graph, poi_id, time_id, "occurs_in", source_document=route["document_id"], source_type="task3", provenance_kind=provenance)
             if step.get("activity"):
                 activity_id = node_id("activity", scenic, step["activity"])
                 add_node(graph, activity_id, "activity", step["activity"], scenic_name=scenic, source_count=1, source_kinds=["task3"])
-                add_edge(graph, poi_id, activity_id, "has_activity", source_document=route["document_id"], source_type="task3")
+                add_edge(graph, poi_id, activity_id, "has_activity", source_document=route["document_id"], source_type="task3", provenance_kind=provenance)
             diagnostics["task3_steps"] += 1
 
     for item in advice:
@@ -122,10 +140,13 @@ def load_graph() -> tuple[nx.MultiDiGraph, dict[str, Any]]:
             continue
         condition_id = node_id("condition", item.get("mapping_id", condition))
         advice_id = node_id("advice", item.get("mapping_id", action))
-        add_node(graph, condition_id, "condition", condition, condition_type=item.get("condition_type"), operator=item.get("condition_operator"), source_count=1, source_kinds=["task5"])
-        add_node(graph, advice_id, "advice", action, visitor_types=";".join(item.get("visitor_types", [])), source_count=1, source_kinds=["task5"])
-        add_edge(graph, target_id, condition_id, "has_condition", source_document=item.get("doc_id"), source_type="task5")
-        add_edge(graph, condition_id, advice_id, "recommends", condition_type=item.get("condition_type"), source_document=item.get("doc_id"), source_type="task5")
+        provenance_attrs = {"provenance_kind": item.get("provenance_kind", "unknown"),
+                            "source_urls": item.get("source_urls", []), "source_path": item.get("source_path"),
+                            "source_document": item.get("doc_id")}
+        add_node(graph, condition_id, "condition", condition, condition_type=item.get("condition_type"), operator=item.get("condition_operator"), source_count=1, source_kinds=["task5"], **provenance_attrs)
+        add_node(graph, advice_id, "advice", action, visitor_types=";".join(item.get("visitor_types", [])), source_count=1, source_kinds=["task5"], **provenance_attrs)
+        add_edge(graph, target_id, condition_id, "has_condition", source_type="task5", **provenance_attrs)
+        add_edge(graph, condition_id, advice_id, "recommends", condition_type=item.get("condition_type"), source_type="task5", **provenance_attrs)
         diagnostics["task5_advice"] += 1
 
     for identifier, documents in source_links.items():
@@ -140,25 +161,22 @@ def write_table(path: Path, rows: list[dict[str, Any]], fields: list[str]) -> No
     with path.open("w", encoding="utf-8-sig", newline="") as stream:
         writer = csv.DictWriter(stream, fieldnames=fields)
         writer.writeheader()
-        writer.writerows({field: row.get(field, "") for field in fields} for row in rows)
+        writer.writerows({field: json.dumps(row.get(field), ensure_ascii=False) if isinstance(row.get(field), (list, dict)) else row.get(field, "") for field in fields} for row in rows)
 
 
 def export_graph(graph: nx.MultiDiGraph, metadata: dict[str, Any]) -> None:
     OUTPUT.mkdir(parents=True, exist_ok=True)
     nodes = [{"id": identifier, **data} for identifier, data in graph.nodes(data=True)]
     edges = [{"source": source, "target": target, **data} for source, target, _, data in graph.edges(keys=True, data=True)]
-    node_fields = ["id", "kind", "label", "scenic_name", "poi_kind", "condition_type", "operator", "visitor_types", "source_count", "source_kinds", "source_documents"]
-    edge_fields = ["source", "target", "relation", "order", "step_type", "route_id", "condition_type", "source_document", "source_type"]
-    for row in nodes:
-        for key in ("source_kinds", "source_documents"):
-            if isinstance(row.get(key), list):
-                row[key] = ";".join(row[key])
+    node_fields = sorted({key for row in nodes for key in row})
+    edge_fields = sorted({key for row in edges for key in row})
     write_table(OUTPUT / "nodes.csv", nodes, node_fields)
     write_table(OUTPUT / "edges.csv", edges, edge_fields)
     graph_json = {
         "schema": {
             "node_types": ["scenic", "route", "poi", "transport", "time", "activity", "condition", "advice"],
-            "edge_types": ["contains", "has_route", "visits", "next", "occurs_in", "has_activity", "has_condition", "recommends"],
+            "edge_types": EDGE_TYPES,
+            "relation_semantics": {"mentions_poi": "来源文章提及的地点候选，不证明地理隶属", "contains": "结构化路线支持的景点归属，仍保留真实/模拟来源类别"},
         },
         "nodes": nodes,
         "edges": edges,
@@ -167,12 +185,17 @@ def export_graph(graph: nx.MultiDiGraph, metadata: dict[str, Any]) -> None:
     (OUTPUT / "knowledge_graph.json").write_text(json.dumps(graph_json, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     graphml_graph = graph.copy()
     for _, data in graphml_graph.nodes(data=True):
-        for key in ("source_kinds", "source_documents"):
-            if isinstance(data.get(key), list):
-                data[key] = ";".join(data[key])
         for key, value in data.items():
             if value is None:
                 data[key] = ""
+            elif isinstance(value, (list, dict)):
+                data[key] = json.dumps(value, ensure_ascii=False)
+    for _, _, data in graphml_graph.edges(data=True):
+        for key, value in data.items():
+            if value is None:
+                data[key] = ""
+            elif isinstance(value, (list, dict)):
+                data[key] = json.dumps(value, ensure_ascii=False)
     for _, _, _, data in graphml_graph.edges(keys=True, data=True):
         for key, value in data.items():
             if value is None:
@@ -204,6 +227,8 @@ def visualize(graph: nx.MultiDiGraph) -> None:
     _write_complete_relation_svgs(graph)
     try:
         import matplotlib.pyplot as plt
+        plt.rcParams["font.family"] = ["SimSun", "Microsoft YaHei", "DejaVu Sans"]
+        plt.rcParams["font.sans-serif"] = ["SimSun", "Microsoft YaHei", "DejaVu Sans"]
     except (ImportError, OSError, PermissionError):
         return
     plt.figure(figsize=(18, 12))
@@ -247,7 +272,7 @@ def _write_route_svg(graph: nx.MultiDiGraph) -> None:
         color = colors.get(route_data.get("route_kind"), "#64748b")
         lines.append(f'<text x="50" y="{y + 8}" font-size="16" font-weight="bold" fill="{color}">{html.escape(route_data.get("label", route))}</text>')
         poi_edges = sorted(
-            ((data.get("order", 0), target) for _, target, key, data in graph.out_edges(route, keys=True, data=True) if key == "visits"),
+            ((data.get("order", 0), target) for _, target, key, data in graph.out_edges(route, keys=True, data=True) if data.get("relation") == "visits"),
             key=lambda item: item[0],
         )
         x_start = 300
@@ -534,16 +559,23 @@ def validate(graph: nx.MultiDiGraph) -> dict[str, Any]:
             if data.get("relation") == "contains"
         ),
         "task2_context_relations_are_typed": all(
-            data.get("relation") in {"contains", "mentions_transport", "mentions_time"}
+            data.get("relation") in {"mentions_poi", "mentions_transport", "mentions_time"}
             for source, target, data in graph.edges(data=True)
             if data.get("source_type") == "task2"
         ),
         "has_connected_components": nx.number_connected_components(graph.to_undirected()) >= 1,
         "all_route_steps_have_poi_edges": all(
-            graph.out_degree(route, "visits") > 0
+            any(edge.get("relation") == "visits" for _, _, edge in graph.out_edges(route, data=True))
             for route, data in graph.nodes(data=True) if data.get("kind") == "route"
         ),
     }
+    routes = load_json(ROUTE_INPUT)
+    checks["route_events_preserved"] = all(
+        sorted((edge["order"], graph.nodes[target]["label"]) for _, target, edge in graph.out_edges(node_id("route", route["route_id"]), data=True) if edge.get("relation") == "visits")
+        == [(step["order"], step["poi"]) for step in route["steps"]] for route in routes)
+    checks["next_events_preserved"] = relation_counts["next"] == sum(max(0, len(route["steps"]) - 1) for route in routes)
+    checks["schema_covers_relations"] = set(relation_counts) <= set(EDGE_TYPES)
+    checks["advice_provenance_preserved"] = all(data.get("provenance_kind") not in (None, "unknown") for _, data in graph.nodes(data=True) if data.get("kind") == "advice")
     relation_pages = list((OUTPUT / "complete_graphs").glob("*.svg"))
     relation_index_path = OUTPUT / "complete_graphs_index.json"
     if relation_index_path.exists():
@@ -571,6 +603,7 @@ def main() -> None:
         "input_sha256": {name: hashlib.sha256(path.read_bytes()).hexdigest() for name, path in {"task2_entities": ENTITY_INPUT, "task3_routes": ROUTE_INPUT, "task5_advice": ADVICE_INPUT}.items()},
         "node_count": graph.number_of_nodes(),
         "edge_count": graph.number_of_edges(),
+        "graph_sha256": hashlib.sha256((OUTPUT / "knowledge_graph.json").read_bytes()).hexdigest(),
         "metadata": metadata,
         "validation": validation,
         "outputs": [

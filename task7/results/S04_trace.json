@@ -1,0 +1,1211 @@
+{
+  "query": "亲子去颐和园玩一天如何安排？",
+  "mode": "demo",
+  "llm_used": false,
+  "status": "partial",
+  "trace": [
+    {
+      "phase": "parse",
+      "constraints": {
+        "scenic": "颐和园",
+        "scenic_matches": [
+          "颐和园"
+        ],
+        "unsupported_scenic_matches": [],
+        "visitor": "亲子",
+        "visitors": [
+          "亲子"
+        ],
+        "days": 1,
+        "hours": null,
+        "errors": [],
+        "unsupported_scenic": false,
+        "error_status": "conflict",
+        "parse_method": "local_rules"
+      }
+    },
+    {
+      "phase": "decision",
+      "action": "query_routes",
+      "reason": "优先获取有来源的景点先后顺序"
+    },
+    {
+      "phase": "action_observation",
+      "tool": "query_routes",
+      "arguments": {
+        "scenic": "颐和园",
+        "limit": 8
+      },
+      "result": {
+        "status": "empty",
+        "scenic": "颐和园",
+        "count": 0,
+        "routes": []
+      }
+    },
+    {
+      "phase": "action_observation",
+      "tool": "query_advice",
+      "arguments": {
+        "scenic": "颐和园",
+        "visitor": "亲子",
+        "request": "亲子去颐和园玩一天如何安排？",
+        "limit": 5
+      },
+      "result": {
+        "status": "ok",
+        "scenic": "颐和园",
+        "count": 6,
+        "advice": [
+          {
+            "condition_id": "condition:M015",
+            "condition": "如果和妈妈走散了",
+            "operator": "context",
+            "condition_type": "现场情境",
+            "advice_id": "advice:M015",
+            "advice": "就要这样，在原地等妈妈，大声的喊妈妈，妈妈一定会来找你",
+            "visitor_types": [
+              "亲子"
+            ],
+            "source_document": "YHY_T03",
+            "source_urls": [
+              "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+            ],
+            "provenance_kind": "dataset_corpus",
+            "source_label": "语料游记",
+            "condition_evaluation": "requires_confirmation",
+            "source_type": "task5"
+          },
+          {
+            "condition_id": "condition:M072",
+            "condition": "带孩子",
+            "operator": "context",
+            "condition_type": "游客类型",
+            "advice_id": "advice:M072",
+            "advice": "不要在桥边长时间分散",
+            "visitor_types": [
+              "亲子"
+            ],
+            "source_document": "YHY_O05",
+            "source_urls": [
+              "https://s.visitbeijing.com.cn/attraction/101407"
+            ],
+            "provenance_kind": "editorial_route_guide",
+            "source_label": "编辑指南",
+            "condition_evaluation": "matched",
+            "source_type": "task5"
+          },
+          {
+            "condition_id": "condition:M074",
+            "condition": "带孩子",
+            "operator": "all",
+            "condition_type": "游客类型",
+            "advice_id": "advice:M074",
+            "advice": "在苏州街增加休息，并减少佛香阁的停留",
+            "visitor_types": [
+              "亲子"
+            ],
+            "source_document": "YHY_S01",
+            "source_urls": [],
+            "provenance_kind": "synthetic_teaching",
+            "source_label": "教学模拟",
+            "condition_evaluation": "matched",
+            "source_type": "task5"
+          },
+          {
+            "condition_id": "condition:M082",
+            "condition": "带孩子且孩子已经疲劳",
+            "operator": "all",
+            "condition_type": "游客类型",
+            "advice_id": "advice:M082",
+            "advice": "建议先休息，并取消佛香阁支线",
+            "visitor_types": [
+              "亲子"
+            ],
+            "source_document": "YHY_S03",
+            "source_urls": [],
+            "provenance_kind": "synthetic_teaching",
+            "source_label": "教学模拟",
+            "condition_evaluation": "requires_confirmation",
+            "source_type": "task5"
+          },
+          {
+            "condition_id": "condition:M087",
+            "condition": "带孩子且已经疲劳",
+            "operator": "all",
+            "condition_type": "游客类型",
+            "advice_id": "advice:M087",
+            "advice": "减少支线并安排休息",
+            "visitor_types": [
+              "亲子"
+            ],
+            "source_document": "YHY_S04",
+            "source_urls": [],
+            "provenance_kind": "synthetic_teaching",
+            "source_label": "教学模拟",
+            "condition_evaluation": "requires_confirmation",
+            "source_type": "task5"
+          }
+        ]
+      }
+    },
+    {
+      "phase": "action_observation",
+      "tool": "query_pois",
+      "arguments": {
+        "scenic": "颐和园",
+        "limit": 10
+      },
+      "result": {
+        "status": "ok",
+        "scenic": "颐和园",
+        "count": 38,
+        "candidate_only": true,
+        "excluded_other_scenics": [
+          "天坛",
+          "故宫"
+        ],
+        "pois": [
+          {
+            "id": "poi:颐和园:佛香阁",
+            "name": "佛香阁",
+            "source_document": "YHY_S04",
+            "source_documents": [
+              "YHY_F01",
+              "YHY_O01",
+              "YHY_O02",
+              "YHY_O03",
+              "YHY_O04",
+              "YHY_O05",
+              "YHY_S01",
+              "YHY_S02",
+              "YHY_S03",
+              "YHY_S04",
+              "YHY_S05",
+              "YHY_T01",
+              "YHY_T02",
+              "YHY_T03",
+              "YHY_T04",
+              "YHY_T05"
+            ],
+            "provenance_kinds": [
+              "dataset_corpus",
+              "editorial_route_guide",
+              "official_route_facts",
+              "synthetic_teaching"
+            ],
+            "membership": "text_mention_only",
+            "source_type": "task2",
+            "mention_count": 33
+          },
+          {
+            "id": "poi:颐和园:昆明湖",
+            "name": "昆明湖",
+            "source_document": "YHY_T01",
+            "source_documents": [
+              "YHY_O04",
+              "YHY_T01",
+              "YHY_T02",
+              "YHY_T03",
+              "YHY_T04",
+              "YHY_T05"
+            ],
+            "provenance_kinds": [
+              "dataset_corpus",
+              "editorial_route_guide"
+            ],
+            "membership": "text_mention_only",
+            "source_type": "task2",
+            "mention_count": 29
+          },
+          {
+            "id": "poi:颐和园:长廊",
+            "name": "长廊",
+            "source_document": "YHY_S05",
+            "source_documents": [
+              "YHY_F01",
+              "YHY_O01",
+              "YHY_O02",
+              "YHY_O03",
+              "YHY_O04",
+              "YHY_O05",
+              "YHY_S01",
+              "YHY_S05",
+              "YHY_T01",
+              "YHY_T03",
+              "YHY_T04",
+              "YHY_T05"
+            ],
+            "provenance_kinds": [
+              "dataset_corpus",
+              "editorial_route_guide",
+              "official_route_facts",
+              "synthetic_teaching"
+            ],
+            "membership": "text_mention_only",
+            "source_type": "task2",
+            "mention_count": 28
+          },
+          {
+            "id": "poi:颐和园:东宫门",
+            "name": "东宫门",
+            "source_document": "YHY_S04",
+            "source_documents": [
+              "YHY_F01",
+              "YHY_O01",
+              "YHY_O02",
+              "YHY_O03",
+              "YHY_O04",
+              "YHY_O05",
+              "YHY_S01",
+              "YHY_S02",
+              "YHY_S03",
+              "YHY_S04",
+              "YHY_S05"
+            ],
+            "provenance_kinds": [
+              "editorial_route_guide",
+              "official_route_facts",
+              "synthetic_teaching"
+            ],
+            "membership": "text_mention_only",
+            "source_type": "task2",
+            "mention_count": 24
+          },
+          {
+            "id": "poi:颐和园:乐寿堂",
+            "name": "乐寿堂",
+            "source_document": "YHY_S04",
+            "source_documents": [
+              "YHY_F01",
+              "YHY_O01",
+              "YHY_O02",
+              "YHY_O03",
+              "YHY_O04",
+              "YHY_O05",
+              "YHY_S01",
+              "YHY_S02",
+              "YHY_S03",
+              "YHY_S04",
+              "YHY_S05"
+            ],
+            "provenance_kinds": [
+              "editorial_route_guide",
+              "official_route_facts",
+              "synthetic_teaching"
+            ],
+            "membership": "text_mention_only",
+            "source_type": "task2",
+            "mention_count": 22
+          },
+          {
+            "id": "poi:颐和园:西堤",
+            "name": "西堤",
+            "source_document": "YHY_T01",
+            "source_documents": [
+              "YHY_T01",
+              "YHY_T02"
+            ],
+            "provenance_kinds": [
+              "dataset_corpus"
+            ],
+            "membership": "text_mention_only",
+            "source_type": "task2",
+            "mention_count": 21
+          },
+          {
+            "id": "poi:颐和园:仁寿殿",
+            "name": "仁寿殿",
+            "source_document": "YHY_S04",
+            "source_documents": [
+              "YHY_F01",
+              "YHY_O01",
+              "YHY_O02",
+              "YHY_O03",
+              "YHY_O04",
+              "YHY_O05",
+              "YHY_S01",
+              "YHY_S02",
+              "YHY_S03",
+              "YHY_S04",
+              "YHY_S05"
+            ],
+            "provenance_kinds": [
+              "editorial_route_guide",
+              "official_route_facts",
+              "synthetic_teaching"
+            ],
+            "membership": "text_mention_only",
+            "source_type": "task2",
+            "mention_count": 20
+          },
+          {
+            "id": "poi:颐和园:石舫",
+            "name": "石舫",
+            "source_document": "YHY_S04",
+            "source_documents": [
+              "YHY_F01",
+              "YHY_O01",
+              "YHY_O02",
+              "YHY_O04",
+              "YHY_O05",
+              "YHY_S01",
+              "YHY_S04",
+              "YHY_T02"
+            ],
+            "provenance_kinds": [
+              "dataset_corpus",
+              "editorial_route_guide",
+              "official_route_facts",
+              "synthetic_teaching"
+            ],
+            "membership": "text_mention_only",
+            "source_type": "task2",
+            "mention_count": 19
+          },
+          {
+            "id": "poi:颐和园:北宫门",
+            "name": "北宫门",
+            "source_document": "YHY_S04",
+            "source_documents": [
+              "YHY_O03",
+              "YHY_O04",
+              "YHY_S01",
+              "YHY_S02",
+              "YHY_S03",
+              "YHY_S04",
+              "YHY_S05",
+              "YHY_T01",
+              "YHY_T03"
+            ],
+            "provenance_kinds": [
+              "dataset_corpus",
+              "editorial_route_guide",
+              "synthetic_teaching"
+            ],
+            "membership": "text_mention_only",
+            "source_type": "task2",
+            "mention_count": 15
+          },
+          {
+            "id": "poi:颐和园:苏州街",
+            "name": "苏州街",
+            "source_document": "YHY_S04",
+            "source_documents": [
+              "YHY_O03",
+              "YHY_O04",
+              "YHY_O05",
+              "YHY_S01",
+              "YHY_S04",
+              "YHY_S05",
+              "YHY_T01"
+            ],
+            "provenance_kinds": [
+              "dataset_corpus",
+              "editorial_route_guide",
+              "synthetic_teaching"
+            ],
+            "membership": "text_mention_only",
+            "source_type": "task2",
+            "mention_count": 14
+          }
+        ]
+      }
+    },
+    {
+      "phase": "generate",
+      "status": "partial",
+      "source": "query_pois"
+    }
+  ],
+  "tool_schemas": [
+    {
+      "name": "query_routes",
+      "description": "查询景区官方/游客/模拟路线与按序景点，返回真实 route/POI ID 与文档证据。",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "scenic": {
+            "type": "string"
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 30
+          }
+        },
+        "required": [
+          "scenic"
+        ]
+      }
+    },
+    {
+      "name": "query_pois",
+      "description": "查询景区包含的 POI 候选，不提供路线顺序、开放时间或距离。",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "scenic": {
+            "type": "string"
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 30
+          }
+        },
+        "required": [
+          "scenic"
+        ]
+      }
+    },
+    {
+      "name": "query_advice",
+      "description": "按游客类别或用户明确提出的条件检索实验五条件建议。",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "scenic": {
+            "type": "string"
+          },
+          "visitor": {
+            "type": "string"
+          },
+          "request": {
+            "type": "string"
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 30
+          }
+        },
+        "required": [
+          "scenic"
+        ]
+      }
+    }
+  ],
+  "graph_sha256": "0804c2c7b13ede58468925d310274f5e150e88096c4919778f6066eae4b30d15",
+  "constraints": {
+    "scenic": "颐和园",
+    "scenic_matches": [
+      "颐和园"
+    ],
+    "unsupported_scenic_matches": [],
+    "visitor": "亲子",
+    "visitors": [
+      "亲子"
+    ],
+    "days": 1,
+    "hours": null,
+    "errors": [],
+    "unsupported_scenic": false,
+    "error_status": "conflict",
+    "parse_method": "local_rules"
+  },
+  "tool_results": {
+    "query_routes": {
+      "status": "empty",
+      "scenic": "颐和园",
+      "count": 0,
+      "routes": []
+    },
+    "query_advice": {
+      "status": "ok",
+      "scenic": "颐和园",
+      "count": 6,
+      "advice": [
+        {
+          "condition_id": "condition:M015",
+          "condition": "如果和妈妈走散了",
+          "operator": "context",
+          "condition_type": "现场情境",
+          "advice_id": "advice:M015",
+          "advice": "就要这样，在原地等妈妈，大声的喊妈妈，妈妈一定会来找你",
+          "visitor_types": [
+            "亲子"
+          ],
+          "source_document": "YHY_T03",
+          "source_urls": [
+            "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+          ],
+          "provenance_kind": "dataset_corpus",
+          "source_label": "语料游记",
+          "condition_evaluation": "requires_confirmation",
+          "source_type": "task5"
+        },
+        {
+          "condition_id": "condition:M072",
+          "condition": "带孩子",
+          "operator": "context",
+          "condition_type": "游客类型",
+          "advice_id": "advice:M072",
+          "advice": "不要在桥边长时间分散",
+          "visitor_types": [
+            "亲子"
+          ],
+          "source_document": "YHY_O05",
+          "source_urls": [
+            "https://s.visitbeijing.com.cn/attraction/101407"
+          ],
+          "provenance_kind": "editorial_route_guide",
+          "source_label": "编辑指南",
+          "condition_evaluation": "matched",
+          "source_type": "task5"
+        },
+        {
+          "condition_id": "condition:M074",
+          "condition": "带孩子",
+          "operator": "all",
+          "condition_type": "游客类型",
+          "advice_id": "advice:M074",
+          "advice": "在苏州街增加休息，并减少佛香阁的停留",
+          "visitor_types": [
+            "亲子"
+          ],
+          "source_document": "YHY_S01",
+          "source_urls": [],
+          "provenance_kind": "synthetic_teaching",
+          "source_label": "教学模拟",
+          "condition_evaluation": "matched",
+          "source_type": "task5"
+        },
+        {
+          "condition_id": "condition:M082",
+          "condition": "带孩子且孩子已经疲劳",
+          "operator": "all",
+          "condition_type": "游客类型",
+          "advice_id": "advice:M082",
+          "advice": "建议先休息，并取消佛香阁支线",
+          "visitor_types": [
+            "亲子"
+          ],
+          "source_document": "YHY_S03",
+          "source_urls": [],
+          "provenance_kind": "synthetic_teaching",
+          "source_label": "教学模拟",
+          "condition_evaluation": "requires_confirmation",
+          "source_type": "task5"
+        },
+        {
+          "condition_id": "condition:M087",
+          "condition": "带孩子且已经疲劳",
+          "operator": "all",
+          "condition_type": "游客类型",
+          "advice_id": "advice:M087",
+          "advice": "减少支线并安排休息",
+          "visitor_types": [
+            "亲子"
+          ],
+          "source_document": "YHY_S04",
+          "source_urls": [],
+          "provenance_kind": "synthetic_teaching",
+          "source_label": "教学模拟",
+          "condition_evaluation": "requires_confirmation",
+          "source_type": "task5"
+        }
+      ]
+    },
+    "query_pois": {
+      "status": "ok",
+      "scenic": "颐和园",
+      "count": 38,
+      "candidate_only": true,
+      "excluded_other_scenics": [
+        "天坛",
+        "故宫"
+      ],
+      "pois": [
+        {
+          "id": "poi:颐和园:佛香阁",
+          "name": "佛香阁",
+          "source_document": "YHY_S04",
+          "source_documents": [
+            "YHY_F01",
+            "YHY_O01",
+            "YHY_O02",
+            "YHY_O03",
+            "YHY_O04",
+            "YHY_O05",
+            "YHY_S01",
+            "YHY_S02",
+            "YHY_S03",
+            "YHY_S04",
+            "YHY_S05",
+            "YHY_T01",
+            "YHY_T02",
+            "YHY_T03",
+            "YHY_T04",
+            "YHY_T05"
+          ],
+          "provenance_kinds": [
+            "dataset_corpus",
+            "editorial_route_guide",
+            "official_route_facts",
+            "synthetic_teaching"
+          ],
+          "membership": "text_mention_only",
+          "source_type": "task2",
+          "mention_count": 33
+        },
+        {
+          "id": "poi:颐和园:昆明湖",
+          "name": "昆明湖",
+          "source_document": "YHY_T01",
+          "source_documents": [
+            "YHY_O04",
+            "YHY_T01",
+            "YHY_T02",
+            "YHY_T03",
+            "YHY_T04",
+            "YHY_T05"
+          ],
+          "provenance_kinds": [
+            "dataset_corpus",
+            "editorial_route_guide"
+          ],
+          "membership": "text_mention_only",
+          "source_type": "task2",
+          "mention_count": 29
+        },
+        {
+          "id": "poi:颐和园:长廊",
+          "name": "长廊",
+          "source_document": "YHY_S05",
+          "source_documents": [
+            "YHY_F01",
+            "YHY_O01",
+            "YHY_O02",
+            "YHY_O03",
+            "YHY_O04",
+            "YHY_O05",
+            "YHY_S01",
+            "YHY_S05",
+            "YHY_T01",
+            "YHY_T03",
+            "YHY_T04",
+            "YHY_T05"
+          ],
+          "provenance_kinds": [
+            "dataset_corpus",
+            "editorial_route_guide",
+            "official_route_facts",
+            "synthetic_teaching"
+          ],
+          "membership": "text_mention_only",
+          "source_type": "task2",
+          "mention_count": 28
+        },
+        {
+          "id": "poi:颐和园:东宫门",
+          "name": "东宫门",
+          "source_document": "YHY_S04",
+          "source_documents": [
+            "YHY_F01",
+            "YHY_O01",
+            "YHY_O02",
+            "YHY_O03",
+            "YHY_O04",
+            "YHY_O05",
+            "YHY_S01",
+            "YHY_S02",
+            "YHY_S03",
+            "YHY_S04",
+            "YHY_S05"
+          ],
+          "provenance_kinds": [
+            "editorial_route_guide",
+            "official_route_facts",
+            "synthetic_teaching"
+          ],
+          "membership": "text_mention_only",
+          "source_type": "task2",
+          "mention_count": 24
+        },
+        {
+          "id": "poi:颐和园:乐寿堂",
+          "name": "乐寿堂",
+          "source_document": "YHY_S04",
+          "source_documents": [
+            "YHY_F01",
+            "YHY_O01",
+            "YHY_O02",
+            "YHY_O03",
+            "YHY_O04",
+            "YHY_O05",
+            "YHY_S01",
+            "YHY_S02",
+            "YHY_S03",
+            "YHY_S04",
+            "YHY_S05"
+          ],
+          "provenance_kinds": [
+            "editorial_route_guide",
+            "official_route_facts",
+            "synthetic_teaching"
+          ],
+          "membership": "text_mention_only",
+          "source_type": "task2",
+          "mention_count": 22
+        },
+        {
+          "id": "poi:颐和园:西堤",
+          "name": "西堤",
+          "source_document": "YHY_T01",
+          "source_documents": [
+            "YHY_T01",
+            "YHY_T02"
+          ],
+          "provenance_kinds": [
+            "dataset_corpus"
+          ],
+          "membership": "text_mention_only",
+          "source_type": "task2",
+          "mention_count": 21
+        },
+        {
+          "id": "poi:颐和园:仁寿殿",
+          "name": "仁寿殿",
+          "source_document": "YHY_S04",
+          "source_documents": [
+            "YHY_F01",
+            "YHY_O01",
+            "YHY_O02",
+            "YHY_O03",
+            "YHY_O04",
+            "YHY_O05",
+            "YHY_S01",
+            "YHY_S02",
+            "YHY_S03",
+            "YHY_S04",
+            "YHY_S05"
+          ],
+          "provenance_kinds": [
+            "editorial_route_guide",
+            "official_route_facts",
+            "synthetic_teaching"
+          ],
+          "membership": "text_mention_only",
+          "source_type": "task2",
+          "mention_count": 20
+        },
+        {
+          "id": "poi:颐和园:石舫",
+          "name": "石舫",
+          "source_document": "YHY_S04",
+          "source_documents": [
+            "YHY_F01",
+            "YHY_O01",
+            "YHY_O02",
+            "YHY_O04",
+            "YHY_O05",
+            "YHY_S01",
+            "YHY_S04",
+            "YHY_T02"
+          ],
+          "provenance_kinds": [
+            "dataset_corpus",
+            "editorial_route_guide",
+            "official_route_facts",
+            "synthetic_teaching"
+          ],
+          "membership": "text_mention_only",
+          "source_type": "task2",
+          "mention_count": 19
+        },
+        {
+          "id": "poi:颐和园:北宫门",
+          "name": "北宫门",
+          "source_document": "YHY_S04",
+          "source_documents": [
+            "YHY_O03",
+            "YHY_O04",
+            "YHY_S01",
+            "YHY_S02",
+            "YHY_S03",
+            "YHY_S04",
+            "YHY_S05",
+            "YHY_T01",
+            "YHY_T03"
+          ],
+          "provenance_kinds": [
+            "dataset_corpus",
+            "editorial_route_guide",
+            "synthetic_teaching"
+          ],
+          "membership": "text_mention_only",
+          "source_type": "task2",
+          "mention_count": 15
+        },
+        {
+          "id": "poi:颐和园:苏州街",
+          "name": "苏州街",
+          "source_document": "YHY_S04",
+          "source_documents": [
+            "YHY_O03",
+            "YHY_O04",
+            "YHY_O05",
+            "YHY_S01",
+            "YHY_S04",
+            "YHY_S05",
+            "YHY_T01"
+          ],
+          "provenance_kinds": [
+            "dataset_corpus",
+            "editorial_route_guide",
+            "synthetic_teaching"
+          ],
+          "membership": "text_mention_only",
+          "source_type": "task2",
+          "mention_count": 14
+        }
+      ]
+    }
+  },
+  "advice_used": [
+    {
+      "condition_id": "condition:M072",
+      "condition": "带孩子",
+      "operator": "context",
+      "condition_type": "游客类型",
+      "advice_id": "advice:M072",
+      "advice": "不要在桥边长时间分散",
+      "visitor_types": [
+        "亲子"
+      ],
+      "source_document": "YHY_O05",
+      "source_urls": [
+        "https://s.visitbeijing.com.cn/attraction/101407"
+      ],
+      "provenance_kind": "editorial_route_guide",
+      "source_label": "编辑指南",
+      "condition_evaluation": "matched",
+      "source_type": "task5"
+    },
+    {
+      "condition_id": "condition:M074",
+      "condition": "带孩子",
+      "operator": "all",
+      "condition_type": "游客类型",
+      "advice_id": "advice:M074",
+      "advice": "在苏州街增加休息，并减少佛香阁的停留",
+      "visitor_types": [
+        "亲子"
+      ],
+      "source_document": "YHY_S01",
+      "source_urls": [],
+      "provenance_kind": "synthetic_teaching",
+      "source_label": "教学模拟",
+      "condition_evaluation": "matched",
+      "source_type": "task5"
+    }
+  ],
+  "advice_pending_confirmation": [
+    {
+      "condition_id": "condition:M015",
+      "condition": "如果和妈妈走散了",
+      "operator": "context",
+      "condition_type": "现场情境",
+      "advice_id": "advice:M015",
+      "advice": "就要这样，在原地等妈妈，大声的喊妈妈，妈妈一定会来找你",
+      "visitor_types": [
+        "亲子"
+      ],
+      "source_document": "YHY_T03",
+      "source_urls": [
+        "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+      ],
+      "provenance_kind": "dataset_corpus",
+      "source_label": "语料游记",
+      "condition_evaluation": "requires_confirmation",
+      "source_type": "task5"
+    },
+    {
+      "condition_id": "condition:M082",
+      "condition": "带孩子且孩子已经疲劳",
+      "operator": "all",
+      "condition_type": "游客类型",
+      "advice_id": "advice:M082",
+      "advice": "建议先休息，并取消佛香阁支线",
+      "visitor_types": [
+        "亲子"
+      ],
+      "source_document": "YHY_S03",
+      "source_urls": [],
+      "provenance_kind": "synthetic_teaching",
+      "source_label": "教学模拟",
+      "condition_evaluation": "requires_confirmation",
+      "source_type": "task5"
+    },
+    {
+      "condition_id": "condition:M087",
+      "condition": "带孩子且已经疲劳",
+      "operator": "all",
+      "condition_type": "游客类型",
+      "advice_id": "advice:M087",
+      "advice": "减少支线并安排休息",
+      "visitor_types": [
+        "亲子"
+      ],
+      "source_document": "YHY_S04",
+      "source_urls": [],
+      "provenance_kind": "synthetic_teaching",
+      "source_label": "教学模拟",
+      "condition_evaluation": "requires_confirmation",
+      "source_type": "task5"
+    }
+  ],
+  "warnings": [
+    "图谱没有可靠的开放时间、门票、距离和单景点停留时长；时长仅用于建议行程取舍。",
+    "条件建议须结合具体触发条件使用，来源含教学模拟/游客文本，不等于官方承诺。"
+  ],
+  "selected_route": null,
+  "itinerary": [],
+  "candidate_pois": [
+    {
+      "id": "poi:颐和园:佛香阁",
+      "name": "佛香阁",
+      "source_document": "YHY_S04",
+      "source_documents": [
+        "YHY_F01",
+        "YHY_O01",
+        "YHY_O02",
+        "YHY_O03",
+        "YHY_O04",
+        "YHY_O05",
+        "YHY_S01",
+        "YHY_S02",
+        "YHY_S03",
+        "YHY_S04",
+        "YHY_S05",
+        "YHY_T01",
+        "YHY_T02",
+        "YHY_T03",
+        "YHY_T04",
+        "YHY_T05"
+      ],
+      "provenance_kinds": [
+        "dataset_corpus",
+        "editorial_route_guide",
+        "official_route_facts",
+        "synthetic_teaching"
+      ],
+      "membership": "text_mention_only",
+      "source_type": "task2",
+      "mention_count": 33
+    },
+    {
+      "id": "poi:颐和园:昆明湖",
+      "name": "昆明湖",
+      "source_document": "YHY_T01",
+      "source_documents": [
+        "YHY_O04",
+        "YHY_T01",
+        "YHY_T02",
+        "YHY_T03",
+        "YHY_T04",
+        "YHY_T05"
+      ],
+      "provenance_kinds": [
+        "dataset_corpus",
+        "editorial_route_guide"
+      ],
+      "membership": "text_mention_only",
+      "source_type": "task2",
+      "mention_count": 29
+    },
+    {
+      "id": "poi:颐和园:长廊",
+      "name": "长廊",
+      "source_document": "YHY_S05",
+      "source_documents": [
+        "YHY_F01",
+        "YHY_O01",
+        "YHY_O02",
+        "YHY_O03",
+        "YHY_O04",
+        "YHY_O05",
+        "YHY_S01",
+        "YHY_S05",
+        "YHY_T01",
+        "YHY_T03",
+        "YHY_T04",
+        "YHY_T05"
+      ],
+      "provenance_kinds": [
+        "dataset_corpus",
+        "editorial_route_guide",
+        "official_route_facts",
+        "synthetic_teaching"
+      ],
+      "membership": "text_mention_only",
+      "source_type": "task2",
+      "mention_count": 28
+    },
+    {
+      "id": "poi:颐和园:东宫门",
+      "name": "东宫门",
+      "source_document": "YHY_S04",
+      "source_documents": [
+        "YHY_F01",
+        "YHY_O01",
+        "YHY_O02",
+        "YHY_O03",
+        "YHY_O04",
+        "YHY_O05",
+        "YHY_S01",
+        "YHY_S02",
+        "YHY_S03",
+        "YHY_S04",
+        "YHY_S05"
+      ],
+      "provenance_kinds": [
+        "editorial_route_guide",
+        "official_route_facts",
+        "synthetic_teaching"
+      ],
+      "membership": "text_mention_only",
+      "source_type": "task2",
+      "mention_count": 24
+    },
+    {
+      "id": "poi:颐和园:乐寿堂",
+      "name": "乐寿堂",
+      "source_document": "YHY_S04",
+      "source_documents": [
+        "YHY_F01",
+        "YHY_O01",
+        "YHY_O02",
+        "YHY_O03",
+        "YHY_O04",
+        "YHY_O05",
+        "YHY_S01",
+        "YHY_S02",
+        "YHY_S03",
+        "YHY_S04",
+        "YHY_S05"
+      ],
+      "provenance_kinds": [
+        "editorial_route_guide",
+        "official_route_facts",
+        "synthetic_teaching"
+      ],
+      "membership": "text_mention_only",
+      "source_type": "task2",
+      "mention_count": 22
+    },
+    {
+      "id": "poi:颐和园:西堤",
+      "name": "西堤",
+      "source_document": "YHY_T01",
+      "source_documents": [
+        "YHY_T01",
+        "YHY_T02"
+      ],
+      "provenance_kinds": [
+        "dataset_corpus"
+      ],
+      "membership": "text_mention_only",
+      "source_type": "task2",
+      "mention_count": 21
+    },
+    {
+      "id": "poi:颐和园:仁寿殿",
+      "name": "仁寿殿",
+      "source_document": "YHY_S04",
+      "source_documents": [
+        "YHY_F01",
+        "YHY_O01",
+        "YHY_O02",
+        "YHY_O03",
+        "YHY_O04",
+        "YHY_O05",
+        "YHY_S01",
+        "YHY_S02",
+        "YHY_S03",
+        "YHY_S04",
+        "YHY_S05"
+      ],
+      "provenance_kinds": [
+        "editorial_route_guide",
+        "official_route_facts",
+        "synthetic_teaching"
+      ],
+      "membership": "text_mention_only",
+      "source_type": "task2",
+      "mention_count": 20
+    },
+    {
+      "id": "poi:颐和园:石舫",
+      "name": "石舫",
+      "source_document": "YHY_S04",
+      "source_documents": [
+        "YHY_F01",
+        "YHY_O01",
+        "YHY_O02",
+        "YHY_O04",
+        "YHY_O05",
+        "YHY_S01",
+        "YHY_S04",
+        "YHY_T02"
+      ],
+      "provenance_kinds": [
+        "dataset_corpus",
+        "editorial_route_guide",
+        "official_route_facts",
+        "synthetic_teaching"
+      ],
+      "membership": "text_mention_only",
+      "source_type": "task2",
+      "mention_count": 19
+    },
+    {
+      "id": "poi:颐和园:北宫门",
+      "name": "北宫门",
+      "source_document": "YHY_S04",
+      "source_documents": [
+        "YHY_O03",
+        "YHY_O04",
+        "YHY_S01",
+        "YHY_S02",
+        "YHY_S03",
+        "YHY_S04",
+        "YHY_S05",
+        "YHY_T01",
+        "YHY_T03"
+      ],
+      "provenance_kinds": [
+        "dataset_corpus",
+        "editorial_route_guide",
+        "synthetic_teaching"
+      ],
+      "membership": "text_mention_only",
+      "source_type": "task2",
+      "mention_count": 15
+    },
+    {
+      "id": "poi:颐和园:苏州街",
+      "name": "苏州街",
+      "source_document": "YHY_S04",
+      "source_documents": [
+        "YHY_O03",
+        "YHY_O04",
+        "YHY_O05",
+        "YHY_S01",
+        "YHY_S04",
+        "YHY_S05",
+        "YHY_T01"
+      ],
+      "provenance_kinds": [
+        "dataset_corpus",
+        "editorial_route_guide",
+        "synthetic_teaching"
+      ],
+      "membership": "text_mention_only",
+      "source_type": "task2",
+      "mention_count": 14
+    }
+  ],
+  "message": "颐和园存在 38 个图谱 POI，但实验六没有提供该景区的有序路线。以下仅是地点候选，不能断言游览先后：佛香阁、昆明湖、长廊、东宫门、乐寿堂、西堤、仁寿殿、石舫。"
+}

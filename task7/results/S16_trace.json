@@ -1,0 +1,1580 @@
+{
+  "query": "带老人和孩子去故宫半天",
+  "mode": "demo",
+  "llm_used": false,
+  "status": "ok",
+  "trace": [
+    {
+      "phase": "parse",
+      "constraints": {
+        "scenic": "故宫",
+        "scenic_matches": [
+          "故宫"
+        ],
+        "unsupported_scenic_matches": [],
+        "visitor": "亲子、老人",
+        "visitors": [
+          "亲子",
+          "老人"
+        ],
+        "days": null,
+        "hours": 4,
+        "errors": [],
+        "unsupported_scenic": false,
+        "error_status": "conflict",
+        "parse_method": "local_rules"
+      }
+    },
+    {
+      "phase": "decision",
+      "action": "query_routes",
+      "reason": "优先获取有来源的景点先后顺序"
+    },
+    {
+      "phase": "action_observation",
+      "tool": "query_routes",
+      "arguments": {
+        "scenic": "故宫",
+        "limit": 8
+      },
+      "result": {
+        "status": "ok",
+        "scenic": "故宫",
+        "count": 4,
+        "routes": [
+          {
+            "id": "route:route-GG-official-facts",
+            "kind": "official_route_facts",
+            "provenance_kind": "official_route_facts",
+            "reference_url": "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp",
+            "document_id": "GG_F01",
+            "steps": [
+              {
+                "id": "poi:故宫:午门",
+                "poi": "午门",
+                "order": 1,
+                "visit_id": "route:route-GG-official-facts@1",
+                "step_type": "entry",
+                "provenance_kind": "official_route_facts",
+                "source_document": "GG_F01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:太和门",
+                "poi": "太和门",
+                "order": 2,
+                "visit_id": "route:route-GG-official-facts@2",
+                "step_type": "visit",
+                "provenance_kind": "official_route_facts",
+                "source_document": "GG_F01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:弘义阁",
+                "poi": "弘义阁",
+                "order": 3,
+                "visit_id": "route:route-GG-official-facts@3",
+                "step_type": "visit",
+                "provenance_kind": "official_route_facts",
+                "source_document": "GG_F01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:太和殿",
+                "poi": "太和殿",
+                "order": 4,
+                "visit_id": "route:route-GG-official-facts@4",
+                "step_type": "visit",
+                "provenance_kind": "official_route_facts",
+                "source_document": "GG_F01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:中和殿",
+                "poi": "中和殿",
+                "order": 5,
+                "visit_id": "route:route-GG-official-facts@5",
+                "step_type": "visit",
+                "provenance_kind": "official_route_facts",
+                "source_document": "GG_F01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:保和殿",
+                "poi": "保和殿",
+                "order": 6,
+                "visit_id": "route:route-GG-official-facts@6",
+                "step_type": "visit",
+                "provenance_kind": "official_route_facts",
+                "source_document": "GG_F01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:乾清门",
+                "poi": "乾清门",
+                "order": 7,
+                "visit_id": "route:route-GG-official-facts@7",
+                "step_type": "visit",
+                "provenance_kind": "official_route_facts",
+                "source_document": "GG_F01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:乾清宫",
+                "poi": "乾清宫",
+                "order": 8,
+                "visit_id": "route:route-GG-official-facts@8",
+                "step_type": "visit",
+                "provenance_kind": "official_route_facts",
+                "source_document": "GG_F01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:交泰殿",
+                "poi": "交泰殿",
+                "order": 9,
+                "visit_id": "route:route-GG-official-facts@9",
+                "step_type": "visit",
+                "provenance_kind": "official_route_facts",
+                "source_document": "GG_F01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:坤宁宫",
+                "poi": "坤宁宫",
+                "order": 10,
+                "visit_id": "route:route-GG-official-facts@10",
+                "step_type": "visit",
+                "provenance_kind": "official_route_facts",
+                "source_document": "GG_F01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:御花园",
+                "poi": "御花园",
+                "order": 11,
+                "visit_id": "route:route-GG-official-facts@11",
+                "step_type": "visit",
+                "provenance_kind": "official_route_facts",
+                "source_document": "GG_F01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:神武门",
+                "poi": "神武门",
+                "order": 12,
+                "visit_id": "route:route-GG-official-facts@12",
+                "step_type": "exit",
+                "provenance_kind": "official_route_facts",
+                "source_document": "GG_F01",
+                "evidence_relation": "visits"
+              }
+            ]
+          },
+          {
+            "id": "route:route-GG-traveler-GG_T01",
+            "kind": "traveler_actual_route",
+            "provenance_kind": "dataset_corpus",
+            "reference_url": null,
+            "document_id": "GG_T01",
+            "steps": [
+              {
+                "id": "poi:故宫:神武门",
+                "poi": "神武门",
+                "order": 1,
+                "visit_id": "route:route-GG-traveler-GG_T01@1",
+                "step_type": "entry",
+                "provenance_kind": "dataset_corpus",
+                "source_document": "GG_T01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:御花园",
+                "poi": "御花园",
+                "order": 2,
+                "visit_id": "route:route-GG-traveler-GG_T01@2",
+                "step_type": "visit",
+                "provenance_kind": "dataset_corpus",
+                "source_document": "GG_T01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:坤宁宫",
+                "poi": "坤宁宫",
+                "order": 3,
+                "visit_id": "route:route-GG-traveler-GG_T01@3",
+                "step_type": "visit",
+                "provenance_kind": "dataset_corpus",
+                "source_document": "GG_T01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:乾清宫",
+                "poi": "乾清宫",
+                "order": 4,
+                "visit_id": "route:route-GG-traveler-GG_T01@4",
+                "step_type": "visit",
+                "provenance_kind": "dataset_corpus",
+                "source_document": "GG_T01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:养心殿",
+                "poi": "养心殿",
+                "order": 5,
+                "visit_id": "route:route-GG-traveler-GG_T01@5",
+                "step_type": "visit",
+                "provenance_kind": "dataset_corpus",
+                "source_document": "GG_T01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:永寿宫",
+                "poi": "永寿宫",
+                "order": 6,
+                "visit_id": "route:route-GG-traveler-GG_T01@6",
+                "step_type": "visit",
+                "provenance_kind": "dataset_corpus",
+                "source_document": "GG_T01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:储秀宫",
+                "poi": "储秀宫",
+                "order": 7,
+                "visit_id": "route:route-GG-traveler-GG_T01@7",
+                "step_type": "visit",
+                "provenance_kind": "dataset_corpus",
+                "source_document": "GG_T01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:御花园",
+                "poi": "御花园",
+                "order": 8,
+                "visit_id": "route:route-GG-traveler-GG_T01@8",
+                "step_type": "visit",
+                "provenance_kind": "dataset_corpus",
+                "source_document": "GG_T01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:神武门",
+                "poi": "神武门",
+                "order": 9,
+                "visit_id": "route:route-GG-traveler-GG_T01@9",
+                "step_type": "exit",
+                "provenance_kind": "dataset_corpus",
+                "source_document": "GG_T01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:午门",
+                "poi": "午门",
+                "order": 10,
+                "visit_id": "route:route-GG-traveler-GG_T01@10",
+                "step_type": "entry",
+                "provenance_kind": "dataset_corpus",
+                "source_document": "GG_T01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:前朝三大殿",
+                "poi": "前朝三大殿",
+                "order": 11,
+                "visit_id": "route:route-GG-traveler-GG_T01@11",
+                "step_type": "visit",
+                "provenance_kind": "dataset_corpus",
+                "source_document": "GG_T01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:钟表馆",
+                "poi": "钟表馆",
+                "order": 12,
+                "visit_id": "route:route-GG-traveler-GG_T01@12",
+                "step_type": "visit",
+                "provenance_kind": "dataset_corpus",
+                "source_document": "GG_T01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:珍宝馆",
+                "poi": "珍宝馆",
+                "order": 13,
+                "visit_id": "route:route-GG-traveler-GG_T01@13",
+                "step_type": "visit",
+                "provenance_kind": "dataset_corpus",
+                "source_document": "GG_T01",
+                "evidence_relation": "visits"
+              }
+            ]
+          },
+          {
+            "id": "route:route-GG-traveler-GG_T05",
+            "kind": "traveler_actual_route",
+            "provenance_kind": "dataset_corpus",
+            "reference_url": null,
+            "document_id": "GG_T05",
+            "steps": [
+              {
+                "id": "poi:故宫:午门",
+                "poi": "午门",
+                "order": 1,
+                "visit_id": "route:route-GG-traveler-GG_T05@1",
+                "step_type": "entry",
+                "provenance_kind": "dataset_corpus",
+                "source_document": "GG_T05",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:太和殿",
+                "poi": "太和殿",
+                "order": 2,
+                "visit_id": "route:route-GG-traveler-GG_T05@2",
+                "step_type": "visit",
+                "provenance_kind": "dataset_corpus",
+                "source_document": "GG_T05",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:乾清宫",
+                "poi": "乾清宫",
+                "order": 3,
+                "visit_id": "route:route-GG-traveler-GG_T05@3",
+                "step_type": "visit",
+                "provenance_kind": "dataset_corpus",
+                "source_document": "GG_T05",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:珍宝馆",
+                "poi": "珍宝馆",
+                "order": 4,
+                "visit_id": "route:route-GG-traveler-GG_T05@4",
+                "step_type": "visit",
+                "provenance_kind": "dataset_corpus",
+                "source_document": "GG_T05",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:神武门",
+                "poi": "神武门",
+                "order": 5,
+                "visit_id": "route:route-GG-traveler-GG_T05@5",
+                "step_type": "exit",
+                "provenance_kind": "dataset_corpus",
+                "source_document": "GG_T05",
+                "evidence_relation": "visits"
+              }
+            ]
+          },
+          {
+            "id": "route:route-GG-synthetic-timed-fixture",
+            "kind": "synthetic_teaching_fixture",
+            "provenance_kind": "synthetic_teaching",
+            "reference_url": null,
+            "document_id": "GG_S01",
+            "steps": [
+              {
+                "id": "poi:故宫:午门",
+                "poi": "午门",
+                "order": 1,
+                "visit_id": "route:route-GG-synthetic-timed-fixture@1",
+                "step_type": "entry",
+                "provenance_kind": "synthetic_teaching",
+                "source_document": "GG_S01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:太和殿",
+                "poi": "太和殿",
+                "order": 2,
+                "visit_id": "route:route-GG-synthetic-timed-fixture@2",
+                "step_type": "visit",
+                "provenance_kind": "synthetic_teaching",
+                "source_document": "GG_S01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:中和殿",
+                "poi": "中和殿",
+                "order": 3,
+                "visit_id": "route:route-GG-synthetic-timed-fixture@3",
+                "step_type": "visit",
+                "provenance_kind": "synthetic_teaching",
+                "source_document": "GG_S01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:保和殿",
+                "poi": "保和殿",
+                "order": 4,
+                "visit_id": "route:route-GG-synthetic-timed-fixture@4",
+                "step_type": "visit",
+                "provenance_kind": "synthetic_teaching",
+                "source_document": "GG_S01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:乾清宫",
+                "poi": "乾清宫",
+                "order": 5,
+                "visit_id": "route:route-GG-synthetic-timed-fixture@5",
+                "step_type": "visit",
+                "provenance_kind": "synthetic_teaching",
+                "source_document": "GG_S01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:乾清宫附近休息点",
+                "poi": "乾清宫附近休息点",
+                "order": 6,
+                "visit_id": "route:route-GG-synthetic-timed-fixture@6",
+                "step_type": "visit",
+                "provenance_kind": "synthetic_teaching",
+                "source_document": "GG_S01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:珍宝馆",
+                "poi": "珍宝馆",
+                "order": 7,
+                "visit_id": "route:route-GG-synthetic-timed-fixture@7",
+                "step_type": "visit",
+                "provenance_kind": "synthetic_teaching",
+                "source_document": "GG_S01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:御花园",
+                "poi": "御花园",
+                "order": 8,
+                "visit_id": "route:route-GG-synthetic-timed-fixture@8",
+                "step_type": "visit",
+                "provenance_kind": "synthetic_teaching",
+                "source_document": "GG_S01",
+                "evidence_relation": "visits"
+              },
+              {
+                "id": "poi:故宫:神武门",
+                "poi": "神武门",
+                "order": 9,
+                "visit_id": "route:route-GG-synthetic-timed-fixture@9",
+                "step_type": "exit",
+                "provenance_kind": "synthetic_teaching",
+                "source_document": "GG_S01",
+                "evidence_relation": "visits"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "phase": "action_observation",
+      "tool": "query_advice",
+      "arguments": {
+        "scenic": "故宫",
+        "visitor": "亲子、老人",
+        "request": "带老人和孩子去故宫半天",
+        "limit": 5
+      },
+      "result": {
+        "status": "ok",
+        "scenic": "故宫",
+        "count": 8,
+        "advice": [
+          {
+            "condition_id": "condition:M002",
+            "condition": "在皇家宫殿里遛娃",
+            "operator": "context",
+            "condition_type": "游客类型",
+            "advice_id": "advice:M002",
+            "advice": "教育好熊孩子不要触碰到皇家文物",
+            "visitor_types": [
+              "亲子"
+            ],
+            "source_document": "GG_T02",
+            "source_urls": [
+              "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+            ],
+            "provenance_kind": "dataset_corpus",
+            "source_label": "语料游记",
+            "condition_evaluation": "matched",
+            "source_type": "task5"
+          },
+          {
+            "condition_id": "condition:M017",
+            "condition": "想拍照或带孩子观察建筑细节",
+            "operator": "any",
+            "condition_type": "复合条件",
+            "advice_id": "advice:M017",
+            "advice": "可以减少在入口附近停留的时间，把节奏留给中后段",
+            "visitor_types": [
+              "亲子",
+              "摄影爱好者"
+            ],
+            "source_document": "GG_O01",
+            "source_urls": [
+              "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp"
+            ],
+            "provenance_kind": "editorial_route_guide",
+            "source_label": "编辑指南",
+            "condition_evaluation": "matched",
+            "source_type": "task5"
+          },
+          {
+            "condition_id": "condition:M023",
+            "condition": "带老人或孩子",
+            "operator": "any",
+            "condition_type": "游客类型",
+            "advice_id": "advice:M023",
+            "advice": "可以在院落间适当休息",
+            "visitor_types": [
+              "老人",
+              "亲子"
+            ],
+            "source_document": "GG_O04",
+            "source_urls": [
+              "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp"
+            ],
+            "provenance_kind": "editorial_route_guide",
+            "source_label": "编辑指南",
+            "condition_evaluation": "matched",
+            "source_type": "task5"
+          },
+          {
+            "condition_id": "condition:M027",
+            "condition": "带孩子",
+            "operator": "all",
+            "condition_type": "游客类型",
+            "advice_id": "advice:M027",
+            "advice": "在御花园增加休息，并减少珍宝馆的停留",
+            "visitor_types": [
+              "亲子"
+            ],
+            "source_document": "GG_S01",
+            "source_urls": [],
+            "provenance_kind": "synthetic_teaching",
+            "source_label": "教学模拟",
+            "condition_evaluation": "matched",
+            "source_type": "task5"
+          },
+          {
+            "condition_id": "condition:M029",
+            "condition": "带老人",
+            "operator": "all",
+            "condition_type": "游客类型",
+            "advice_id": "advice:M029",
+            "advice": "每连续步行二十分钟安排一次休息，并删减珍宝馆支线",
+            "visitor_types": [
+              "老人"
+            ],
+            "source_document": "GG_S02",
+            "source_urls": [],
+            "provenance_kind": "synthetic_teaching",
+            "source_label": "教学模拟",
+            "condition_evaluation": "matched",
+            "source_type": "task5"
+          }
+        ]
+      }
+    },
+    {
+      "phase": "generate",
+      "status": "ok",
+      "route_id": "route:route-GG-official-facts",
+      "selected_poi_ids": [
+        "poi:故宫:午门",
+        "poi:故宫:太和门",
+        "poi:故宫:弘义阁",
+        "poi:故宫:太和殿",
+        "poi:故宫:神武门"
+      ],
+      "advice_ids": [
+        "advice:M002",
+        "advice:M017",
+        "advice:M023",
+        "advice:M027",
+        "advice:M029"
+      ]
+    }
+  ],
+  "tool_schemas": [
+    {
+      "name": "query_routes",
+      "description": "查询景区官方/游客/模拟路线与按序景点，返回真实 route/POI ID 与文档证据。",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "scenic": {
+            "type": "string"
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 30
+          }
+        },
+        "required": [
+          "scenic"
+        ]
+      }
+    },
+    {
+      "name": "query_pois",
+      "description": "查询景区包含的 POI 候选，不提供路线顺序、开放时间或距离。",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "scenic": {
+            "type": "string"
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 30
+          }
+        },
+        "required": [
+          "scenic"
+        ]
+      }
+    },
+    {
+      "name": "query_advice",
+      "description": "按游客类别或用户明确提出的条件检索实验五条件建议。",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "scenic": {
+            "type": "string"
+          },
+          "visitor": {
+            "type": "string"
+          },
+          "request": {
+            "type": "string"
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 30
+          }
+        },
+        "required": [
+          "scenic"
+        ]
+      }
+    }
+  ],
+  "graph_sha256": "0804c2c7b13ede58468925d310274f5e150e88096c4919778f6066eae4b30d15",
+  "constraints": {
+    "scenic": "故宫",
+    "scenic_matches": [
+      "故宫"
+    ],
+    "unsupported_scenic_matches": [],
+    "visitor": "亲子、老人",
+    "visitors": [
+      "亲子",
+      "老人"
+    ],
+    "days": null,
+    "hours": 4,
+    "errors": [],
+    "unsupported_scenic": false,
+    "error_status": "conflict",
+    "parse_method": "local_rules"
+  },
+  "tool_results": {
+    "query_routes": {
+      "status": "ok",
+      "scenic": "故宫",
+      "count": 4,
+      "routes": [
+        {
+          "id": "route:route-GG-official-facts",
+          "kind": "official_route_facts",
+          "provenance_kind": "official_route_facts",
+          "reference_url": "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp",
+          "document_id": "GG_F01",
+          "steps": [
+            {
+              "id": "poi:故宫:午门",
+              "poi": "午门",
+              "order": 1,
+              "visit_id": "route:route-GG-official-facts@1",
+              "step_type": "entry",
+              "provenance_kind": "official_route_facts",
+              "source_document": "GG_F01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:太和门",
+              "poi": "太和门",
+              "order": 2,
+              "visit_id": "route:route-GG-official-facts@2",
+              "step_type": "visit",
+              "provenance_kind": "official_route_facts",
+              "source_document": "GG_F01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:弘义阁",
+              "poi": "弘义阁",
+              "order": 3,
+              "visit_id": "route:route-GG-official-facts@3",
+              "step_type": "visit",
+              "provenance_kind": "official_route_facts",
+              "source_document": "GG_F01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:太和殿",
+              "poi": "太和殿",
+              "order": 4,
+              "visit_id": "route:route-GG-official-facts@4",
+              "step_type": "visit",
+              "provenance_kind": "official_route_facts",
+              "source_document": "GG_F01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:中和殿",
+              "poi": "中和殿",
+              "order": 5,
+              "visit_id": "route:route-GG-official-facts@5",
+              "step_type": "visit",
+              "provenance_kind": "official_route_facts",
+              "source_document": "GG_F01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:保和殿",
+              "poi": "保和殿",
+              "order": 6,
+              "visit_id": "route:route-GG-official-facts@6",
+              "step_type": "visit",
+              "provenance_kind": "official_route_facts",
+              "source_document": "GG_F01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:乾清门",
+              "poi": "乾清门",
+              "order": 7,
+              "visit_id": "route:route-GG-official-facts@7",
+              "step_type": "visit",
+              "provenance_kind": "official_route_facts",
+              "source_document": "GG_F01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:乾清宫",
+              "poi": "乾清宫",
+              "order": 8,
+              "visit_id": "route:route-GG-official-facts@8",
+              "step_type": "visit",
+              "provenance_kind": "official_route_facts",
+              "source_document": "GG_F01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:交泰殿",
+              "poi": "交泰殿",
+              "order": 9,
+              "visit_id": "route:route-GG-official-facts@9",
+              "step_type": "visit",
+              "provenance_kind": "official_route_facts",
+              "source_document": "GG_F01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:坤宁宫",
+              "poi": "坤宁宫",
+              "order": 10,
+              "visit_id": "route:route-GG-official-facts@10",
+              "step_type": "visit",
+              "provenance_kind": "official_route_facts",
+              "source_document": "GG_F01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:御花园",
+              "poi": "御花园",
+              "order": 11,
+              "visit_id": "route:route-GG-official-facts@11",
+              "step_type": "visit",
+              "provenance_kind": "official_route_facts",
+              "source_document": "GG_F01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:神武门",
+              "poi": "神武门",
+              "order": 12,
+              "visit_id": "route:route-GG-official-facts@12",
+              "step_type": "exit",
+              "provenance_kind": "official_route_facts",
+              "source_document": "GG_F01",
+              "evidence_relation": "visits"
+            }
+          ]
+        },
+        {
+          "id": "route:route-GG-traveler-GG_T01",
+          "kind": "traveler_actual_route",
+          "provenance_kind": "dataset_corpus",
+          "reference_url": null,
+          "document_id": "GG_T01",
+          "steps": [
+            {
+              "id": "poi:故宫:神武门",
+              "poi": "神武门",
+              "order": 1,
+              "visit_id": "route:route-GG-traveler-GG_T01@1",
+              "step_type": "entry",
+              "provenance_kind": "dataset_corpus",
+              "source_document": "GG_T01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:御花园",
+              "poi": "御花园",
+              "order": 2,
+              "visit_id": "route:route-GG-traveler-GG_T01@2",
+              "step_type": "visit",
+              "provenance_kind": "dataset_corpus",
+              "source_document": "GG_T01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:坤宁宫",
+              "poi": "坤宁宫",
+              "order": 3,
+              "visit_id": "route:route-GG-traveler-GG_T01@3",
+              "step_type": "visit",
+              "provenance_kind": "dataset_corpus",
+              "source_document": "GG_T01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:乾清宫",
+              "poi": "乾清宫",
+              "order": 4,
+              "visit_id": "route:route-GG-traveler-GG_T01@4",
+              "step_type": "visit",
+              "provenance_kind": "dataset_corpus",
+              "source_document": "GG_T01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:养心殿",
+              "poi": "养心殿",
+              "order": 5,
+              "visit_id": "route:route-GG-traveler-GG_T01@5",
+              "step_type": "visit",
+              "provenance_kind": "dataset_corpus",
+              "source_document": "GG_T01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:永寿宫",
+              "poi": "永寿宫",
+              "order": 6,
+              "visit_id": "route:route-GG-traveler-GG_T01@6",
+              "step_type": "visit",
+              "provenance_kind": "dataset_corpus",
+              "source_document": "GG_T01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:储秀宫",
+              "poi": "储秀宫",
+              "order": 7,
+              "visit_id": "route:route-GG-traveler-GG_T01@7",
+              "step_type": "visit",
+              "provenance_kind": "dataset_corpus",
+              "source_document": "GG_T01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:御花园",
+              "poi": "御花园",
+              "order": 8,
+              "visit_id": "route:route-GG-traveler-GG_T01@8",
+              "step_type": "visit",
+              "provenance_kind": "dataset_corpus",
+              "source_document": "GG_T01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:神武门",
+              "poi": "神武门",
+              "order": 9,
+              "visit_id": "route:route-GG-traveler-GG_T01@9",
+              "step_type": "exit",
+              "provenance_kind": "dataset_corpus",
+              "source_document": "GG_T01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:午门",
+              "poi": "午门",
+              "order": 10,
+              "visit_id": "route:route-GG-traveler-GG_T01@10",
+              "step_type": "entry",
+              "provenance_kind": "dataset_corpus",
+              "source_document": "GG_T01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:前朝三大殿",
+              "poi": "前朝三大殿",
+              "order": 11,
+              "visit_id": "route:route-GG-traveler-GG_T01@11",
+              "step_type": "visit",
+              "provenance_kind": "dataset_corpus",
+              "source_document": "GG_T01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:钟表馆",
+              "poi": "钟表馆",
+              "order": 12,
+              "visit_id": "route:route-GG-traveler-GG_T01@12",
+              "step_type": "visit",
+              "provenance_kind": "dataset_corpus",
+              "source_document": "GG_T01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:珍宝馆",
+              "poi": "珍宝馆",
+              "order": 13,
+              "visit_id": "route:route-GG-traveler-GG_T01@13",
+              "step_type": "visit",
+              "provenance_kind": "dataset_corpus",
+              "source_document": "GG_T01",
+              "evidence_relation": "visits"
+            }
+          ]
+        },
+        {
+          "id": "route:route-GG-traveler-GG_T05",
+          "kind": "traveler_actual_route",
+          "provenance_kind": "dataset_corpus",
+          "reference_url": null,
+          "document_id": "GG_T05",
+          "steps": [
+            {
+              "id": "poi:故宫:午门",
+              "poi": "午门",
+              "order": 1,
+              "visit_id": "route:route-GG-traveler-GG_T05@1",
+              "step_type": "entry",
+              "provenance_kind": "dataset_corpus",
+              "source_document": "GG_T05",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:太和殿",
+              "poi": "太和殿",
+              "order": 2,
+              "visit_id": "route:route-GG-traveler-GG_T05@2",
+              "step_type": "visit",
+              "provenance_kind": "dataset_corpus",
+              "source_document": "GG_T05",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:乾清宫",
+              "poi": "乾清宫",
+              "order": 3,
+              "visit_id": "route:route-GG-traveler-GG_T05@3",
+              "step_type": "visit",
+              "provenance_kind": "dataset_corpus",
+              "source_document": "GG_T05",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:珍宝馆",
+              "poi": "珍宝馆",
+              "order": 4,
+              "visit_id": "route:route-GG-traveler-GG_T05@4",
+              "step_type": "visit",
+              "provenance_kind": "dataset_corpus",
+              "source_document": "GG_T05",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:神武门",
+              "poi": "神武门",
+              "order": 5,
+              "visit_id": "route:route-GG-traveler-GG_T05@5",
+              "step_type": "exit",
+              "provenance_kind": "dataset_corpus",
+              "source_document": "GG_T05",
+              "evidence_relation": "visits"
+            }
+          ]
+        },
+        {
+          "id": "route:route-GG-synthetic-timed-fixture",
+          "kind": "synthetic_teaching_fixture",
+          "provenance_kind": "synthetic_teaching",
+          "reference_url": null,
+          "document_id": "GG_S01",
+          "steps": [
+            {
+              "id": "poi:故宫:午门",
+              "poi": "午门",
+              "order": 1,
+              "visit_id": "route:route-GG-synthetic-timed-fixture@1",
+              "step_type": "entry",
+              "provenance_kind": "synthetic_teaching",
+              "source_document": "GG_S01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:太和殿",
+              "poi": "太和殿",
+              "order": 2,
+              "visit_id": "route:route-GG-synthetic-timed-fixture@2",
+              "step_type": "visit",
+              "provenance_kind": "synthetic_teaching",
+              "source_document": "GG_S01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:中和殿",
+              "poi": "中和殿",
+              "order": 3,
+              "visit_id": "route:route-GG-synthetic-timed-fixture@3",
+              "step_type": "visit",
+              "provenance_kind": "synthetic_teaching",
+              "source_document": "GG_S01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:保和殿",
+              "poi": "保和殿",
+              "order": 4,
+              "visit_id": "route:route-GG-synthetic-timed-fixture@4",
+              "step_type": "visit",
+              "provenance_kind": "synthetic_teaching",
+              "source_document": "GG_S01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:乾清宫",
+              "poi": "乾清宫",
+              "order": 5,
+              "visit_id": "route:route-GG-synthetic-timed-fixture@5",
+              "step_type": "visit",
+              "provenance_kind": "synthetic_teaching",
+              "source_document": "GG_S01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:乾清宫附近休息点",
+              "poi": "乾清宫附近休息点",
+              "order": 6,
+              "visit_id": "route:route-GG-synthetic-timed-fixture@6",
+              "step_type": "visit",
+              "provenance_kind": "synthetic_teaching",
+              "source_document": "GG_S01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:珍宝馆",
+              "poi": "珍宝馆",
+              "order": 7,
+              "visit_id": "route:route-GG-synthetic-timed-fixture@7",
+              "step_type": "visit",
+              "provenance_kind": "synthetic_teaching",
+              "source_document": "GG_S01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:御花园",
+              "poi": "御花园",
+              "order": 8,
+              "visit_id": "route:route-GG-synthetic-timed-fixture@8",
+              "step_type": "visit",
+              "provenance_kind": "synthetic_teaching",
+              "source_document": "GG_S01",
+              "evidence_relation": "visits"
+            },
+            {
+              "id": "poi:故宫:神武门",
+              "poi": "神武门",
+              "order": 9,
+              "visit_id": "route:route-GG-synthetic-timed-fixture@9",
+              "step_type": "exit",
+              "provenance_kind": "synthetic_teaching",
+              "source_document": "GG_S01",
+              "evidence_relation": "visits"
+            }
+          ]
+        }
+      ]
+    },
+    "query_advice": {
+      "status": "ok",
+      "scenic": "故宫",
+      "count": 8,
+      "advice": [
+        {
+          "condition_id": "condition:M002",
+          "condition": "在皇家宫殿里遛娃",
+          "operator": "context",
+          "condition_type": "游客类型",
+          "advice_id": "advice:M002",
+          "advice": "教育好熊孩子不要触碰到皇家文物",
+          "visitor_types": [
+            "亲子"
+          ],
+          "source_document": "GG_T02",
+          "source_urls": [
+            "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+          ],
+          "provenance_kind": "dataset_corpus",
+          "source_label": "语料游记",
+          "condition_evaluation": "matched",
+          "source_type": "task5"
+        },
+        {
+          "condition_id": "condition:M017",
+          "condition": "想拍照或带孩子观察建筑细节",
+          "operator": "any",
+          "condition_type": "复合条件",
+          "advice_id": "advice:M017",
+          "advice": "可以减少在入口附近停留的时间，把节奏留给中后段",
+          "visitor_types": [
+            "亲子",
+            "摄影爱好者"
+          ],
+          "source_document": "GG_O01",
+          "source_urls": [
+            "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp"
+          ],
+          "provenance_kind": "editorial_route_guide",
+          "source_label": "编辑指南",
+          "condition_evaluation": "matched",
+          "source_type": "task5"
+        },
+        {
+          "condition_id": "condition:M023",
+          "condition": "带老人或孩子",
+          "operator": "any",
+          "condition_type": "游客类型",
+          "advice_id": "advice:M023",
+          "advice": "可以在院落间适当休息",
+          "visitor_types": [
+            "老人",
+            "亲子"
+          ],
+          "source_document": "GG_O04",
+          "source_urls": [
+            "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp"
+          ],
+          "provenance_kind": "editorial_route_guide",
+          "source_label": "编辑指南",
+          "condition_evaluation": "matched",
+          "source_type": "task5"
+        },
+        {
+          "condition_id": "condition:M027",
+          "condition": "带孩子",
+          "operator": "all",
+          "condition_type": "游客类型",
+          "advice_id": "advice:M027",
+          "advice": "在御花园增加休息，并减少珍宝馆的停留",
+          "visitor_types": [
+            "亲子"
+          ],
+          "source_document": "GG_S01",
+          "source_urls": [],
+          "provenance_kind": "synthetic_teaching",
+          "source_label": "教学模拟",
+          "condition_evaluation": "matched",
+          "source_type": "task5"
+        },
+        {
+          "condition_id": "condition:M029",
+          "condition": "带老人",
+          "operator": "all",
+          "condition_type": "游客类型",
+          "advice_id": "advice:M029",
+          "advice": "每连续步行二十分钟安排一次休息，并删减珍宝馆支线",
+          "visitor_types": [
+            "老人"
+          ],
+          "source_document": "GG_S02",
+          "source_urls": [],
+          "provenance_kind": "synthetic_teaching",
+          "source_label": "教学模拟",
+          "condition_evaluation": "matched",
+          "source_type": "task5"
+        }
+      ]
+    }
+  },
+  "advice_used": [
+    {
+      "condition_id": "condition:M002",
+      "condition": "在皇家宫殿里遛娃",
+      "operator": "context",
+      "condition_type": "游客类型",
+      "advice_id": "advice:M002",
+      "advice": "教育好熊孩子不要触碰到皇家文物",
+      "visitor_types": [
+        "亲子"
+      ],
+      "source_document": "GG_T02",
+      "source_urls": [
+        "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+      ],
+      "provenance_kind": "dataset_corpus",
+      "source_label": "语料游记",
+      "condition_evaluation": "matched",
+      "source_type": "task5"
+    },
+    {
+      "condition_id": "condition:M017",
+      "condition": "想拍照或带孩子观察建筑细节",
+      "operator": "any",
+      "condition_type": "复合条件",
+      "advice_id": "advice:M017",
+      "advice": "可以减少在入口附近停留的时间，把节奏留给中后段",
+      "visitor_types": [
+        "亲子",
+        "摄影爱好者"
+      ],
+      "source_document": "GG_O01",
+      "source_urls": [
+        "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp"
+      ],
+      "provenance_kind": "editorial_route_guide",
+      "source_label": "编辑指南",
+      "condition_evaluation": "matched",
+      "source_type": "task5"
+    },
+    {
+      "condition_id": "condition:M023",
+      "condition": "带老人或孩子",
+      "operator": "any",
+      "condition_type": "游客类型",
+      "advice_id": "advice:M023",
+      "advice": "可以在院落间适当休息",
+      "visitor_types": [
+        "老人",
+        "亲子"
+      ],
+      "source_document": "GG_O04",
+      "source_urls": [
+        "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp"
+      ],
+      "provenance_kind": "editorial_route_guide",
+      "source_label": "编辑指南",
+      "condition_evaluation": "matched",
+      "source_type": "task5"
+    },
+    {
+      "condition_id": "condition:M027",
+      "condition": "带孩子",
+      "operator": "all",
+      "condition_type": "游客类型",
+      "advice_id": "advice:M027",
+      "advice": "在御花园增加休息，并减少珍宝馆的停留",
+      "visitor_types": [
+        "亲子"
+      ],
+      "source_document": "GG_S01",
+      "source_urls": [],
+      "provenance_kind": "synthetic_teaching",
+      "source_label": "教学模拟",
+      "condition_evaluation": "matched",
+      "source_type": "task5"
+    },
+    {
+      "condition_id": "condition:M029",
+      "condition": "带老人",
+      "operator": "all",
+      "condition_type": "游客类型",
+      "advice_id": "advice:M029",
+      "advice": "每连续步行二十分钟安排一次休息，并删减珍宝馆支线",
+      "visitor_types": [
+        "老人"
+      ],
+      "source_document": "GG_S02",
+      "source_urls": [],
+      "provenance_kind": "synthetic_teaching",
+      "source_label": "教学模拟",
+      "condition_evaluation": "matched",
+      "source_type": "task5"
+    }
+  ],
+  "advice_pending_confirmation": [],
+  "warnings": [
+    "图谱没有可靠的开放时间、门票、距离和单景点停留时长；时长仅用于建议行程取舍。",
+    "条件建议须结合具体触发条件使用，来源含教学模拟/游客文本，不等于官方承诺。",
+    "重点站点之间未选中的原路线步骤仍保留为参考，不代表两站直接连通；入口出口为来源标注，当前通行情况仍需核验。"
+  ],
+  "selected_route": {
+    "id": "route:route-GG-official-facts",
+    "kind": "official_route_facts",
+    "document_id": "GG_F01",
+    "provenance_kind": "official_route_facts"
+  },
+  "itinerary": [
+    {
+      "id": "poi:故宫:午门",
+      "poi": "午门",
+      "order": 1,
+      "visit_id": "route:route-GG-official-facts@1",
+      "step_type": "entry",
+      "provenance_kind": "official_route_facts",
+      "source_document": "GG_F01",
+      "evidence_relation": "visits"
+    },
+    {
+      "id": "poi:故宫:太和门",
+      "poi": "太和门",
+      "order": 2,
+      "visit_id": "route:route-GG-official-facts@2",
+      "step_type": "visit",
+      "provenance_kind": "official_route_facts",
+      "source_document": "GG_F01",
+      "evidence_relation": "visits"
+    },
+    {
+      "id": "poi:故宫:弘义阁",
+      "poi": "弘义阁",
+      "order": 3,
+      "visit_id": "route:route-GG-official-facts@3",
+      "step_type": "visit",
+      "provenance_kind": "official_route_facts",
+      "source_document": "GG_F01",
+      "evidence_relation": "visits"
+    },
+    {
+      "id": "poi:故宫:太和殿",
+      "poi": "太和殿",
+      "order": 4,
+      "visit_id": "route:route-GG-official-facts@4",
+      "step_type": "visit",
+      "provenance_kind": "official_route_facts",
+      "source_document": "GG_F01",
+      "evidence_relation": "visits"
+    },
+    {
+      "id": "poi:故宫:神武门",
+      "poi": "神武门",
+      "order": 12,
+      "visit_id": "route:route-GG-official-facts@12",
+      "step_type": "exit",
+      "provenance_kind": "official_route_facts",
+      "source_document": "GG_F01",
+      "evidence_relation": "visits"
+    }
+  ],
+  "source_route_steps": [
+    {
+      "id": "poi:故宫:午门",
+      "poi": "午门",
+      "order": 1,
+      "visit_id": "route:route-GG-official-facts@1",
+      "step_type": "entry",
+      "provenance_kind": "official_route_facts",
+      "source_document": "GG_F01",
+      "evidence_relation": "visits"
+    },
+    {
+      "id": "poi:故宫:太和门",
+      "poi": "太和门",
+      "order": 2,
+      "visit_id": "route:route-GG-official-facts@2",
+      "step_type": "visit",
+      "provenance_kind": "official_route_facts",
+      "source_document": "GG_F01",
+      "evidence_relation": "visits"
+    },
+    {
+      "id": "poi:故宫:弘义阁",
+      "poi": "弘义阁",
+      "order": 3,
+      "visit_id": "route:route-GG-official-facts@3",
+      "step_type": "visit",
+      "provenance_kind": "official_route_facts",
+      "source_document": "GG_F01",
+      "evidence_relation": "visits"
+    },
+    {
+      "id": "poi:故宫:太和殿",
+      "poi": "太和殿",
+      "order": 4,
+      "visit_id": "route:route-GG-official-facts@4",
+      "step_type": "visit",
+      "provenance_kind": "official_route_facts",
+      "source_document": "GG_F01",
+      "evidence_relation": "visits"
+    },
+    {
+      "id": "poi:故宫:中和殿",
+      "poi": "中和殿",
+      "order": 5,
+      "visit_id": "route:route-GG-official-facts@5",
+      "step_type": "visit",
+      "provenance_kind": "official_route_facts",
+      "source_document": "GG_F01",
+      "evidence_relation": "visits"
+    },
+    {
+      "id": "poi:故宫:保和殿",
+      "poi": "保和殿",
+      "order": 6,
+      "visit_id": "route:route-GG-official-facts@6",
+      "step_type": "visit",
+      "provenance_kind": "official_route_facts",
+      "source_document": "GG_F01",
+      "evidence_relation": "visits"
+    },
+    {
+      "id": "poi:故宫:乾清门",
+      "poi": "乾清门",
+      "order": 7,
+      "visit_id": "route:route-GG-official-facts@7",
+      "step_type": "visit",
+      "provenance_kind": "official_route_facts",
+      "source_document": "GG_F01",
+      "evidence_relation": "visits"
+    },
+    {
+      "id": "poi:故宫:乾清宫",
+      "poi": "乾清宫",
+      "order": 8,
+      "visit_id": "route:route-GG-official-facts@8",
+      "step_type": "visit",
+      "provenance_kind": "official_route_facts",
+      "source_document": "GG_F01",
+      "evidence_relation": "visits"
+    },
+    {
+      "id": "poi:故宫:交泰殿",
+      "poi": "交泰殿",
+      "order": 9,
+      "visit_id": "route:route-GG-official-facts@9",
+      "step_type": "visit",
+      "provenance_kind": "official_route_facts",
+      "source_document": "GG_F01",
+      "evidence_relation": "visits"
+    },
+    {
+      "id": "poi:故宫:坤宁宫",
+      "poi": "坤宁宫",
+      "order": 10,
+      "visit_id": "route:route-GG-official-facts@10",
+      "step_type": "visit",
+      "provenance_kind": "official_route_facts",
+      "source_document": "GG_F01",
+      "evidence_relation": "visits"
+    },
+    {
+      "id": "poi:故宫:御花园",
+      "poi": "御花园",
+      "order": 11,
+      "visit_id": "route:route-GG-official-facts@11",
+      "step_type": "visit",
+      "provenance_kind": "official_route_facts",
+      "source_document": "GG_F01",
+      "evidence_relation": "visits"
+    },
+    {
+      "id": "poi:故宫:神武门",
+      "poi": "神武门",
+      "order": 12,
+      "visit_id": "route:route-GG-official-facts@12",
+      "step_type": "exit",
+      "provenance_kind": "official_route_facts",
+      "source_document": "GG_F01",
+      "evidence_relation": "visits"
+    }
+  ],
+  "unselected_source_steps": [
+    {
+      "id": "poi:故宫:中和殿",
+      "poi": "中和殿",
+      "order": 5,
+      "visit_id": "route:route-GG-official-facts@5",
+      "step_type": "visit",
+      "provenance_kind": "official_route_facts",
+      "source_document": "GG_F01",
+      "evidence_relation": "visits"
+    },
+    {
+      "id": "poi:故宫:保和殿",
+      "poi": "保和殿",
+      "order": 6,
+      "visit_id": "route:route-GG-official-facts@6",
+      "step_type": "visit",
+      "provenance_kind": "official_route_facts",
+      "source_document": "GG_F01",
+      "evidence_relation": "visits"
+    },
+    {
+      "id": "poi:故宫:乾清门",
+      "poi": "乾清门",
+      "order": 7,
+      "visit_id": "route:route-GG-official-facts@7",
+      "step_type": "visit",
+      "provenance_kind": "official_route_facts",
+      "source_document": "GG_F01",
+      "evidence_relation": "visits"
+    },
+    {
+      "id": "poi:故宫:乾清宫",
+      "poi": "乾清宫",
+      "order": 8,
+      "visit_id": "route:route-GG-official-facts@8",
+      "step_type": "visit",
+      "provenance_kind": "official_route_facts",
+      "source_document": "GG_F01",
+      "evidence_relation": "visits"
+    },
+    {
+      "id": "poi:故宫:交泰殿",
+      "poi": "交泰殿",
+      "order": 9,
+      "visit_id": "route:route-GG-official-facts@9",
+      "step_type": "visit",
+      "provenance_kind": "official_route_facts",
+      "source_document": "GG_F01",
+      "evidence_relation": "visits"
+    },
+    {
+      "id": "poi:故宫:坤宁宫",
+      "poi": "坤宁宫",
+      "order": 10,
+      "visit_id": "route:route-GG-official-facts@10",
+      "step_type": "visit",
+      "provenance_kind": "official_route_facts",
+      "source_document": "GG_F01",
+      "evidence_relation": "visits"
+    },
+    {
+      "id": "poi:故宫:御花园",
+      "poi": "御花园",
+      "order": 11,
+      "visit_id": "route:route-GG-official-facts@11",
+      "step_type": "visit",
+      "provenance_kind": "official_route_facts",
+      "source_document": "GG_F01",
+      "evidence_relation": "visits"
+    }
+  ],
+  "message": "故宫（亲子、老人）建议参考官方路线事实的重点站点：午门 → 太和门 → 弘义阁 → 太和殿 → 神武门。条件建议：[语料游记] 条件「在皇家宫殿里遛娃」下建议「教育好熊孩子不要触碰到皇家文物」；[编辑指南] 条件「想拍照或带孩子观察建筑细节」下建议「可以减少在入口附近停留的时间，把节奏留给中后段」；[编辑指南] 条件「带老人或孩子」下建议「可以在院落间适当休息」。路线来自 GG_F01；站点取舍为规划策略，保留来源标注的入口出口；未选站点及完整来源次序见结构化记录，不能视为直接通行或实测时间表。"
+}

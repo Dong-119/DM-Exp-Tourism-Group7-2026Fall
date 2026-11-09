@@ -171,7 +171,7 @@
 <text x="705" y="942" text-anchor="middle" font-size="12" fill="#334155">has_activity</text>
 <rect x="850" y="933" width="500" height="28" rx="5" fill="#7c2d12"/>
 <text x="865" y="952" font-size="14" fill="white">activity · 参观珍宝馆</text>
-<text x="1380" y="952" font-size="12" fill="#475569">source_document=GG_T05；source_type=task3</text>
+<text x="1380" y="952" font-size="12" fill="#475569">source_document=GG_T01；source_type=task3</text>
 <text x="35" y="997" font-size="13" fill="#64748b">22</text>
 <rect x="75" y="975" width="500" height="28" rx="5" fill="#1d4ed8"/>
 <text x="90" y="994" font-size="14" fill="white">poi · 珍宝馆</text>

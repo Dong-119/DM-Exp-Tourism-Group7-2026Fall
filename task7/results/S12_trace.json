@@ -1,0 +1,120 @@
+{
+  "query": "故宫玩13小时",
+  "mode": "demo",
+  "llm_used": false,
+  "status": "needs_clarification",
+  "trace": [
+    {
+      "phase": "parse",
+      "constraints": {
+        "scenic": "故宫",
+        "scenic_matches": [
+          "故宫"
+        ],
+        "unsupported_scenic_matches": [],
+        "visitor": "未特定",
+        "visitors": [],
+        "days": null,
+        "hours": 13,
+        "errors": [
+          "当前只支持1—3天或1—12小时，请调整时长；已保留原始数值"
+        ],
+        "unsupported_scenic": false,
+        "error_status": "needs_clarification",
+        "parse_method": "local_rules"
+      }
+    },
+    {
+      "phase": "decision",
+      "action": "ask_user",
+      "reason": "当前只支持1—3天或1—12小时，请调整时长；已保留原始数值"
+    }
+  ],
+  "tool_schemas": [
+    {
+      "name": "query_routes",
+      "description": "查询景区官方/游客/模拟路线与按序景点，返回真实 route/POI ID 与文档证据。",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "scenic": {
+            "type": "string"
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 30
+          }
+        },
+        "required": [
+          "scenic"
+        ]
+      }
+    },
+    {
+      "name": "query_pois",
+      "description": "查询景区包含的 POI 候选，不提供路线顺序、开放时间或距离。",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "scenic": {
+            "type": "string"
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 30
+          }
+        },
+        "required": [
+          "scenic"
+        ]
+      }
+    },
+    {
+      "name": "query_advice",
+      "description": "按游客类别或用户明确提出的条件检索实验五条件建议。",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "scenic": {
+            "type": "string"
+          },
+          "visitor": {
+            "type": "string"
+          },
+          "request": {
+            "type": "string"
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 30
+          }
+        },
+        "required": [
+          "scenic"
+        ]
+      }
+    }
+  ],
+  "graph_sha256": "0804c2c7b13ede58468925d310274f5e150e88096c4919778f6066eae4b30d15",
+  "constraints": {
+    "scenic": "故宫",
+    "scenic_matches": [
+      "故宫"
+    ],
+    "unsupported_scenic_matches": [],
+    "visitor": "未特定",
+    "visitors": [],
+    "days": null,
+    "hours": 13,
+    "errors": [
+      "当前只支持1—3天或1—12小时，请调整时长；已保留原始数值"
+    ],
+    "unsupported_scenic": false,
+    "error_status": "needs_clarification",
+    "parse_method": "local_rules"
+  },
+  "message": "当前只支持1—3天或1—12小时，请调整时长；已保留原始数值"
+}

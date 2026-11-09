@@ -1,0 +1,116 @@
+{
+  "query": "明天想去圆明园玩一天",
+  "mode": "demo",
+  "llm_used": false,
+  "status": "no_match",
+  "trace": [
+    {
+      "phase": "parse",
+      "constraints": {
+        "scenic": "圆明园",
+        "scenic_matches": [],
+        "unsupported_scenic_matches": [
+          "圆明园"
+        ],
+        "visitor": "未特定",
+        "visitors": [],
+        "days": 1,
+        "hours": null,
+        "errors": [],
+        "unsupported_scenic": true,
+        "error_status": "conflict",
+        "parse_method": "local_rules"
+      }
+    },
+    {
+      "phase": "decision",
+      "action": "no_route_without_graph",
+      "reason": "图谱未收录「圆明园」，仅支持：天坛、故宫、颐和园。"
+    }
+  ],
+  "tool_schemas": [
+    {
+      "name": "query_routes",
+      "description": "查询景区官方/游客/模拟路线与按序景点，返回真实 route/POI ID 与文档证据。",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "scenic": {
+            "type": "string"
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 30
+          }
+        },
+        "required": [
+          "scenic"
+        ]
+      }
+    },
+    {
+      "name": "query_pois",
+      "description": "查询景区包含的 POI 候选，不提供路线顺序、开放时间或距离。",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "scenic": {
+            "type": "string"
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 30
+          }
+        },
+        "required": [
+          "scenic"
+        ]
+      }
+    },
+    {
+      "name": "query_advice",
+      "description": "按游客类别或用户明确提出的条件检索实验五条件建议。",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "scenic": {
+            "type": "string"
+          },
+          "visitor": {
+            "type": "string"
+          },
+          "request": {
+            "type": "string"
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 30
+          }
+        },
+        "required": [
+          "scenic"
+        ]
+      }
+    }
+  ],
+  "graph_sha256": "0804c2c7b13ede58468925d310274f5e150e88096c4919778f6066eae4b30d15",
+  "constraints": {
+    "scenic": "圆明园",
+    "scenic_matches": [],
+    "unsupported_scenic_matches": [
+      "圆明园"
+    ],
+    "visitor": "未特定",
+    "visitors": [],
+    "days": 1,
+    "hours": null,
+    "errors": [],
+    "unsupported_scenic": true,
+    "error_status": "conflict",
+    "parse_method": "local_rules"
+  },
+  "message": "图谱未收录「圆明园」，仅支持：天坛、故宫、颐和园。"
+}

@@ -1,5 +1,5 @@
 {
-  "python": "3.9.1 (default, Dec 11 2020, 09:29:25) [MSC v.1916 64 bit (AMD64)]",
+  "python": "3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)]",
   "inputs": {
     "task2_entities": "task2\\task2_jieba_final\\result\\v2\\entities_v2.json",
     "task3_routes": "data\\processed\\experiment3\\routes.json",
@@ -11,7 +11,8 @@
     "task5_advice": "f58c99d48a39e1f26367cd2098cd71c4e9bd76a5140a56930d017b85130f3b09"
   },
   "node_count": 462,
-  "edge_count": 628,
+  "edge_count": 654,
+  "graph_sha256": "0804c2c7b13ede58468925d310274f5e150e88096c4919778f6066eae4b30d15",
   "metadata": {
     "diagnostics": {
       "ignored_redundant_scenic_poi": 240,
@@ -36,6 +37,10 @@
       "task2_context_relations_are_typed": true,
       "has_connected_components": true,
       "all_route_steps_have_poi_edges": true,
+      "route_events_preserved": true,
+      "next_events_preserved": true,
+      "schema_covers_relations": true,
+      "advice_provenance_preserved": true,
       "complete_relation_atlas_covers_all_edges": true
     },
     "passed": true,
@@ -52,17 +57,23 @@
     "relation_counts": {
       "mentions_time": 181,
       "mentions_transport": 24,
-      "contains": 117,
+      "mentions_poi": 117,
       "has_condition": 95,
+      "contains": 19,
       "has_route": 4,
-      "next": 30,
+      "next": 35,
       "occurs_in": 18,
       "has_activity": 27,
-      "visits": 37,
+      "visits": 39,
       "recommends": 95
     },
     "components": 2,
     "core_nodes": [
+      {
+        "id": "scenic:故宫",
+        "degree": 154,
+        "label": "故宫"
+      },
       {
         "id": "scenic:天坛",
         "degree": 145,
@@ -74,44 +85,39 @@
         "label": "颐和园"
       },
       {
-        "id": "scenic:故宫",
-        "degree": 135,
-        "label": "故宫"
-      },
-      {
-        "id": "poi:故宫:乾清宫",
-        "degree": 17,
-        "label": "乾清宫"
-      },
-      {
         "id": "poi:故宫:御花园",
-        "degree": 15,
+        "degree": 19,
         "label": "御花园"
       },
       {
         "id": "poi:故宫:神武门",
-        "degree": 15,
+        "degree": 19,
         "label": "神武门"
       },
       {
+        "id": "poi:故宫:乾清宫",
+        "degree": 18,
+        "label": "乾清宫"
+      },
+      {
         "id": "poi:故宫:午门",
-        "degree": 14,
+        "degree": 16,
         "label": "午门"
       },
       {
-        "id": "route:route-GG-official-facts",
-        "degree": 13,
-        "label": "route-GG-official-facts"
-      },
-      {
-        "id": "poi:故宫:珍宝馆",
-        "degree": 12,
-        "label": "珍宝馆"
+        "id": "poi:故宫:太和殿",
+        "degree": 14,
+        "label": "太和殿"
       },
       {
         "id": "route:route-GG-traveler-GG_T01",
-        "degree": 12,
+        "degree": 14,
         "label": "route-GG-traveler-GG_T01"
+      },
+      {
+        "id": "poi:故宫:珍宝馆",
+        "degree": 13,
+        "label": "珍宝馆"
       }
     ]
   },
@@ -126,6 +132,7 @@
     "故宫完整游览知识网络.svg",
     "complete_graphs_index.json",
     "complete_graphs/*.svg",
-    "validation.json"
+    "validation.json",
+    "knowledge_graph.png"
   ]
 }

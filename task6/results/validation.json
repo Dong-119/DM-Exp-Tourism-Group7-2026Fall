@@ -7,6 +7,10 @@
     "task2_context_relations_are_typed": true,
     "has_connected_components": true,
     "all_route_steps_have_poi_edges": true,
+    "route_events_preserved": true,
+    "next_events_preserved": true,
+    "schema_covers_relations": true,
+    "advice_provenance_preserved": true,
     "complete_relation_atlas_covers_all_edges": true
   },
   "passed": true,
@@ -23,17 +27,23 @@
   "relation_counts": {
     "mentions_time": 181,
     "mentions_transport": 24,
-    "contains": 117,
+    "mentions_poi": 117,
     "has_condition": 95,
+    "contains": 19,
     "has_route": 4,
-    "next": 30,
+    "next": 35,
     "occurs_in": 18,
     "has_activity": 27,
-    "visits": 37,
+    "visits": 39,
     "recommends": 95
   },
   "components": 2,
   "core_nodes": [
+    {
+      "id": "scenic:故宫",
+      "degree": 154,
+      "label": "故宫"
+    },
     {
       "id": "scenic:天坛",
       "degree": 145,
@@ -45,44 +55,39 @@
       "label": "颐和园"
     },
     {
-      "id": "scenic:故宫",
-      "degree": 135,
-      "label": "故宫"
-    },
-    {
-      "id": "poi:故宫:乾清宫",
-      "degree": 17,
-      "label": "乾清宫"
-    },
-    {
       "id": "poi:故宫:御花园",
-      "degree": 15,
+      "degree": 19,
       "label": "御花园"
     },
     {
       "id": "poi:故宫:神武门",
-      "degree": 15,
+      "degree": 19,
       "label": "神武门"
     },
     {
+      "id": "poi:故宫:乾清宫",
+      "degree": 18,
+      "label": "乾清宫"
+    },
+    {
       "id": "poi:故宫:午门",
-      "degree": 14,
+      "degree": 16,
       "label": "午门"
     },
     {
-      "id": "route:route-GG-official-facts",
-      "degree": 13,
-      "label": "route-GG-official-facts"
-    },
-    {
-      "id": "poi:故宫:珍宝馆",
-      "degree": 12,
-      "label": "珍宝馆"
+      "id": "poi:故宫:太和殿",
+      "degree": 14,
+      "label": "太和殿"
     },
     {
       "id": "route:route-GG-traveler-GG_T01",
-      "degree": 12,
+      "degree": 14,
       "label": "route-GG-traveler-GG_T01"
+    },
+    {
+      "id": "poi:故宫:珍宝馆",
+      "degree": 13,
+      "label": "珍宝馆"
     }
   ]
 }

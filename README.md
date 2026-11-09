@@ -62,3 +62,15 @@ python task6\run_experiment.py
 ```
 
 报告和结果位于 [task6/](task6/)；核心结果包括节点/边 CSV、GraphML、SVG 可视化和验证清单。
+## 实验项目7：程序性知识应用——旅游规划 Agent
+
+基于实验六知识图谱封装 `query_routes`、`query_pois`、`query_advice` 三类查询工具，结合 LLM 实现 ReAct 旅游规划 Agent。
+
+```powershell
+cd task7
+python -m unittest test_agent -v
+python run_scenarios.py
+python cli.py --mode demo --question "带孩子去故宫一天"
+```
+
+代码、测试与运行结果位于 [task7/](task7/)。

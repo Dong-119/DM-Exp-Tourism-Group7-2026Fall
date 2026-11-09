@@ -90,47 +90,55 @@
 <text x="50" y="368" font-size="16" font-weight="bold" fill="#16a34a">route-GG-traveler-GG_T01</text>
 <circle cx="300.0" cy="360.0" r="25" fill="#16a34a" stroke="#1e293b" stroke-width="2"/>
 <text x="300.0" y="365.0" text-anchor="middle" font-size="13" fill="white">1</text>
-<text x="300.0" y="408.0" text-anchor="middle" font-size="14">坤宁宫</text>
-<line x1="325.0" y1="360.0" x2="405.0" y2="360.0" stroke="#64748b" marker-end="url(#route-arrow)"/>
-<circle cx="430.0" cy="360.0" r="25" fill="#16a34a" stroke="#1e293b" stroke-width="2"/>
-<text x="430.0" y="365.0" text-anchor="middle" font-size="13" fill="white">2</text>
-<text x="430.0" y="408.0" text-anchor="middle" font-size="14">乾清宫</text>
-<line x1="455.0" y1="360.0" x2="535.0" y2="360.0" stroke="#64748b" marker-end="url(#route-arrow)"/>
-<circle cx="560.0" cy="360.0" r="25" fill="#16a34a" stroke="#1e293b" stroke-width="2"/>
-<text x="560.0" y="365.0" text-anchor="middle" font-size="13" fill="white">3</text>
-<text x="560.0" y="408.0" text-anchor="middle" font-size="14">养心殿</text>
-<line x1="585.0" y1="360.0" x2="665.0" y2="360.0" stroke="#64748b" marker-end="url(#route-arrow)"/>
-<circle cx="690.0" cy="360.0" r="25" fill="#16a34a" stroke="#1e293b" stroke-width="2"/>
-<text x="690.0" y="365.0" text-anchor="middle" font-size="13" fill="white">4</text>
-<text x="690.0" y="408.0" text-anchor="middle" font-size="14">永寿宫</text>
-<line x1="715.0" y1="360.0" x2="795.0" y2="360.0" stroke="#64748b" marker-end="url(#route-arrow)"/>
-<circle cx="820.0" cy="360.0" r="25" fill="#16a34a" stroke="#1e293b" stroke-width="2"/>
-<text x="820.0" y="365.0" text-anchor="middle" font-size="13" fill="white">5</text>
-<text x="820.0" y="408.0" text-anchor="middle" font-size="14">储秀宫</text>
-<line x1="845.0" y1="360.0" x2="925.0" y2="360.0" stroke="#64748b" marker-end="url(#route-arrow)"/>
-<circle cx="950.0" cy="360.0" r="25" fill="#16a34a" stroke="#1e293b" stroke-width="2"/>
-<text x="950.0" y="365.0" text-anchor="middle" font-size="13" fill="white">6</text>
-<text x="950.0" y="408.0" text-anchor="middle" font-size="14">御花园</text>
-<line x1="975.0" y1="360.0" x2="1055.0" y2="360.0" stroke="#64748b" marker-end="url(#route-arrow)"/>
-<circle cx="1080.0" cy="360.0" r="25" fill="#16a34a" stroke="#1e293b" stroke-width="2"/>
-<text x="1080.0" y="365.0" text-anchor="middle" font-size="13" fill="white">7</text>
-<text x="1080.0" y="408.0" text-anchor="middle" font-size="14">神武门</text>
-<line x1="1105.0" y1="360.0" x2="1185.0" y2="360.0" stroke="#64748b" marker-end="url(#route-arrow)"/>
-<circle cx="1210.0" cy="360.0" r="25" fill="#16a34a" stroke="#1e293b" stroke-width="2"/>
-<text x="1210.0" y="365.0" text-anchor="middle" font-size="13" fill="white">8</text>
-<text x="1210.0" y="408.0" text-anchor="middle" font-size="14">午门</text>
-<line x1="1235.0" y1="360.0" x2="1315.0" y2="360.0" stroke="#64748b" marker-end="url(#route-arrow)"/>
-<circle cx="1340.0" cy="360.0" r="25" fill="#16a34a" stroke="#1e293b" stroke-width="2"/>
-<text x="1340.0" y="365.0" text-anchor="middle" font-size="13" fill="white">9</text>
-<text x="1340.0" y="408.0" text-anchor="middle" font-size="14">前朝三大殿</text>
-<line x1="1365.0" y1="360.0" x2="1445.0" y2="360.0" stroke="#64748b" marker-end="url(#route-arrow)"/>
-<circle cx="1470.0" cy="360.0" r="25" fill="#16a34a" stroke="#1e293b" stroke-width="2"/>
-<text x="1470.0" y="365.0" text-anchor="middle" font-size="13" fill="white">10</text>
-<text x="1470.0" y="408.0" text-anchor="middle" font-size="14">钟表馆</text>
-<line x1="1495.0" y1="360.0" x2="1575.0" y2="360.0" stroke="#64748b" marker-end="url(#route-arrow)"/>
-<circle cx="1600.0" cy="360.0" r="25" fill="#16a34a" stroke="#1e293b" stroke-width="2"/>
-<text x="1600.0" y="365.0" text-anchor="middle" font-size="13" fill="white">11</text>
-<text x="1600.0" y="408.0" text-anchor="middle" font-size="14">珍宝馆</text>
+<text x="300.0" y="408.0" text-anchor="middle" font-size="14">神武门</text>
+<line x1="325.0" y1="360.0" x2="392.7" y2="360.0" stroke="#64748b" marker-end="url(#route-arrow)"/>
+<circle cx="417.7" cy="360.0" r="25" fill="#16a34a" stroke="#1e293b" stroke-width="2"/>
+<text x="417.7" y="365.0" text-anchor="middle" font-size="13" fill="white">2</text>
+<text x="417.7" y="408.0" text-anchor="middle" font-size="14">御花园</text>
+<line x1="442.7" y1="360.0" x2="510.4" y2="360.0" stroke="#64748b" marker-end="url(#route-arrow)"/>
+<circle cx="535.4" cy="360.0" r="25" fill="#16a34a" stroke="#1e293b" stroke-width="2"/>
+<text x="535.4" y="365.0" text-anchor="middle" font-size="13" fill="white">3</text>
+<text x="535.4" y="408.0" text-anchor="middle" font-size="14">坤宁宫</text>
+<line x1="560.4" y1="360.0" x2="628.1" y2="360.0" stroke="#64748b" marker-end="url(#route-arrow)"/>
+<circle cx="653.1" cy="360.0" r="25" fill="#16a34a" stroke="#1e293b" stroke-width="2"/>
+<text x="653.1" y="365.0" text-anchor="middle" font-size="13" fill="white">4</text>
+<text x="653.1" y="408.0" text-anchor="middle" font-size="14">乾清宫</text>
+<line x1="678.1" y1="360.0" x2="745.8" y2="360.0" stroke="#64748b" marker-end="url(#route-arrow)"/>
+<circle cx="770.8" cy="360.0" r="25" fill="#16a34a" stroke="#1e293b" stroke-width="2"/>
+<text x="770.8" y="365.0" text-anchor="middle" font-size="13" fill="white">5</text>
+<text x="770.8" y="408.0" text-anchor="middle" font-size="14">养心殿</text>
+<line x1="795.8" y1="360.0" x2="863.5" y2="360.0" stroke="#64748b" marker-end="url(#route-arrow)"/>
+<circle cx="888.5" cy="360.0" r="25" fill="#16a34a" stroke="#1e293b" stroke-width="2"/>
+<text x="888.5" y="365.0" text-anchor="middle" font-size="13" fill="white">6</text>
+<text x="888.5" y="408.0" text-anchor="middle" font-size="14">永寿宫</text>
+<line x1="913.5" y1="360.0" x2="981.2" y2="360.0" stroke="#64748b" marker-end="url(#route-arrow)"/>
+<circle cx="1006.2" cy="360.0" r="25" fill="#16a34a" stroke="#1e293b" stroke-width="2"/>
+<text x="1006.2" y="365.0" text-anchor="middle" font-size="13" fill="white">7</text>
+<text x="1006.2" y="408.0" text-anchor="middle" font-size="14">储秀宫</text>
+<line x1="1031.2" y1="360.0" x2="1098.8" y2="360.0" stroke="#64748b" marker-end="url(#route-arrow)"/>
+<circle cx="1123.8" cy="360.0" r="25" fill="#16a34a" stroke="#1e293b" stroke-width="2"/>
+<text x="1123.8" y="365.0" text-anchor="middle" font-size="13" fill="white">8</text>
+<text x="1123.8" y="408.0" text-anchor="middle" font-size="14">御花园</text>
+<line x1="1148.8" y1="360.0" x2="1216.5" y2="360.0" stroke="#64748b" marker-end="url(#route-arrow)"/>
+<circle cx="1241.5" cy="360.0" r="25" fill="#16a34a" stroke="#1e293b" stroke-width="2"/>
+<text x="1241.5" y="365.0" text-anchor="middle" font-size="13" fill="white">9</text>
+<text x="1241.5" y="408.0" text-anchor="middle" font-size="14">神武门</text>
+<line x1="1266.5" y1="360.0" x2="1334.2" y2="360.0" stroke="#64748b" marker-end="url(#route-arrow)"/>
+<circle cx="1359.2" cy="360.0" r="25" fill="#16a34a" stroke="#1e293b" stroke-width="2"/>
+<text x="1359.2" y="365.0" text-anchor="middle" font-size="13" fill="white">10</text>
+<text x="1359.2" y="408.0" text-anchor="middle" font-size="14">午门</text>
+<line x1="1384.2" y1="360.0" x2="1451.9" y2="360.0" stroke="#64748b" marker-end="url(#route-arrow)"/>
+<circle cx="1476.9" cy="360.0" r="25" fill="#16a34a" stroke="#1e293b" stroke-width="2"/>
+<text x="1476.9" y="365.0" text-anchor="middle" font-size="13" fill="white">11</text>
+<text x="1476.9" y="408.0" text-anchor="middle" font-size="14">前朝三大殿</text>
+<line x1="1501.9" y1="360.0" x2="1569.6" y2="360.0" stroke="#64748b" marker-end="url(#route-arrow)"/>
+<circle cx="1594.6" cy="360.0" r="25" fill="#16a34a" stroke="#1e293b" stroke-width="2"/>
+<text x="1594.6" y="365.0" text-anchor="middle" font-size="13" fill="white">12</text>
+<text x="1594.6" y="408.0" text-anchor="middle" font-size="14">钟表馆</text>
+<line x1="1619.6" y1="360.0" x2="1687.3" y2="360.0" stroke="#64748b" marker-end="url(#route-arrow)"/>
+<circle cx="1712.3" cy="360.0" r="25" fill="#16a34a" stroke="#1e293b" stroke-width="2"/>
+<text x="1712.3" y="365.0" text-anchor="middle" font-size="13" fill="white">13</text>
+<text x="1712.3" y="408.0" text-anchor="middle" font-size="14">珍宝馆</text>
 <text x="50" y="498" font-size="16" font-weight="bold" fill="#16a34a">route-GG-traveler-GG_T05</text>
 <circle cx="300.0" cy="490.0" r="25" fill="#16a34a" stroke="#1e293b" stroke-width="2"/>
 <text x="300.0" y="495.0" text-anchor="middle" font-size="13" fill="white">1</text>

@@ -2,326 +2,326 @@
 <defs><marker id="edge-arrow" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#64748b"/></marker></defs>
 <rect width="100%" height="100%" fill="#ffffff"/>
 <text x="35" y="38" font-size="25" font-weight="bold">完整关系图：mentions_time</text>
-<text x="35" y="68" font-size="15" fill="#475569">本页显示该关系第 81—120 条，共 181 条；每行一条边</text>
+<text x="35" y="68" font-size="15" fill="#475569">本页显示该关系第 41—80 条，共 181 条；每行一条边</text>
 <line x1="35" y1="88" x2="2065" y2="88" stroke="#cbd5e1"/>
-<text x="35" y="115" font-size="13" fill="#64748b">81</text>
+<text x="35" y="115" font-size="13" fill="#64748b">41</text>
 <rect x="75" y="93" width="500" height="28" rx="5" fill="#b91c1c"/>
-<text x="90" y="112" font-size="14" fill="white">scenic · 故宫</text>
+<text x="90" y="112" font-size="14" fill="white">scenic · 天坛</text>
 <line x1="590" y1="107" x2="825" y2="107" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="102" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="93" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="112" font-size="14" fill="white">time · 13:00—14:20</text>
-<text x="1380" y="112" font-size="12" fill="#475569">source_document=GG_S01；source_type=task2</text>
-<text x="35" y="157" font-size="13" fill="#64748b">82</text>
+<text x="865" y="112" font-size="14" fill="white">time · 两小时</text>
+<text x="1380" y="112" font-size="12" fill="#475569">source_document=TT_T03；source_type=task2</text>
+<text x="35" y="157" font-size="13" fill="#64748b">42</text>
 <rect x="75" y="135" width="500" height="28" rx="5" fill="#b91c1c"/>
-<text x="90" y="154" font-size="14" fill="white">scenic · 故宫</text>
+<text x="90" y="154" font-size="14" fill="white">scenic · 天坛</text>
 <line x1="590" y1="149" x2="825" y2="149" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="144" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="135" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="154" font-size="14" fill="white">time · 13:30</text>
-<text x="1380" y="154" font-size="12" fill="#475569">source_document=GG_S02；source_type=task2</text>
-<text x="35" y="199" font-size="13" fill="#64748b">83</text>
+<text x="865" y="154" font-size="14" fill="white">time · 两点</text>
+<text x="1380" y="154" font-size="12" fill="#475569">source_document=TT_S01；source_type=task2</text>
+<text x="35" y="199" font-size="13" fill="#64748b">43</text>
 <rect x="75" y="177" width="500" height="28" rx="5" fill="#b91c1c"/>
-<text x="90" y="196" font-size="14" fill="white">scenic · 故宫</text>
+<text x="90" y="196" font-size="14" fill="white">scenic · 天坛</text>
 <line x1="590" y1="191" x2="825" y2="191" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="186" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="177" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="196" font-size="14" fill="white">time · 14:20—15:20</text>
-<text x="1380" y="196" font-size="12" fill="#475569">source_document=GG_S01；source_type=task2</text>
-<text x="35" y="241" font-size="13" fill="#64748b">84</text>
+<text x="865" y="196" font-size="14" fill="white">time · 中午</text>
+<text x="1380" y="196" font-size="12" fill="#475569">source_document=TT_F01；source_type=task2</text>
+<text x="35" y="241" font-size="13" fill="#64748b">44</text>
 <rect x="75" y="219" width="500" height="28" rx="5" fill="#b91c1c"/>
-<text x="90" y="238" font-size="14" fill="white">scenic · 故宫</text>
+<text x="90" y="238" font-size="14" fill="white">scenic · 天坛</text>
 <line x1="590" y1="233" x2="825" y2="233" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="228" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="219" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="238" font-size="14" fill="white">time · 15:20—16:00</text>
-<text x="1380" y="238" font-size="12" fill="#475569">source_document=GG_S01；source_type=task2</text>
-<text x="35" y="283" font-size="13" fill="#64748b">85</text>
+<text x="865" y="238" font-size="14" fill="white">time · 中午11:40—12:40</text>
+<text x="1380" y="238" font-size="12" fill="#475569">source_document=TT_S02；source_type=task2</text>
+<text x="35" y="283" font-size="13" fill="#64748b">45</text>
 <rect x="75" y="261" width="500" height="28" rx="5" fill="#b91c1c"/>
-<text x="90" y="280" font-size="14" fill="white">scenic · 故宫</text>
+<text x="90" y="280" font-size="14" fill="white">scenic · 天坛</text>
 <line x1="590" y1="275" x2="825" y2="275" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="270" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="261" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="280" font-size="14" fill="white">time · 20分钟</text>
-<text x="1380" y="280" font-size="12" fill="#475569">source_document=GG_S01；source_type=task2</text>
-<text x="35" y="325" font-size="13" fill="#64748b">86</text>
+<text x="865" y="280" font-size="14" fill="white">time · 中午12:00</text>
+<text x="1380" y="280" font-size="12" fill="#475569">source_document=TT_S04；source_type=task2</text>
+<text x="35" y="325" font-size="13" fill="#64748b">46</text>
 <rect x="75" y="303" width="500" height="28" rx="5" fill="#b91c1c"/>
-<text x="90" y="322" font-size="14" fill="white">scenic · 故宫</text>
+<text x="90" y="322" font-size="14" fill="white">scenic · 天坛</text>
 <line x1="590" y1="317" x2="825" y2="317" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="312" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="303" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="322" font-size="14" fill="white">time · 30分钟</text>
-<text x="1380" y="322" font-size="12" fill="#475569">source_document=GG_S01；source_type=task2</text>
-<text x="35" y="367" font-size="13" fill="#64748b">87</text>
+<text x="865" y="322" font-size="14" fill="white">time · 二十分钟</text>
+<text x="1380" y="322" font-size="12" fill="#475569">source_document=TT_S04；source_type=task2</text>
+<text x="35" y="367" font-size="13" fill="#64748b">47</text>
 <rect x="75" y="345" width="500" height="28" rx="5" fill="#b91c1c"/>
-<text x="90" y="364" font-size="14" fill="white">scenic · 故宫</text>
+<text x="90" y="364" font-size="14" fill="white">scenic · 天坛</text>
 <line x1="590" y1="359" x2="825" y2="359" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="354" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="345" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="364" font-size="14" fill="white">time · 40分钟</text>
-<text x="1380" y="364" font-size="12" fill="#475569">source_document=GG_S01；source_type=task2</text>
-<text x="35" y="409" font-size="13" fill="#64748b">88</text>
+<text x="865" y="364" font-size="14" fill="white">time · 五个小时</text>
+<text x="1380" y="364" font-size="12" fill="#475569">source_document=TT_T05；source_type=task2</text>
+<text x="35" y="409" font-size="13" fill="#64748b">48</text>
 <rect x="75" y="387" width="500" height="28" rx="5" fill="#b91c1c"/>
-<text x="90" y="406" font-size="14" fill="white">scenic · 故宫</text>
+<text x="90" y="406" font-size="14" fill="white">scenic · 天坛</text>
 <line x1="590" y1="401" x2="825" y2="401" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="396" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="387" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="406" font-size="14" fill="white">time · 50分钟</text>
-<text x="1380" y="406" font-size="12" fill="#475569">source_document=GG_S01；source_type=task2</text>
-<text x="35" y="451" font-size="13" fill="#64748b">89</text>
+<text x="865" y="406" font-size="14" fill="white">time · 五点</text>
+<text x="1380" y="406" font-size="12" fill="#475569">source_document=TT_T03；source_type=task2</text>
+<text x="35" y="451" font-size="13" fill="#64748b">49</text>
 <rect x="75" y="429" width="500" height="28" rx="5" fill="#b91c1c"/>
-<text x="90" y="448" font-size="14" fill="white">scenic · 故宫</text>
+<text x="90" y="448" font-size="14" fill="white">scenic · 天坛</text>
 <line x1="590" y1="443" x2="825" y2="443" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="438" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="429" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="448" font-size="14" fill="white">time · 5月17日</text>
-<text x="1380" y="448" font-size="12" fill="#475569">source_document=GG_T03；source_type=task2</text>
-<text x="35" y="493" font-size="13" fill="#64748b">90</text>
+<text x="865" y="448" font-size="14" fill="white">time · 今天</text>
+<text x="1380" y="448" font-size="12" fill="#475569">source_document=TT_T05；source_type=task2</text>
+<text x="35" y="493" font-size="13" fill="#64748b">50</text>
 <rect x="75" y="471" width="500" height="28" rx="5" fill="#b91c1c"/>
-<text x="90" y="490" font-size="14" fill="white">scenic · 故宫</text>
+<text x="90" y="490" font-size="14" fill="white">scenic · 天坛</text>
 <line x1="590" y1="485" x2="825" y2="485" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="480" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="471" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="490" font-size="14" fill="white">time · 60分钟</text>
-<text x="1380" y="490" font-size="12" fill="#475569">source_document=GG_S01；source_type=task2</text>
-<text x="35" y="535" font-size="13" fill="#64748b">91</text>
+<text x="865" y="490" font-size="14" fill="white">time · 凌晨</text>
+<text x="1380" y="490" font-size="12" fill="#475569">source_document=TT_T05；source_type=task2</text>
+<text x="35" y="535" font-size="13" fill="#64748b">51</text>
 <rect x="75" y="513" width="500" height="28" rx="5" fill="#b91c1c"/>
-<text x="90" y="532" font-size="14" fill="white">scenic · 故宫</text>
+<text x="90" y="532" font-size="14" fill="white">scenic · 天坛</text>
 <line x1="590" y1="527" x2="825" y2="527" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="522" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="513" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="532" font-size="14" fill="white">time · 80分钟</text>
-<text x="1380" y="532" font-size="12" fill="#475569">source_document=GG_S01；source_type=task2</text>
-<text x="35" y="577" font-size="13" fill="#64748b">92</text>
+<text x="865" y="532" font-size="14" fill="white">time · 十五分钟</text>
+<text x="1380" y="532" font-size="12" fill="#475569">source_document=TT_S05；source_type=task2</text>
+<text x="35" y="577" font-size="13" fill="#64748b">52</text>
 <rect x="75" y="555" width="500" height="28" rx="5" fill="#b91c1c"/>
-<text x="90" y="574" font-size="14" fill="white">scenic · 故宫</text>
+<text x="90" y="574" font-size="14" fill="white">scenic · 天坛</text>
 <line x1="590" y1="569" x2="825" y2="569" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="564" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="555" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="574" font-size="14" fill="white">time · 一天</text>
-<text x="1380" y="574" font-size="12" fill="#475569">source_document=GG_S01；source_type=task2</text>
-<text x="35" y="619" font-size="13" fill="#64748b">93</text>
+<text x="865" y="574" font-size="14" fill="white">time · 十分钟</text>
+<text x="1380" y="574" font-size="12" fill="#475569">source_document=TT_S02；source_type=task2</text>
+<text x="35" y="619" font-size="13" fill="#64748b">53</text>
 <rect x="75" y="597" width="500" height="28" rx="5" fill="#b91c1c"/>
-<text x="90" y="616" font-size="14" fill="white">scenic · 故宫</text>
+<text x="90" y="616" font-size="14" fill="white">scenic · 天坛</text>
 <line x1="590" y1="611" x2="825" y2="611" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="606" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="597" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="616" font-size="14" fill="white">time · 一小时</text>
-<text x="1380" y="616" font-size="12" fill="#475569">source_document=GG_S05；source_type=task2</text>
-<text x="35" y="661" font-size="13" fill="#64748b">94</text>
+<text x="865" y="616" font-size="14" fill="white">time · 午后</text>
+<text x="1380" y="616" font-size="12" fill="#475569">source_document=TT_S01；source_type=task2</text>
+<text x="35" y="661" font-size="13" fill="#64748b">54</text>
 <rect x="75" y="639" width="500" height="28" rx="5" fill="#b91c1c"/>
-<text x="90" y="658" font-size="14" fill="white">scenic · 故宫</text>
+<text x="90" y="658" font-size="14" fill="white">scenic · 天坛</text>
 <line x1="590" y1="653" x2="825" y2="653" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="648" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="639" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="658" font-size="14" fill="white">time · 一点</text>
-<text x="1380" y="658" font-size="12" fill="#475569">source_document=GG_T03；source_type=task2</text>
-<text x="35" y="703" font-size="13" fill="#64748b">95</text>
+<text x="865" y="658" font-size="14" fill="white">time · 半天</text>
+<text x="1380" y="658" font-size="12" fill="#475569">source_document=TT_T01；source_type=task2</text>
+<text x="35" y="703" font-size="13" fill="#64748b">55</text>
 <rect x="75" y="681" width="500" height="28" rx="5" fill="#b91c1c"/>
-<text x="90" y="700" font-size="14" fill="white">scenic · 故宫</text>
+<text x="90" y="700" font-size="14" fill="white">scenic · 天坛</text>
 <line x1="590" y1="695" x2="825" y2="695" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="690" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="681" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="700" font-size="14" fill="white">time · 三十分钟</text>
-<text x="1380" y="700" font-size="12" fill="#475569">source_document=GG_S02；source_type=task2</text>
-<text x="35" y="745" font-size="13" fill="#64748b">96</text>
+<text x="865" y="700" font-size="14" fill="white">time · 四十分钟</text>
+<text x="1380" y="700" font-size="12" fill="#475569">source_document=TT_S04；source_type=task2</text>
+<text x="35" y="745" font-size="13" fill="#64748b">56</text>
 <rect x="75" y="723" width="500" height="28" rx="5" fill="#b91c1c"/>
-<text x="90" y="742" font-size="14" fill="white">scenic · 故宫</text>
+<text x="90" y="742" font-size="14" fill="white">scenic · 天坛</text>
 <line x1="590" y1="737" x2="825" y2="737" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="732" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="723" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="742" font-size="14" fill="white">time · 上午</text>
-<text x="1380" y="742" font-size="12" fill="#475569">source_document=GG_S03；source_type=task2</text>
-<text x="35" y="787" font-size="13" fill="#64748b">97</text>
+<text x="865" y="742" font-size="14" fill="white">time · 四小时</text>
+<text x="1380" y="742" font-size="12" fill="#475569">source_document=TT_S03；source_type=task2</text>
+<text x="35" y="787" font-size="13" fill="#64748b">57</text>
 <rect x="75" y="765" width="500" height="28" rx="5" fill="#b91c1c"/>
-<text x="90" y="784" font-size="14" fill="white">scenic · 故宫</text>
+<text x="90" y="784" font-size="14" fill="white">scenic · 天坛</text>
 <line x1="590" y1="779" x2="825" y2="779" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="774" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="765" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="784" font-size="14" fill="white">time · 上午09:30</text>
-<text x="1380" y="784" font-size="12" fill="#475569">source_document=GG_S05；source_type=task2</text>
-<text x="35" y="829" font-size="13" fill="#64748b">98</text>
+<text x="865" y="784" font-size="14" fill="white">time · 四点</text>
+<text x="1380" y="784" font-size="12" fill="#475569">source_document=TT_T03；source_type=task2</text>
+<text x="35" y="829" font-size="13" fill="#64748b">58</text>
 <rect x="75" y="807" width="500" height="28" rx="5" fill="#b91c1c"/>
-<text x="90" y="826" font-size="14" fill="white">scenic · 故宫</text>
+<text x="90" y="826" font-size="14" fill="white">scenic · 天坛</text>
 <line x1="590" y1="821" x2="825" y2="821" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="816" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="807" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="826" font-size="14" fill="white">time · 上午10:00—10:20</text>
-<text x="1380" y="826" font-size="12" fill="#475569">source_document=GG_S02；source_type=task2</text>
-<text x="35" y="871" font-size="13" fill="#64748b">99</text>
+<text x="865" y="826" font-size="14" fill="white">time · 四点半</text>
+<text x="1380" y="826" font-size="12" fill="#475569">source_document=TT_T03；source_type=task2</text>
+<text x="35" y="871" font-size="13" fill="#64748b">59</text>
 <rect x="75" y="849" width="500" height="28" rx="5" fill="#b91c1c"/>
-<text x="90" y="868" font-size="14" fill="white">scenic · 故宫</text>
+<text x="90" y="868" font-size="14" fill="white">scenic · 天坛</text>
 <line x1="590" y1="863" x2="825" y2="863" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="858" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="849" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="868" font-size="14" fill="white">time · 下午</text>
-<text x="1380" y="868" font-size="12" fill="#475569">source_document=GG_S03；source_type=task2</text>
-<text x="35" y="913" font-size="13" fill="#64748b">100</text>
+<text x="865" y="868" font-size="14" fill="white">time · 大约半小时</text>
+<text x="1380" y="868" font-size="12" fill="#475569">source_document=TT_T02；source_type=task2</text>
+<text x="35" y="913" font-size="13" fill="#64748b">60</text>
 <rect x="75" y="891" width="500" height="28" rx="5" fill="#b91c1c"/>
-<text x="90" y="910" font-size="14" fill="white">scenic · 故宫</text>
+<text x="90" y="910" font-size="14" fill="white">scenic · 天坛</text>
 <line x1="590" y1="905" x2="825" y2="905" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="900" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="891" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="910" font-size="14" fill="white">time · 下午12:40—13:30</text>
-<text x="1380" y="910" font-size="12" fill="#475569">source_document=GG_S02；source_type=task2</text>
-<text x="35" y="955" font-size="13" fill="#64748b">101</text>
+<text x="865" y="910" font-size="14" fill="white">time · 当天</text>
+<text x="1380" y="910" font-size="12" fill="#475569">source_document=TT_S04；source_type=task2</text>
+<text x="35" y="955" font-size="13" fill="#64748b">61</text>
 <rect x="75" y="933" width="500" height="28" rx="5" fill="#b91c1c"/>
-<text x="90" y="952" font-size="14" fill="white">scenic · 故宫</text>
+<text x="90" y="952" font-size="14" fill="white">scenic · 天坛</text>
 <line x1="590" y1="947" x2="825" y2="947" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="942" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="933" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="952" font-size="14" fill="white">time · 下午3点多</text>
-<text x="1380" y="952" font-size="12" fill="#475569">source_document=GG_T03；source_type=task2</text>
-<text x="35" y="997" font-size="13" fill="#64748b">102</text>
+<text x="865" y="952" font-size="14" fill="white">time · 早上</text>
+<text x="1380" y="952" font-size="12" fill="#475569">source_document=TT_T05；source_type=task2</text>
+<text x="35" y="997" font-size="13" fill="#64748b">62</text>
 <rect x="75" y="975" width="500" height="28" rx="5" fill="#b91c1c"/>
-<text x="90" y="994" font-size="14" fill="white">scenic · 故宫</text>
+<text x="90" y="994" font-size="14" fill="white">scenic · 天坛</text>
 <line x1="590" y1="989" x2="825" y2="989" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="984" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="975" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="994" font-size="14" fill="white">time · 两个小时</text>
-<text x="1380" y="994" font-size="12" fill="#475569">source_document=GG_T05；source_type=task2</text>
-<text x="35" y="1039" font-size="13" fill="#64748b">103</text>
+<text x="865" y="994" font-size="14" fill="white">time · 早上10点半</text>
+<text x="1380" y="994" font-size="12" fill="#475569">source_document=TT_T01；source_type=task2</text>
+<text x="35" y="1039" font-size="13" fill="#64748b">63</text>
 <rect x="75" y="1017" width="500" height="28" rx="5" fill="#b91c1c"/>
-<text x="90" y="1036" font-size="14" fill="white">scenic · 故宫</text>
+<text x="90" y="1036" font-size="14" fill="white">scenic · 天坛</text>
 <line x1="590" y1="1031" x2="825" y2="1031" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="1026" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="1017" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="1036" font-size="14" fill="white">time · 两小时</text>
-<text x="1380" y="1036" font-size="12" fill="#475569">source_document=GG_O03；source_type=task2</text>
-<text x="35" y="1081" font-size="13" fill="#64748b">104</text>
+<text x="865" y="1036" font-size="14" fill="white">time · 昨天</text>
+<text x="1380" y="1036" font-size="12" fill="#475569">source_document=TT_T03；source_type=task2</text>
+<text x="35" y="1081" font-size="13" fill="#64748b">64</text>
 <rect x="75" y="1059" width="500" height="28" rx="5" fill="#b91c1c"/>
-<text x="90" y="1078" font-size="14" fill="white">scenic · 故宫</text>
+<text x="90" y="1078" font-size="14" fill="white">scenic · 天坛</text>
 <line x1="590" y1="1073" x2="825" y2="1073" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="1068" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="1059" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="1078" font-size="14" fill="white">time · 两小时左右</text>
-<text x="1380" y="1078" font-size="12" fill="#475569">source_document=GG_O01；source_type=task2</text>
-<text x="35" y="1123" font-size="13" fill="#64748b">105</text>
+<text x="865" y="1078" font-size="14" fill="white">time · 晚上</text>
+<text x="1380" y="1078" font-size="12" fill="#475569">source_document=TT_T01；source_type=task2</text>
+<text x="35" y="1123" font-size="13" fill="#64748b">65</text>
 <rect x="75" y="1101" width="500" height="28" rx="5" fill="#b91c1c"/>
-<text x="90" y="1120" font-size="14" fill="white">scenic · 故宫</text>
+<text x="90" y="1120" font-size="14" fill="white">scenic · 天坛</text>
 <line x1="590" y1="1115" x2="825" y2="1115" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="1110" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="1101" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="1120" font-size="14" fill="white">time · 两点</text>
-<text x="1380" y="1120" font-size="12" fill="#475569">source_document=GG_S01；source_type=task2</text>
-<text x="35" y="1165" font-size="13" fill="#64748b">106</text>
+<text x="865" y="1120" font-size="14" fill="white">time · 清晨</text>
+<text x="1380" y="1120" font-size="12" fill="#475569">source_document=TT_T03；source_type=task2</text>
+<text x="35" y="1165" font-size="13" fill="#64748b">66</text>
 <rect x="75" y="1143" width="500" height="28" rx="5" fill="#b91c1c"/>
-<text x="90" y="1162" font-size="14" fill="white">scenic · 故宫</text>
+<text x="90" y="1162" font-size="14" fill="white">scenic · 天坛</text>
 <line x1="590" y1="1157" x2="825" y2="1157" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="1152" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="1143" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="1162" font-size="14" fill="white">time · 中午</text>
-<text x="1380" y="1162" font-size="12" fill="#475569">source_document=GG_S03；source_type=task2</text>
-<text x="35" y="1207" font-size="13" fill="#64748b">107</text>
+<text x="865" y="1162" font-size="14" fill="white">time · 第二天</text>
+<text x="1380" y="1162" font-size="12" fill="#475569">source_document=TT_T03；source_type=task2</text>
+<text x="35" y="1207" font-size="13" fill="#64748b">67</text>
 <rect x="75" y="1185" width="500" height="28" rx="5" fill="#b91c1c"/>
-<text x="90" y="1204" font-size="14" fill="white">scenic · 故宫</text>
+<text x="90" y="1204" font-size="14" fill="white">scenic · 天坛</text>
 <line x1="590" y1="1199" x2="825" y2="1199" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="1194" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="1185" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="1204" font-size="14" fill="white">time · 中午11:40—12:40</text>
-<text x="1380" y="1204" font-size="12" fill="#475569">source_document=GG_S02；source_type=task2</text>
-<text x="35" y="1249" font-size="13" fill="#64748b">108</text>
+<text x="865" y="1204" font-size="14" fill="white">time · 约二十分钟</text>
+<text x="1380" y="1204" font-size="12" fill="#475569">source_document=TT_S02；source_type=task2</text>
+<text x="35" y="1249" font-size="13" fill="#64748b">68</text>
 <rect x="75" y="1227" width="500" height="28" rx="5" fill="#b91c1c"/>
-<text x="90" y="1246" font-size="14" fill="white">scenic · 故宫</text>
+<text x="90" y="1246" font-size="14" fill="white">scenic · 天坛</text>
 <line x1="590" y1="1241" x2="825" y2="1241" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="1236" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="1227" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="1246" font-size="14" fill="white">time · 中午12:00</text>
-<text x="1380" y="1246" font-size="12" fill="#475569">source_document=GG_S04；source_type=task2</text>
-<text x="35" y="1291" font-size="13" fill="#64748b">109</text>
+<text x="865" y="1246" font-size="14" fill="white">time · 约半小时</text>
+<text x="1380" y="1246" font-size="12" fill="#475569">source_document=TT_T05；source_type=task2</text>
+<text x="35" y="1291" font-size="13" fill="#64748b">69</text>
 <rect x="75" y="1269" width="500" height="28" rx="5" fill="#b91c1c"/>
 <text x="90" y="1288" font-size="14" fill="white">scenic · 故宫</text>
 <line x1="590" y1="1283" x2="825" y2="1283" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="1278" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="1269" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="1288" font-size="14" fill="white">time · 二十分钟</text>
-<text x="1380" y="1288" font-size="12" fill="#475569">source_document=GG_S02；source_type=task2</text>
-<text x="35" y="1333" font-size="13" fill="#64748b">110</text>
+<text x="865" y="1288" font-size="14" fill="white">time · 09:00—09:20</text>
+<text x="1380" y="1288" font-size="12" fill="#475569">source_document=GG_S01；source_type=task2</text>
+<text x="35" y="1333" font-size="13" fill="#64748b">70</text>
 <rect x="75" y="1311" width="500" height="28" rx="5" fill="#b91c1c"/>
 <text x="90" y="1330" font-size="14" fill="white">scenic · 故宫</text>
 <line x1="590" y1="1325" x2="825" y2="1325" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="1320" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="1311" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="1330" font-size="14" fill="white">time · 今天</text>
-<text x="1380" y="1330" font-size="12" fill="#475569">source_document=GG_T01；source_type=task2</text>
-<text x="35" y="1375" font-size="13" fill="#64748b">111</text>
+<text x="865" y="1330" font-size="14" fill="white">time · 09:00至16:00</text>
+<text x="1380" y="1330" font-size="12" fill="#475569">source_document=GG_S01；source_type=task2</text>
+<text x="35" y="1375" font-size="13" fill="#64748b">71</text>
 <rect x="75" y="1353" width="500" height="28" rx="5" fill="#b91c1c"/>
 <text x="90" y="1372" font-size="14" fill="white">scenic · 故宫</text>
 <line x1="590" y1="1367" x2="825" y2="1367" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="1362" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="1353" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="1372" font-size="14" fill="white">time · 十五分钟</text>
-<text x="1380" y="1372" font-size="12" fill="#475569">source_document=GG_S05；source_type=task2</text>
-<text x="35" y="1417" font-size="13" fill="#64748b">112</text>
+<text x="865" y="1372" font-size="14" fill="white">time · 09:20—10:10</text>
+<text x="1380" y="1372" font-size="12" fill="#475569">source_document=GG_S01；source_type=task2</text>
+<text x="35" y="1417" font-size="13" fill="#64748b">72</text>
 <rect x="75" y="1395" width="500" height="28" rx="5" fill="#b91c1c"/>
 <text x="90" y="1414" font-size="14" fill="white">scenic · 故宫</text>
 <line x1="590" y1="1409" x2="825" y2="1409" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="1404" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="1395" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="1414" font-size="14" fill="white">time · 十分钟</text>
-<text x="1380" y="1414" font-size="12" fill="#475569">source_document=GG_S02；source_type=task2</text>
-<text x="35" y="1459" font-size="13" fill="#64748b">113</text>
+<text x="865" y="1414" font-size="14" fill="white">time · 10:00</text>
+<text x="1380" y="1414" font-size="12" fill="#475569">source_document=GG_S04；source_type=task2</text>
+<text x="35" y="1459" font-size="13" fill="#64748b">73</text>
 <rect x="75" y="1437" width="500" height="28" rx="5" fill="#b91c1c"/>
 <text x="90" y="1456" font-size="14" fill="white">scenic · 故宫</text>
 <line x1="590" y1="1451" x2="825" y2="1451" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="1446" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="1437" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="1456" font-size="14" fill="white">time · 午后</text>
+<text x="865" y="1456" font-size="14" fill="white">time · 10:10—10:40</text>
 <text x="1380" y="1456" font-size="12" fill="#475569">source_document=GG_S01；source_type=task2</text>
-<text x="35" y="1501" font-size="13" fill="#64748b">114</text>
+<text x="35" y="1501" font-size="13" fill="#64748b">74</text>
 <rect x="75" y="1479" width="500" height="28" rx="5" fill="#b91c1c"/>
 <text x="90" y="1498" font-size="14" fill="white">scenic · 故宫</text>
 <line x1="590" y1="1493" x2="825" y2="1493" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="1488" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="1479" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="1498" font-size="14" fill="white">time · 半天</text>
-<text x="1380" y="1498" font-size="12" fill="#475569">source_document=GG_O04；source_type=task2</text>
-<text x="35" y="1543" font-size="13" fill="#64748b">115</text>
+<text x="865" y="1498" font-size="14" fill="white">time · 10:20—11:00</text>
+<text x="1380" y="1498" font-size="12" fill="#475569">source_document=GG_S02；source_type=task2</text>
+<text x="35" y="1543" font-size="13" fill="#64748b">75</text>
 <rect x="75" y="1521" width="500" height="28" rx="5" fill="#b91c1c"/>
 <text x="90" y="1540" font-size="14" fill="white">scenic · 故宫</text>
 <line x1="590" y1="1535" x2="825" y2="1535" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="1530" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="1521" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="1540" font-size="14" fill="white">time · 四十分钟</text>
-<text x="1380" y="1540" font-size="12" fill="#475569">source_document=GG_S04；source_type=task2</text>
-<text x="35" y="1585" font-size="13" fill="#64748b">116</text>
+<text x="865" y="1540" font-size="14" fill="white">time · 10:40—11:20</text>
+<text x="1380" y="1540" font-size="12" fill="#475569">source_document=GG_S01；source_type=task2</text>
+<text x="35" y="1585" font-size="13" fill="#64748b">76</text>
 <rect x="75" y="1563" width="500" height="28" rx="5" fill="#b91c1c"/>
 <text x="90" y="1582" font-size="14" fill="white">scenic · 故宫</text>
 <line x1="590" y1="1577" x2="825" y2="1577" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="1572" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="1563" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="1582" font-size="14" fill="white">time · 四小时</text>
-<text x="1380" y="1582" font-size="12" fill="#475569">source_document=GG_S03；source_type=task2</text>
-<text x="35" y="1627" font-size="13" fill="#64748b">117</text>
+<text x="865" y="1582" font-size="14" fill="white">time · 11:00—11:40</text>
+<text x="1380" y="1582" font-size="12" fill="#475569">source_document=GG_S02；source_type=task2</text>
+<text x="35" y="1627" font-size="13" fill="#64748b">77</text>
 <rect x="75" y="1605" width="500" height="28" rx="5" fill="#b91c1c"/>
 <text x="90" y="1624" font-size="14" fill="white">scenic · 故宫</text>
 <line x1="590" y1="1619" x2="825" y2="1619" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="1614" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="1605" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="1624" font-size="14" fill="white">time · 当天</text>
-<text x="1380" y="1624" font-size="12" fill="#475569">source_document=GG_S03；source_type=task2</text>
-<text x="35" y="1669" font-size="13" fill="#64748b">118</text>
+<text x="865" y="1624" font-size="14" fill="white">time · 11:20—12:00</text>
+<text x="1380" y="1624" font-size="12" fill="#475569">source_document=GG_S01；source_type=task2</text>
+<text x="35" y="1669" font-size="13" fill="#64748b">78</text>
 <rect x="75" y="1647" width="500" height="28" rx="5" fill="#b91c1c"/>
 <text x="90" y="1666" font-size="14" fill="white">scenic · 故宫</text>
 <line x1="590" y1="1661" x2="825" y2="1661" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="1656" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="1647" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="1666" font-size="14" fill="white">time · 早上</text>
-<text x="1380" y="1666" font-size="12" fill="#475569">source_document=GG_T01；source_type=task2</text>
-<text x="35" y="1711" font-size="13" fill="#64748b">119</text>
+<text x="865" y="1666" font-size="14" fill="white">time · 12:00—13:00</text>
+<text x="1380" y="1666" font-size="12" fill="#475569">source_document=GG_S01；source_type=task2</text>
+<text x="35" y="1711" font-size="13" fill="#64748b">79</text>
 <rect x="75" y="1689" width="500" height="28" rx="5" fill="#b91c1c"/>
 <text x="90" y="1708" font-size="14" fill="white">scenic · 故宫</text>
 <line x1="590" y1="1703" x2="825" y2="1703" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="1698" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="1689" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="1708" font-size="14" fill="white">time · 晚上</text>
-<text x="1380" y="1708" font-size="12" fill="#475569">source_document=GG_T01；source_type=task2</text>
-<text x="35" y="1753" font-size="13" fill="#64748b">120</text>
+<text x="865" y="1708" font-size="14" fill="white">time · 12:10</text>
+<text x="1380" y="1708" font-size="12" fill="#475569">source_document=GG_S05；source_type=task2</text>
+<text x="35" y="1753" font-size="13" fill="#64748b">80</text>
 <rect x="75" y="1731" width="500" height="28" rx="5" fill="#b91c1c"/>
 <text x="90" y="1750" font-size="14" fill="white">scenic · 故宫</text>
 <line x1="590" y1="1745" x2="825" y2="1745" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
 <text x="705" y="1740" text-anchor="middle" font-size="12" fill="#334155">mentions_time</text>
 <rect x="850" y="1731" width="500" height="28" rx="5" fill="#c2410c"/>
-<text x="865" y="1750" font-size="14" fill="white">time · 第2天</text>
-<text x="1380" y="1750" font-size="12" fill="#475569">source_document=GG_T01；source_type=task2</text>
+<text x="865" y="1750" font-size="14" fill="white">time · 13:00</text>
+<text x="1380" y="1750" font-size="12" fill="#475569">source_document=GG_S04；source_type=task2</text>
 </svg>

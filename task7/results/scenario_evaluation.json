@@ -1,0 +1,360 @@
+{
+  "experiment": 7,
+  "execution_mode": "demo_offline_NO_LLM",
+  "graph_sha256": "0804c2c7b13ede58468925d310274f5e150e88096c4919778f6066eae4b30d15",
+  "scenario_count": 17,
+  "passed": 17,
+  "scenarios": [
+    {
+      "id": "S01",
+      "category": "亲子+一天",
+      "input": "我带孩子去故宫玩一天，怎么规划？",
+      "expected_status": "ok",
+      "actual_status": "ok",
+      "expected_tools": [
+        "query_routes",
+        "query_advice"
+      ],
+      "actual_tools": [
+        "query_routes",
+        "query_advice"
+      ],
+      "selected_pois": [
+        "午门",
+        "太和门",
+        "弘义阁",
+        "太和殿",
+        "中和殿",
+        "保和殿",
+        "乾清门",
+        "神武门"
+      ],
+      "matched_advice_count": 4,
+      "result_file": "S01_trace.json",
+      "pass": true,
+      "answer": "故宫（亲子）建议参考官方路线事实的重点站点：午门 → 太和门 → 弘义阁 → 太和殿 → 中和殿 → 保和殿 → 乾清门 → 神武门。条件建议：[语料游记] 条件「在皇家宫殿里遛娃」下建议「教育好熊孩子不要触碰到皇家文物」；[编辑指南] 条件「想拍照或带孩子观察建筑细节」下建议「可以减少在入口附近停留的时间，把节奏留给中后段」；[编辑指南] 条件「带老人或孩子」下建议「可以在院落间适当休息」。路线来自 GG_F01；站点取舍为规划策略，保留来源标注的入口出口；未选站点及完整来源次序见结构化记录，不能视为直接通行或实测时间表。"
+    },
+    {
+      "id": "S02",
+      "category": "老人+半天",
+      "input": "带老人去故宫游玩半天，希望轻松一点",
+      "expected_status": "ok",
+      "actual_status": "ok",
+      "expected_tools": [
+        "query_routes",
+        "query_advice"
+      ],
+      "actual_tools": [
+        "query_routes",
+        "query_advice"
+      ],
+      "selected_pois": [
+        "午门",
+        "太和门",
+        "弘义阁",
+        "太和殿",
+        "神武门"
+      ],
+      "matched_advice_count": 2,
+      "result_file": "S02_trace.json",
+      "pass": true,
+      "answer": "故宫（老人）建议参考官方路线事实的重点站点：午门 → 太和门 → 弘义阁 → 太和殿 → 神武门。条件建议：[编辑指南] 条件「带老人或孩子」下建议「可以在院落间适当休息」；[教学模拟] 条件「带老人」下建议「每连续步行二十分钟安排一次休息，并删减珍宝馆支线」。路线来自 GG_F01；站点取舍为规划策略，保留来源标注的入口出口；未选站点及完整来源次序见结构化记录，不能视为直接通行或实测时间表。"
+    },
+    {
+      "id": "S03",
+      "category": "情侣+两天",
+      "input": "情侣去故宫两天，有什么合适的路线？",
+      "expected_status": "ok",
+      "actual_status": "ok",
+      "expected_tools": [
+        "query_routes",
+        "query_advice"
+      ],
+      "actual_tools": [
+        "query_routes",
+        "query_advice"
+      ],
+      "selected_pois": [
+        "午门",
+        "太和门",
+        "弘义阁",
+        "太和殿",
+        "中和殿",
+        "保和殿",
+        "乾清门",
+        "乾清宫",
+        "交泰殿",
+        "坤宁宫",
+        "御花园",
+        "神武门"
+      ],
+      "matched_advice_count": 1,
+      "result_file": "S03_trace.json",
+      "pass": true,
+      "answer": "故宫（情侣）建议参考官方路线事实的重点站点：午门 → 太和门 → 弘义阁 → 太和殿 → 中和殿 → 保和殿 → 乾清门 → 乾清宫 → 交泰殿 → 坤宁宫 → 御花园 → 神武门。条件建议：[教学模拟] 条件「同行者是情侣」下建议「可在不妨碍通行的地点安排拍照」。路线来自 GG_F01；站点取舍为规划策略，保留来源标注的入口出口；未选站点及完整来源次序见结构化记录，不能视为直接通行或实测时间表。"
+    },
+    {
+      "id": "S04",
+      "category": "不同景区无有序路线",
+      "input": "亲子去颐和园玩一天如何安排？",
+      "expected_status": "partial",
+      "actual_status": "partial",
+      "expected_tools": [
+        "query_routes",
+        "query_advice",
+        "query_pois"
+      ],
+      "actual_tools": [
+        "query_routes",
+        "query_advice",
+        "query_pois"
+      ],
+      "selected_pois": [],
+      "matched_advice_count": 2,
+      "result_file": "S04_trace.json",
+      "pass": true,
+      "answer": "颐和园存在 38 个图谱 POI，但实验六没有提供该景区的有序路线。以下仅是地点候选，不能断言游览先后：佛香阁、昆明湖、长廊、东宫门、乐寿堂、西堤、仁寿殿、石舫。"
+    },
+    {
+      "id": "S05",
+      "category": "未收录景区",
+      "input": "明天想去圆明园玩一天",
+      "expected_status": "no_match",
+      "actual_status": "no_match",
+      "expected_tools": [],
+      "actual_tools": [],
+      "selected_pois": [],
+      "matched_advice_count": 0,
+      "result_file": "S05_trace.json",
+      "pass": true,
+      "answer": "图谱未收录「圆明园」，仅支持：天坛、故宫、颐和园。"
+    },
+    {
+      "id": "S06",
+      "category": "缺少景区",
+      "input": "带孩子玩一天，帮我规划",
+      "expected_status": "needs_clarification",
+      "actual_status": "needs_clarification",
+      "expected_tools": [],
+      "actual_tools": [],
+      "selected_pois": [],
+      "matched_advice_count": 0,
+      "result_file": "S06_trace.json",
+      "pass": true,
+      "answer": "缺少明确的景区，请补充故宫、颐和园或天坛"
+    },
+    {
+      "id": "S07",
+      "category": "时长冲突",
+      "input": "故宫我既要安排一天又要安排两天，怎么做？",
+      "expected_status": "conflict",
+      "actual_status": "conflict",
+      "expected_tools": [],
+      "actual_tools": [],
+      "selected_pois": [],
+      "matched_advice_count": 0,
+      "result_file": "S07_trace.json",
+      "pass": true,
+      "answer": "时长包含相互冲突的要求，请明确一个时长"
+    },
+    {
+      "id": "S08",
+      "category": "跨景区冲突",
+      "input": "一天玩故宫和天坛怎么规划？",
+      "expected_status": "conflict",
+      "actual_status": "conflict",
+      "expected_tools": [],
+      "actual_tools": [],
+      "selected_pois": [],
+      "matched_advice_count": 0,
+      "result_file": "S08_trace.json",
+      "pass": true,
+      "answer": "一次请求涉及多个景区，当前只支持单景区路线规划"
+    },
+    {
+      "id": "S09",
+      "category": "无该景区路线",
+      "input": "带老人游天坛一天",
+      "expected_status": "partial",
+      "actual_status": "partial",
+      "expected_tools": [
+        "query_routes",
+        "query_advice",
+        "query_pois"
+      ],
+      "actual_tools": [
+        "query_routes",
+        "query_advice",
+        "query_pois"
+      ],
+      "selected_pois": [],
+      "matched_advice_count": 1,
+      "result_file": "S09_trace.json",
+      "pass": true,
+      "answer": "天坛存在 34 个图谱 POI，但实验六没有提供该景区的有序路线。以下仅是地点候选，不能断言游览先后：圜丘、祈年殿、皇穹宇、天坛公园东门、斋宫、天坛公园南门、回音壁、天坛公园。"
+    },
+    {
+      "id": "S10",
+      "category": "已知与未知景区混合",
+      "input": "去故宫和圆明园玩一天",
+      "expected_status": "conflict",
+      "actual_status": "conflict",
+      "expected_tools": [],
+      "actual_tools": [],
+      "selected_pois": [],
+      "matched_advice_count": 0,
+      "result_file": "S10_trace.json",
+      "pass": true,
+      "answer": "一次请求涉及多个景区，当前只支持单景区路线规划"
+    },
+    {
+      "id": "S11",
+      "category": "一天与小时补充描述",
+      "input": "带孩子去故宫一天，共8小时",
+      "expected_status": "ok",
+      "actual_status": "ok",
+      "expected_tools": [
+        "query_routes",
+        "query_advice"
+      ],
+      "actual_tools": [
+        "query_routes",
+        "query_advice"
+      ],
+      "selected_pois": [
+        "午门",
+        "太和门",
+        "弘义阁",
+        "太和殿",
+        "中和殿",
+        "保和殿",
+        "乾清门",
+        "乾清宫",
+        "神武门"
+      ],
+      "matched_advice_count": 4,
+      "result_file": "S11_trace.json",
+      "pass": true,
+      "answer": "故宫（亲子）建议参考官方路线事实的重点站点：午门 → 太和门 → 弘义阁 → 太和殿 → 中和殿 → 保和殿 → 乾清门 → 乾清宫 → 神武门。条件建议：[语料游记] 条件「在皇家宫殿里遛娃」下建议「教育好熊孩子不要触碰到皇家文物」；[编辑指南] 条件「想拍照或带孩子观察建筑细节」下建议「可以减少在入口附近停留的时间，把节奏留给中后段」；[编辑指南] 条件「带老人或孩子」下建议「可以在院落间适当休息」。路线来自 GG_F01；站点取舍为规划策略，保留来源标注的入口出口；未选站点及完整来源次序见结构化记录，不能视为直接通行或实测时间表。"
+    },
+    {
+      "id": "S12",
+      "category": "多位小时超出支持范围",
+      "input": "故宫玩13小时",
+      "expected_status": "needs_clarification",
+      "actual_status": "needs_clarification",
+      "expected_tools": [],
+      "actual_tools": [],
+      "selected_pois": [],
+      "matched_advice_count": 0,
+      "result_file": "S12_trace.json",
+      "pass": true,
+      "answer": "当前只支持1—3天或1—12小时，请调整时长；已保留原始数值"
+    },
+    {
+      "id": "S13",
+      "category": "多位天数超出支持范围",
+      "input": "故宫玩10天",
+      "expected_status": "needs_clarification",
+      "actual_status": "needs_clarification",
+      "expected_tools": [],
+      "actual_tools": [],
+      "selected_pois": [],
+      "matched_advice_count": 0,
+      "result_file": "S13_trace.json",
+      "pass": true,
+      "answer": "当前只支持1—3天或1—12小时，请调整时长；已保留原始数值"
+    },
+    {
+      "id": "S14",
+      "category": "否定亲子需求",
+      "input": "不带孩子，独自去故宫一天",
+      "expected_status": "ok",
+      "actual_status": "ok",
+      "expected_tools": [
+        "query_routes",
+        "query_advice"
+      ],
+      "actual_tools": [
+        "query_routes",
+        "query_advice"
+      ],
+      "selected_pois": [
+        "午门",
+        "太和门",
+        "弘义阁",
+        "太和殿",
+        "中和殿",
+        "保和殿",
+        "乾清门",
+        "神武门"
+      ],
+      "matched_advice_count": 0,
+      "result_file": "S14_trace.json",
+      "pass": true,
+      "answer": "故宫（未特定）建议参考官方路线事实的重点站点：午门 → 太和门 → 弘义阁 → 太和殿 → 中和殿 → 保和殿 → 乾清门 → 神武门。条件建议：没有精确命中的人群/情境建议。路线来自 GG_F01；站点取舍为规划策略，保留来源标注的入口出口；未选站点及完整来源次序见结构化记录，不能视为直接通行或实测时间表。"
+    },
+    {
+      "id": "S15",
+      "category": "排除一个景区",
+      "input": "不去故宫，去天坛一天",
+      "expected_status": "partial",
+      "actual_status": "partial",
+      "expected_tools": [
+        "query_routes",
+        "query_advice",
+        "query_pois"
+      ],
+      "actual_tools": [
+        "query_routes",
+        "query_advice",
+        "query_pois"
+      ],
+      "selected_pois": [],
+      "matched_advice_count": 0,
+      "result_file": "S15_trace.json",
+      "pass": true,
+      "answer": "天坛存在 34 个图谱 POI，但实验六没有提供该景区的有序路线。以下仅是地点候选，不能断言游览先后：圜丘、祈年殿、皇穹宇、天坛公园东门、斋宫、天坛公园南门、回音壁、天坛公园。"
+    },
+    {
+      "id": "S16",
+      "category": "同时带老人和孩子",
+      "input": "带老人和孩子去故宫半天",
+      "expected_status": "ok",
+      "actual_status": "ok",
+      "expected_tools": [
+        "query_routes",
+        "query_advice"
+      ],
+      "actual_tools": [
+        "query_routes",
+        "query_advice"
+      ],
+      "selected_pois": [
+        "午门",
+        "太和门",
+        "弘义阁",
+        "太和殿",
+        "神武门"
+      ],
+      "matched_advice_count": 5,
+      "result_file": "S16_trace.json",
+      "pass": true,
+      "answer": "故宫（亲子、老人）建议参考官方路线事实的重点站点：午门 → 太和门 → 弘义阁 → 太和殿 → 神武门。条件建议：[语料游记] 条件「在皇家宫殿里遛娃」下建议「教育好熊孩子不要触碰到皇家文物」；[编辑指南] 条件「想拍照或带孩子观察建筑细节」下建议「可以减少在入口附近停留的时间，把节奏留给中后段」；[编辑指南] 条件「带老人或孩子」下建议「可以在院落间适当休息」。路线来自 GG_F01；站点取舍为规划策略，保留来源标注的入口出口；未选站点及完整来源次序见结构化记录，不能视为直接通行或实测时间表。"
+    },
+    {
+      "id": "S17",
+      "category": "中文多位小时",
+      "input": "故宫玩十三小时",
+      "expected_status": "needs_clarification",
+      "actual_status": "needs_clarification",
+      "expected_tools": [],
+      "actual_tools": [],
+      "selected_pois": [],
+      "matched_advice_count": 0,
+      "result_file": "S17_trace.json",
+      "pass": true,
+      "answer": "当前只支持1—3天或1—12小时，请调整时长；已保留原始数值"
+    }
+  ]
+}
