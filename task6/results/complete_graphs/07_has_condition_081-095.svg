@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2100" height="745" viewBox="0 0 2100 745">
+<defs><marker id="edge-arrow" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#64748b"/></marker></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="35" y="38" font-size="25" font-weight="bold">完整关系图：has_condition</text>
+<text x="35" y="68" font-size="15" fill="#475569">本页显示该关系第 81—95 条，共 95 条；每行一条边</text>
+<line x1="35" y1="88" x2="2065" y2="88" stroke="#cbd5e1"/>
+<text x="35" y="115" font-size="13" fill="#64748b">81</text>
+<rect x="75" y="93" width="500" height="28" rx="5" fill="#b91c1c"/>
+<text x="90" y="112" font-size="14" fill="white">scenic · 颐和园</text>
+<line x1="590" y1="107" x2="825" y2="107" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="102" text-anchor="middle" font-size="12" fill="#334155">has_condition</text>
+<rect x="850" y="93" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="865" y="112" font-size="14" fill="white">condition · 天气与开放情况得到确认</text>
+<text x="1380" y="112" font-size="12" fill="#475569">source_document=YHY_S03；source_type=task5</text>
+<text x="35" y="157" font-size="13" fill="#64748b">82</text>
+<rect x="75" y="135" width="500" height="28" rx="5" fill="#b91c1c"/>
+<text x="90" y="154" font-size="14" fill="white">scenic · 颐和园</text>
+<line x1="590" y1="149" x2="825" y2="149" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="144" text-anchor="middle" font-size="12" fill="#334155">has_condition</text>
+<rect x="850" y="135" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="865" y="154" font-size="14" fill="white">condition · 如果和妈妈走散了</text>
+<text x="1380" y="154" font-size="12" fill="#475569">source_document=YHY_T03；source_type=task5</text>
+<text x="35" y="199" font-size="13" fill="#64748b">83</text>
+<rect x="75" y="177" width="500" height="28" rx="5" fill="#b91c1c"/>
+<text x="90" y="196" font-size="14" fill="white">scenic · 颐和园</text>
+<line x1="590" y1="191" x2="825" y2="191" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="186" text-anchor="middle" font-size="12" fill="#334155">has_condition</text>
+<rect x="850" y="177" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="865" y="196" font-size="14" fill="white">condition · 带孩子</text>
+<text x="1380" y="196" font-size="12" fill="#475569">source_document=YHY_O05；source_type=task5</text>
+<text x="35" y="241" font-size="13" fill="#64748b">84</text>
+<rect x="75" y="219" width="500" height="28" rx="5" fill="#b91c1c"/>
+<text x="90" y="238" font-size="14" fill="white">scenic · 颐和园</text>
+<line x1="590" y1="233" x2="825" y2="233" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="228" text-anchor="middle" font-size="12" fill="#334155">has_condition</text>
+<rect x="850" y="219" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="865" y="238" font-size="14" fill="white">condition · 带孩子</text>
+<text x="1380" y="238" font-size="12" fill="#475569">source_document=YHY_S01；source_type=task5</text>
+<text x="35" y="283" font-size="13" fill="#64748b">85</text>
+<rect x="75" y="261" width="500" height="28" rx="5" fill="#b91c1c"/>
+<text x="90" y="280" font-size="14" fill="white">scenic · 颐和园</text>
+<line x1="590" y1="275" x2="825" y2="275" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="270" text-anchor="middle" font-size="12" fill="#334155">has_condition</text>
+<rect x="850" y="261" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="865" y="280" font-size="14" fill="white">condition · 带孩子且孩子已经疲劳</text>
+<text x="1380" y="280" font-size="12" fill="#475569">source_document=YHY_S03；source_type=task5</text>
+<text x="35" y="325" font-size="13" fill="#64748b">86</text>
+<rect x="75" y="303" width="500" height="28" rx="5" fill="#b91c1c"/>
+<text x="90" y="322" font-size="14" fill="white">scenic · 颐和园</text>
+<line x1="590" y1="317" x2="825" y2="317" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="312" text-anchor="middle" font-size="12" fill="#334155">has_condition</text>
+<rect x="850" y="303" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="865" y="322" font-size="14" fill="white">condition · 带孩子且已经疲劳</text>
+<text x="1380" y="322" font-size="12" fill="#475569">source_document=YHY_S04；source_type=task5</text>
+<text x="35" y="367" font-size="13" fill="#64748b">87</text>
+<rect x="75" y="345" width="500" height="28" rx="5" fill="#b91c1c"/>
+<text x="90" y="364" font-size="14" fill="white">scenic · 颐和园</text>
+<line x1="590" y1="359" x2="825" y2="359" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="354" text-anchor="middle" font-size="12" fill="#334155">has_condition</text>
+<rect x="850" y="345" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="865" y="364" font-size="14" fill="white">condition · 带孩子同行时</text>
+<text x="1380" y="364" font-size="12" fill="#475569">source_document=YHY_O02；source_type=task5</text>
+<text x="35" y="409" font-size="13" fill="#64748b">88</text>
+<rect x="75" y="387" width="500" height="28" rx="5" fill="#b91c1c"/>
+<text x="90" y="406" font-size="14" fill="white">scenic · 颐和园</text>
+<line x1="590" y1="401" x2="825" y2="401" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="396" text-anchor="middle" font-size="12" fill="#334155">has_condition</text>
+<rect x="850" y="387" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="865" y="406" font-size="14" fill="white">condition · 带老人</text>
+<text x="1380" y="406" font-size="12" fill="#475569">source_document=YHY_S02；source_type=task5</text>
+<text x="35" y="451" font-size="13" fill="#64748b">89</text>
+<rect x="75" y="429" width="500" height="28" rx="5" fill="#b91c1c"/>
+<text x="90" y="448" font-size="14" fill="white">scenic · 颐和园</text>
+<line x1="590" y1="443" x2="825" y2="443" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="438" text-anchor="middle" font-size="12" fill="#334155">has_condition</text>
+<rect x="850" y="429" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="865" y="448" font-size="14" fill="white">condition · 当天不乘船</text>
+<text x="1380" y="448" font-size="12" fill="#475569">source_document=YHY_O05；source_type=task5</text>
+<text x="35" y="493" font-size="13" fill="#64748b">90</text>
+<rect x="75" y="471" width="500" height="28" rx="5" fill="#b91c1c"/>
+<text x="90" y="490" font-size="14" fill="white">scenic · 颐和园</text>
+<line x1="590" y1="485" x2="825" y2="485" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="480" text-anchor="middle" font-size="12" fill="#334155">has_condition</text>
+<rect x="850" y="471" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="865" y="490" font-size="14" fill="white">condition · 当天游船停航或等候过久</text>
+<text x="1380" y="490" font-size="12" fill="#475569">source_document=YHY_O02；source_type=task5</text>
+<text x="35" y="535" font-size="13" fill="#64748b">91</text>
+<rect x="75" y="513" width="500" height="28" rx="5" fill="#b91c1c"/>
+<text x="90" y="532" font-size="14" fill="white">scenic · 颐和园</text>
+<line x1="590" y1="527" x2="825" y2="527" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="522" text-anchor="middle" font-size="12" fill="#334155">has_condition</text>
+<rect x="850" y="513" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="865" y="532" font-size="14" fill="white">condition · 时间有限</text>
+<text x="1380" y="532" font-size="12" fill="#475569">source_document=YHY_O03；source_type=task5</text>
+<text x="35" y="577" font-size="13" fill="#64748b">92</text>
+<rect x="75" y="555" width="500" height="28" rx="5" fill="#b91c1c"/>
+<text x="90" y="574" font-size="14" fill="white">scenic · 颐和园</text>
+<line x1="590" y1="569" x2="825" y2="569" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="564" text-anchor="middle" font-size="12" fill="#334155">has_condition</text>
+<rect x="850" y="555" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="865" y="574" font-size="14" fill="white">condition · 游船因大风停航</text>
+<text x="1380" y="574" font-size="12" fill="#475569">source_document=YHY_S03；source_type=task5</text>
+<text x="35" y="619" font-size="13" fill="#64748b">93</text>
+<rect x="75" y="597" width="500" height="28" rx="5" fill="#b91c1c"/>
+<text x="90" y="616" font-size="14" fill="white">scenic · 颐和园</text>
+<line x1="590" y1="611" x2="825" y2="611" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="606" text-anchor="middle" font-size="12" fill="#334155">has_condition</text>
+<rect x="850" y="597" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="865" y="616" font-size="14" fill="white">condition · 老人明确表示疲劳</text>
+<text x="1380" y="616" font-size="12" fill="#475569">source_document=YHY_S02；source_type=task5</text>
+<text x="35" y="661" font-size="13" fill="#64748b">94</text>
+<rect x="75" y="639" width="500" height="28" rx="5" fill="#b91c1c"/>
+<text x="90" y="658" font-size="14" fill="white">scenic · 颐和园</text>
+<line x1="590" y1="653" x2="825" y2="653" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="648" text-anchor="middle" font-size="12" fill="#334155">has_condition</text>
+<rect x="850" y="639" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="865" y="658" font-size="14" fill="white">condition · 计划严格控制时长</text>
+<text x="1380" y="658" font-size="12" fill="#475569">source_document=YHY_O03；source_type=task5</text>
+<text x="35" y="703" font-size="13" fill="#64748b">95</text>
+<rect x="75" y="681" width="500" height="28" rx="5" fill="#b91c1c"/>
+<text x="90" y="700" font-size="14" fill="white">scenic · 颐和园</text>
+<line x1="590" y1="695" x2="825" y2="695" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="690" text-anchor="middle" font-size="12" fill="#334155">has_condition</text>
+<rect x="850" y="681" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="865" y="700" font-size="14" fill="white">condition · 转入展厅</text>
+<text x="1380" y="700" font-size="12" fill="#475569">source_document=YHY_T04；source_type=task5</text>
+</svg>

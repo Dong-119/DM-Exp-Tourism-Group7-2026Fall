@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="430" viewBox="0 0 1080 430">
+<rect width="1080" height="430" fill="#f7f9fb"/>
+<g font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" fill="#1e3347">
+<text x="28" y="44" font-size="26" font-weight="bold">V2 实体词频</text>
+<text x="28" y="72" font-size="14">每类前 8 项 · 三景区合计 · 横条按各类最大词频缩放</text>
+<text x="28" y="112" font-size="18" font-weight="bold">景点 POI</text>
+<text x="28" y="155" font-size="13">故宫</text>
+<rect x="164" y="140" width="153.0" height="20" rx="3" fill="#35699b"/>
+<text x="324.0" y="155" font-size="13">120</text>
+<text x="28" y="187" font-size="13">颐和园</text>
+<rect x="164" y="172" width="128.8" height="20" rx="3" fill="#35699b"/>
+<text x="299.8" y="187" font-size="13">101</text>
+<text x="28" y="219" font-size="13">天坛</text>
+<rect x="164" y="204" width="59.9" height="20" rx="3" fill="#35699b"/>
+<text x="230.9" y="219" font-size="13">47</text>
+<text x="28" y="251" font-size="13">圜丘</text>
+<rect x="164" y="236" width="51.0" height="20" rx="3" fill="#35699b"/>
+<text x="222.0" y="251" font-size="13">40</text>
+<text x="28" y="283" font-size="13">祈年殿</text>
+<rect x="164" y="268" width="45.9" height="20" rx="3" fill="#35699b"/>
+<text x="216.9" y="283" font-size="13">36</text>
+<text x="28" y="315" font-size="13">神武门</text>
+<rect x="164" y="300" width="45.9" height="20" rx="3" fill="#35699b"/>
+<text x="216.9" y="315" font-size="13">36</text>
+<text x="28" y="347" font-size="13">太和殿</text>
+<rect x="164" y="332" width="44.6" height="20" rx="3" fill="#35699b"/>
+<text x="215.6" y="347" font-size="13">35</text>
+<text x="28" y="379" font-size="13">佛香阁</text>
+<rect x="164" y="364" width="42.1" height="20" rx="3" fill="#35699b"/>
+<text x="213.1" y="379" font-size="13">33</text>
+<text x="382" y="112" font-size="18" font-weight="bold">交通方式</text>
+<text x="382" y="155" font-size="13">步行</text>
+<rect x="518" y="140" width="153.0" height="20" rx="3" fill="#228577"/>
+<text x="678.0" y="155" font-size="13">71</text>
+<text x="382" y="187" font-size="13">乘船</text>
+<rect x="518" y="172" width="58.2" height="20" rx="3" fill="#228577"/>
+<text x="583.2" y="187" font-size="13">27</text>
+<text x="382" y="219" font-size="13">公交</text>
+<rect x="518" y="204" width="38.8" height="20" rx="3" fill="#228577"/>
+<text x="563.8" y="219" font-size="13">18</text>
+<text x="382" y="251" font-size="13">地铁</text>
+<rect x="518" y="236" width="36.6" height="20" rx="3" fill="#228577"/>
+<text x="561.6" y="251" font-size="13">17</text>
+<text x="382" y="283" font-size="13">火车</text>
+<rect x="518" y="268" width="17.2" height="20" rx="3" fill="#228577"/>
+<text x="542.2" y="283" font-size="13">8</text>
+<text x="382" y="315" font-size="13">出租车</text>
+<rect x="518" y="300" width="10.8" height="20" rx="3" fill="#228577"/>
+<text x="535.8" y="315" font-size="13">5</text>
+<text x="382" y="347" font-size="13">无轨电车</text>
+<rect x="518" y="332" width="6.5" height="20" rx="3" fill="#228577"/>
+<text x="531.5" y="347" font-size="13">3</text>
+<text x="382" y="379" font-size="13">自行车</text>
+<rect x="518" y="364" width="6.5" height="20" rx="3" fill="#228577"/>
+<text x="531.5" y="379" font-size="13">3</text>
+<text x="736" y="112" font-size="18" font-weight="bold">时间节点</text>
+<text x="736" y="155" font-size="13">当天</text>
+<rect x="872" y="140" width="153.0" height="20" rx="3" fill="#9d5825"/>
+<text x="1032.0" y="155" font-size="13">30</text>
+<text x="736" y="187" font-size="13">下午</text>
+<rect x="872" y="172" width="127.5" height="20" rx="3" fill="#9d5825"/>
+<text x="1006.5" y="187" font-size="13">25</text>
+<text x="736" y="219" font-size="13">上午</text>
+<rect x="872" y="204" width="107.1" height="20" rx="3" fill="#9d5825"/>
+<text x="986.1" y="219" font-size="13">21</text>
+<text x="736" y="251" font-size="13">中午</text>
+<rect x="872" y="236" width="66.3" height="20" rx="3" fill="#9d5825"/>
+<text x="945.3" y="251" font-size="13">13</text>
+<text x="736" y="283" font-size="13">二十分钟</text>
+<rect x="872" y="268" width="61.2" height="20" rx="3" fill="#9d5825"/>
+<text x="940.2" y="283" font-size="13">12</text>
+<text x="736" y="315" font-size="13">40分钟</text>
+<rect x="872" y="300" width="51.0" height="20" rx="3" fill="#9d5825"/>
+<text x="930.0" y="315" font-size="13">10</text>
+<text x="736" y="347" font-size="13">一天</text>
+<rect x="872" y="332" width="45.9" height="20" rx="3" fill="#9d5825"/>
+<text x="924.9" y="347" font-size="13">9</text>
+<text x="736" y="379" font-size="13">两小时</text>
+<rect x="872" y="364" width="45.9" height="20" rx="3" fill="#9d5825"/>
+<text x="924.9" y="379" font-size="13">9</text>
+</g></svg>

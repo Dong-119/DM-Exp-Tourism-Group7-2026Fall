@@ -1,0 +1,602 @@
+{
+  "candidate_adjustments": {
+    "e5340eabd70bc1c1": {
+      "action": "exclude",
+      "reason": "与补充条目表达同一关系，保留条件、建议及地点较完整的一条。"
+    },
+    "e5aed47e98f1bc42": {
+      "action": "exclude",
+      "reason": "描述回音壁的声学效果，没有提出游客行动建议。"
+    },
+    "1f50937394dda731": {
+      "action": "exclude",
+      "reason": "与补充条目表达同一关系，保留条件、建议及地点较完整的一条。"
+    },
+    "29c943b53fb49641": {
+      "action": "exclude",
+      "reason": "与补充条目表达同一关系，保留条件、建议及地点较完整的一条。"
+    },
+    "583769b863a6836b": {
+      "action": "exclude",
+      "reason": "与补充条目表达同一关系，保留条件、建议及地点较完整的一条。"
+    },
+    "a1d268fe1931c0c6": {
+      "action": "exclude",
+      "reason": "与补充条目表达同一关系，保留条件、建议及地点较完整的一条。"
+    },
+    "c114ccdfe7f20764": {
+      "action": "exclude",
+      "reason": "与补充条目表达同一关系，保留条件、建议及地点较完整的一条。"
+    },
+    "e9b8db965872c198": {
+      "action": "exclude",
+      "reason": "与补充条目表达同一关系，保留条件、建议及地点较完整的一条。"
+    },
+    "ec3807a7735545ac": {
+      "action": "exclude",
+      "reason": "与补充条目表达同一关系，保留条件、建议及地点较完整的一条。"
+    },
+    "8892eab16d141a90": {
+      "action": "exclude",
+      "reason": "与补充条目表达同一关系，保留条件、建议及地点较完整的一条。"
+    },
+    "42354cd0a4ac6ae9": {
+      "action": "exclude",
+      "reason": "与补充条目表达同一关系，保留条件、建议及地点较完整的一条。"
+    },
+    "51efe051e6f53b11": {
+      "action": "exclude",
+      "reason": "与补充条目表达同一关系，保留条件、建议及地点较完整的一条。"
+    },
+    "3c50b18d7415cfd5": {
+      "action": "exclude",
+      "reason": "与补充条目表达同一关系，保留条件、建议及地点较完整的一条。"
+    },
+    "f2361c47aa1c174a": {
+      "action": "correct",
+      "fields": {
+        "advice_text": "应先核实无障碍通道;资料没有说明时，不能直接回答“全程无台阶"
+      },
+      "reason": "分号后包含开放状态或无障碍信息未知的警示，补齐完整连续建议，避免丢失有效性限制。"
+    },
+    "51deabd380a1c97f": {
+      "action": "correct",
+      "fields": {
+        "advice_text": "取消该支线，保留祈年殿与长廊的参观;不能仅凭较旧的资料确认所有院落均已开放"
+      },
+      "reason": "分号后包含开放状态或无障碍信息未知的警示，补齐完整连续建议，避免丢失有效性限制。"
+    },
+    "94e703fc07a83f47": {
+      "action": "exclude",
+      "reason": "与补充条目表达同一关系，保留条件、建议及地点较完整的一条。"
+    },
+    "fad29807f4af43f2": {
+      "action": "exclude",
+      "reason": "与补充条目表达同一关系，保留条件、建议及地点较完整的一条。"
+    },
+    "be862c432743f2dc": {
+      "action": "exclude",
+      "reason": "描述历史婚礼待遇，不属于游客行动建议。"
+    },
+    "f2fc8c2a61038487": {
+      "action": "correct",
+      "fields": {
+        "condition_operator": "any",
+        "visitor_types": [
+          "老人",
+          "亲子"
+        ]
+      },
+      "reason": "“老人或孩子”为析取人群条件，保留两个人群标签而非单一类别。"
+    },
+    "68b39d542a82911e": {
+      "action": "correct",
+      "fields": {
+        "advice_text": "建议按兴趣选出重点，其他部分以了解空间关系为主"
+      },
+      "reason": "将预计停留结果与行动区分，条件为展陈较多，建议从“建议按兴趣”开始，不把耗时描述当作行动。"
+    },
+    "3b9a7aa594c11521": {
+      "action": "correct",
+      "fields": {
+        "advice_text": "应先核实无障碍通道;资料没有说明时，不能直接回答“全程无台阶"
+      },
+      "reason": "分号后包含开放状态或无障碍信息未知的警示，补齐完整连续建议，避免丢失有效性限制。"
+    },
+    "b73cdc0d2c128771": {
+      "action": "correct",
+      "fields": {
+        "advice_text": "取消该支线，沿现场开放通道继续参观;不要把旧攻略里的展陈名称当作已经确认的当日安排"
+      },
+      "reason": "分号后包含开放状态或无障碍信息未知的警示，补齐完整连续建议，避免丢失有效性限制。"
+    },
+    "df1af74c0f7a606f": {
+      "action": "exclude",
+      "reason": "与补充条目表达同一关系，保留条件、建议及地点较完整的一条。"
+    },
+    "ea4ea8a0a5d391d0": {
+      "action": "correct",
+      "fields": {
+        "visitor_types": [
+          "行动不便"
+        ]
+      },
+      "reason": "原文限定不适合坡道或台阶的同行者，按行动能力归类；不虚构具体年龄。"
+    },
+    "f68167b331dc725f": {
+      "action": "correct",
+      "fields": {
+        "advice_text": "应先核实无障碍通道;资料没有说明时，不能直接回答“全程无台阶"
+      },
+      "reason": "分号后包含开放状态或无障碍信息未知的警示，补齐完整连续建议，避免丢失有效性限制。"
+    },
+    "bff3d9cfeefcd8d2": {
+      "action": "correct",
+      "fields": {
+        "advice_text": "取消乘船并改为沿开放岸线步行;即使买好了行程计划，也不能把停航写成可乘船"
+      },
+      "reason": "分号后包含开放状态或无障碍信息未知的警示，补齐完整连续建议，避免丢失有效性限制。"
+    }
+  },
+  "additional_pairs": [
+    {
+      "doc_id": "GG_T02",
+      "condition_text": "只能选择一个博物馆可以去",
+      "advice_text": "那我一定选择故宫博物馆",
+      "condition_type": "游览偏好",
+      "visitor_types": [
+        "未特定"
+      ],
+      "target_scope": "故宫",
+      "condition_mode": "explicit",
+      "condition_operator": "all",
+      "context_sentence_ids": [
+        "GG_T02_S001"
+      ]
+    },
+    {
+      "doc_id": "GG_T02",
+      "condition_text": "在皇家宫殿里遛娃",
+      "advice_text": "教育好熊孩子不要触碰到皇家文物",
+      "condition_type": "游客类型",
+      "visitor_types": [
+        "亲子"
+      ],
+      "target_scope": "故宫",
+      "condition_mode": "context",
+      "condition_operator": "context",
+      "context_sentence_ids": [
+        "GG_T02_S027"
+      ]
+    },
+    {
+      "doc_id": "GG_T02",
+      "condition_text": "里面很大很容易迷路",
+      "advice_text": "最好提前规划好游玩攻略",
+      "condition_type": "现场情境",
+      "visitor_types": [
+        "未特定"
+      ],
+      "target_scope": "故宫",
+      "condition_mode": "context",
+      "condition_operator": "context",
+      "context_sentence_ids": [
+        "GG_T02_S039"
+      ]
+    },
+    {
+      "doc_id": "TT_T03",
+      "condition_text": "带着老人",
+      "advice_text": "不能现去找住宿的地方",
+      "condition_type": "游客类型",
+      "visitor_types": [
+        "老人"
+      ],
+      "target_scope": "北京通用",
+      "condition_mode": "context",
+      "condition_operator": "context",
+      "context_sentence_ids": [
+        "TT_T03_S010"
+      ]
+    },
+    {
+      "doc_id": "TT_T03",
+      "condition_text": "有计划出行日程",
+      "advice_text": "就把住宿都预定好",
+      "condition_type": "出行安排",
+      "visitor_types": [
+        "未特定"
+      ],
+      "target_scope": "北京通用",
+      "condition_mode": "explicit",
+      "condition_operator": "all",
+      "context_sentence_ids": [
+        "TT_T03_S011"
+      ]
+    },
+    {
+      "doc_id": "TT_T03",
+      "condition_text": "去哪儿上预订房间",
+      "advice_text": "建议朋友们慎选",
+      "condition_type": "出行安排",
+      "visitor_types": [
+        "未特定"
+      ],
+      "target_scope": "北京通用",
+      "condition_mode": "context",
+      "condition_operator": "context",
+      "context_sentence_ids": [
+        "TT_T03_S015"
+      ]
+    },
+    {
+      "doc_id": "TT_T03",
+      "condition_text": "当天气温14度，阴天，如果不刮风",
+      "advice_text": "穿两件棉T加件风衣刚好",
+      "condition_type": "天气季节",
+      "visitor_types": [
+        "未特定"
+      ],
+      "target_scope": "天坛",
+      "condition_mode": "explicit",
+      "condition_operator": "all",
+      "context_sentence_ids": [
+        "TT_T03_S019"
+      ]
+    },
+    {
+      "doc_id": "TT_T03",
+      "condition_text": "按顺序浏览",
+      "advice_text": "应该从南门进入",
+      "condition_type": "游览偏好",
+      "visitor_types": [
+        "未特定"
+      ],
+      "target_scope": "天坛",
+      "condition_mode": "context",
+      "condition_operator": "context",
+      "context_sentence_ids": [
+        "TT_T03_S020"
+      ]
+    },
+    {
+      "doc_id": "TT_T03",
+      "condition_text": "时间充足的话",
+      "advice_text": "在里边散步拍照",
+      "condition_type": "时间安排",
+      "visitor_types": [
+        "未特定"
+      ],
+      "target_scope": "天坛",
+      "condition_mode": "explicit",
+      "condition_operator": "all",
+      "context_sentence_ids": [
+        "TT_T03_S038"
+      ]
+    },
+    {
+      "doc_id": "TT_T03",
+      "condition_text": "逛完天坛",
+      "advice_text": "出来直接吃晚饭刚好",
+      "condition_type": "时间安排",
+      "visitor_types": [
+        "未特定"
+      ],
+      "target_scope": "天坛",
+      "condition_mode": "context",
+      "condition_operator": "context",
+      "context_sentence_ids": [
+        "TT_T03_S041"
+      ]
+    },
+    {
+      "doc_id": "TT_T03",
+      "condition_text": "吃正宗的",
+      "advice_text": "就要吃当地人爱吃的地儿",
+      "condition_type": "游览偏好",
+      "visitor_types": [
+        "未特定"
+      ],
+      "target_scope": "北京通用",
+      "condition_mode": "explicit",
+      "condition_operator": "all",
+      "context_sentence_ids": [
+        "TT_T03_S063"
+      ]
+    },
+    {
+      "doc_id": "TT_T03",
+      "condition_text": "摄影爱好者",
+      "advice_text": "故宫城角是很多摄影爱好者必拍的",
+      "condition_type": "游客类型",
+      "visitor_types": [
+        "摄影爱好者"
+      ],
+      "target_scope": "故宫",
+      "condition_mode": "context",
+      "condition_operator": "context",
+      "context_sentence_ids": [
+        "TT_T03_S112"
+      ]
+    },
+    {
+      "doc_id": "TT_T03",
+      "condition_text": "喜欢骑车转胡同之类的朋友",
+      "advice_text": "可以租自行车",
+      "condition_type": "游览偏好",
+      "visitor_types": [
+        "未特定"
+      ],
+      "target_scope": "北京胡同",
+      "condition_mode": "explicit",
+      "condition_operator": "all",
+      "context_sentence_ids": [
+        "TT_T03_S053"
+      ]
+    },
+    {
+      "doc_id": "TT_T03",
+      "condition_text": "喜欢拍照的朋友",
+      "advice_text": "早点到这拍照，自拍都可以呢",
+      "condition_type": "游客类型",
+      "visitor_types": [
+        "摄影爱好者"
+      ],
+      "target_scope": "前门大街",
+      "condition_mode": "context",
+      "condition_operator": "context",
+      "context_sentence_ids": [
+        "TT_T03_S058"
+      ]
+    },
+    {
+      "doc_id": "TT_T03",
+      "condition_text": "是年轻人",
+      "advice_text": "可以去长城(因为那句话嘛~",
+      "condition_type": "游客类型",
+      "visitor_types": [
+        "青年"
+      ],
+      "target_scope": "长城",
+      "condition_mode": "explicit",
+      "condition_operator": "all",
+      "context_sentence_ids": [
+        "TT_T03_S085"
+      ]
+    },
+    {
+      "doc_id": "TT_T03",
+      "condition_text": "喜欢拍照的年轻人",
+      "advice_text": "还可以去五道口和798",
+      "condition_type": "游客类型",
+      "visitor_types": [
+        "青年"
+      ],
+      "target_scope": "五道口和798",
+      "condition_mode": "explicit",
+      "condition_operator": "all",
+      "context_sentence_ids": [
+        "TT_T03_S085"
+      ]
+    },
+    {
+      "doc_id": "TT_T03",
+      "condition_text": "要听的话",
+      "advice_text": "要提前定啊",
+      "condition_type": "游览偏好",
+      "visitor_types": [
+        "未特定"
+      ],
+      "target_scope": "德云社",
+      "condition_mode": "explicit",
+      "condition_operator": "all",
+      "context_sentence_ids": [
+        "TT_T03_S045"
+      ]
+    },
+    {
+      "doc_id": "TT_T01",
+      "condition_text": "自由行的游客",
+      "advice_text": "通常可以选择这两个门进出",
+      "condition_type": "游客类型",
+      "visitor_types": [
+        "自由行"
+      ],
+      "target_scope": "天坛",
+      "condition_mode": "explicit",
+      "condition_operator": "all",
+      "context_sentence_ids": [
+        "TT_T01_S017"
+      ]
+    },
+    {
+      "doc_id": "TT_T02",
+      "condition_text": "由于天坛公园很大",
+      "advice_text": "游玩的时候建议携带适当的饮用水和防晒的物品为宜",
+      "condition_type": "现场情境",
+      "visitor_types": [
+        "未特定"
+      ],
+      "target_scope": "天坛",
+      "condition_mode": "context",
+      "condition_operator": "context",
+      "context_sentence_ids": [
+        "TT_T02_S022"
+      ]
+    },
+    {
+      "doc_id": "YHY_T03",
+      "condition_text": "如果和妈妈走散了",
+      "advice_text": "就要这样，在原地等妈妈，大声的喊妈妈，妈妈一定会来找你",
+      "condition_type": "现场情境",
+      "visitor_types": [
+        "亲子"
+      ],
+      "target_scope": "颐和园",
+      "condition_mode": "context",
+      "condition_operator": "context",
+      "context_sentence_ids": [
+        "YHY_T03_S016",
+        "YHY_T03_S024"
+      ]
+    },
+    {
+      "doc_id": "YHY_T04",
+      "condition_text": "转入展厅",
+      "advice_text": "需配戴口罩",
+      "condition_type": "现场情境",
+      "visitor_types": [
+        "未特定"
+      ],
+      "target_scope": "颐和园",
+      "condition_mode": "explicit",
+      "condition_operator": "all",
+      "context_sentence_ids": [
+        "YHY_T04_S017"
+      ]
+    },
+    {
+      "doc_id": "TT_T05",
+      "condition_text": "要欣赏正阳门及箭楼",
+      "advice_text": "全北京最好的位置可能是前门 M 餐厅 (Capital M)，靠窗的餐台要提早预订，不妨抽空去吃一份 high tea，一边叹杯咖啡，一边欣赏正阳门箭楼雄宏的景致，不要错过 Capital M 的露天餐区，那里本身已经环境上佳，加上正阳门做衬托，相信晚间日落时份更加迷人",
+      "condition_type": "游览偏好",
+      "visitor_types": [
+        "未特定"
+      ],
+      "target_scope": "正阳门箭楼/前门Capital M餐厅（北京）",
+      "condition_mode": "explicit",
+      "condition_operator": "all",
+      "context_sentence_ids": [
+        "TT_T05_S011"
+      ]
+    },
+    {
+      "doc_id": "TT_T05",
+      "condition_text": "如果不想去人山人海的北京传统景点",
+      "advice_text": "可以考虑到这里逛半天",
+      "condition_type": "游览偏好",
+      "visitor_types": [
+        "未特定"
+      ],
+      "target_scope": "798艺术区（北京）",
+      "condition_mode": "explicit",
+      "condition_operator": "all",
+      "context_sentence_ids": [
+        "TT_T05_S031"
+      ]
+    },
+    {
+      "doc_id": "TT_T05",
+      "condition_text": "往北京国家博物馆参观",
+      "advice_text": "要出示身份证件(或回乡证)换领入场卷",
+      "condition_type": "出行安排",
+      "visitor_types": [
+        "未特定"
+      ],
+      "target_scope": "中国国家博物馆（北京）",
+      "condition_mode": "context",
+      "condition_operator": "context",
+      "context_sentence_ids": [
+        "TT_T05_S024"
+      ]
+    },
+    {
+      "doc_id": "TT_T05",
+      "condition_text": "走到瀚林院遗址旁",
+      "advice_text": "不开放予游客参观，连在外边拍摄也被禁止",
+      "condition_type": "现场情境",
+      "visitor_types": [
+        "未特定"
+      ],
+      "target_scope": "瀚林院遗址（北京）",
+      "condition_mode": "context",
+      "condition_operator": "context",
+      "context_sentence_ids": [
+        "TT_T05_S026"
+      ]
+    },
+    {
+      "doc_id": "TT_T05",
+      "condition_text": "有空",
+      "advice_text": "到雍和宫一游，至少能够感受一下雍和宫的灵气",
+      "condition_type": "时间安排",
+      "visitor_types": [
+        "未特定"
+      ],
+      "target_scope": "雍和宫（北京）",
+      "condition_mode": "explicit",
+      "condition_operator": "all",
+      "context_sentence_ids": [
+        "TT_T05_S042"
+      ]
+    },
+    {
+      "doc_id": "GG_S02",
+      "condition_text": "只有三十分钟，却希望完整参观所有展区",
+      "advice_text": "应缩减目标或延长时间，而不是把所有停留压缩到几分钟",
+      "condition_mode": "context",
+      "condition_operator": "all",
+      "condition_type": "复合条件",
+      "context_sentence_ids": [
+        "GG_S02_S015"
+      ]
+    },
+    {
+      "doc_id": "YHY_S02",
+      "condition_text": "只有三十分钟，却希望完整参观所有展区",
+      "advice_text": "应缩减目标或延长时间，而不是把所有停留压缩到几分钟",
+      "condition_mode": "context",
+      "condition_operator": "all",
+      "condition_type": "复合条件",
+      "context_sentence_ids": [
+        "YHY_S02_S015"
+      ]
+    },
+    {
+      "doc_id": "TT_S02",
+      "condition_text": "只有三十分钟，却希望完整参观所有展区",
+      "advice_text": "应缩减目标或延长时间，而不是把所有停留压缩到几分钟",
+      "condition_mode": "context",
+      "condition_operator": "all",
+      "condition_type": "复合条件",
+      "context_sentence_ids": [
+        "TT_S02_S015"
+      ]
+    },
+    {
+      "doc_id": "GG_O01",
+      "condition_text": "第一次参观故宫，又只有两小时左右",
+      "advice_text": "可以先把注意力放在中轴线",
+      "condition_mode": "context",
+      "condition_operator": "all",
+      "condition_type": "时间安排",
+      "context_sentence_ids": [
+        "GG_O01_S001"
+      ]
+    },
+    {
+      "doc_id": "YHY_O02",
+      "condition_text": "带孩子同行时",
+      "advice_text": "候船、上下船和过桥都应由家长照看",
+      "condition_mode": "context",
+      "condition_operator": "context",
+      "visitor_types": [
+        "亲子"
+      ],
+      "context_sentence_ids": [
+        "YHY_O02_S013"
+      ]
+    },
+    {
+      "doc_id": "YHY_S03",
+      "condition_text": "坚持既要乘船又不接受候船",
+      "advice_text": "在无法确认班次时应说明信息不足",
+      "condition_mode": "context",
+      "condition_operator": "all",
+      "condition_type": "复合条件",
+      "context_sentence_ids": [
+        "YHY_S03_S011"
+      ]
+    }
+  ]
+}

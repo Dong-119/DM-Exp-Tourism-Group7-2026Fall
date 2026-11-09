@@ -1,0 +1,9 @@
+{
+  "mentions.json": "7deee1eb5f5543ab263b5d4aefc36385246c2a15bd5784e23ef408a6eac4599b",
+  "sentences.json": "5d4a3ddeb5ae8396996e452b068615832cd9852ad14b9dd50eafe4436de0cbb1",
+  "sample_documents.json": "564f870cca938024d45367916a903b2ade9768e8be2cca74e5b16b20392afde4",
+  "coref_predictions.json": "8ea2b3e0ffe09c10853a6ca9756e2512019e5ed4181bfd641ab056dc886abe0d",
+  "antecedent_candidates.json": "0e19e72caae512dda8efee798ad5399953e2e466bd8a523aedbd58a4f6f253b7",
+  "resolved_texts.json": "b6f3bdf2b592bacc8aa68ffed316b588becfcea1f69d2e1dd65326828395cbed",
+  "coref_relations.json": "4fdcb5985dbcd758a66fa803f13148313eb9af7b1b4306e7c505393b4445c446"
+}

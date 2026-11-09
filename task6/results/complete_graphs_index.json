@@ -1,0 +1,167 @@
+{
+  "description": "All graph edges are displayed exactly once in the paginated SVG relation atlas.",
+  "total_edges": 628,
+  "page_count": 20,
+  "pages": [
+    {
+      "file": "complete_graphs/01_contains_001-040.svg",
+      "relation": "contains",
+      "edge_start": 1,
+      "edge_end": 40,
+      "edge_count": 40,
+      "total_relation_edges": 117
+    },
+    {
+      "file": "complete_graphs/02_contains_041-080.svg",
+      "relation": "contains",
+      "edge_start": 41,
+      "edge_end": 80,
+      "edge_count": 40,
+      "total_relation_edges": 117
+    },
+    {
+      "file": "complete_graphs/03_contains_081-117.svg",
+      "relation": "contains",
+      "edge_start": 81,
+      "edge_end": 117,
+      "edge_count": 37,
+      "total_relation_edges": 117
+    },
+    {
+      "file": "complete_graphs/04_has_activity_001-027.svg",
+      "relation": "has_activity",
+      "edge_start": 1,
+      "edge_end": 27,
+      "edge_count": 27,
+      "total_relation_edges": 27
+    },
+    {
+      "file": "complete_graphs/05_has_condition_001-040.svg",
+      "relation": "has_condition",
+      "edge_start": 1,
+      "edge_end": 40,
+      "edge_count": 40,
+      "total_relation_edges": 95
+    },
+    {
+      "file": "complete_graphs/06_has_condition_041-080.svg",
+      "relation": "has_condition",
+      "edge_start": 41,
+      "edge_end": 80,
+      "edge_count": 40,
+      "total_relation_edges": 95
+    },
+    {
+      "file": "complete_graphs/07_has_condition_081-095.svg",
+      "relation": "has_condition",
+      "edge_start": 81,
+      "edge_end": 95,
+      "edge_count": 15,
+      "total_relation_edges": 95
+    },
+    {
+      "file": "complete_graphs/08_has_route_001-004.svg",
+      "relation": "has_route",
+      "edge_start": 1,
+      "edge_end": 4,
+      "edge_count": 4,
+      "total_relation_edges": 4
+    },
+    {
+      "file": "complete_graphs/09_mentions_time_001-040.svg",
+      "relation": "mentions_time",
+      "edge_start": 1,
+      "edge_end": 40,
+      "edge_count": 40,
+      "total_relation_edges": 181
+    },
+    {
+      "file": "complete_graphs/10_mentions_time_041-080.svg",
+      "relation": "mentions_time",
+      "edge_start": 41,
+      "edge_end": 80,
+      "edge_count": 40,
+      "total_relation_edges": 181
+    },
+    {
+      "file": "complete_graphs/11_mentions_time_081-120.svg",
+      "relation": "mentions_time",
+      "edge_start": 81,
+      "edge_end": 120,
+      "edge_count": 40,
+      "total_relation_edges": 181
+    },
+    {
+      "file": "complete_graphs/12_mentions_time_121-160.svg",
+      "relation": "mentions_time",
+      "edge_start": 121,
+      "edge_end": 160,
+      "edge_count": 40,
+      "total_relation_edges": 181
+    },
+    {
+      "file": "complete_graphs/13_mentions_time_161-181.svg",
+      "relation": "mentions_time",
+      "edge_start": 161,
+      "edge_end": 181,
+      "edge_count": 21,
+      "total_relation_edges": 181
+    },
+    {
+      "file": "complete_graphs/14_mentions_transport_001-024.svg",
+      "relation": "mentions_transport",
+      "edge_start": 1,
+      "edge_end": 24,
+      "edge_count": 24,
+      "total_relation_edges": 24
+    },
+    {
+      "file": "complete_graphs/15_next_001-030.svg",
+      "relation": "next",
+      "edge_start": 1,
+      "edge_end": 30,
+      "edge_count": 30,
+      "total_relation_edges": 30
+    },
+    {
+      "file": "complete_graphs/16_occurs_in_001-018.svg",
+      "relation": "occurs_in",
+      "edge_start": 1,
+      "edge_end": 18,
+      "edge_count": 18,
+      "total_relation_edges": 18
+    },
+    {
+      "file": "complete_graphs/17_recommends_001-040.svg",
+      "relation": "recommends",
+      "edge_start": 1,
+      "edge_end": 40,
+      "edge_count": 40,
+      "total_relation_edges": 95
+    },
+    {
+      "file": "complete_graphs/18_recommends_041-080.svg",
+      "relation": "recommends",
+      "edge_start": 41,
+      "edge_end": 80,
+      "edge_count": 40,
+      "total_relation_edges": 95
+    },
+    {
+      "file": "complete_graphs/19_recommends_081-095.svg",
+      "relation": "recommends",
+      "edge_start": 81,
+      "edge_end": 95,
+      "edge_count": 15,
+      "total_relation_edges": 95
+    },
+    {
+      "file": "complete_graphs/20_visits_001-037.svg",
+      "relation": "visits",
+      "edge_start": 1,
+      "edge_end": 37,
+      "edge_count": 37,
+      "total_relation_edges": 37
+    }
+  ]
+}

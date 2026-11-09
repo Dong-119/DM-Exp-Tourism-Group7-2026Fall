@@ -1,0 +1,4295 @@
+[
+  {
+    "doc_id": "GG_T02",
+    "source_scenic": "故宫",
+    "source_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_group_id": "dataset:108100005458",
+    "source_urls": [
+      "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+    ],
+    "source_path": "data\\html\\故宫\\游客游记\\GG_T02.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "只能选择一个博物馆可以去",
+    "advice_text": "那我一定选择故宫博物馆",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游览偏好",
+    "condition_types": [
+      "游览偏好"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_T02",
+        "start": 28,
+        "end": 40
+      },
+      "advice_text": {
+        "doc_id": "GG_T02",
+        "start": 41,
+        "end": 52
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_T02",
+        "sentence_id": "GG_T02_S001",
+        "quote": "如果只能选择一家文化场所可以去，那我一定选择博物馆，如果只能选择一个博物馆可以去，那我一定选择故宫博物馆。",
+        "start": 0,
+        "end": 53
+      }
+    ],
+    "mapping_id": "M001"
+  },
+  {
+    "doc_id": "GG_T02",
+    "source_scenic": "故宫",
+    "source_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_group_id": "dataset:108100005458",
+    "source_urls": [
+      "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+    ],
+    "source_path": "data\\html\\故宫\\游客游记\\GG_T02.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "在皇家宫殿里遛娃",
+    "advice_text": "教育好熊孩子不要触碰到皇家文物",
+    "condition_operator": "context",
+    "condition_mode": "context",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "现场情境"
+    ],
+    "visitor_types": [
+      "亲子"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_T02",
+        "start": 1004,
+        "end": 1012
+      },
+      "advice_text": {
+        "doc_id": "GG_T02",
+        "start": 1029,
+        "end": 1044
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_T02",
+        "sentence_id": "GG_T02_S027",
+        "quote": "在皇家宫殿里遛娃也是不错的选择，地方大环境好，不过教育好熊孩子不要触碰到皇家文物。",
+        "start": 1004,
+        "end": 1045
+      }
+    ],
+    "mapping_id": "M002"
+  },
+  {
+    "doc_id": "GG_T02",
+    "source_scenic": "故宫",
+    "source_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_group_id": "dataset:108100005458",
+    "source_urls": [
+      "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+    ],
+    "source_path": "data\\html\\故宫\\游客游记\\GG_T02.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "里面很大很容易迷路",
+    "advice_text": "最好提前规划好游玩攻略",
+    "condition_operator": "context",
+    "condition_mode": "context",
+    "condition_type": "现场情境",
+    "condition_types": [
+      "现场情境"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_T02",
+        "start": 1457,
+        "end": 1466
+      },
+      "advice_text": {
+        "doc_id": "GG_T02",
+        "start": 1467,
+        "end": 1478
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_T02",
+        "sentence_id": "GG_T02_S039",
+        "quote": "里面很大很容易迷路，最好提前规划好游玩攻略，不然时间都浪费在兜圈子上了。",
+        "start": 1457,
+        "end": 1493
+      }
+    ],
+    "mapping_id": "M003"
+  },
+  {
+    "doc_id": "TT_T03",
+    "source_scenic": "天坛",
+    "source_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_group_id": "dataset:896800004552",
+    "source_urls": [
+      "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+    ],
+    "source_path": "data\\html\\天坛\\游客游记\\TT_T03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "带着老人",
+    "advice_text": "不能现去找住宿的地方",
+    "condition_operator": "context",
+    "condition_mode": "context",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游客类型"
+    ],
+    "visitor_types": [
+      "老人"
+    ],
+    "target_scope": "北京通用",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_T03",
+        "start": 463,
+        "end": 467
+      },
+      "advice_text": {
+        "doc_id": "TT_T03",
+        "start": 467,
+        "end": 477
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_T03",
+        "sentence_id": "TT_T03_S010",
+        "quote": "去北京之前先订好住宿，一定要预定，尤其带着老人不能现去找住宿的地方。",
+        "start": 444,
+        "end": 478
+      }
+    ],
+    "mapping_id": "M004"
+  },
+  {
+    "doc_id": "TT_T03",
+    "source_scenic": "天坛",
+    "source_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_group_id": "dataset:896800004552",
+    "source_urls": [
+      "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+    ],
+    "source_path": "data\\html\\天坛\\游客游记\\TT_T03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "有计划出行日程",
+    "advice_text": "就把住宿都预定好",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "出行安排",
+    "condition_types": [
+      "时间安排",
+      "出行安排"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "北京通用",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_T03",
+        "start": 480,
+        "end": 487
+      },
+      "advice_text": {
+        "doc_id": "TT_T03",
+        "start": 488,
+        "end": 496
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_T03",
+        "sentence_id": "TT_T03_S011",
+        "quote": "如果有计划出行日程，就把住宿都预定好，不然现找和续住都很难。",
+        "start": 478,
+        "end": 508
+      }
+    ],
+    "mapping_id": "M005"
+  },
+  {
+    "doc_id": "TT_T03",
+    "source_scenic": "天坛",
+    "source_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_group_id": "dataset:896800004552",
+    "source_urls": [
+      "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+    ],
+    "source_path": "data\\html\\天坛\\游客游记\\TT_T03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "去哪儿上预订房间",
+    "advice_text": "建议朋友们慎选",
+    "condition_operator": "context",
+    "condition_mode": "context",
+    "condition_type": "出行安排",
+    "condition_types": [
+      "出行安排"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "北京通用",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_T03",
+        "start": 701,
+        "end": 709
+      },
+      "advice_text": {
+        "doc_id": "TT_T03",
+        "start": 743,
+        "end": 750
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_T03",
+        "sentence_id": "TT_T03_S015",
+        "quote": "爸妈不喜欢吃外面的东西，又担心姥姥吃不惯坏了肠胃，开始定了间短租公寓，结果打电话给房主有没有电梯时，房主还告诉我说不提供厨房，而且最近在试水维修水温不行，我把房退掉，去哪儿上预订房间有几种区分，有的退房是免费，有的是限时免扣，还有的是预付房费不退的，建议朋友们慎选。",
+        "start": 618,
+        "end": 751
+      }
+    ],
+    "mapping_id": "M006"
+  },
+  {
+    "doc_id": "TT_T03",
+    "source_scenic": "天坛",
+    "source_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_group_id": "dataset:896800004552",
+    "source_urls": [
+      "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+    ],
+    "source_path": "data\\html\\天坛\\游客游记\\TT_T03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "当天气温14度，阴天，如果不刮风",
+    "advice_text": "穿两件棉T加件风衣刚好",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "天气季节",
+    "condition_types": [
+      "天气季节"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_T03",
+        "start": 892,
+        "end": 908
+      },
+      "advice_text": {
+        "doc_id": "TT_T03",
+        "start": 909,
+        "end": 920
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_T03",
+        "sentence_id": "TT_T03_S019",
+        "quote": "当天气温14度，阴天，如果不刮风，穿两件棉T加件风衣刚好。",
+        "start": 892,
+        "end": 921
+      }
+    ],
+    "mapping_id": "M007"
+  },
+  {
+    "doc_id": "TT_T03",
+    "source_scenic": "天坛",
+    "source_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_group_id": "dataset:896800004552",
+    "source_urls": [
+      "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+    ],
+    "source_path": "data\\html\\天坛\\游客游记\\TT_T03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "按顺序浏览",
+    "advice_text": "应该从南门进入",
+    "condition_operator": "context",
+    "condition_mode": "context",
+    "condition_type": "游览偏好",
+    "condition_types": [
+      "游览偏好"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_T03",
+        "start": 961,
+        "end": 966
+      },
+      "advice_text": {
+        "doc_id": "TT_T03",
+        "start": 966,
+        "end": 973
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_T03",
+        "sentence_id": "TT_T03_S020",
+        "quote": "到天坛的时间是下午三点多，路上不堵，为了不耽误游玩时间，我们在天坛北门下车，其实按顺序浏览应该从南门进入。",
+        "start": 921,
+        "end": 974
+      }
+    ],
+    "mapping_id": "M008"
+  },
+  {
+    "doc_id": "TT_T03",
+    "source_scenic": "天坛",
+    "source_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_group_id": "dataset:896800004552",
+    "source_urls": [
+      "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+    ],
+    "source_path": "data\\html\\天坛\\游客游记\\TT_T03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "时间充足的话",
+    "advice_text": "在里边散步拍照",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "时间安排",
+    "condition_types": [
+      "时间安排"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_T03",
+        "start": 1679,
+        "end": 1685
+      },
+      "advice_text": {
+        "doc_id": "TT_T03",
+        "start": 1686,
+        "end": 1693
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_T03",
+        "sentence_id": "TT_T03_S038",
+        "quote": "由于我们的时间不够，天又要下小雨，我们只走了中线，看看中线两侧的风景也是很好的，时间充足的话，在里边散步拍照，相信会有意想不到的收获。",
+        "start": 1639,
+        "end": 1706
+      }
+    ],
+    "mapping_id": "M009"
+  },
+  {
+    "doc_id": "TT_T03",
+    "source_scenic": "天坛",
+    "source_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_group_id": "dataset:896800004552",
+    "source_urls": [
+      "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+    ],
+    "source_path": "data\\html\\天坛\\游客游记\\TT_T03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "逛完天坛",
+    "advice_text": "出来直接吃晚饭刚好",
+    "condition_operator": "context",
+    "condition_mode": "context",
+    "condition_type": "时间安排",
+    "condition_types": [
+      "现场情境"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_T03",
+        "start": 1837,
+        "end": 1841
+      },
+      "advice_text": {
+        "doc_id": "TT_T03",
+        "start": 1841,
+        "end": 1850
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_T03",
+        "sentence_id": "TT_T03_S041",
+        "quote": "经验总结：天坛南进北出还有个好处，北门附近有很多好吃的，正宗豆汁首当其冲，还有附近的烤鸭店，逛完天坛出来直接吃晚饭刚好。",
+        "start": 1791,
+        "end": 1851
+      }
+    ],
+    "mapping_id": "M010"
+  },
+  {
+    "doc_id": "TT_T03",
+    "source_scenic": "天坛",
+    "source_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_group_id": "dataset:896800004552",
+    "source_urls": [
+      "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+    ],
+    "source_path": "data\\html\\天坛\\游客游记\\TT_T03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "吃正宗的",
+    "advice_text": "就要吃当地人爱吃的地儿",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游览偏好",
+    "condition_types": [
+      "现场情境"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "北京通用",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_T03",
+        "start": 2580,
+        "end": 2584
+      },
+      "advice_text": {
+        "doc_id": "TT_T03",
+        "start": 2585,
+        "end": 2596
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_T03",
+        "sentence_id": "TT_T03_S063",
+        "quote": "说到吃，这个也是提前做过功课的，吃正宗的，就要吃当地人爱吃的地儿，但老字号历史悠久名气大，可以结合着吃，我是按可能游玩的景点附近找好吃的地方。",
+        "start": 2564,
+        "end": 2635
+      }
+    ],
+    "mapping_id": "M011"
+  },
+  {
+    "doc_id": "TT_T03",
+    "source_scenic": "天坛",
+    "source_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_group_id": "dataset:896800004552",
+    "source_urls": [
+      "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+    ],
+    "source_path": "data\\html\\天坛\\游客游记\\TT_T03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "摄影爱好者",
+    "advice_text": "故宫城角是很多摄影爱好者必拍的",
+    "condition_operator": "context",
+    "condition_mode": "context",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游客类型",
+      "游览偏好"
+    ],
+    "visitor_types": [
+      "摄影爱好者"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_T03",
+        "start": 4327,
+        "end": 4332
+      },
+      "advice_text": {
+        "doc_id": "TT_T03",
+        "start": 4320,
+        "end": 4335
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_T03",
+        "sentence_id": "TT_T03_S112",
+        "quote": "听说故宫城角是很多摄影爱好者必拍的，从景山下来计划走的路本拍不到的，结果还是路过了，边走边拍了一张，当时天暗下来了，回来一看黑黑的，还好调出来还有色彩。",
+        "start": 4318,
+        "end": 4394
+      }
+    ],
+    "mapping_id": "M012"
+  },
+  {
+    "doc_id": "TT_T01",
+    "source_scenic": "天坛",
+    "source_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_group_id": "dataset:525900012631",
+    "source_urls": [
+      "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+    ],
+    "source_path": "data\\html\\天坛\\游客游记\\TT_T01.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "自由行的游客",
+    "advice_text": "通常可以选择这两个门进出",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游客类型"
+    ],
+    "visitor_types": [
+      "自由行"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_T01",
+        "start": 284,
+        "end": 290
+      },
+      "advice_text": {
+        "doc_id": "TT_T01",
+        "start": 290,
+        "end": 302
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_T01",
+        "sentence_id": "TT_T01_S017",
+        "quote": "西门和东门是有地铁站的，自由行的游客通常可以选择这两个门进出。",
+        "start": 272,
+        "end": 303
+      }
+    ],
+    "mapping_id": "M013"
+  },
+  {
+    "doc_id": "TT_T02",
+    "source_scenic": "天坛",
+    "source_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_group_id": "dataset:1199400000459",
+    "source_urls": [
+      "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+    ],
+    "source_path": "data\\html\\天坛\\游客游记\\TT_T02.html",
+    "duplicate_doc_ids": [
+      "TT_T02_M"
+    ],
+    "condition_text": "由于天坛公园很大",
+    "advice_text": "游玩的时候建议携带适当的饮用水和防晒的物品为宜",
+    "condition_operator": "context",
+    "condition_mode": "context",
+    "condition_type": "现场情境",
+    "condition_types": [
+      "现场情境"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_T02",
+        "start": 775,
+        "end": 783
+      },
+      "advice_text": {
+        "doc_id": "TT_T02",
+        "start": 784,
+        "end": 807
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_T02",
+        "sentence_id": "TT_T02_S022",
+        "quote": "形成内外坛，象征天圆地方.2，由于天坛公园很大，游玩的时候建议携带适当的饮用水和防晒的物品为宜。",
+        "start": 760,
+        "end": 808
+      }
+    ],
+    "mapping_id": "M014"
+  },
+  {
+    "doc_id": "YHY_T03",
+    "source_scenic": "颐和园",
+    "source_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_group_id": "dataset:277200034797",
+    "source_urls": [
+      "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+    ],
+    "source_path": "data\\html\\颐和园\\游客游记\\YHY_T03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "如果和妈妈走散了",
+    "advice_text": "就要这样，在原地等妈妈，大声的喊妈妈，妈妈一定会来找你",
+    "condition_operator": "context",
+    "condition_mode": "context",
+    "condition_type": "现场情境",
+    "condition_types": [
+      "现场情境"
+    ],
+    "visitor_types": [
+      "亲子"
+    ],
+    "target_scope": "颐和园",
+    "spans": {
+      "condition_text": {
+        "doc_id": "YHY_T03",
+        "start": 477,
+        "end": 485
+      },
+      "advice_text": {
+        "doc_id": "YHY_T03",
+        "start": 764,
+        "end": 791
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "YHY_T03",
+        "sentence_id": "YHY_T03_S016",
+        "quote": "如果和妈妈走散了，你怎么办?\"",
+        "start": 477,
+        "end": 492
+      },
+      {
+        "doc_id": "YHY_T03",
+        "sentence_id": "YHY_T03_S024",
+        "quote": "不好再等，我马上跑出来，抱起涵，\"就要这样，在原地等妈妈，大声的喊妈妈，妈妈一定会来找你.\"",
+        "start": 747,
+        "end": 793
+      }
+    ],
+    "mapping_id": "M015"
+  },
+  {
+    "doc_id": "YHY_T04",
+    "source_scenic": "颐和园",
+    "source_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_group_id": "dataset:1047200005574",
+    "source_urls": [
+      "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+    ],
+    "source_path": "data\\html\\颐和园\\游客游记\\YHY_T04.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "转入展厅",
+    "advice_text": "需配戴口罩",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "现场情境",
+    "condition_types": [
+      "现场情境"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "颐和园",
+    "spans": {
+      "condition_text": {
+        "doc_id": "YHY_T04",
+        "start": 509,
+        "end": 513
+      },
+      "advice_text": {
+        "doc_id": "YHY_T04",
+        "start": 513,
+        "end": 518
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "YHY_T04",
+        "sentence_id": "YHY_T04_S017",
+        "quote": "(转入展厅需配戴口罩)",
+        "start": 508,
+        "end": 519
+      }
+    ],
+    "mapping_id": "M016"
+  },
+  {
+    "doc_id": "GG_O01",
+    "source_scenic": "故宫",
+    "source_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_group_id": "url:https://www.visitbeijing.com.cn/article/4D6YKXYu8aD",
+    "source_urls": [
+      "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp"
+    ],
+    "source_path": "data\\html\\故宫\\游玩路线\\GG_O01.html",
+    "duplicate_doc_ids": [
+      "GG_O01_DUP"
+    ],
+    "condition_text": "想拍照或带孩子观察建筑细节",
+    "advice_text": "可以减少在入口附近停留的时间，把节奏留给中后段",
+    "condition_operator": "any",
+    "condition_mode": "explicit",
+    "condition_type": "复合条件",
+    "condition_types": [
+      "游客类型",
+      "游览偏好"
+    ],
+    "visitor_types": [
+      "亲子",
+      "摄影爱好者"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_O01",
+        "start": 500,
+        "end": 513
+      },
+      "advice_text": {
+        "doc_id": "GG_O01",
+        "start": 514,
+        "end": 537
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_O01",
+        "sentence_id": "GG_O01_S015",
+        "quote": "同行者如果想拍照或带孩子观察建筑细节，可以减少在入口附近停留的时间，把节奏留给中后段;若遇临时封闭或明显拥挤，应服从现场引导，必要时删减停留点，而不是把“两小时”当作必须完成的限时任务。",
+        "start": 495,
+        "end": 588
+      }
+    ],
+    "mapping_id": "M017"
+  },
+  {
+    "doc_id": "GG_O01",
+    "source_scenic": "故宫",
+    "source_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_group_id": "url:https://www.visitbeijing.com.cn/article/4D6YKXYu8aD",
+    "source_urls": [
+      "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp"
+    ],
+    "source_path": "data\\html\\故宫\\游玩路线\\GG_O01.html",
+    "duplicate_doc_ids": [
+      "GG_O01_DUP"
+    ],
+    "condition_text": "遇临时封闭或明显拥挤",
+    "advice_text": "应服从现场引导，必要时删减停留点，而不是把“两小时”当作必须完成的限时任务",
+    "condition_operator": "any",
+    "condition_mode": "explicit",
+    "condition_type": "开放与通行",
+    "condition_types": [
+      "开放与通行"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_O01",
+        "start": 539,
+        "end": 549
+      },
+      "advice_text": {
+        "doc_id": "GG_O01",
+        "start": 550,
+        "end": 587
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_O01",
+        "sentence_id": "GG_O01_S015",
+        "quote": "同行者如果想拍照或带孩子观察建筑细节，可以减少在入口附近停留的时间，把节奏留给中后段;若遇临时封闭或明显拥挤，应服从现场引导，必要时删减停留点，而不是把“两小时”当作必须完成的限时任务。",
+        "start": 495,
+        "end": 588
+      }
+    ],
+    "mapping_id": "M018"
+  },
+  {
+    "doc_id": "GG_O02",
+    "source_scenic": "故宫",
+    "source_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_group_id": "url:https://www.visitbeijing.com.cn/article/4D6YKXYu8aD",
+    "source_urls": [
+      "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp"
+    ],
+    "source_path": "data\\html\\故宫\\游玩路线\\GG_O02.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "希望在较短时间内兼顾建筑与展陈",
+    "advice_text": "可以参考北京旅游网的两小时推荐路线二",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "时间安排",
+    "condition_types": [
+      "时间安排"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_O02",
+        "start": 2,
+        "end": 17
+      },
+      "advice_text": {
+        "doc_id": "GG_O02",
+        "start": 18,
+        "end": 36
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_O02",
+        "sentence_id": "GG_O02_S001",
+        "quote": "如果希望在较短时间内兼顾建筑与展陈，可以参考北京旅游网的两小时推荐路线二。",
+        "start": 0,
+        "end": 37
+      }
+    ],
+    "mapping_id": "M019"
+  },
+  {
+    "doc_id": "GG_O02",
+    "source_scenic": "故宫",
+    "source_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_group_id": "url:https://www.visitbeijing.com.cn/article/4D6YKXYu8aD",
+    "source_urls": [
+      "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp"
+    ],
+    "source_path": "data\\html\\故宫\\游玩路线\\GG_O02.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "当天排队较多",
+    "advice_text": "可以压缩某一展厅的停留，而把整体方向保持下来",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "现场情境",
+    "condition_types": [
+      "现场情境"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_O02",
+        "start": 506,
+        "end": 512
+      },
+      "advice_text": {
+        "doc_id": "GG_O02",
+        "start": 513,
+        "end": 535
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_O02",
+        "sentence_id": "GG_O02_S014",
+        "quote": "若当天排队较多，可以压缩某一展厅的停留，而把整体方向保持下来。",
+        "start": 505,
+        "end": 536
+      }
+    ],
+    "mapping_id": "M020"
+  },
+  {
+    "doc_id": "GG_O03",
+    "source_scenic": "故宫",
+    "source_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_group_id": "url:https://www.visitbeijing.com.cn/article/4D6YKXYu8aD",
+    "source_urls": [
+      "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp"
+    ],
+    "source_path": "data\\html\\故宫\\游玩路线\\GG_O03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "同行者兴趣不同",
+    "advice_text": "可预先约定参观结束后的会合地点，避免有人留在展厅、有人已经继续向北",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游览偏好",
+    "condition_types": [
+      "游览偏好"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_O03",
+        "start": 327,
+        "end": 334
+      },
+      "advice_text": {
+        "doc_id": "GG_O03",
+        "start": 335,
+        "end": 368
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_O03",
+        "sentence_id": "GG_O03_S009",
+        "quote": "若同行者兴趣不同，可预先约定参观结束后的会合地点，避免有人留在展厅、有人已经继续向北。",
+        "start": 326,
+        "end": 369
+      }
+    ],
+    "mapping_id": "M021"
+  },
+  {
+    "doc_id": "GG_O04",
+    "source_scenic": "故宫",
+    "source_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_group_id": "url:https://www.visitbeijing.com.cn/article/4D6YKXYu8aD",
+    "source_urls": [
+      "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp"
+    ],
+    "source_path": "data\\html\\故宫\\游玩路线\\GG_O04.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "遇等候",
+    "advice_text": "可以酌情缩短停留，避免在行程起点耗去大部分时间",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "现场情境",
+    "condition_types": [
+      "现场情境"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_O04",
+        "start": 259,
+        "end": 262
+      },
+      "advice_text": {
+        "doc_id": "GG_O04",
+        "start": 263,
+        "end": 286
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_O04",
+        "sentence_id": "GG_O04_S006",
+        "quote": "若遇等候，可以酌情缩短停留，避免在行程起点耗去大部分时间。",
+        "start": 258,
+        "end": 287
+      }
+    ],
+    "mapping_id": "M022"
+  },
+  {
+    "doc_id": "GG_O04",
+    "source_scenic": "故宫",
+    "source_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_group_id": "url:https://www.visitbeijing.com.cn/article/4D6YKXYu8aD",
+    "source_urls": [
+      "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp"
+    ],
+    "source_path": "data\\html\\故宫\\游玩路线\\GG_O04.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "带老人或孩子",
+    "advice_text": "可以在院落间适当休息",
+    "condition_operator": "any",
+    "condition_mode": "context",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游客类型"
+    ],
+    "visitor_types": [
+      "老人",
+      "亲子"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_O04",
+        "start": 359,
+        "end": 365
+      },
+      "advice_text": {
+        "doc_id": "GG_O04",
+        "start": 370,
+        "end": 380
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_O04",
+        "sentence_id": "GG_O04_S009",
+        "quote": "带老人或孩子同行时，也可以在院落间适当休息。",
+        "start": 359,
+        "end": 381
+      }
+    ],
+    "mapping_id": "M023"
+  },
+  {
+    "doc_id": "GG_O04",
+    "source_scenic": "故宫",
+    "source_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_group_id": "url:https://www.visitbeijing.com.cn/article/4D6YKXYu8aD",
+    "source_urls": [
+      "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp"
+    ],
+    "source_path": "data\\html\\故宫\\游玩路线\\GG_O04.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "展陈较多",
+    "advice_text": "建议按兴趣选出重点，其他部分以了解空间关系为主",
+    "condition_operator": "context",
+    "condition_mode": "context",
+    "condition_type": "现场情境",
+    "condition_types": [
+      "现场情境"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_O04",
+        "start": 497,
+        "end": 501
+      },
+      "advice_text": {
+        "doc_id": "GG_O04",
+        "start": 513,
+        "end": 536
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_O04",
+        "sentence_id": "GG_O04_S014",
+        "quote": "由于展陈较多，实际停留容易超过半天，建议按兴趣选出重点，其他部分以了解空间关系为主。",
+        "start": 495,
+        "end": 537
+      }
+    ],
+    "mapping_id": "M024"
+  },
+  {
+    "doc_id": "GG_O04",
+    "source_scenic": "故宫",
+    "source_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_group_id": "url:https://www.visitbeijing.com.cn/article/4D6YKXYu8aD",
+    "source_urls": [
+      "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp"
+    ],
+    "source_path": "data\\html\\故宫\\游玩路线\\GG_O04.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "临近结束仍有未看完的内容",
+    "advice_text": "可以留待再次参观，不必在最后一段仓促穿行",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "现场情境",
+    "condition_types": [
+      "现场情境"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_O04",
+        "start": 538,
+        "end": 550
+      },
+      "advice_text": {
+        "doc_id": "GG_O04",
+        "start": 551,
+        "end": 571
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_O04",
+        "sentence_id": "GG_O04_S015",
+        "quote": "若临近结束仍有未看完的内容，可以留待再次参观，不必在最后一段仓促穿行。",
+        "start": 537,
+        "end": 572
+      }
+    ],
+    "mapping_id": "M025"
+  },
+  {
+    "doc_id": "GG_O05",
+    "source_scenic": "故宫",
+    "source_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_group_id": "url:https://www.visitbeijing.com.cn/article/4D6YKXYu8aD",
+    "source_urls": [
+      "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp"
+    ],
+    "source_path": "data\\html\\故宫\\游玩路线\\GG_O05.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "有临时闭馆、天气变化或体力下降",
+    "advice_text": "应及时减少支线，把休息和顺利离院纳入行程",
+    "condition_operator": "any",
+    "condition_mode": "explicit",
+    "condition_type": "天气季节",
+    "condition_types": [
+      "天气季节"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_O05",
+        "start": 575,
+        "end": 590
+      },
+      "advice_text": {
+        "doc_id": "GG_O05",
+        "start": 591,
+        "end": 611
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_O05",
+        "sentence_id": "GG_O05_S015",
+        "quote": "若有临时闭馆、天气变化或体力下降，应及时减少支线，把休息和顺利离院纳入行程。",
+        "start": 574,
+        "end": 612
+      }
+    ],
+    "mapping_id": "M026"
+  },
+  {
+    "doc_id": "GG_S01",
+    "source_scenic": "故宫",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:GG_S01",
+    "source_urls": [],
+    "source_path": "data\\html\\故宫\\游玩路线\\GG_S01.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "带孩子",
+    "advice_text": "在御花园增加休息，并减少珍宝馆的停留",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游客类型"
+    ],
+    "visitor_types": [
+      "亲子"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_S01",
+        "start": 886,
+        "end": 889
+      },
+      "advice_text": {
+        "doc_id": "GG_S01",
+        "start": 891,
+        "end": 909
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_S01",
+        "sentence_id": "GG_S01_S027",
+        "quote": "如果带孩子，则在御花园增加休息，并减少珍宝馆的停留;如果同行者是情侣，则可在不妨碍通行的地点安排拍照。",
+        "start": 884,
+        "end": 935
+      }
+    ],
+    "mapping_id": "M027"
+  },
+  {
+    "doc_id": "GG_S01",
+    "source_scenic": "故宫",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:GG_S01",
+    "source_urls": [],
+    "source_path": "data\\html\\故宫\\游玩路线\\GG_S01.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "同行者是情侣",
+    "advice_text": "可在不妨碍通行的地点安排拍照",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游客类型"
+    ],
+    "visitor_types": [
+      "情侣"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_S01",
+        "start": 912,
+        "end": 918
+      },
+      "advice_text": {
+        "doc_id": "GG_S01",
+        "start": 920,
+        "end": 934
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_S01",
+        "sentence_id": "GG_S01_S027",
+        "quote": "如果带孩子，则在御花园增加休息，并减少珍宝馆的停留;如果同行者是情侣，则可在不妨碍通行的地点安排拍照。",
+        "start": 884,
+        "end": 935
+      }
+    ],
+    "mapping_id": "M028"
+  },
+  {
+    "doc_id": "GG_S02",
+    "source_scenic": "故宫",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:GG_S02",
+    "source_urls": [],
+    "source_path": "data\\html\\故宫\\游玩路线\\GG_S02.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "带老人",
+    "advice_text": "每连续步行二十分钟安排一次休息，并删减珍宝馆支线",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游客类型"
+    ],
+    "visitor_types": [
+      "老人"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_S02",
+        "start": 365,
+        "end": 368
+      },
+      "advice_text": {
+        "doc_id": "GG_S02",
+        "start": 370,
+        "end": 394
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_S02",
+        "sentence_id": "GG_S02_S012",
+        "quote": "如果带老人，则每连续步行二十分钟安排一次休息，并删减珍宝馆支线。",
+        "start": 363,
+        "end": 395
+      }
+    ],
+    "mapping_id": "M029"
+  },
+  {
+    "doc_id": "GG_S02",
+    "source_scenic": "故宫",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:GG_S02",
+    "source_urls": [],
+    "source_path": "data\\html\\故宫\\游玩路线\\GG_S02.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "老人明确表示疲劳",
+    "advice_text": "优先离园，不再增加拍照任务",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游客类型"
+    ],
+    "visitor_types": [
+      "老人"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_S02",
+        "start": 396,
+        "end": 404
+      },
+      "advice_text": {
+        "doc_id": "GG_S02",
+        "start": 406,
+        "end": 419
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_S02",
+        "sentence_id": "GG_S02_S013",
+        "quote": "若老人明确表示疲劳，就优先离园，不再增加拍照任务。",
+        "start": 395,
+        "end": 420
+      }
+    ],
+    "mapping_id": "M030"
+  },
+  {
+    "doc_id": "GG_S02",
+    "source_scenic": "故宫",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:GG_S02",
+    "source_urls": [],
+    "source_path": "data\\html\\故宫\\游玩路线\\GG_S02.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "同行者使用轮椅",
+    "advice_text": "应先核实无障碍通道;资料没有说明时，不能直接回答“全程无台阶",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游客类型"
+    ],
+    "visitor_types": [
+      "行动不便"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_S02",
+        "start": 422,
+        "end": 429
+      },
+      "advice_text": {
+        "doc_id": "GG_S02",
+        "start": 430,
+        "end": 460
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_S02",
+        "sentence_id": "GG_S02_S014",
+        "quote": "假如同行者使用轮椅，应先核实无障碍通道;资料没有说明时，不能直接回答“全程无台阶”。",
+        "start": 420,
+        "end": 462
+      }
+    ],
+    "mapping_id": "M031"
+  },
+  {
+    "doc_id": "GG_S03",
+    "source_scenic": "故宫",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:GG_S03",
+    "source_urls": [],
+    "source_path": "data\\html\\故宫\\游玩路线\\GG_S03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "在通行与体力都允许时",
+    "advice_text": "执行整个计划",
+    "condition_operator": "necessary",
+    "condition_mode": "explicit",
+    "condition_type": "开放与通行",
+    "condition_types": [
+      "开放与通行"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_S03",
+        "start": 150,
+        "end": 160
+      },
+      "advice_text": {
+        "doc_id": "GG_S03",
+        "start": 161,
+        "end": 167
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_S03",
+        "sentence_id": "GG_S03_S005",
+        "quote": "最终出口预设为神武门，只有在通行与体力都允许时才执行整个计划。",
+        "start": 137,
+        "end": 168
+      }
+    ],
+    "mapping_id": "M032"
+  },
+  {
+    "doc_id": "GG_S03",
+    "source_scenic": "故宫",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:GG_S03",
+    "source_urls": [],
+    "source_path": "data\\html\\故宫\\游玩路线\\GG_S03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "下小雨且现场仍允许游览",
+    "advice_text": "减少露天停留，按现场指引选择可进入的避雨处",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "天气季节",
+    "condition_types": [
+      "天气季节"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_S03",
+        "start": 171,
+        "end": 182
+      },
+      "advice_text": {
+        "doc_id": "GG_S03",
+        "start": 184,
+        "end": 205
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_S03",
+        "sentence_id": "GG_S03_S006",
+        "quote": "如果下小雨且现场仍允许游览，则减少露天停留，按现场指引选择可进入的避雨处;如果出现雷雨或临时闭园，则停止户外行程并服从管理。",
+        "start": 169,
+        "end": 231
+      }
+    ],
+    "mapping_id": "M033"
+  },
+  {
+    "doc_id": "GG_S03",
+    "source_scenic": "故宫",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:GG_S03",
+    "source_urls": [],
+    "source_path": "data\\html\\故宫\\游玩路线\\GG_S03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "出现雷雨或临时闭园",
+    "advice_text": "停止户外行程并服从管理",
+    "condition_operator": "any",
+    "condition_mode": "explicit",
+    "condition_type": "复合条件",
+    "condition_types": [
+      "天气季节",
+      "开放与通行"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_S03",
+        "start": 208,
+        "end": 217
+      },
+      "advice_text": {
+        "doc_id": "GG_S03",
+        "start": 219,
+        "end": 230
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_S03",
+        "sentence_id": "GG_S03_S006",
+        "quote": "如果下小雨且现场仍允许游览，则减少露天停留，按现场指引选择可进入的避雨处;如果出现雷雨或临时闭园，则停止户外行程并服从管理。",
+        "start": 169,
+        "end": 231
+      }
+    ],
+    "mapping_id": "M034"
+  },
+  {
+    "doc_id": "GG_S03",
+    "source_scenic": "故宫",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:GG_S03",
+    "source_urls": [],
+    "source_path": "data\\html\\故宫\\游玩路线\\GG_S03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "带孩子且孩子已经疲劳",
+    "advice_text": "建议先休息，并取消珍宝馆支线",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游客类型"
+    ],
+    "visitor_types": [
+      "亲子"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_S03",
+        "start": 256,
+        "end": 266
+      },
+      "advice_text": {
+        "doc_id": "GG_S03",
+        "start": 267,
+        "end": 281
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_S03",
+        "sentence_id": "GG_S03_S008",
+        "quote": "若带孩子且孩子已经疲劳，建议先休息，并取消珍宝馆支线;如果仅仅想拍照，可以在太和殿安排短暂停留。",
+        "start": 255,
+        "end": 303
+      }
+    ],
+    "mapping_id": "M035"
+  },
+  {
+    "doc_id": "GG_S03",
+    "source_scenic": "故宫",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:GG_S03",
+    "source_urls": [],
+    "source_path": "data\\html\\故宫\\游玩路线\\GG_S03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "仅仅想拍照",
+    "advice_text": "可以在太和殿安排短暂停留",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游览偏好",
+    "condition_types": [
+      "游览偏好"
+    ],
+    "visitor_types": [
+      "摄影爱好者"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_S03",
+        "start": 284,
+        "end": 289
+      },
+      "advice_text": {
+        "doc_id": "GG_S03",
+        "start": 290,
+        "end": 302
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_S03",
+        "sentence_id": "GG_S03_S008",
+        "quote": "若带孩子且孩子已经疲劳，建议先休息，并取消珍宝馆支线;如果仅仅想拍照，可以在太和殿安排短暂停留。",
+        "start": 255,
+        "end": 303
+      }
+    ],
+    "mapping_id": "M036"
+  },
+  {
+    "doc_id": "GG_S03",
+    "source_scenic": "故宫",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:GG_S03",
+    "source_urls": [],
+    "source_path": "data\\html\\故宫\\游玩路线\\GG_S03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "珍宝馆当天未开放",
+    "advice_text": "取消该支线，沿现场开放通道继续参观;不要把旧攻略里的展陈名称当作已经确认的当日安排",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "开放与通行",
+    "condition_types": [
+      "开放与通行"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_S03",
+        "start": 335,
+        "end": 343
+      },
+      "advice_text": {
+        "doc_id": "GG_S03",
+        "start": 345,
+        "end": 386
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_S03",
+        "sentence_id": "GG_S03_S010",
+        "quote": "如果珍宝馆当天未开放，则取消该支线，沿现场开放通道继续参观;不要把旧攻略里的展陈名称当作已经确认的当日安排。",
+        "start": 333,
+        "end": 387
+      }
+    ],
+    "mapping_id": "M037"
+  },
+  {
+    "doc_id": "GG_S03",
+    "source_scenic": "故宫",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:GG_S03",
+    "source_urls": [],
+    "source_path": "data\\html\\故宫\\游玩路线\\GG_S03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "体力允许并且相关区域开放",
+    "advice_text": "加入下午支线",
+    "condition_operator": "necessary",
+    "condition_mode": "explicit",
+    "condition_type": "开放与通行",
+    "condition_types": [
+      "开放与通行"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_S03",
+        "start": 390,
+        "end": 402
+      },
+      "advice_text": {
+        "doc_id": "GG_S03",
+        "start": 404,
+        "end": 410
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_S03",
+        "sentence_id": "GG_S03_S011",
+        "quote": "只有体力允许并且相关区域开放，才加入下午支线。",
+        "start": 388,
+        "end": 411
+      }
+    ],
+    "mapping_id": "M038"
+  },
+  {
+    "doc_id": "GG_S03",
+    "source_scenic": "故宫",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:GG_S03",
+    "source_urls": [],
+    "source_path": "data\\html\\故宫\\游玩路线\\GG_S03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "天气与开放情况得到确认",
+    "advice_text": "不承诺乘船、登高或进入特定院落",
+    "condition_operator": "unless",
+    "condition_mode": "explicit",
+    "condition_type": "天气季节",
+    "condition_types": [
+      "天气季节",
+      "开放与通行"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_S03",
+        "start": 413,
+        "end": 424
+      },
+      "advice_text": {
+        "doc_id": "GG_S03",
+        "start": 427,
+        "end": 442
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_S03",
+        "sentence_id": "GG_S03_S012",
+        "quote": "除非天气与开放情况得到确认，否则不承诺乘船、登高或进入特定院落。",
+        "start": 411,
+        "end": 443
+      }
+    ],
+    "mapping_id": "M039"
+  },
+  {
+    "doc_id": "GG_S04",
+    "source_scenic": "故宫",
+    "source_type": "travelogue",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:GG_S04",
+    "source_urls": [],
+    "source_path": "data\\html\\故宫\\游客游记\\GG_S04.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "带孩子且已经疲劳",
+    "advice_text": "减少支线并安排休息",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游客类型"
+    ],
+    "visitor_types": [
+      "亲子"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_S04",
+        "start": 325,
+        "end": 333
+      },
+      "advice_text": {
+        "doc_id": "GG_S04",
+        "start": 335,
+        "end": 344
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_S04",
+        "sentence_id": "GG_S04_S014",
+        "quote": "若带孩子且已经疲劳，就减少支线并安排休息;我们这次也是先休息，再沿开放通道从神武门离开。",
+        "start": 324,
+        "end": 368
+      }
+    ],
+    "mapping_id": "M040"
+  },
+  {
+    "doc_id": "GG_S04",
+    "source_scenic": "故宫",
+    "source_type": "travelogue",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:GG_S04",
+    "source_urls": [],
+    "source_path": "data\\html\\故宫\\游客游记\\GG_S04.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "再次到访",
+    "advice_text": "可以提前选择一个重点，避免把全日清单当成亲子游必须完成的任务",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "现场情境",
+    "condition_types": [
+      "现场情境"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_S04",
+        "start": 487,
+        "end": 491
+      },
+      "advice_text": {
+        "doc_id": "GG_S04",
+        "start": 492,
+        "end": 522
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_S04",
+        "sentence_id": "GG_S04_S020",
+        "quote": "若再次到访，可以提前选择一个重点，避免把全日清单当成亲子游必须完成的任务。",
+        "start": 486,
+        "end": 523
+      }
+    ],
+    "mapping_id": "M041"
+  },
+  {
+    "doc_id": "GG_S05",
+    "source_scenic": "故宫",
+    "source_type": "travelogue",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:GG_S05",
+    "source_urls": [],
+    "source_path": "data\\html\\故宫\\游客游记\\GG_S05.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "只剩一小时",
+    "advice_text": "删减支线，并说明无法完成全日路线",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "时间安排",
+    "condition_types": [
+      "时间安排"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_S05",
+        "start": 394,
+        "end": 399
+      },
+      "advice_text": {
+        "doc_id": "GG_S05",
+        "start": 401,
+        "end": 417
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_S05",
+        "sentence_id": "GG_S05_S014",
+        "quote": "如果偏好摄影，则在不影响通行时多留一些构图时间;如果只剩一小时，则删减支线，并说明无法完成全日路线。",
+        "start": 368,
+        "end": 418
+      }
+    ],
+    "mapping_id": "M042"
+  },
+  {
+    "doc_id": "TT_O02",
+    "source_scenic": "天坛",
+    "source_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_group_id": "url:https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202408/t20240808_3769005.html",
+    "source_urls": [
+      "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202408/t20240808_3769005.html"
+    ],
+    "source_path": "data\\html\\天坛\\游玩路线\\TT_O02.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "同行者需要休息",
+    "advice_text": "可放缓节奏，不必在入园后立即赶到每一个拍摄位置",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "现场情境",
+    "condition_types": [
+      "现场情境"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_O02",
+        "start": 233,
+        "end": 240
+      },
+      "advice_text": {
+        "doc_id": "TT_O02",
+        "start": 241,
+        "end": 264
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_O02",
+        "sentence_id": "TT_O02_S007",
+        "quote": "若同行者需要休息，可放缓节奏，不必在入园后立即赶到每一个拍摄位置。",
+        "start": 232,
+        "end": 265
+      }
+    ],
+    "mapping_id": "M043"
+  },
+  {
+    "doc_id": "TT_O02",
+    "source_scenic": "天坛",
+    "source_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_group_id": "url:https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202408/t20240808_3769005.html",
+    "source_urls": [
+      "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202408/t20240808_3769005.html"
+    ],
+    "source_path": "data\\html\\天坛\\游玩路线\\TT_O02.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "有接送或会合安排",
+    "advice_text": "应明确约在南门",
+    "condition_operator": "any",
+    "condition_mode": "explicit",
+    "condition_type": "现场情境",
+    "condition_types": [
+      "现场情境"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_O02",
+        "start": 453,
+        "end": 461
+      },
+      "advice_text": {
+        "doc_id": "TT_O02",
+        "start": 462,
+        "end": 469
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_O02",
+        "sentence_id": "TT_O02_S012",
+        "quote": "这条路线的终点与起点不同，同行者若有接送或会合安排，应明确约在南门。",
+        "start": 436,
+        "end": 470
+      }
+    ],
+    "mapping_id": "M044"
+  },
+  {
+    "doc_id": "TT_O04",
+    "source_scenic": "天坛",
+    "source_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_group_id": "url:https://www.visitbeijing.com.cn/article/4N0bP1sjf3e",
+    "source_urls": [
+      "https://www.visitbeijing.com.cn/article/4N0bP1sjf3e?device=amp"
+    ],
+    "source_path": "data\\html\\天坛\\游玩路线\\TT_O04.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "想先认识天坛最主要的建筑关系",
+    "advice_text": "可以按南进北行的思路安排中轴线参观",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游览偏好",
+    "condition_types": [
+      "游览偏好"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_O04",
+        "start": 2,
+        "end": 16
+      },
+      "advice_text": {
+        "doc_id": "TT_O04",
+        "start": 17,
+        "end": 34
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_O04",
+        "sentence_id": "TT_O04_S001",
+        "quote": "如果想先认识天坛最主要的建筑关系，可以按南进北行的思路安排中轴线参观。",
+        "start": 0,
+        "end": 35
+      }
+    ],
+    "mapping_id": "M045"
+  },
+  {
+    "doc_id": "TT_O04",
+    "source_scenic": "天坛",
+    "source_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_group_id": "url:https://www.visitbeijing.com.cn/article/4N0bP1sjf3e",
+    "source_urls": [
+      "https://www.visitbeijing.com.cn/article/4N0bP1sjf3e?device=amp"
+    ],
+    "source_path": "data\\html\\天坛\\游玩路线\\TT_O04.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "希望从东门离开",
+    "advice_text": "需要给离开中轴线后的步行留出时间",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "现场情境",
+    "condition_types": [
+      "现场情境"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_O04",
+        "start": 386,
+        "end": 393
+      },
+      "advice_text": {
+        "doc_id": "TT_O04",
+        "start": 394,
+        "end": 410
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_O04",
+        "sentence_id": "TT_O04_S011",
+        "quote": "若希望从东门离开，需要给离开中轴线后的步行留出时间;若选择北门，也应提前与同行者约定，避免有人在不同园门等待。",
+        "start": 385,
+        "end": 440
+      }
+    ],
+    "mapping_id": "M046"
+  },
+  {
+    "doc_id": "TT_O04",
+    "source_scenic": "天坛",
+    "source_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_group_id": "url:https://www.visitbeijing.com.cn/article/4N0bP1sjf3e",
+    "source_urls": [
+      "https://www.visitbeijing.com.cn/article/4N0bP1sjf3e?device=amp"
+    ],
+    "source_path": "data\\html\\天坛\\游玩路线\\TT_O04.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "选择北门",
+    "advice_text": "也应提前与同行者约定，避免有人在不同园门等待",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "现场情境",
+    "condition_types": [
+      "现场情境"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_O04",
+        "start": 412,
+        "end": 416
+      },
+      "advice_text": {
+        "doc_id": "TT_O04",
+        "start": 417,
+        "end": 439
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_O04",
+        "sentence_id": "TT_O04_S011",
+        "quote": "若希望从东门离开，需要给离开中轴线后的步行留出时间;若选择北门，也应提前与同行者约定，避免有人在不同园门等待。",
+        "start": 385,
+        "end": 440
+      }
+    ],
+    "mapping_id": "M047"
+  },
+  {
+    "doc_id": "TT_O05",
+    "source_scenic": "天坛",
+    "source_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_group_id": "url:https://www.visitbeijing.com.cn/article/4N0bP1sjf3e",
+    "source_urls": [
+      "https://www.visitbeijing.com.cn/article/4N0bP1sjf3e?device=amp"
+    ],
+    "source_path": "data\\html\\天坛\\游玩路线\\TT_O05.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "只想重点看祈年殿",
+    "advice_text": "可以在前段多停留，后续适当删减",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游览偏好",
+    "condition_types": [
+      "游览偏好"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_O05",
+        "start": 330,
+        "end": 338
+      },
+      "advice_text": {
+        "doc_id": "TT_O05",
+        "start": 339,
+        "end": 354
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_O05",
+        "sentence_id": "TT_O05_S009",
+        "quote": "同行者若只想重点看祈年殿，可以在前段多停留，后续适当删减。",
+        "start": 326,
+        "end": 355
+      }
+    ],
+    "mapping_id": "M048"
+  },
+  {
+    "doc_id": "TT_O05",
+    "source_scenic": "天坛",
+    "source_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_group_id": "url:https://www.visitbeijing.com.cn/article/4N0bP1sjf3e",
+    "source_urls": [
+      "https://www.visitbeijing.com.cn/article/4N0bP1sjf3e?device=amp"
+    ],
+    "source_path": "data\\html\\天坛\\游玩路线\\TT_O05.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "遇院落关闭或体力不支",
+    "advice_text": "应沿开放通道调整，不要把旧路线中的所有名称当作必须完成的清单",
+    "condition_operator": "any",
+    "condition_mode": "explicit",
+    "condition_type": "开放与通行",
+    "condition_types": [
+      "开放与通行"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_O05",
+        "start": 505,
+        "end": 515
+      },
+      "advice_text": {
+        "doc_id": "TT_O05",
+        "start": 516,
+        "end": 546
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_O05",
+        "sentence_id": "TT_O05_S015",
+        "quote": "若遇院落关闭或体力不支，应沿开放通道调整，不要把旧路线中的所有名称当作必须完成的清单。",
+        "start": 504,
+        "end": 547
+      }
+    ],
+    "mapping_id": "M049"
+  },
+  {
+    "doc_id": "TT_S01",
+    "source_scenic": "天坛",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:TT_S01",
+    "source_urls": [],
+    "source_path": "data\\html\\天坛\\游玩路线\\TT_S01.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "带孩子",
+    "advice_text": "在长廊增加休息，并减少斋宫的停留",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游客类型"
+    ],
+    "visitor_types": [
+      "亲子"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_S01",
+        "start": 879,
+        "end": 882
+      },
+      "advice_text": {
+        "doc_id": "TT_S01",
+        "start": 884,
+        "end": 900
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_S01",
+        "sentence_id": "TT_S01_S027",
+        "quote": "如果带孩子，则在长廊增加休息，并减少斋宫的停留;如果同行者是情侣，则可在不妨碍通行的地点安排拍照。",
+        "start": 877,
+        "end": 926
+      }
+    ],
+    "mapping_id": "M050"
+  },
+  {
+    "doc_id": "TT_S01",
+    "source_scenic": "天坛",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:TT_S01",
+    "source_urls": [],
+    "source_path": "data\\html\\天坛\\游玩路线\\TT_S01.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "同行者是情侣",
+    "advice_text": "可在不妨碍通行的地点安排拍照",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游客类型"
+    ],
+    "visitor_types": [
+      "情侣"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_S01",
+        "start": 903,
+        "end": 909
+      },
+      "advice_text": {
+        "doc_id": "TT_S01",
+        "start": 911,
+        "end": 925
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_S01",
+        "sentence_id": "TT_S01_S027",
+        "quote": "如果带孩子，则在长廊增加休息，并减少斋宫的停留;如果同行者是情侣，则可在不妨碍通行的地点安排拍照。",
+        "start": 877,
+        "end": 926
+      }
+    ],
+    "mapping_id": "M051"
+  },
+  {
+    "doc_id": "TT_S02",
+    "source_scenic": "天坛",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:TT_S02",
+    "source_urls": [],
+    "source_path": "data\\html\\天坛\\游玩路线\\TT_S02.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "带老人",
+    "advice_text": "每连续步行二十分钟安排一次休息，并删减斋宫支线",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游客类型"
+    ],
+    "visitor_types": [
+      "老人"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_S02",
+        "start": 361,
+        "end": 364
+      },
+      "advice_text": {
+        "doc_id": "TT_S02",
+        "start": 366,
+        "end": 389
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_S02",
+        "sentence_id": "TT_S02_S012",
+        "quote": "如果带老人，则每连续步行二十分钟安排一次休息，并删减斋宫支线。",
+        "start": 359,
+        "end": 390
+      }
+    ],
+    "mapping_id": "M052"
+  },
+  {
+    "doc_id": "TT_S02",
+    "source_scenic": "天坛",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:TT_S02",
+    "source_urls": [],
+    "source_path": "data\\html\\天坛\\游玩路线\\TT_S02.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "老人明确表示疲劳",
+    "advice_text": "优先离园，不再增加拍照任务",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游客类型"
+    ],
+    "visitor_types": [
+      "老人"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_S02",
+        "start": 391,
+        "end": 399
+      },
+      "advice_text": {
+        "doc_id": "TT_S02",
+        "start": 401,
+        "end": 414
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_S02",
+        "sentence_id": "TT_S02_S013",
+        "quote": "若老人明确表示疲劳，就优先离园，不再增加拍照任务。",
+        "start": 390,
+        "end": 415
+      }
+    ],
+    "mapping_id": "M053"
+  },
+  {
+    "doc_id": "TT_S02",
+    "source_scenic": "天坛",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:TT_S02",
+    "source_urls": [],
+    "source_path": "data\\html\\天坛\\游玩路线\\TT_S02.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "同行者使用轮椅",
+    "advice_text": "应先核实无障碍通道;资料没有说明时，不能直接回答“全程无台阶",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游客类型"
+    ],
+    "visitor_types": [
+      "行动不便"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_S02",
+        "start": 417,
+        "end": 424
+      },
+      "advice_text": {
+        "doc_id": "TT_S02",
+        "start": 425,
+        "end": 455
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_S02",
+        "sentence_id": "TT_S02_S014",
+        "quote": "假如同行者使用轮椅，应先核实无障碍通道;资料没有说明时，不能直接回答“全程无台阶”。",
+        "start": 415,
+        "end": 457
+      }
+    ],
+    "mapping_id": "M054"
+  },
+  {
+    "doc_id": "TT_S03",
+    "source_scenic": "天坛",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:TT_S03",
+    "source_urls": [],
+    "source_path": "data\\html\\天坛\\游玩路线\\TT_S03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "在通行与体力都允许时",
+    "advice_text": "执行整个计划",
+    "condition_operator": "necessary",
+    "condition_mode": "explicit",
+    "condition_type": "开放与通行",
+    "condition_types": [
+      "开放与通行"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_S03",
+        "start": 148,
+        "end": 158
+      },
+      "advice_text": {
+        "doc_id": "TT_S03",
+        "start": 159,
+        "end": 165
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_S03",
+        "sentence_id": "TT_S03_S005",
+        "quote": "最终出口预设为东门，只有在通行与体力都允许时才执行整个计划。",
+        "start": 136,
+        "end": 166
+      }
+    ],
+    "mapping_id": "M055"
+  },
+  {
+    "doc_id": "TT_S03",
+    "source_scenic": "天坛",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:TT_S03",
+    "source_urls": [],
+    "source_path": "data\\html\\天坛\\游玩路线\\TT_S03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "下小雨且现场仍允许游览",
+    "advice_text": "减少露天停留，按现场指引选择可进入的避雨处",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "天气季节",
+    "condition_types": [
+      "天气季节"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_S03",
+        "start": 169,
+        "end": 180
+      },
+      "advice_text": {
+        "doc_id": "TT_S03",
+        "start": 182,
+        "end": 203
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_S03",
+        "sentence_id": "TT_S03_S006",
+        "quote": "如果下小雨且现场仍允许游览，则减少露天停留，按现场指引选择可进入的避雨处;如果出现雷雨或临时闭园，则停止户外行程并服从管理。",
+        "start": 167,
+        "end": 229
+      }
+    ],
+    "mapping_id": "M056"
+  },
+  {
+    "doc_id": "TT_S03",
+    "source_scenic": "天坛",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:TT_S03",
+    "source_urls": [],
+    "source_path": "data\\html\\天坛\\游玩路线\\TT_S03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "出现雷雨或临时闭园",
+    "advice_text": "停止户外行程并服从管理",
+    "condition_operator": "any",
+    "condition_mode": "explicit",
+    "condition_type": "复合条件",
+    "condition_types": [
+      "天气季节",
+      "开放与通行"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_S03",
+        "start": 206,
+        "end": 215
+      },
+      "advice_text": {
+        "doc_id": "TT_S03",
+        "start": 217,
+        "end": 228
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_S03",
+        "sentence_id": "TT_S03_S006",
+        "quote": "如果下小雨且现场仍允许游览，则减少露天停留，按现场指引选择可进入的避雨处;如果出现雷雨或临时闭园，则停止户外行程并服从管理。",
+        "start": 167,
+        "end": 229
+      }
+    ],
+    "mapping_id": "M057"
+  },
+  {
+    "doc_id": "TT_S03",
+    "source_scenic": "天坛",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:TT_S03",
+    "source_urls": [],
+    "source_path": "data\\html\\天坛\\游玩路线\\TT_S03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "带孩子且孩子已经疲劳",
+    "advice_text": "建议先休息，并取消斋宫支线",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游客类型"
+    ],
+    "visitor_types": [
+      "亲子"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_S03",
+        "start": 254,
+        "end": 264
+      },
+      "advice_text": {
+        "doc_id": "TT_S03",
+        "start": 265,
+        "end": 278
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_S03",
+        "sentence_id": "TT_S03_S008",
+        "quote": "若带孩子且孩子已经疲劳，建议先休息，并取消斋宫支线;如果仅仅想拍照，可以在圜丘安排短暂停留。",
+        "start": 253,
+        "end": 299
+      }
+    ],
+    "mapping_id": "M058"
+  },
+  {
+    "doc_id": "TT_S03",
+    "source_scenic": "天坛",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:TT_S03",
+    "source_urls": [],
+    "source_path": "data\\html\\天坛\\游玩路线\\TT_S03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "仅仅想拍照",
+    "advice_text": "可以在圜丘安排短暂停留",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游览偏好",
+    "condition_types": [
+      "游览偏好"
+    ],
+    "visitor_types": [
+      "摄影爱好者"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_S03",
+        "start": 281,
+        "end": 286
+      },
+      "advice_text": {
+        "doc_id": "TT_S03",
+        "start": 287,
+        "end": 298
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_S03",
+        "sentence_id": "TT_S03_S008",
+        "quote": "若带孩子且孩子已经疲劳，建议先休息，并取消斋宫支线;如果仅仅想拍照，可以在圜丘安排短暂停留。",
+        "start": 253,
+        "end": 299
+      }
+    ],
+    "mapping_id": "M059"
+  },
+  {
+    "doc_id": "TT_S03",
+    "source_scenic": "天坛",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:TT_S03",
+    "source_urls": [],
+    "source_path": "data\\html\\天坛\\游玩路线\\TT_S03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "斋宫当天未开放",
+    "advice_text": "取消该支线，保留祈年殿与长廊的参观;不能仅凭较旧的资料确认所有院落均已开放",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "开放与通行",
+    "condition_types": [
+      "开放与通行"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_S03",
+        "start": 331,
+        "end": 338
+      },
+      "advice_text": {
+        "doc_id": "TT_S03",
+        "start": 340,
+        "end": 377
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_S03",
+        "sentence_id": "TT_S03_S010",
+        "quote": "如果斋宫当天未开放，则取消该支线，保留祈年殿与长廊的参观;不能仅凭较旧的资料确认所有院落均已开放。",
+        "start": 329,
+        "end": 378
+      }
+    ],
+    "mapping_id": "M060"
+  },
+  {
+    "doc_id": "TT_S03",
+    "source_scenic": "天坛",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:TT_S03",
+    "source_urls": [],
+    "source_path": "data\\html\\天坛\\游玩路线\\TT_S03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "体力允许并且相关区域开放",
+    "advice_text": "加入下午支线",
+    "condition_operator": "necessary",
+    "condition_mode": "explicit",
+    "condition_type": "开放与通行",
+    "condition_types": [
+      "开放与通行"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_S03",
+        "start": 381,
+        "end": 393
+      },
+      "advice_text": {
+        "doc_id": "TT_S03",
+        "start": 395,
+        "end": 401
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_S03",
+        "sentence_id": "TT_S03_S011",
+        "quote": "只有体力允许并且相关区域开放，才加入下午支线。",
+        "start": 379,
+        "end": 402
+      }
+    ],
+    "mapping_id": "M061"
+  },
+  {
+    "doc_id": "TT_S03",
+    "source_scenic": "天坛",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:TT_S03",
+    "source_urls": [],
+    "source_path": "data\\html\\天坛\\游玩路线\\TT_S03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "天气与开放情况得到确认",
+    "advice_text": "不承诺乘船、登高或进入特定院落",
+    "condition_operator": "unless",
+    "condition_mode": "explicit",
+    "condition_type": "天气季节",
+    "condition_types": [
+      "天气季节",
+      "开放与通行"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_S03",
+        "start": 404,
+        "end": 415
+      },
+      "advice_text": {
+        "doc_id": "TT_S03",
+        "start": 418,
+        "end": 433
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_S03",
+        "sentence_id": "TT_S03_S012",
+        "quote": "除非天气与开放情况得到确认，否则不承诺乘船、登高或进入特定院落。",
+        "start": 402,
+        "end": 434
+      }
+    ],
+    "mapping_id": "M062"
+  },
+  {
+    "doc_id": "TT_S04",
+    "source_scenic": "天坛",
+    "source_type": "travelogue",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:TT_S04",
+    "source_urls": [],
+    "source_path": "data\\html\\天坛\\游客游记\\TT_S04.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "带孩子且已经疲劳",
+    "advice_text": "减少支线并安排休息",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游客类型"
+    ],
+    "visitor_types": [
+      "亲子"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_S04",
+        "start": 320,
+        "end": 328
+      },
+      "advice_text": {
+        "doc_id": "TT_S04",
+        "start": 330,
+        "end": 339
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_S04",
+        "sentence_id": "TT_S04_S014",
+        "quote": "若带孩子且已经疲劳，就减少支线并安排休息;我们这次也是先休息，再沿开放通道从东门离开。",
+        "start": 319,
+        "end": 362
+      }
+    ],
+    "mapping_id": "M063"
+  },
+  {
+    "doc_id": "TT_S04",
+    "source_scenic": "天坛",
+    "source_type": "travelogue",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:TT_S04",
+    "source_urls": [],
+    "source_path": "data\\html\\天坛\\游客游记\\TT_S04.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "再次到访",
+    "advice_text": "可以提前选择一个重点，避免把全日清单当成亲子游必须完成的任务",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "现场情境",
+    "condition_types": [
+      "现场情境"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_S04",
+        "start": 481,
+        "end": 485
+      },
+      "advice_text": {
+        "doc_id": "TT_S04",
+        "start": 486,
+        "end": 516
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_S04",
+        "sentence_id": "TT_S04_S020",
+        "quote": "若再次到访，可以提前选择一个重点，避免把全日清单当成亲子游必须完成的任务。",
+        "start": 480,
+        "end": 517
+      }
+    ],
+    "mapping_id": "M064"
+  },
+  {
+    "doc_id": "TT_S05",
+    "source_scenic": "天坛",
+    "source_type": "travelogue",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:TT_S05",
+    "source_urls": [],
+    "source_path": "data\\html\\天坛\\游客游记\\TT_S05.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "只剩一小时",
+    "advice_text": "删减支线，并说明无法完成全日路线",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "时间安排",
+    "condition_types": [
+      "时间安排"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_S05",
+        "start": 396,
+        "end": 401
+      },
+      "advice_text": {
+        "doc_id": "TT_S05",
+        "start": 403,
+        "end": 419
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_S05",
+        "sentence_id": "TT_S05_S014",
+        "quote": "如果偏好摄影，则在不影响通行时多留一些构图时间;如果只剩一小时，则删减支线，并说明无法完成全日路线。",
+        "start": 370,
+        "end": 420
+      }
+    ],
+    "mapping_id": "M065"
+  },
+  {
+    "doc_id": "YHY_O02",
+    "source_scenic": "颐和园",
+    "source_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_group_id": "url:https://s.visitbeijing.com.cn/attraction/101407",
+    "source_urls": [
+      "https://s.visitbeijing.com.cn/attraction/101407"
+    ],
+    "source_path": "data\\html\\颐和园\\游玩路线\\YHY_O02.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "当天游船停航或等候过久",
+    "advice_text": "应按园内导览调整后段安排，先保证路线可达，再决定是否继续去南湖岛",
+    "condition_operator": "any",
+    "condition_mode": "explicit",
+    "condition_type": "开放与通行",
+    "condition_types": [
+      "开放与通行"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "颐和园",
+    "spans": {
+      "condition_text": {
+        "doc_id": "YHY_O02",
+        "start": 497,
+        "end": 508
+      },
+      "advice_text": {
+        "doc_id": "YHY_O02",
+        "start": 509,
+        "end": 541
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "YHY_O02",
+        "sentence_id": "YHY_O02_S015",
+        "quote": "若当天游船停航或等候过久，应按园内导览调整后段安排，先保证路线可达，再决定是否继续去南湖岛。",
+        "start": 496,
+        "end": 542
+      }
+    ],
+    "mapping_id": "M066"
+  },
+  {
+    "doc_id": "YHY_O03",
+    "source_scenic": "颐和园",
+    "source_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_group_id": "url:https://s.visitbeijing.com.cn/attraction/101407",
+    "source_urls": [
+      "https://s.visitbeijing.com.cn/attraction/101407"
+    ],
+    "source_path": "data\\html\\颐和园\\游玩路线\\YHY_O03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "时间有限",
+    "advice_text": "可以把颐和园行程安排在东部院落、长廊和后山之间",
+    "condition_operator": "context",
+    "condition_mode": "context",
+    "condition_type": "时间安排",
+    "condition_types": [
+      "时间安排"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "颐和园",
+    "spans": {
+      "condition_text": {
+        "doc_id": "YHY_O03",
+        "start": 0,
+        "end": 4
+      },
+      "advice_text": {
+        "doc_id": "YHY_O03",
+        "start": 6,
+        "end": 29
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "YHY_O03",
+        "sentence_id": "YHY_O03_S001",
+        "quote": "时间有限时，可以把颐和园行程安排在东部院落、长廊和后山之间。",
+        "start": 0,
+        "end": 30
+      }
+    ],
+    "mapping_id": "M067"
+  },
+  {
+    "doc_id": "YHY_O03",
+    "source_scenic": "颐和园",
+    "source_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_group_id": "url:https://s.visitbeijing.com.cn/attraction/101407",
+    "source_urls": [
+      "https://s.visitbeijing.com.cn/attraction/101407"
+    ],
+    "source_path": "data\\html\\颐和园\\游玩路线\\YHY_O03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "计划严格控制时长",
+    "advice_text": "不宜在所有院落中逐一深入",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "现场情境",
+    "condition_types": [
+      "现场情境"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "颐和园",
+    "spans": {
+      "condition_text": {
+        "doc_id": "YHY_O03",
+        "start": 237,
+        "end": 245
+      },
+      "advice_text": {
+        "doc_id": "YHY_O03",
+        "start": 247,
+        "end": 259
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "YHY_O03",
+        "sentence_id": "YHY_O03_S007",
+        "quote": "若计划严格控制时长，就不宜在所有院落中逐一深入。",
+        "start": 236,
+        "end": 260
+      }
+    ],
+    "mapping_id": "M068"
+  },
+  {
+    "doc_id": "YHY_O03",
+    "source_scenic": "颐和园",
+    "source_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_group_id": "url:https://s.visitbeijing.com.cn/attraction/101407",
+    "source_urls": [
+      "https://s.visitbeijing.com.cn/attraction/101407"
+    ],
+    "source_path": "data\\html\\颐和园\\游玩路线\\YHY_O03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "不适合上下坡或台阶",
+    "advice_text": "应在行前了解园内导览，必要时调整路线",
+    "condition_operator": "any",
+    "condition_mode": "explicit",
+    "condition_type": "现场情境",
+    "condition_types": [
+      "现场情境"
+    ],
+    "visitor_types": [
+      "行动不便"
+    ],
+    "target_scope": "颐和园",
+    "spans": {
+      "condition_text": {
+        "doc_id": "YHY_O03",
+        "start": 402,
+        "end": 411
+      },
+      "advice_text": {
+        "doc_id": "YHY_O03",
+        "start": 412,
+        "end": 430
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "YHY_O03",
+        "sentence_id": "YHY_O03_S013",
+        "quote": "同行者若不适合上下坡或台阶，应在行前了解园内导览，必要时调整路线。",
+        "start": 398,
+        "end": 431
+      }
+    ],
+    "mapping_id": "M069"
+  },
+  {
+    "doc_id": "YHY_O04",
+    "source_scenic": "颐和园",
+    "source_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_group_id": "url:https://s.visitbeijing.com.cn/attraction/101407",
+    "source_urls": [
+      "https://s.visitbeijing.com.cn/attraction/101407"
+    ],
+    "source_path": "data\\html\\颐和园\\游玩路线\\YHY_O04.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "停航或等候较久",
+    "advice_text": "需要重新评估步行安排，不能忽略从船程变为步行后的距离变化",
+    "condition_operator": "any",
+    "condition_mode": "explicit",
+    "condition_type": "开放与通行",
+    "condition_types": [
+      "开放与通行"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "颐和园",
+    "spans": {
+      "condition_text": {
+        "doc_id": "YHY_O04",
+        "start": 337,
+        "end": 344
+      },
+      "advice_text": {
+        "doc_id": "YHY_O04",
+        "start": 345,
+        "end": 373
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "YHY_O04",
+        "sentence_id": "YHY_O04_S011",
+        "quote": "若停航或等候较久，需要重新评估步行安排，不能忽略从船程变为步行后的距离变化。",
+        "start": 336,
+        "end": 374
+      }
+    ],
+    "mapping_id": "M070"
+  },
+  {
+    "doc_id": "YHY_O04",
+    "source_scenic": "颐和园",
+    "source_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_group_id": "url:https://s.visitbeijing.com.cn/attraction/101407",
+    "source_urls": [
+      "https://s.visitbeijing.com.cn/attraction/101407"
+    ],
+    "source_path": "data\\html\\颐和园\\游玩路线\\YHY_O04.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "前山停留已占用较长时间",
+    "advice_text": "可以减少后段院落的深入参观，把路线作为一个可调整的框架",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "时间安排",
+    "condition_types": [
+      "时间安排"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "颐和园",
+    "spans": {
+      "condition_text": {
+        "doc_id": "YHY_O04",
+        "start": 474,
+        "end": 485
+      },
+      "advice_text": {
+        "doc_id": "YHY_O04",
+        "start": 486,
+        "end": 513
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "YHY_O04",
+        "sentence_id": "YHY_O04_S014",
+        "quote": "如果前山停留已占用较长时间，可以减少后段院落的深入参观，把路线作为一个可调整的框架。",
+        "start": 472,
+        "end": 514
+      }
+    ],
+    "mapping_id": "M071"
+  },
+  {
+    "doc_id": "YHY_O05",
+    "source_scenic": "颐和园",
+    "source_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_group_id": "url:https://s.visitbeijing.com.cn/attraction/101407",
+    "source_urls": [
+      "https://s.visitbeijing.com.cn/attraction/101407"
+    ],
+    "source_path": "data\\html\\颐和园\\游玩路线\\YHY_O05.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "带孩子",
+    "advice_text": "不要在桥边长时间分散",
+    "condition_operator": "context",
+    "condition_mode": "context",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游客类型"
+    ],
+    "visitor_types": [
+      "亲子"
+    ],
+    "target_scope": "颐和园",
+    "spans": {
+      "condition_text": {
+        "doc_id": "YHY_O05",
+        "start": 267,
+        "end": 270
+      },
+      "advice_text": {
+        "doc_id": "YHY_O05",
+        "start": 278,
+        "end": 288
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "YHY_O05",
+        "sentence_id": "YHY_O05_S007",
+        "quote": "拍照时应照顾正常通行，带孩子的同行者也应注意不要在桥边长时间分散。",
+        "start": 256,
+        "end": 289
+      }
+    ],
+    "mapping_id": "M072"
+  },
+  {
+    "doc_id": "YHY_O05",
+    "source_scenic": "颐和园",
+    "source_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_group_id": "url:https://s.visitbeijing.com.cn/attraction/101407",
+    "source_urls": [
+      "https://s.visitbeijing.com.cn/attraction/101407"
+    ],
+    "source_path": "data\\html\\颐和园\\游玩路线\\YHY_O05.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "当天不乘船",
+    "advice_text": "需要按园内导览重新评估步行距离，不要把标注的三小时直接套用在变更后的行程上",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "现场情境",
+    "condition_types": [
+      "现场情境"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "颐和园",
+    "spans": {
+      "condition_text": {
+        "doc_id": "YHY_O05",
+        "start": 529,
+        "end": 534
+      },
+      "advice_text": {
+        "doc_id": "YHY_O05",
+        "start": 536,
+        "end": 573
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "YHY_O05",
+        "sentence_id": "YHY_O05_S015",
+        "quote": "若当天不乘船，则需要按园内导览重新评估步行距离，不要把标注的三小时直接套用在变更后的行程上。",
+        "start": 528,
+        "end": 574
+      }
+    ],
+    "mapping_id": "M073"
+  },
+  {
+    "doc_id": "YHY_S01",
+    "source_scenic": "颐和园",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:YHY_S01",
+    "source_urls": [],
+    "source_path": "data\\html\\颐和园\\游玩路线\\YHY_S01.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "带孩子",
+    "advice_text": "在苏州街增加休息，并减少佛香阁的停留",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游客类型"
+    ],
+    "visitor_types": [
+      "亲子"
+    ],
+    "target_scope": "颐和园",
+    "spans": {
+      "condition_text": {
+        "doc_id": "YHY_S01",
+        "start": 889,
+        "end": 892
+      },
+      "advice_text": {
+        "doc_id": "YHY_S01",
+        "start": 894,
+        "end": 912
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "YHY_S01",
+        "sentence_id": "YHY_S01_S027",
+        "quote": "如果带孩子，则在苏州街增加休息，并减少佛香阁的停留;如果同行者是情侣，则可在不妨碍通行的地点安排拍照。",
+        "start": 887,
+        "end": 938
+      }
+    ],
+    "mapping_id": "M074"
+  },
+  {
+    "doc_id": "YHY_S01",
+    "source_scenic": "颐和园",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:YHY_S01",
+    "source_urls": [],
+    "source_path": "data\\html\\颐和园\\游玩路线\\YHY_S01.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "同行者是情侣",
+    "advice_text": "可在不妨碍通行的地点安排拍照",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游客类型"
+    ],
+    "visitor_types": [
+      "情侣"
+    ],
+    "target_scope": "颐和园",
+    "spans": {
+      "condition_text": {
+        "doc_id": "YHY_S01",
+        "start": 915,
+        "end": 921
+      },
+      "advice_text": {
+        "doc_id": "YHY_S01",
+        "start": 923,
+        "end": 937
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "YHY_S01",
+        "sentence_id": "YHY_S01_S027",
+        "quote": "如果带孩子，则在苏州街增加休息，并减少佛香阁的停留;如果同行者是情侣，则可在不妨碍通行的地点安排拍照。",
+        "start": 887,
+        "end": 938
+      }
+    ],
+    "mapping_id": "M075"
+  },
+  {
+    "doc_id": "YHY_S02",
+    "source_scenic": "颐和园",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:YHY_S02",
+    "source_urls": [],
+    "source_path": "data\\html\\颐和园\\游玩路线\\YHY_S02.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "带老人",
+    "advice_text": "每连续步行二十分钟安排一次休息，并删减佛香阁支线",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游客类型"
+    ],
+    "visitor_types": [
+      "老人"
+    ],
+    "target_scope": "颐和园",
+    "spans": {
+      "condition_text": {
+        "doc_id": "YHY_S02",
+        "start": 369,
+        "end": 372
+      },
+      "advice_text": {
+        "doc_id": "YHY_S02",
+        "start": 374,
+        "end": 398
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "YHY_S02",
+        "sentence_id": "YHY_S02_S012",
+        "quote": "如果带老人，则每连续步行二十分钟安排一次休息，并删减佛香阁支线。",
+        "start": 367,
+        "end": 399
+      }
+    ],
+    "mapping_id": "M076"
+  },
+  {
+    "doc_id": "YHY_S02",
+    "source_scenic": "颐和园",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:YHY_S02",
+    "source_urls": [],
+    "source_path": "data\\html\\颐和园\\游玩路线\\YHY_S02.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "老人明确表示疲劳",
+    "advice_text": "优先离园，不再增加拍照任务",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游客类型"
+    ],
+    "visitor_types": [
+      "老人"
+    ],
+    "target_scope": "颐和园",
+    "spans": {
+      "condition_text": {
+        "doc_id": "YHY_S02",
+        "start": 400,
+        "end": 408
+      },
+      "advice_text": {
+        "doc_id": "YHY_S02",
+        "start": 410,
+        "end": 423
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "YHY_S02",
+        "sentence_id": "YHY_S02_S013",
+        "quote": "若老人明确表示疲劳，就优先离园，不再增加拍照任务。",
+        "start": 399,
+        "end": 424
+      }
+    ],
+    "mapping_id": "M077"
+  },
+  {
+    "doc_id": "YHY_S02",
+    "source_scenic": "颐和园",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:YHY_S02",
+    "source_urls": [],
+    "source_path": "data\\html\\颐和园\\游玩路线\\YHY_S02.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "同行者使用轮椅",
+    "advice_text": "应先核实无障碍通道;资料没有说明时，不能直接回答“全程无台阶",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游客类型"
+    ],
+    "visitor_types": [
+      "行动不便"
+    ],
+    "target_scope": "颐和园",
+    "spans": {
+      "condition_text": {
+        "doc_id": "YHY_S02",
+        "start": 426,
+        "end": 433
+      },
+      "advice_text": {
+        "doc_id": "YHY_S02",
+        "start": 434,
+        "end": 464
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "YHY_S02",
+        "sentence_id": "YHY_S02_S014",
+        "quote": "假如同行者使用轮椅，应先核实无障碍通道;资料没有说明时，不能直接回答“全程无台阶”。",
+        "start": 424,
+        "end": 466
+      }
+    ],
+    "mapping_id": "M078"
+  },
+  {
+    "doc_id": "YHY_S03",
+    "source_scenic": "颐和园",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:YHY_S03",
+    "source_urls": [],
+    "source_path": "data\\html\\颐和园\\游玩路线\\YHY_S03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "在通行与体力都允许时",
+    "advice_text": "执行整个计划",
+    "condition_operator": "necessary",
+    "condition_mode": "explicit",
+    "condition_type": "开放与通行",
+    "condition_types": [
+      "开放与通行"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "颐和园",
+    "spans": {
+      "condition_text": {
+        "doc_id": "YHY_S03",
+        "start": 152,
+        "end": 162
+      },
+      "advice_text": {
+        "doc_id": "YHY_S03",
+        "start": 163,
+        "end": 169
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "YHY_S03",
+        "sentence_id": "YHY_S03_S005",
+        "quote": "最终出口预设为北宫门，只有在通行与体力都允许时才执行整个计划。",
+        "start": 139,
+        "end": 170
+      }
+    ],
+    "mapping_id": "M079"
+  },
+  {
+    "doc_id": "YHY_S03",
+    "source_scenic": "颐和园",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:YHY_S03",
+    "source_urls": [],
+    "source_path": "data\\html\\颐和园\\游玩路线\\YHY_S03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "下小雨且现场仍允许游览",
+    "advice_text": "减少露天停留，按现场指引选择可进入的避雨处",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "天气季节",
+    "condition_types": [
+      "天气季节"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "颐和园",
+    "spans": {
+      "condition_text": {
+        "doc_id": "YHY_S03",
+        "start": 173,
+        "end": 184
+      },
+      "advice_text": {
+        "doc_id": "YHY_S03",
+        "start": 186,
+        "end": 207
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "YHY_S03",
+        "sentence_id": "YHY_S03_S006",
+        "quote": "如果下小雨且现场仍允许游览，则减少露天停留，按现场指引选择可进入的避雨处;如果出现雷雨或临时闭园，则停止户外行程并服从管理。",
+        "start": 171,
+        "end": 233
+      }
+    ],
+    "mapping_id": "M080"
+  },
+  {
+    "doc_id": "YHY_S03",
+    "source_scenic": "颐和园",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:YHY_S03",
+    "source_urls": [],
+    "source_path": "data\\html\\颐和园\\游玩路线\\YHY_S03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "出现雷雨或临时闭园",
+    "advice_text": "停止户外行程并服从管理",
+    "condition_operator": "any",
+    "condition_mode": "explicit",
+    "condition_type": "复合条件",
+    "condition_types": [
+      "天气季节",
+      "开放与通行"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "颐和园",
+    "spans": {
+      "condition_text": {
+        "doc_id": "YHY_S03",
+        "start": 210,
+        "end": 219
+      },
+      "advice_text": {
+        "doc_id": "YHY_S03",
+        "start": 221,
+        "end": 232
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "YHY_S03",
+        "sentence_id": "YHY_S03_S006",
+        "quote": "如果下小雨且现场仍允许游览，则减少露天停留，按现场指引选择可进入的避雨处;如果出现雷雨或临时闭园，则停止户外行程并服从管理。",
+        "start": 171,
+        "end": 233
+      }
+    ],
+    "mapping_id": "M081"
+  },
+  {
+    "doc_id": "YHY_S03",
+    "source_scenic": "颐和园",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:YHY_S03",
+    "source_urls": [],
+    "source_path": "data\\html\\颐和园\\游玩路线\\YHY_S03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "带孩子且孩子已经疲劳",
+    "advice_text": "建议先休息，并取消佛香阁支线",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游客类型"
+    ],
+    "visitor_types": [
+      "亲子"
+    ],
+    "target_scope": "颐和园",
+    "spans": {
+      "condition_text": {
+        "doc_id": "YHY_S03",
+        "start": 258,
+        "end": 268
+      },
+      "advice_text": {
+        "doc_id": "YHY_S03",
+        "start": 269,
+        "end": 283
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "YHY_S03",
+        "sentence_id": "YHY_S03_S008",
+        "quote": "若带孩子且孩子已经疲劳，建议先休息，并取消佛香阁支线;如果仅仅想拍照，可以在仁寿殿安排短暂停留。",
+        "start": 257,
+        "end": 305
+      }
+    ],
+    "mapping_id": "M082"
+  },
+  {
+    "doc_id": "YHY_S03",
+    "source_scenic": "颐和园",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:YHY_S03",
+    "source_urls": [],
+    "source_path": "data\\html\\颐和园\\游玩路线\\YHY_S03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "仅仅想拍照",
+    "advice_text": "可以在仁寿殿安排短暂停留",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游览偏好",
+    "condition_types": [
+      "游览偏好"
+    ],
+    "visitor_types": [
+      "摄影爱好者"
+    ],
+    "target_scope": "颐和园",
+    "spans": {
+      "condition_text": {
+        "doc_id": "YHY_S03",
+        "start": 286,
+        "end": 291
+      },
+      "advice_text": {
+        "doc_id": "YHY_S03",
+        "start": 292,
+        "end": 304
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "YHY_S03",
+        "sentence_id": "YHY_S03_S008",
+        "quote": "若带孩子且孩子已经疲劳，建议先休息，并取消佛香阁支线;如果仅仅想拍照，可以在仁寿殿安排短暂停留。",
+        "start": 257,
+        "end": 305
+      }
+    ],
+    "mapping_id": "M083"
+  },
+  {
+    "doc_id": "YHY_S03",
+    "source_scenic": "颐和园",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:YHY_S03",
+    "source_urls": [],
+    "source_path": "data\\html\\颐和园\\游玩路线\\YHY_S03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "游船因大风停航",
+    "advice_text": "取消乘船并改为沿开放岸线步行;即使买好了行程计划，也不能把停航写成可乘船",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "天气季节",
+    "condition_types": [
+      "天气季节",
+      "开放与通行"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "颐和园",
+    "spans": {
+      "condition_text": {
+        "doc_id": "YHY_S03",
+        "start": 337,
+        "end": 344
+      },
+      "advice_text": {
+        "doc_id": "YHY_S03",
+        "start": 346,
+        "end": 382
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "YHY_S03",
+        "sentence_id": "YHY_S03_S010",
+        "quote": "如果游船因大风停航，则取消乘船并改为沿开放岸线步行;即使买好了行程计划，也不能把停航写成可乘船。",
+        "start": 335,
+        "end": 383
+      }
+    ],
+    "mapping_id": "M084"
+  },
+  {
+    "doc_id": "YHY_S03",
+    "source_scenic": "颐和园",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:YHY_S03",
+    "source_urls": [],
+    "source_path": "data\\html\\颐和园\\游玩路线\\YHY_S03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "体力允许并且相关区域开放",
+    "advice_text": "加入下午支线",
+    "condition_operator": "necessary",
+    "condition_mode": "explicit",
+    "condition_type": "开放与通行",
+    "condition_types": [
+      "开放与通行"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "颐和园",
+    "spans": {
+      "condition_text": {
+        "doc_id": "YHY_S03",
+        "start": 416,
+        "end": 428
+      },
+      "advice_text": {
+        "doc_id": "YHY_S03",
+        "start": 430,
+        "end": 436
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "YHY_S03",
+        "sentence_id": "YHY_S03_S012",
+        "quote": "只有体力允许并且相关区域开放，才加入下午支线。",
+        "start": 414,
+        "end": 437
+      }
+    ],
+    "mapping_id": "M085"
+  },
+  {
+    "doc_id": "YHY_S03",
+    "source_scenic": "颐和园",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:YHY_S03",
+    "source_urls": [],
+    "source_path": "data\\html\\颐和园\\游玩路线\\YHY_S03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "天气与开放情况得到确认",
+    "advice_text": "不承诺乘船、登高或进入特定院落",
+    "condition_operator": "unless",
+    "condition_mode": "explicit",
+    "condition_type": "天气季节",
+    "condition_types": [
+      "天气季节",
+      "开放与通行"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "颐和园",
+    "spans": {
+      "condition_text": {
+        "doc_id": "YHY_S03",
+        "start": 439,
+        "end": 450
+      },
+      "advice_text": {
+        "doc_id": "YHY_S03",
+        "start": 453,
+        "end": 468
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "YHY_S03",
+        "sentence_id": "YHY_S03_S013",
+        "quote": "除非天气与开放情况得到确认，否则不承诺乘船、登高或进入特定院落。",
+        "start": 437,
+        "end": 469
+      }
+    ],
+    "mapping_id": "M086"
+  },
+  {
+    "doc_id": "YHY_S04",
+    "source_scenic": "颐和园",
+    "source_type": "travelogue",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:YHY_S04",
+    "source_urls": [],
+    "source_path": "data\\html\\颐和园\\游客游记\\YHY_S04.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "带孩子且已经疲劳",
+    "advice_text": "减少支线并安排休息",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游客类型"
+    ],
+    "visitor_types": [
+      "亲子"
+    ],
+    "target_scope": "颐和园",
+    "spans": {
+      "condition_text": {
+        "doc_id": "YHY_S04",
+        "start": 325,
+        "end": 333
+      },
+      "advice_text": {
+        "doc_id": "YHY_S04",
+        "start": 335,
+        "end": 344
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "YHY_S04",
+        "sentence_id": "YHY_S04_S014",
+        "quote": "若带孩子且已经疲劳，就减少支线并安排休息;我们这次也是先休息，再沿开放通道从北宫门离开。",
+        "start": 324,
+        "end": 368
+      }
+    ],
+    "mapping_id": "M087"
+  },
+  {
+    "doc_id": "YHY_S04",
+    "source_scenic": "颐和园",
+    "source_type": "travelogue",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:YHY_S04",
+    "source_urls": [],
+    "source_path": "data\\html\\颐和园\\游客游记\\YHY_S04.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "再次到访",
+    "advice_text": "可以提前选择一个重点，避免把全日清单当成亲子游必须完成的任务",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "现场情境",
+    "condition_types": [
+      "现场情境"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "颐和园",
+    "spans": {
+      "condition_text": {
+        "doc_id": "YHY_S04",
+        "start": 487,
+        "end": 491
+      },
+      "advice_text": {
+        "doc_id": "YHY_S04",
+        "start": 492,
+        "end": 522
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "YHY_S04",
+        "sentence_id": "YHY_S04_S020",
+        "quote": "若再次到访，可以提前选择一个重点，避免把全日清单当成亲子游必须完成的任务。",
+        "start": 486,
+        "end": 523
+      }
+    ],
+    "mapping_id": "M088"
+  },
+  {
+    "doc_id": "YHY_S05",
+    "source_scenic": "颐和园",
+    "source_type": "travelogue",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:YHY_S05",
+    "source_urls": [],
+    "source_path": "data\\html\\颐和园\\游客游记\\YHY_S05.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "只剩一小时",
+    "advice_text": "删减支线，并说明无法完成全日路线",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "时间安排",
+    "condition_types": [
+      "时间安排"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "颐和园",
+    "spans": {
+      "condition_text": {
+        "doc_id": "YHY_S05",
+        "start": 415,
+        "end": 420
+      },
+      "advice_text": {
+        "doc_id": "YHY_S05",
+        "start": 422,
+        "end": 438
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "YHY_S05",
+        "sentence_id": "YHY_S05_S014",
+        "quote": "如果偏好摄影，则在不影响通行时多留一些构图时间;如果只剩一小时，则删减支线，并说明无法完成全日路线。",
+        "start": 389,
+        "end": 439
+      }
+    ],
+    "mapping_id": "M089"
+  },
+  {
+    "doc_id": "GG_S02",
+    "source_scenic": "故宫",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:GG_S02",
+    "source_urls": [],
+    "source_path": "data\\html\\故宫\\游玩路线\\GG_S02.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "只有三十分钟，却希望完整参观所有展区",
+    "advice_text": "应缩减目标或延长时间，而不是把所有停留压缩到几分钟",
+    "condition_operator": "all",
+    "condition_mode": "context",
+    "condition_type": "复合条件",
+    "condition_types": [
+      "现场情境"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_S02",
+        "start": 465,
+        "end": 483
+      },
+      "advice_text": {
+        "doc_id": "GG_S02",
+        "start": 494,
+        "end": 519
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_S02",
+        "sentence_id": "GG_S02_S015",
+        "quote": "如果只有三十分钟，却希望完整参观所有展区，那么这两个约束冲突;应缩减目标或延长时间，而不是把所有停留压缩到几分钟。",
+        "start": 463,
+        "end": 520
+      }
+    ],
+    "mapping_id": "M090"
+  },
+  {
+    "doc_id": "YHY_S02",
+    "source_scenic": "颐和园",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:YHY_S02",
+    "source_urls": [],
+    "source_path": "data\\html\\颐和园\\游玩路线\\YHY_S02.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "只有三十分钟，却希望完整参观所有展区",
+    "advice_text": "应缩减目标或延长时间，而不是把所有停留压缩到几分钟",
+    "condition_operator": "all",
+    "condition_mode": "context",
+    "condition_type": "复合条件",
+    "condition_types": [
+      "现场情境"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "颐和园",
+    "spans": {
+      "condition_text": {
+        "doc_id": "YHY_S02",
+        "start": 469,
+        "end": 487
+      },
+      "advice_text": {
+        "doc_id": "YHY_S02",
+        "start": 498,
+        "end": 523
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "YHY_S02",
+        "sentence_id": "YHY_S02_S015",
+        "quote": "如果只有三十分钟，却希望完整参观所有展区，那么这两个约束冲突;应缩减目标或延长时间，而不是把所有停留压缩到几分钟。",
+        "start": 467,
+        "end": 524
+      }
+    ],
+    "mapping_id": "M091"
+  },
+  {
+    "doc_id": "TT_S02",
+    "source_scenic": "天坛",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:TT_S02",
+    "source_urls": [],
+    "source_path": "data\\html\\天坛\\游玩路线\\TT_S02.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "只有三十分钟，却希望完整参观所有展区",
+    "advice_text": "应缩减目标或延长时间，而不是把所有停留压缩到几分钟",
+    "condition_operator": "all",
+    "condition_mode": "context",
+    "condition_type": "复合条件",
+    "condition_types": [
+      "现场情境"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "天坛",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_S02",
+        "start": 460,
+        "end": 478
+      },
+      "advice_text": {
+        "doc_id": "TT_S02",
+        "start": 489,
+        "end": 514
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_S02",
+        "sentence_id": "TT_S02_S015",
+        "quote": "如果只有三十分钟，却希望完整参观所有展区，那么这两个约束冲突;应缩减目标或延长时间，而不是把所有停留压缩到几分钟。",
+        "start": 458,
+        "end": 515
+      }
+    ],
+    "mapping_id": "M092"
+  },
+  {
+    "doc_id": "GG_O01",
+    "source_scenic": "故宫",
+    "source_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_group_id": "url:https://www.visitbeijing.com.cn/article/4D6YKXYu8aD",
+    "source_urls": [
+      "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp"
+    ],
+    "source_path": "data\\html\\故宫\\游玩路线\\GG_O01.html",
+    "duplicate_doc_ids": [
+      "GG_O01_DUP"
+    ],
+    "condition_text": "第一次参观故宫，又只有两小时左右",
+    "advice_text": "可以先把注意力放在中轴线",
+    "condition_operator": "all",
+    "condition_mode": "context",
+    "condition_type": "时间安排",
+    "condition_types": [
+      "时间安排"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "故宫",
+    "spans": {
+      "condition_text": {
+        "doc_id": "GG_O01",
+        "start": 0,
+        "end": 16
+      },
+      "advice_text": {
+        "doc_id": "GG_O01",
+        "start": 17,
+        "end": 29
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "GG_O01",
+        "sentence_id": "GG_O01_S001",
+        "quote": "第一次参观故宫，又只有两小时左右，可以先把注意力放在中轴线。",
+        "start": 0,
+        "end": 30
+      }
+    ],
+    "mapping_id": "M093"
+  },
+  {
+    "doc_id": "YHY_O02",
+    "source_scenic": "颐和园",
+    "source_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_group_id": "url:https://s.visitbeijing.com.cn/attraction/101407",
+    "source_urls": [
+      "https://s.visitbeijing.com.cn/attraction/101407"
+    ],
+    "source_path": "data\\html\\颐和园\\游玩路线\\YHY_O02.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "带孩子同行时",
+    "advice_text": "候船、上下船和过桥都应由家长照看",
+    "condition_operator": "context",
+    "condition_mode": "context",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游客类型"
+    ],
+    "visitor_types": [
+      "亲子"
+    ],
+    "target_scope": "颐和园",
+    "spans": {
+      "condition_text": {
+        "doc_id": "YHY_O02",
+        "start": 455,
+        "end": 461
+      },
+      "advice_text": {
+        "doc_id": "YHY_O02",
+        "start": 462,
+        "end": 478
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "YHY_O02",
+        "sentence_id": "YHY_O02_S013",
+        "quote": "带孩子同行时，候船、上下船和过桥都应由家长照看。",
+        "start": 455,
+        "end": 479
+      }
+    ],
+    "mapping_id": "M094"
+  },
+  {
+    "doc_id": "YHY_S03",
+    "source_scenic": "颐和园",
+    "source_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_group_id": "synthetic:YHY_S03",
+    "source_urls": [],
+    "source_path": "data\\html\\颐和园\\游玩路线\\YHY_S03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "坚持既要乘船又不接受候船",
+    "advice_text": "在无法确认班次时应说明信息不足",
+    "condition_operator": "all",
+    "condition_mode": "context",
+    "condition_type": "复合条件",
+    "condition_types": [
+      "现场情境"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "颐和园",
+    "spans": {
+      "condition_text": {
+        "doc_id": "YHY_S03",
+        "start": 384,
+        "end": 396
+      },
+      "advice_text": {
+        "doc_id": "YHY_S03",
+        "start": 397,
+        "end": 412
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "YHY_S03",
+        "sentence_id": "YHY_S03_S011",
+        "quote": "若坚持既要乘船又不接受候船，在无法确认班次时应说明信息不足。",
+        "start": 383,
+        "end": 413
+      }
+    ],
+    "mapping_id": "M095"
+  }
+]

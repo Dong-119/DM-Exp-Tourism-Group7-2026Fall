@@ -1,0 +1,18 @@
+[
+  {
+    "doc_id": "TT_T02_M",
+    "kept_doc_id": "TT_T02",
+    "reason": "normalized_exact",
+    "similarity": 1.0,
+    "input_path": "data\\html\\天坛\\游客游记\\TT_T02_M.html",
+    "kept_input_path": "data\\html\\天坛\\游客游记\\TT_T02.html"
+  },
+  {
+    "doc_id": "GG_O01_DUP",
+    "kept_doc_id": "GG_O01",
+    "reason": "normalized_exact",
+    "similarity": 1.0,
+    "input_path": "data\\html\\故宫\\游玩路线\\GG_O01_DUP.html",
+    "kept_input_path": "data\\html\\故宫\\游玩路线\\GG_O01.html"
+  }
+]

@@ -1,0 +1,83 @@
+﻿mention_id,doc_id,scenic_name,provenance_kind,mention,start,end,sentence,status,antecedent_text,antecedent_type,antecedent_start,antecedent_end,rule,reason,baseline,candidate_count
+GG_S04:0:1,GG_S04,故宫,synthetic_teaching,这,0,1,这是故宫亲子游记的教学模拟篇，不是真实游客发布。,ambiguous,,,,,event_or_demonstrative,可能是事件、限定语或相互指称，保留供核验,,0
+GG_S04:122:123,GG_S04,故宫,synthetic_teaching,它,122,123,它是我们当天第一个认真观察的建筑，停留了四十分钟。,linked,太和殿,POI,118,121,typed_nearest,按代词类型筛选后，取窗口内最近的显式候选,太和殿,3
+GG_S04:184:186,GG_S04,故宫,synthetic_teaching,前者,184,186,前者的停留比后者长二十分钟。,linked,太和殿,POI,169,172,ordered_pair,按最近有顺序线索的景点对选择前项或后项,中和殿,3
+GG_S04:190:192,GG_S04,故宫,synthetic_teaching,后者,190,192,前者的停留比后者长二十分钟。,linked,中和殿,POI,178,181,ordered_pair,按最近有顺序线索的景点对选择前项或后项,中和殿,3
+GG_S04:198:200,GG_S04,故宫,synthetic_teaching,这里,198,200,这里的“前者”与“后者”各有不同先行词，不能都替换成最近出现的名称。,ambiguous,,,,,metalinguistic,当前分句讨论指代或替换，最近景点不足以确定所指,中和殿,3
+GG_S04:202:204,GG_S04,故宫,synthetic_teaching,前者,202,204,这里的“前者”与“后者”各有不同先行词，不能都替换成最近出现的名称。,nonreferential,,,,,quoted_mention,代词本身被引号引用，保留原词,中和殿,3
+GG_S04:207:209,GG_S04,故宫,synthetic_teaching,后者,207,209,这里的“前者”与“后者”各有不同先行词，不能都替换成最近出现的名称。,nonreferential,,,,,quoted_mention,代词本身被引号引用，保留原词,中和殿,3
+GG_S04:278:280,GG_S04,故宫,synthetic_teaching,那里,278,280,那里是我们决定放慢脚步的位置，孩子在原地观察了很久。,linked,御花园,POI,274,277,typed_nearest,按代词类型筛选后，取窗口内最近的显式候选,御花园,2
+GG_S04:296:298,GG_S04,故宫,synthetic_teaching,原地,296,298,那里是我们决定放慢脚步的位置，孩子在原地观察了很久。,linked,御花园,POI,274,277,typed_nearest,按代词类型筛选后，取窗口内最近的显式候选,孩子,3
+GG_S04:347:349,GG_S04,故宫,synthetic_teaching,这次,347,349,我们这次也是先休息，再沿开放通道从神武门离开。,ambiguous,,,,,event_or_demonstrative,可能是事件、限定语或相互指称，保留供核验,孩子,3
+GG_S04:372:374,GG_S04,故宫,synthetic_teaching,他们,372,374,同伴说他们想多拍几张。,unresolved,,,,,no_typed_candidate,窗口内没有满足类型要求的显式先行词,同伴,4
+GG_S04:385:387,GG_S04,故宫,synthetic_teaching,他们,385,387,我不知道“他们”具体指哪几个人，所以不能把它强行对应到某一个景点。,nonreferential,,,,,quoted_mention,代词本身被引号引用，保留原词,同伴,3
+GG_S04:401:402,GG_S04,故宫,synthetic_teaching,它,401,402,我不知道“他们”具体指哪几个人，所以不能把它强行对应到某一个景点。,ambiguous,,,,,metalinguistic,当前分句讨论指代或替换，最近景点不足以确定所指,同伴,3
+GG_S04:416:417,GG_S04,故宫,synthetic_teaching,这,416,417,我觉得这很值得，但“这”可能指整段体验，未必是某一处POI。,ambiguous,,,,,metalinguistic,当前分句讨论指代或替换，最近景点不足以确定所指,同伴,2
+GG_S04:423:424,GG_S04,故宫,synthetic_teaching,这,423,424,我觉得这很值得，但“这”可能指整段体验，未必是某一处POI。,nonreferential,,,,,quoted_mention,代词本身被引号引用，保留原词,同伴,2
+GG_S04:470:471,GG_S04,故宫,synthetic_teaching,它,470,471,它不应被并入故宫的园内实际路线。,linked,景山公园,POI,454,458,typed_nearest,按代词类型筛选后，取窗口内最近的显式候选,景山公园,1
+YHY_S04:0:1,YHY_S04,颐和园,synthetic_teaching,这,0,1,这是颐和园亲子游记的教学模拟篇，不是真实游客发布。,ambiguous,,,,,event_or_demonstrative,可能是事件、限定语或相互指称，保留供核验,,0
+YHY_S04:123:124,YHY_S04,颐和园,synthetic_teaching,它,123,124,它是我们当天第一个认真观察的建筑，停留了四十分钟。,linked,仁寿殿,POI,119,122,typed_nearest,按代词类型筛选后，取窗口内最近的显式候选,仁寿殿,3
+YHY_S04:185:187,YHY_S04,颐和园,synthetic_teaching,前者,185,187,前者的停留比后者长二十分钟。,linked,仁寿殿,POI,170,173,ordered_pair,按最近有顺序线索的景点对选择前项或后项,乐寿堂,3
+YHY_S04:191:193,YHY_S04,颐和园,synthetic_teaching,后者,191,193,前者的停留比后者长二十分钟。,linked,乐寿堂,POI,179,182,ordered_pair,按最近有顺序线索的景点对选择前项或后项,乐寿堂,3
+YHY_S04:199:201,YHY_S04,颐和园,synthetic_teaching,这里,199,201,这里的“前者”与“后者”各有不同先行词，不能都替换成最近出现的名称。,ambiguous,,,,,metalinguistic,当前分句讨论指代或替换，最近景点不足以确定所指,乐寿堂,3
+YHY_S04:203:205,YHY_S04,颐和园,synthetic_teaching,前者,203,205,这里的“前者”与“后者”各有不同先行词，不能都替换成最近出现的名称。,nonreferential,,,,,quoted_mention,代词本身被引号引用，保留原词,乐寿堂,3
+YHY_S04:208:210,YHY_S04,颐和园,synthetic_teaching,后者,208,210,这里的“前者”与“后者”各有不同先行词，不能都替换成最近出现的名称。,nonreferential,,,,,quoted_mention,代词本身被引号引用，保留原词,乐寿堂,3
+YHY_S04:278:280,YHY_S04,颐和园,synthetic_teaching,那里,278,280,那里是我们决定放慢脚步的位置，孩子在原地观察了很久。,linked,苏州街,POI,274,277,typed_nearest,按代词类型筛选后，取窗口内最近的显式候选,苏州街,2
+YHY_S04:296:298,YHY_S04,颐和园,synthetic_teaching,原地,296,298,那里是我们决定放慢脚步的位置，孩子在原地观察了很久。,linked,苏州街,POI,274,277,typed_nearest,按代词类型筛选后，取窗口内最近的显式候选,孩子,3
+YHY_S04:347:349,YHY_S04,颐和园,synthetic_teaching,这次,347,349,我们这次也是先休息，再沿开放通道从北宫门离开。,ambiguous,,,,,event_or_demonstrative,可能是事件、限定语或相互指称，保留供核验,孩子,3
+YHY_S04:372:374,YHY_S04,颐和园,synthetic_teaching,他们,372,374,同伴说他们想多拍几张。,unresolved,,,,,no_typed_candidate,窗口内没有满足类型要求的显式先行词,同伴,4
+YHY_S04:385:387,YHY_S04,颐和园,synthetic_teaching,他们,385,387,我不知道“他们”具体指哪几个人，所以不能把它强行对应到某一个景点。,nonreferential,,,,,quoted_mention,代词本身被引号引用，保留原词,同伴,3
+YHY_S04:401:402,YHY_S04,颐和园,synthetic_teaching,它,401,402,我不知道“他们”具体指哪几个人，所以不能把它强行对应到某一个景点。,ambiguous,,,,,metalinguistic,当前分句讨论指代或替换，最近景点不足以确定所指,同伴,3
+YHY_S04:416:417,YHY_S04,颐和园,synthetic_teaching,这,416,417,我觉得这很值得，但“这”可能指整段体验，未必是某一处POI。,ambiguous,,,,,metalinguistic,当前分句讨论指代或替换，最近景点不足以确定所指,同伴,2
+YHY_S04:423:424,YHY_S04,颐和园,synthetic_teaching,这,423,424,我觉得这很值得，但“这”可能指整段体验，未必是某一处POI。,nonreferential,,,,,quoted_mention,代词本身被引号引用，保留原词,同伴,2
+YHY_S04:469:470,YHY_S04,颐和园,synthetic_teaching,它,469,470,它不应被并入颐和园的园内实际路线。,linked,圆明园,POI,454,457,typed_nearest,按代词类型筛选后，取窗口内最近的显式候选,圆明园,1
+TT_S04:0:1,TT_S04,天坛,synthetic_teaching,这,0,1,这是天坛亲子游记的教学模拟篇，不是真实游客发布。,ambiguous,,,,,event_or_demonstrative,可能是事件、限定语或相互指称，保留供核验,,0
+TT_S04:120:121,TT_S04,天坛,synthetic_teaching,它,120,121,它是我们当天第一个认真观察的建筑，停留了四十分钟。,linked,圜丘,POI,117,119,typed_nearest,按代词类型筛选后，取窗口内最近的显式候选,圜丘,3
+TT_S04:181:183,TT_S04,天坛,synthetic_teaching,前者,181,183,前者的停留比后者长二十分钟。,linked,圜丘,POI,167,169,ordered_pair,按最近有顺序线索的景点对选择前项或后项,皇穹宇,3
+TT_S04:187:189,TT_S04,天坛,synthetic_teaching,后者,187,189,前者的停留比后者长二十分钟。,linked,皇穹宇,POI,175,178,ordered_pair,按最近有顺序线索的景点对选择前项或后项,皇穹宇,3
+TT_S04:195:197,TT_S04,天坛,synthetic_teaching,这里,195,197,这里的“前者”与“后者”各有不同先行词，不能都替换成最近出现的名称。,ambiguous,,,,,metalinguistic,当前分句讨论指代或替换，最近景点不足以确定所指,皇穹宇,3
+TT_S04:199:201,TT_S04,天坛,synthetic_teaching,前者,199,201,这里的“前者”与“后者”各有不同先行词，不能都替换成最近出现的名称。,nonreferential,,,,,quoted_mention,代词本身被引号引用，保留原词,皇穹宇,3
+TT_S04:204:206,TT_S04,天坛,synthetic_teaching,后者,204,206,这里的“前者”与“后者”各有不同先行词，不能都替换成最近出现的名称。,nonreferential,,,,,quoted_mention,代词本身被引号引用，保留原词,皇穹宇,3
+TT_S04:274:276,TT_S04,天坛,synthetic_teaching,那里,274,276,那里是我们决定放慢脚步的位置，孩子在原地观察了很久。,linked,长廊,POI,271,273,typed_nearest,按代词类型筛选后，取窗口内最近的显式候选,长廊,2
+TT_S04:292:294,TT_S04,天坛,synthetic_teaching,原地,292,294,那里是我们决定放慢脚步的位置，孩子在原地观察了很久。,linked,长廊,POI,271,273,typed_nearest,按代词类型筛选后，取窗口内最近的显式候选,孩子,3
+TT_S04:342:344,TT_S04,天坛,synthetic_teaching,这次,342,344,我们这次也是先休息，再沿开放通道从东门离开。,ambiguous,,,,,event_or_demonstrative,可能是事件、限定语或相互指称，保留供核验,孩子,3
+TT_S04:366:368,TT_S04,天坛,synthetic_teaching,他们,366,368,同伴说他们想多拍几张。,unresolved,,,,,no_typed_candidate,窗口内没有满足类型要求的显式先行词,同伴,4
+TT_S04:379:381,TT_S04,天坛,synthetic_teaching,他们,379,381,我不知道“他们”具体指哪几个人，所以不能把它强行对应到某一个景点。,nonreferential,,,,,quoted_mention,代词本身被引号引用，保留原词,同伴,3
+TT_S04:395:396,TT_S04,天坛,synthetic_teaching,它,395,396,我不知道“他们”具体指哪几个人，所以不能把它强行对应到某一个景点。,ambiguous,,,,,metalinguistic,当前分句讨论指代或替换，最近景点不足以确定所指,同伴,3
+TT_S04:410:411,TT_S04,天坛,synthetic_teaching,这,410,411,我觉得这很值得，但“这”可能指整段体验，未必是某一处POI。,ambiguous,,,,,metalinguistic,当前分句讨论指代或替换，最近景点不足以确定所指,同伴,2
+TT_S04:417:418,TT_S04,天坛,synthetic_teaching,这,417,418,我觉得这很值得，但“这”可能指整段体验，未必是某一处POI。,nonreferential,,,,,quoted_mention,代词本身被引号引用，保留原词,同伴,2
+TT_S04:464:465,TT_S04,天坛,synthetic_teaching,它,464,465,它不应被并入天坛的园内实际路线。,linked,前门大街,POI,448,452,typed_nearest,按代词类型筛选后，取窗口内最近的显式候选,前门大街,1
+YHY_T05:50:51,YHY_T05,颐和园,dataset_corpus,它,50,51,颐和园是规模最大的皇家园林，园内的景点也非常多，它坐落在北京西郊，现在坐地铁在西苑站下车就是。,linked,颐和园,POI,26,29,topic_subject,当前句以该名词作主语展开说明,颐和园,4
+YHY_T05:280:281,YHY_T05,颐和园,dataset_corpus,这,280,281,"仔细看要一天的时间，我选择了""半日游""，爬了佛香阁(这是颐和园的制高点，可以俯瞰昆明湖)，从佛香阁下来顺着长廊一直走，就到了画舫。",ambiguous,,,,,event_or_demonstrative,可能是事件、限定语或相互指称，保留供核验,佛香阁,6
+YHY_T05:465:467,YHY_T05,颐和园,dataset_corpus,这张,465,467,这张照片是我跟中国人交流的结果。,ambiguous,,,,,event_or_demonstrative,可能是事件、限定语或相互指称，保留供核验,照片,1
+YHY_T05:549:551,YHY_T05,颐和园,dataset_corpus,它们,549,551,昨天已经去过了，但是只是匆匆忙忙地看了它们，所以决定再去一趟。,linked,大熊猫,ANIMAL,526,529,typed_nearest,按代词类型筛选后，取窗口内最近的显式候选,大熊猫,6
+YHY_T05:590:592,YHY_T05,颐和园,dataset_corpus,这里,590,592,大熊猫是中国的明星，许多中国人也在这里参观。,linked,北京动物园,POI,512,517,typed_nearest,按代词类型筛选后，取窗口内最近的显式候选,中国人,4
+YHY_T05:598:600,YHY_T05,颐和园,dataset_corpus,它们,598,600,哎呀，它们真可爱。,linked,大熊猫,ANIMAL,573,576,typed_nearest,按代词类型筛选后，取窗口内最近的显式候选,中国人,2
+YHY_T05:629:631,YHY_T05,颐和园,dataset_corpus,它们,629,631,原因是不是它们的生活环境不一样?,linked,大熊猫,ANIMAL,573,576,typed_nearest,按代词类型筛选后，取窗口内最近的显式候选,中国人,2
+YHY_T05:671:673,YHY_T05,颐和园,dataset_corpus,它们,671,673,)真遗憾，我是下午跟它们见面的。,linked,大熊猫,ANIMAL,573,576,pronoun_chain,沿用近邻同形代词已链接的显式先行词,北京动物园,1
+YHY_T05:685:687,YHY_T05,颐和园,dataset_corpus,它们,685,687,如果早上来的话，它们的活动量更大，能看到它们更活泼的一面。,linked,大熊猫,ANIMAL,573,576,pronoun_chain,沿用近邻同形代词已链接的显式先行词,北京动物园,1
+YHY_T05:697:699,YHY_T05,颐和园,dataset_corpus,它们,697,699,如果早上来的话，它们的活动量更大，能看到它们更活泼的一面。,linked,大熊猫,ANIMAL,573,576,pronoun_chain,沿用近邻同形代词已链接的显式先行词,北京动物园,1
+YHY_T05:815:816,YHY_T05,颐和园,dataset_corpus,它,815,816,它基本上由两节车厢组成，虽然有导电弓，但经常发生供电问题，所以我们遇上了交通堵塞。,linked,无轨电车,VEHICLE,774,778,typed_nearest,按代词类型筛选后，取窗口内最近的显式候选,无轨电车,5
+YHY_T05:917:918,YHY_T05,颐和园,dataset_corpus,她,917,918,"车上有一个售票员，她大声地说：""买票，买票，没买票的请买票!",linked,一个售票员,PERSON,911,916,typed_nearest,按代词类型筛选后，取窗口内最近的显式候选,一个售票员,2
+YHY_T05:969:970,YHY_T05,颐和园,dataset_corpus,她,969,970,""".载满乘客的电车里(没有空调)，我们先需要到售票员的面前告诉她目的地。",linked,售票员,PERSON,961,964,typed_nearest,按代词类型筛选后，取窗口内最近的显式候选,售票员,5
+YHY_T05:1022:1023,YHY_T05,颐和园,dataset_corpus,她,1022,1023,车上很拥挤，上车不容易，上车后也走不进去，而且虽然售票员说的汉语不太难，但是速度很快，我们听不懂她说什么，她也听不懂我们的汉语。,linked,售票员,PERSON,961,964,person_chain,当前分句未引入新人物，沿用近邻同形代词的显式先行词,售票员,5
+YHY_T05:1027:1028,YHY_T05,颐和园,dataset_corpus,她,1027,1028,车上很拥挤，上车不容易，上车后也走不进去，而且虽然售票员说的汉语不太难，但是速度很快，我们听不懂她说什么，她也听不懂我们的汉语。,linked,售票员,PERSON,961,964,person_chain,当前分句未引入新人物，沿用近邻同形代词的显式先行词,售票员,5
+YHY_T05:1133:1135,YHY_T05,颐和园,dataset_corpus,这些,1133,1135,现在中国面临着空气污染的问题，恢复这些电车一定有好处啊!,ambiguous,,,,,event_or_demonstrative,可能是事件、限定语或相互指称，保留供核验,公共汽车,2
+YHY_T05:1253:1254,YHY_T05,颐和园,dataset_corpus,那,1253,1254,有时候上汉语课(学习汉语旅行会话)，房间里热热闹闹的，很开心地过了那一段时间。,ambiguous,,,,,event_or_demonstrative,可能是事件、限定语或相互指称，保留供核验,一个同学,3
+YHY_T05:1284:1285,YHY_T05,颐和园,dataset_corpus,他,1284,1285,他买挂轴时问：,linked,我朋友,PERSON,1269,1272,typed_nearest,按代词类型筛选后，取窗口内最近的显式候选,挂轴,2
+YHY_T05:1306:1307,YHY_T05,颐和园,dataset_corpus,他,1306,1307,当然他也不相信小贩回答的内容，但是他觉得有意思，买了两本。,linked,我朋友,PERSON,1269,1272,person_chain,当前分句未引入新人物，沿用近邻同形代词的显式先行词,挂轴,3
+YHY_T05:1321:1322,YHY_T05,颐和园,dataset_corpus,他,1321,1322,当然他也不相信小贩回答的内容，但是他觉得有意思，买了两本。,linked,我朋友,PERSON,1269,1272,person_chain,当前分句未引入新人物，沿用近邻同形代词的显式先行词,小贩,4
+YHY_T05:1335:1337,YHY_T05,颐和园,dataset_corpus,他们,1335,1337,听了他们的报告老师和我们都不禁大笑。,unresolved,,,,,no_typed_candidate,窗口内没有满足类型要求的显式先行词,小贩,2
+YHY_T05:1355:1356,YHY_T05,颐和园,dataset_corpus,他,1355,1356,我不知道他买的挂轴现在怎么样。,linked,我朋友,PERSON,1269,1272,person_chain,当前分句未引入新人物，沿用近邻同形代词的显式先行词,老师,2
+YHY_T05:1372:1373,YHY_T05,颐和园,dataset_corpus,他,1372,1373,如果有机会跟他再次见面，我一定问问他。,linked,我朋友,PERSON,1269,1272,person_chain,当前分句未引入新人物，沿用近邻同形代词的显式先行词,挂轴,3
+YHY_T05:1383:1384,YHY_T05,颐和园,dataset_corpus,他,1383,1384,如果有机会跟他再次见面，我一定问问他。,linked,我朋友,PERSON,1269,1272,person_chain,当前分句未引入新人物，沿用近邻同形代词的显式先行词,挂轴,3
+YHY_T05:1560:1561,YHY_T05,颐和园,dataset_corpus,这,1560,1561,所以我们一面看着姿态不同的石狮，一面还感觉到了这一带的沉重的气氛。,ambiguous,,,,,event_or_demonstrative,可能是事件、限定语或相互指称，保留供核验,中国人,2
+YHY_T05:1606:1608,YHY_T05,颐和园,dataset_corpus,这个,1606,1608,我利用这个时间去了天坛。,ambiguous,,,,,event_or_demonstrative,可能是事件、限定语或相互指称，保留供核验,,0
+TT_T04:88:89,TT_T04,天坛,dataset_corpus,它,88,89," 天坛里的建筑物很特别， 它在建筑形式和布局上很有特色， 其围墙南边是方的， 北边呈半圆形， 以应""天圆地方""之说， 主要建筑物都是圆形的， 整个建筑群共共祭坛两座--祈谷坛在北， 圜丘坛在南， 二坛在同一条南北中轴线上， 中间有墙隔开。",linked,建筑物,OBJECT,80,83,typed_nearest,按代词类型筛选后，取窗口内最近的显式候选,建筑物,3
+TT_T04:104:105,TT_T04,天坛,dataset_corpus,其,104,105," 天坛里的建筑物很特别， 它在建筑形式和布局上很有特色， 其围墙南边是方的， 北边呈半圆形， 以应""天圆地方""之说， 主要建筑物都是圆形的， 整个建筑群共共祭坛两座--祈谷坛在北， 圜丘坛在南， 二坛在同一条南北中轴线上， 中间有墙隔开。",ambiguous,,,,,possessive_scope,泛称物体与整座景区均可能是所属对象，保留其字供核验,建筑物,3
+TT_T04:208:209,TT_T04,天坛,dataset_corpus,它,208,209, 祈谷坛的中心就是祈年殿， 它曾在光绪15年(1889年)被雷击起火焚毁， 后来皇帝修建， 才又恢复原貌。,linked,祈年殿,POI,203,206,typed_nearest,按代词类型筛选后，取窗口内最近的显式候选,祈年殿,10
+TT_T04:318:319,TT_T04,天坛,dataset_corpus,它,318,319,之后离开祈天殿， 跟随地上导引的路线来到祈天殿的对面的一个殿称-皇穹宇， 它的屋顶也是很有特色， 此时觉得古代建造这些古建物的人， 可真是了不起， 工真细， 且还设计巧妙， 每座建物都那么棒， 真是佩服呀!,linked,皇穹宇,POI,313,316,typed_nearest,按代词类型筛选后，取窗口内最近的显式候选,皇穹宇,11
+TT_T04:338:340,TT_T04,天坛,dataset_corpus,这些,338,340,之后离开祈天殿， 跟随地上导引的路线来到祈天殿的对面的一个殿称-皇穹宇， 它的屋顶也是很有特色， 此时觉得古代建造这些古建物的人， 可真是了不起， 工真细， 且还设计巧妙， 每座建物都那么棒， 真是佩服呀!,ambiguous,,,,,event_or_demonstrative,可能是事件、限定语或相互指称，保留供核验,皇穹宇,9
+TT_T04:397:398,TT_T04,天坛,dataset_corpus,它,397,398,最后逛到著名的回音壁， 它是皇穹宇的圆形围墙， 因墙体坚硬光滑， 是声波的良好反射体， 又因圆周曲率精确， 声波可沿墙面连续反射传播， 如两人分别站立于东西两边， 一方对墙轻声说话， 则另一方能清晰听到， 一呼一应， 一问一答， 妙趣横生喔!,linked,回音壁,POI,392,395,typed_nearest,按代词类型筛选后，取窗口内最近的显式候选,回音壁,5
+TT_T04:546:548,TT_T04,天坛,dataset_corpus,这个,546,548,当时看完回音壁的简介后， 觉得很有趣又半信半疑的我， 于是尤先生就和我一起玩了这个游戏， 结果~~真的我们都可听到彼此的声音耶!,ambiguous,,,,,event_or_demonstrative,可能是事件、限定语或相互指称，保留供核验,尤先生,6
+TT_T04:564:566,TT_T04,天坛,dataset_corpus,彼此,564,566,当时看完回音壁的简介后， 觉得很有趣又半信半疑的我， 于是尤先生就和我一起玩了这个游戏， 结果~~真的我们都可听到彼此的声音耶!,ambiguous,,,,,event_or_demonstrative,可能是事件、限定语或相互指称，保留供核验,游戏,7

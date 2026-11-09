@@ -1,0 +1,75 @@
+{
+  "experiment": "3",
+  "input": "data\\processed\\clean_documents.json",
+  "source_documents": [
+    {
+      "doc_id": "GG_F01",
+      "clean_sha256": "1b4ba3f7c8242bb51c668236ac18cd8faea1c55583ed0045c2968af087d79955",
+      "provenance_kind": "official_route_facts"
+    },
+    {
+      "doc_id": "GG_S01",
+      "clean_sha256": "200629814d55d984c10d45dc337e206055277fdb9e650fbb77ad494c2740eb99",
+      "provenance_kind": "synthetic_teaching"
+    },
+    {
+      "doc_id": "GG_T01",
+      "clean_sha256": "51f029166c2826d7aec243fc0a08b6204d1bf619e9ea4d14a60d505bc97b1f5e",
+      "provenance_kind": "dataset_corpus"
+    },
+    {
+      "doc_id": "GG_T05",
+      "clean_sha256": "38817c241c421b4d43dd7269b7bbd8767feb5c67e8e9b12951c25f67256c52fc",
+      "provenance_kind": "dataset_corpus"
+    }
+  ],
+  "outputs": [
+    "routes.json",
+    "route_steps.csv",
+    "route_comparison.json"
+  ],
+  "route_count": 4,
+  "official_route_step_count": 12,
+  "time_layered_traveler_route_step_count": 13,
+  "comparison_traveler_route_step_count": 5,
+  "comparison": {
+    "scenic_name": "故宫",
+    "official_route_id": "route-GG-official-facts",
+    "traveler_route_id": "route-GG-traveler-GG_T05",
+    "metric_definitions": {
+      "official_route_coverage": "Shared distinct POIs / official route POIs.",
+      "traveler_route_alignment": "Shared distinct POIs / traveler route POIs.",
+      "shared_order_consistency": "LCS length of the two shared-POI sequences / number of shared distinct POIs."
+    },
+    "official_route_step_count": 12,
+    "traveler_route_step_count": 5,
+    "official_route_distinct_poi_count": 12,
+    "traveler_route_distinct_poi_count": 5,
+    "shared_pois_in_official_order": [
+      "午门",
+      "太和殿",
+      "乾清宫",
+      "神武门"
+    ],
+    "traveler_only_pois": [
+      "珍宝馆"
+    ],
+    "official_only_pois": [
+      "太和门",
+      "弘义阁",
+      "中和殿",
+      "保和殿",
+      "乾清门",
+      "交泰殿",
+      "坤宁宫",
+      "御花园"
+    ],
+    "shared_poi_count": 4,
+    "official_route_coverage": 0.3333333333333333,
+    "traveler_route_alignment": 0.8,
+    "shared_order_consistency": 1.0,
+    "shared_order_lcs_length": 4,
+    "time_comparison": "Not calculated: neither source provides comparable per-stop or time-of-day data."
+  },
+  "validation": "passed"
+}

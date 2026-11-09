@@ -1,0 +1,1131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1200" viewBox="0 0 1800 1200">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#777"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<text x="60" y="40" font-size="24">故宫多源程序性知识图谱（项目2/3/5融合，2跳可视化）</text>
+<line x1="1720.0" y1="600.0" x2="164.3" y2="829.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="942.2" y="714.9" font-size="9" fill="#555">visits</text>
+<line x1="1720.0" y1="600.0" x2="614.7" y2="112.4" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1167.4" y="356.2" font-size="9" fill="#555">visits</text>
+<line x1="1720.0" y1="600.0" x2="1561.9" y2="293.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1640.9" y="446.5" font-size="9" fill="#555">visits</text>
+<line x1="1720.0" y1="600.0" x2="176.2" y2="844.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="948.1" y="722.2" font-size="9" fill="#555">visits</text>
+<line x1="1720.0" y1="600.0" x2="1439.6" y2="208.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1579.8" y="404.2" font-size="9" fill="#555">visits</text>
+<line x1="1720.0" y1="600.0" x2="1694.0" y2="470.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1707.0" y="535.0" font-size="9" fill="#555">visits</text>
+<line x1="1720.0" y1="600.0" x2="497.4" y2="1053.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1108.7" y="826.5" font-size="9" fill="#555">visits</text>
+<line x1="1720.0" y1="600.0" x2="1073.4" y2="1108.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1396.7" y="854.1" font-size="9" fill="#555">visits</text>
+<line x1="1720.0" y1="600.0" x2="153.3" y2="815.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="936.6" y="707.5" font-size="9" fill="#555">visits</text>
+<line x1="1720.0" y1="600.0" x2="1335.9" y2="1040.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1527.9" y="820.2" font-size="9" fill="#555">visits</text>
+<line x1="1720.0" y1="600.0" x2="390.1" y2="192.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1055.1" y="396.4" font-size="9" fill="#555">visits</text>
+<line x1="1720.0" y1="600.0" x2="919.4" y2="1119.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1319.7" y="859.9" font-size="9" fill="#555">visits</text>
+<line x1="1705.3" y1="697.9" x2="331.6" y2="225.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1018.5" y="461.5" font-size="9" fill="#555">occurs_in</text>
+<line x1="1705.3" y1="697.9" x2="278.3" y2="260.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="991.8" y="479.4" font-size="9" fill="#555">next</text>
+<line x1="1687.1" y1="745.8" x2="84.9" y2="542.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="886.0" y="644.2" font-size="9" fill="#555">next</text>
+<line x1="1591.1" y1="879.9" x2="188.7" y2="341.2" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="889.9" y="610.5" font-size="9" fill="#555">recommends</text>
+<line x1="1513.1" y1="945.3" x2="1357.6" y2="1031.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1435.3" y="988.4" font-size="9" fill="#555">recommends</text>
+<line x1="1477.5" y1="969.2" x2="1221.2" y2="1078.4" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1349.4" y="1023.8" font-size="9" fill="#555">recommends</text>
+<line x1="1458.9" y1="980.5" x2="431.7" y2="1026.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="945.3" y="1003.7" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="543.3" y2="131.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1001.1" y="556.1" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="590.6" y2="1081.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1024.7" y="1031.1" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="188.7" y2="858.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="823.8" y="919.7" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="1148.4" y2="104.4" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1303.6" y="542.5" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="971.1" y2="1118.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1215.0" y="1049.3" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="1173.0" y2="109.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1315.9" y="545.1" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="945.2" y2="1119.2" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1202.0" y="1049.9" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="102.8" y2="722.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="780.8" y="851.3" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="431.7" y2="173.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="945.3" y="576.8" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="815.9" y2="1117.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1137.4" y="1048.9" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="1629.7" y2="837.2" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1544.3" y="908.9" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="1718.4" y2="567.2" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1588.6" y="773.9" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="1716.3" y2="550.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1587.6" y="765.7" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="390.1" y2="1007.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="924.5" y="993.9" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="1719.6" y2="583.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1589.2" y="782.1" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="971.1" y2="81.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1215.0" y="531.2" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="215.9" y2="886.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="837.4" y="933.7" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="639.2" y2="107.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1049.0" y="543.8" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="453.1" y2="1036.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="956.0" y="1008.3" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="142.9" y2="799.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="800.9" y="890.2" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="713.9" y2="93.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1086.4" y="537.0" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="1022.5" y2="1114.2" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1240.7" y="1047.4" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="102.8" y2="478.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="780.8" y="729.3" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="313.3" y2="963.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="886.1" y="971.9" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="116.5" y2="753.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="787.7" y="867.1" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="1291.1" y2="143.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1375.0" y="561.8" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="1546.2" y2="920.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1502.6" y="950.3" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="1700.1" y2="486.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1579.5" y="733.3" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="1719.6" y2="616.4" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1589.2" y="798.5" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="945.2" y2="80.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1202.0" y="530.7" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="1221.2" y2="121.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1340.0" y="551.0" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="1576.8" y2="306.4" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1517.8" y="643.5" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="1495.6" y2="957.4" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1477.2" y="969.0" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="133.4" y2="784.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="796.1" y="882.6" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="133.4" y2="415.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="796.1" y="697.9" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="80.8" y2="575.4" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="769.8" y="778.0" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="410.6" y2="182.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="934.7" y="581.6" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="153.3" y2="385.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="806.1" y="682.8" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="566.8" y2="1075.2" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1012.8" y="1027.9" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="614.7" y2="1087.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1036.8" y="1034.0" font-size="9" fill="#555">contains</text>
+<line x1="1458.9" y1="980.5" x2="230.5" y2="900.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="844.7" y="940.4" font-size="9" fill="#555">contains</text>
+<line x1="1419.9" y1="1002.1" x2="996.8" y2="1116.4" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1208.3" y="1059.3" font-size="9" fill="#555">recommends</text>
+<line x1="1399.6" y1="1012.3" x2="841.7" y2="1118.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1120.7" y="1065.5" font-size="9" fill="#555">recommends</text>
+<line x1="1335.9" y1="1040.5" x2="390.1" y2="192.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="863.0" y="616.6" font-size="9" fill="#555">next</text>
+<line x1="1335.9" y1="1040.5" x2="88.2" y2="673.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="712.0" y="857.1" font-size="9" fill="#555">occurs_in</text>
+<line x1="1335.9" y1="1040.5" x2="88.2" y2="526.4" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="712.0" y="783.4" font-size="9" fill="#555">has_activity</text>
+<line x1="1335.9" y1="1040.5" x2="1073.4" y2="1108.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1204.6" y="1074.4" font-size="9" fill="#555">next</text>
+<line x1="1291.1" y1="1057.0" x2="201.9" y2="327.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="746.5" y="692.1" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="431.7" y2="1026.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="861.4" y="1042.0" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1576.8" y2="893.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1434.0" y="975.3" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="453.1" y2="164.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="872.1" y="610.5" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="164.3" y2="829.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="727.7" y="943.4" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="543.3" y2="131.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="917.2" y="594.4" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="176.2" y2="844.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="733.7" y="950.7" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="590.6" y2="1081.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="940.9" y="1069.3" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="188.7" y2="858.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="739.9" y="957.9" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1439.6" y2="208.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1365.4" y="632.7" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1148.4" y2="104.4" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1219.8" y="580.7" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="971.1" y2="1118.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1131.1" y="1087.5" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1173.0" y2="109.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1232.1" y="583.3" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="945.2" y2="1119.2" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1118.2" y="1088.1" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1073.4" y2="1108.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1182.3" y="1082.6" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="390.1" y2="192.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="840.6" y="624.9" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="84.9" y2="542.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="688.0" y="799.8" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="919.4" y2="1119.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1105.3" y="1088.5" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="80.8" y2="624.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="686.0" y="840.8" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="102.8" y2="722.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="697.0" y="889.5" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="431.7" y2="173.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="861.4" y="615.1" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="815.9" y2="1117.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1053.5" y="1087.2" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="841.7" y2="81.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1066.4" y="569.2" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1546.2" y2="279.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1418.7" y="668.5" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1629.7" y2="837.2" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1460.4" y="947.1" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1661.8" y2="792.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1476.5" y="924.7" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="92.2" y2="510.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="691.7" y="783.6" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="245.8" y2="913.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="768.5" y="985.3" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1719.6" y2="583.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1505.4" y="820.3" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="996.8" y2="83.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1144.0" y="570.3" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1718.4" y2="567.2" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1504.8" y="812.1" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="971.1" y2="81.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1131.1" y="569.5" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1268.2" y2="1064.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1279.7" y="1060.8" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1629.7" y2="362.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1460.4" y="709.9" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1561.9" y2="907.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1426.5" y="982.0" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="278.3" y2="260.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="784.7" y="659.0" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="520.2" y2="139.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="905.7" y="598.1" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="390.1" y2="1007.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="840.6" y="1032.2" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1335.9" y2="1040.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1313.5" y="1048.7" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="688.7" y2="97.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="989.9" y="577.3" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="153.3" y2="815.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="722.2" y="936.0" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1048.0" y2="88.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1169.6" y="572.8" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1378.8" y2="1022.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1335.0" y="1039.6" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="410.6" y2="1017.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="850.9" y="1037.2" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1716.3" y2="649.2" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1503.7" y="853.1" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="614.7" y2="112.4" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="952.9" y="584.7" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="350.6" y2="213.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="820.9" y="635.5" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="215.9" y2="313.2" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="753.5" y="685.1" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="663.8" y2="1098.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="977.5" y="1077.5" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="566.8" y2="124.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="929.0" y="590.9" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="97.1" y2="494.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="694.1" y="775.5" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="97.1" y2="706.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="694.1" y="881.5" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1716.3" y2="550.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1503.7" y="803.9" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1694.0" y2="470.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1492.6" y="763.5" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1604.7" y2="865.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1447.9" y="961.5" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="124.6" y2="769.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="707.9" y="913.1" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="893.5" y2="1120.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1092.3" y="1088.5" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="497.4" y2="1053.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="894.3" y="1055.0" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1048.0" y2="1111.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1169.6" y="1084.3" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1313.7" y2="151.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1302.4" y="604.0" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1477.5" y2="230.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1384.3" y="643.9" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="475.1" y2="155.2" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="883.1" y="606.1" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="497.4" y2="146.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="894.3" y="602.0" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1561.9" y2="293.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1426.5" y="675.0" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1694.0" y2="730.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1492.6" y="893.5" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="639.2" y2="107.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="965.2" y="582.0" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1700.1" y2="714.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1495.6" y="885.5" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="893.5" y2="80.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1092.3" y="568.5" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="230.5" y2="299.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="760.8" y="678.4" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1709.8" y2="681.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1500.5" y="869.4" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1221.2" y2="121.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1256.2" y="589.3" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1123.6" y2="99.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1207.4" y="578.4" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="453.1" y2="1036.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="872.1" y="1046.5" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="142.9" y2="799.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="717.0" y="928.5" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="713.9" y2="93.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1002.5" y="575.3" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="475.1" y2="1044.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="883.1" y="1050.9" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="102.8" y2="478.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="697.0" y="767.5" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1313.7" y2="1049.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1302.4" y="1053.0" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="313.3" y2="963.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="802.2" y="1010.2" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1268.2" y2="135.4" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1279.7" y="596.2" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1022.5" y2="1114.2" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1156.8" y="1085.6" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="80.0" y2="591.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="685.6" y="824.4" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="116.5" y2="753.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="703.8" y="905.3" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1291.1" y2="143.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1291.1" y="600.0" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1546.2" y2="920.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1418.7" y="988.6" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1700.1" y2="486.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1495.6" y="771.5" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1719.6" y2="616.4" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1505.4" y="836.7" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="945.2" y2="80.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1118.2" y="568.9" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="215.9" y2="886.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="753.5" y="971.9" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1576.8" y2="306.4" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1434.0" y="681.7" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1495.6" y2="957.4" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1393.4" y="1007.2" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="133.4" y2="784.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="712.3" y="920.9" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="133.4" y2="415.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="712.3" y="736.2" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="80.8" y2="575.4" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="686.0" y="816.2" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="410.6" y2="182.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="850.9" y="619.9" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="153.3" y2="385.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="722.2" y="721.0" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="566.8" y2="1075.2" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="929.0" y="1066.1" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="614.7" y2="1087.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="952.9" y="1072.3" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="230.5" y2="900.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="760.8" y="978.7" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="713.9" y2="1106.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1002.5" y="1081.7" font-size="9" fill="#555">contains</text>
+<line x1="1291.1" y1="1057.0" x2="1720.0" y2="600.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1505.6" y="828.5" font-size="9" fill="#555">has_route</text>
+<line x1="1291.1" y1="1057.0" x2="764.6" y2="1112.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1027.9" y="1085.0" font-size="9" fill="#555">has_route</text>
+<line x1="1291.1" y1="1057.0" x2="1022.5" y2="85.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1156.8" y="571.4" font-size="9" fill="#555">has_route</text>
+<line x1="1291.1" y1="1057.0" x2="1148.4" y2="1095.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1219.8" y="1076.3" font-size="9" fill="#555">has_route</text>
+<line x1="1291.1" y1="1057.0" x2="370.1" y2="996.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="830.6" y="1027.0" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="1513.1" y2="945.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1402.1" y="1001.2" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="1591.1" y2="879.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1441.1" y="968.5" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="1357.6" y2="168.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1324.4" y="612.8" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="1419.9" y2="1002.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1355.5" y="1029.6" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="350.6" y2="986.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="820.9" y="1021.6" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="370.1" y2="203.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="830.6" y="630.1" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="1073.4" y2="91.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1182.3" y="574.4" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="543.3" y2="1068.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="917.2" y="1062.6" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="1661.8" y2="407.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1476.5" y="732.3" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="278.3" y2="939.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="784.7" y="998.1" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="80.0" y2="608.2" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="685.6" y="832.6" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="295.5" y2="248.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="793.3" y="652.8" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="1458.9" y2="219.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1375.0" y="638.2" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="739.2" y2="90.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1015.2" y="573.6" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="739.2" y2="1109.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1015.2" y="1083.5" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="1495.6" y2="242.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1393.4" y="649.8" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="1513.1" y2="254.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1402.1" y="655.9" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="1477.5" y2="969.2" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1384.3" y="1013.1" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="1399.6" y2="1012.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1345.4" y="1034.7" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="109.3" y2="462.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="700.2" y="759.6" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="116.5" y2="446.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="703.8" y="751.7" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="639.2" y2="1093.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="965.2" y="1075.0" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="1378.8" y2="177.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1335.0" y="617.4" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="82.5" y2="559.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="686.8" y="808.0" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="1530.0" y2="267.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1410.6" y="662.1" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="331.6" y2="974.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="811.4" y="1016.0" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="764.6" y2="87.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1027.9" y="572.1" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="590.6" y2="118.4" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="940.9" y="587.7" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="1335.9" y2="159.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1313.5" y="608.3" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="1399.6" y2="187.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1345.4" y="622.3" font-size="9" fill="#555">has_condition</text>
+<line x1="1291.1" y1="1057.0" x2="1098.6" y2="1104.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1194.9" y="1080.8" font-size="9" fill="#555">has_condition</text>
+<line x1="1148.4" y1="1095.6" x2="164.3" y2="829.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="656.4" y="962.7" font-size="9" fill="#555">visits</text>
+<line x1="1148.4" y1="1095.6" x2="176.2" y2="844.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="662.3" y="970.0" font-size="9" fill="#555">visits</text>
+<line x1="1148.4" y1="1095.6" x2="1073.4" y2="1108.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1110.9" y="1101.9" font-size="9" fill="#555">visits</text>
+<line x1="1148.4" y1="1095.6" x2="84.9" y2="542.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="616.7" y="819.1" font-size="9" fill="#555">visits</text>
+<line x1="1148.4" y1="1095.6" x2="919.4" y2="1119.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1033.9" y="1107.7" font-size="9" fill="#555">visits</text>
+<line x1="1098.6" y1="1104.5" x2="176.2" y2="355.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="637.4" y="730.0" font-size="9" fill="#555">recommends</text>
+<line x1="1073.4" y1="1108.3" x2="153.3" y2="815.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="613.3" y="961.6" font-size="9" fill="#555">next</text>
+<line x1="1073.4" y1="1108.3" x2="88.2" y2="673.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="580.8" y="890.9" font-size="9" fill="#555">occurs_in</text>
+<line x1="1073.4" y1="1108.3" x2="520.2" y2="1060.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="796.8" y="1084.6" font-size="9" fill="#555">has_activity</text>
+<line x1="1073.4" y1="1108.3" x2="1687.1" y2="745.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1380.3" y="927.0" font-size="9" fill="#555">next</text>
+<line x1="1073.4" y1="1108.3" x2="1617.6" y2="851.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1345.5" y="980.0" font-size="9" fill="#555">has_activity</text>
+<line x1="1073.4" y1="1108.3" x2="688.7" y2="97.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="881.1" y="602.9" font-size="9" fill="#555">next</text>
+<line x1="1073.4" y1="1108.3" x2="663.8" y2="102.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="868.6" y="605.1" font-size="9" fill="#555">has_activity</text>
+<line x1="1073.4" y1="1108.3" x2="84.9" y2="542.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="579.2" y="825.5" font-size="9" fill="#555">next</text>
+<line x1="919.4" y1="1119.9" x2="331.6" y2="225.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="625.5" y="672.5" font-size="9" fill="#555">occurs_in</text>
+<line x1="919.4" y1="1119.9" x2="1530.0" y2="932.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1224.7" y="1026.4" font-size="9" fill="#555">has_activity</text>
+<line x1="919.4" y1="1119.9" x2="88.2" y2="673.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="503.8" y="896.8" font-size="9" fill="#555">occurs_in</text>
+<line x1="919.4" y1="1119.9" x2="1591.1" y2="320.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1255.2" y="720.0" font-size="9" fill="#555">has_activity</text>
+<line x1="919.4" y1="1119.9" x2="390.1" y2="192.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="654.7" y="656.3" font-size="9" fill="#555">next</text>
+<line x1="919.4" y1="1119.9" x2="867.6" y2="80.4" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="893.5" y="600.1" font-size="9" fill="#555">has_activity</text>
+<line x1="919.4" y1="1119.9" x2="164.3" y2="829.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="541.9" y="974.9" font-size="9" fill="#555">next</text>
+<line x1="919.4" y1="1119.9" x2="1197.3" y2="1084.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1058.3" y="1102.3" font-size="9" fill="#555">has_activity</text>
+<line x1="764.6" y1="1112.9" x2="164.3" y2="829.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="464.5" y="971.4" font-size="9" fill="#555">visits</text>
+<line x1="764.6" y1="1112.9" x2="176.2" y2="844.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="470.4" y="978.7" font-size="9" fill="#555">visits</text>
+<line x1="764.6" y1="1112.9" x2="1439.6" y2="208.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1102.1" y="660.7" font-size="9" fill="#555">visits</text>
+<line x1="764.6" y1="1112.9" x2="1694.0" y2="470.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1229.3" y="791.5" font-size="9" fill="#555">visits</text>
+<line x1="764.6" y1="1112.9" x2="1073.4" y2="1108.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="919.0" y="1110.6" font-size="9" fill="#555">visits</text>
+<line x1="764.6" y1="1112.9" x2="1687.1" y2="745.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1225.9" y="929.3" font-size="9" fill="#555">visits</text>
+<line x1="764.6" y1="1112.9" x2="84.9" y2="542.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="424.8" y="827.8" font-size="9" fill="#555">visits</text>
+<line x1="764.6" y1="1112.9" x2="390.1" y2="192.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="577.4" y="652.8" font-size="9" fill="#555">visits</text>
+<line x1="764.6" y1="1112.9" x2="919.4" y2="1119.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="842.0" y="1116.4" font-size="9" fill="#555">visits</text>
+<line x1="739.2" y1="1109.9" x2="1651.9" y2="807.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1195.5" y="958.7" font-size="9" fill="#555">recommends</text>
+<line x1="639.2" y1="1093.0" x2="1713.5" y2="665.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1176.3" y="879.3" font-size="9" fill="#555">recommends</text>
+<line x1="543.3" y1="1068.3" x2="124.6" y2="430.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="333.9" y="749.5" font-size="9" fill="#555">recommends</text>
+<line x1="497.4" y1="1053.1" x2="1073.4" y2="1108.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="785.4" y="1080.7" font-size="9" fill="#555">next</text>
+<line x1="370.1" y1="996.9" x2="688.7" y2="1102.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="529.4" y="1049.7" font-size="9" fill="#555">recommends</text>
+<line x1="350.6" y1="986.1" x2="1197.3" y2="115.4" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="773.9" y="550.7" font-size="9" fill="#555">recommends</text>
+<line x1="331.6" y1="974.9" x2="1671.0" y2="423.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1001.3" y="698.9" font-size="9" fill="#555">recommends</text>
+<line x1="278.3" y1="939.1" x2="109.3" y2="737.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="193.8" y="838.5" font-size="9" fill="#555">recommends</text>
+<line x1="176.2" y1="844.5" x2="1439.6" y2="208.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="807.9" y="526.5" font-size="9" fill="#555">next</text>
+<line x1="176.2" y1="844.5" x2="88.2" y2="673.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="132.2" y="759.0" font-size="9" fill="#555">occurs_in</text>
+<line x1="176.2" y1="844.5" x2="1123.6" y2="1100.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="649.9" y="972.4" font-size="9" fill="#555">has_activity</text>
+<line x1="176.2" y1="844.5" x2="815.9" y2="82.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="496.1" y="463.6" font-size="9" fill="#555">has_activity</text>
+<line x1="176.2" y1="844.5" x2="1073.4" y2="1108.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="624.8" y="976.4" font-size="9" fill="#555">next</text>
+<line x1="164.3" y1="829.8" x2="614.7" y2="112.4" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="389.5" y="471.1" font-size="9" fill="#555">next</text>
+<line x1="164.3" y1="829.8" x2="88.2" y2="673.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="126.3" y="751.7" font-size="9" fill="#555">occurs_in</text>
+<line x1="164.3" y1="829.8" x2="1439.6" y2="991.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="802.0" y="910.7" font-size="9" fill="#555">has_activity</text>
+<line x1="164.3" y1="829.8" x2="176.2" y2="844.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="170.3" y="837.1" font-size="9" fill="#555">next</text>
+<line x1="164.3" y1="829.8" x2="331.6" y2="225.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="248.0" y="527.5" font-size="9" fill="#555">occurs_in</text>
+<line x1="164.3" y1="829.8" x2="295.5" y2="951.4" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="229.9" y="890.6" font-size="9" fill="#555">has_activity</text>
+<line x1="164.3" y1="829.8" x2="1705.3" y2="697.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="934.8" y="763.9" font-size="9" fill="#555">next</text>
+<line x1="164.3" y1="829.8" x2="790.2" y2="84.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="477.3" y="457.3" font-size="9" fill="#555">has_activity</text>
+<line x1="153.3" y1="815.0" x2="1335.9" y2="1040.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="744.6" y="927.7" font-size="9" fill="#555">next</text>
+<line x1="80.0" y1="608.2" x2="1641.2" y2="377.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="860.6" y="492.9" font-size="9" fill="#555">recommends</text>
+<line x1="82.5" y1="559.0" x2="164.3" y2="370.2" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="123.4" y="464.6" font-size="9" fill="#555">recommends</text>
+<line x1="84.9" y1="542.7" x2="331.6" y2="225.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="208.3" y="383.9" font-size="9" fill="#555">occurs_in</text>
+<line x1="84.9" y1="542.7" x2="867.6" y2="1119.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="476.2" y="831.1" font-size="9" fill="#555">has_activity</text>
+<line x1="84.9" y1="542.7" x2="390.1" y2="192.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="237.5" y="367.7" font-size="9" fill="#555">next</text>
+<line x1="84.9" y1="542.7" x2="1173.0" y2="1090.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="628.9" y="816.5" font-size="9" fill="#555">has_activity</text>
+<line x1="84.9" y1="542.7" x2="919.4" y2="1119.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="502.1" y="831.3" font-size="9" fill="#555">next</text>
+<line x1="109.3" y1="462.1" x2="1709.8" y2="518.2" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="909.5" y="490.2" font-size="9" fill="#555">recommends</text>
+<line x1="116.5" y1="446.3" x2="1244.9" y2="128.2" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="680.7" y="287.3" font-size="9" fill="#555">recommends</text>
+<line x1="278.3" y1="260.9" x2="331.6" y2="225.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="305.0" y="243.0" font-size="9" fill="#555">occurs_in</text>
+<line x1="278.3" y1="260.9" x2="790.2" y2="1115.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="534.3" y="688.1" font-size="9" fill="#555">has_activity</text>
+<line x1="278.3" y1="260.9" x2="84.9" y2="542.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="181.6" y="401.8" font-size="9" fill="#555">next</text>
+<line x1="295.5" y1="248.6" x2="1651.9" y2="392.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="973.7" y="320.5" font-size="9" fill="#555">recommends</text>
+<line x1="313.3" y1="236.7" x2="88.2" y2="673.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="200.7" y="455.2" font-size="9" fill="#555">occurs_in</text>
+<line x1="313.3" y1="236.7" x2="1048.0" y2="88.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="680.6" y="162.6" font-size="9" fill="#555">next</text>
+<line x1="370.1" y1="203.1" x2="919.4" y2="80.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="644.7" y="141.6" font-size="9" fill="#555">recommends</text>
+<line x1="390.1" y1="192.7" x2="919.4" y2="1119.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="654.7" y="656.3" font-size="9" fill="#555">next</text>
+<line x1="390.1" y1="192.7" x2="331.6" y2="225.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="360.9" y="208.9" font-size="9" fill="#555">occurs_in</text>
+<line x1="390.1" y1="192.7" x2="1679.5" y2="438.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1034.8" y="315.6" font-size="9" fill="#555">has_activity</text>
+<line x1="390.1" y1="192.7" x2="88.2" y2="673.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="239.1" y="433.2" font-size="9" fill="#555">occurs_in</text>
+<line x1="390.1" y1="192.7" x2="1687.1" y2="454.2" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1038.6" y="323.5" font-size="9" fill="#555">has_activity</text>
+<line x1="390.1" y1="192.7" x2="1335.9" y2="1040.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="863.0" y="616.6" font-size="9" fill="#555">next</text>
+<line x1="390.1" y1="192.7" x2="1705.3" y2="502.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1047.7" y="347.4" font-size="9" fill="#555">has_activity</text>
+<line x1="590.6" y1="118.4" x2="261.7" y2="926.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="426.2" y="522.5" font-size="9" fill="#555">recommends</text>
+<line x1="614.7" y1="112.4" x2="1561.9" y2="293.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1088.3" y="202.7" font-size="9" fill="#555">next</text>
+<line x1="688.7" y1="97.5" x2="88.2" y2="673.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="388.5" y="385.6" font-size="9" fill="#555">occurs_in</text>
+<line x1="688.7" y1="97.5" x2="1604.7" y2="334.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1146.7" y="215.8" font-size="9" fill="#555">has_activity</text>
+<line x1="688.7" y1="97.5" x2="313.3" y2="236.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="501.0" y="167.1" font-size="9" fill="#555">next</text>
+<line x1="739.2" y1="90.1" x2="92.2" y2="689.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="415.7" y="390.0" font-size="9" fill="#555">recommends</text>
+<line x1="764.6" y1="87.1" x2="1671.0" y2="777.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1217.8" y="432.1" font-size="9" fill="#555">recommends</text>
+<line x1="1022.5" y1="85.8" x2="919.4" y2="1119.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="970.9" y="602.8" font-size="9" fill="#555">visits</text>
+<line x1="1022.5" y1="85.8" x2="390.1" y2="192.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="706.3" y="139.3" font-size="9" fill="#555">visits</text>
+<line x1="1022.5" y1="85.8" x2="1335.9" y2="1040.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1179.2" y="563.1" font-size="9" fill="#555">visits</text>
+<line x1="1022.5" y1="85.8" x2="1073.4" y2="1108.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1047.9" y="597.0" font-size="9" fill="#555">visits</text>
+<line x1="1022.5" y1="85.8" x2="688.7" y2="97.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="855.6" y="91.7" font-size="9" fill="#555">visits</text>
+<line x1="1022.5" y1="85.8" x2="313.3" y2="236.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="667.9" y="161.2" font-size="9" fill="#555">visits</text>
+<line x1="1022.5" y1="85.8" x2="1048.0" y2="88.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1035.2" y="87.2" font-size="9" fill="#555">visits</text>
+<line x1="1022.5" y1="85.8" x2="164.3" y2="829.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="593.4" y="457.8" font-size="9" fill="#555">visits</text>
+<line x1="1022.5" y1="85.8" x2="1705.3" y2="697.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1363.9" y="391.9" font-size="9" fill="#555">visits</text>
+<line x1="1022.5" y1="85.8" x2="278.3" y2="260.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="650.4" y="173.3" font-size="9" fill="#555">visits</text>
+<line x1="1022.5" y1="85.8" x2="84.9" y2="542.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="553.7" y="314.2" font-size="9" fill="#555">visits</text>
+<line x1="1048.0" y1="88.5" x2="88.2" y2="673.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="568.1" y="381.1" font-size="9" fill="#555">occurs_in</text>
+<line x1="1048.0" y1="88.5" x2="1718.4" y2="632.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1383.2" y="360.7" font-size="9" fill="#555">has_activity</text>
+<line x1="1048.0" y1="88.5" x2="390.1" y2="192.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="719.1" y="140.6" font-size="9" fill="#555">next</text>
+<line x1="1073.4" y1="91.7" x2="1419.9" y2="197.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1246.6" y="144.8" font-size="9" fill="#555">recommends</text>
+<line x1="1335.9" y1="159.5" x2="1617.6" y2="348.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1476.7" y="253.9" font-size="9" fill="#555">recommends</text>
+<line x1="1357.6" y1="168.5" x2="1244.9" y2="1071.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1301.2" y="620.1" font-size="9" fill="#555">recommends</text>
+<line x1="1378.8" y1="177.9" x2="142.9" y2="400.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="760.9" y="289.0" font-size="9" fill="#555">recommends</text>
+<line x1="1399.6" y1="187.7" x2="1098.6" y2="95.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1249.1" y="141.6" font-size="9" fill="#555">recommends</text>
+<line x1="1439.6" y1="208.5" x2="1694.0" y2="470.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1566.8" y="339.3" font-size="9" fill="#555">next</text>
+<line x1="1439.6" y1="208.5" x2="88.2" y2="673.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="763.9" y="441.1" font-size="9" fill="#555">occurs_in</text>
+<line x1="1439.6" y1="208.5" x2="1679.5" y2="761.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1559.5" y="485.0" font-size="9" fill="#555">has_activity</text>
+<line x1="1458.9" y1="219.5" x2="82.5" y2="641.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="770.7" y="430.2" font-size="9" fill="#555">recommends</text>
+<line x1="1495.6" y1="242.6" x2="261.7" y2="273.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="878.7" y="258.0" font-size="9" fill="#555">recommends</text>
+<line x1="1513.1" y1="254.7" x2="201.9" y2="872.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="857.5" y="563.8" font-size="9" fill="#555">recommends</text>
+<line x1="1530.0" y1="267.1" x2="245.8" y2="286.4" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="887.9" y="276.8" font-size="9" fill="#555">recommends</text>
+<line x1="1561.9" y1="293.0" x2="84.9" y2="657.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="823.4" y="475.2" font-size="9" fill="#555">has_activity</text>
+<line x1="1561.9" y1="293.0" x2="176.2" y2="844.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="869.0" y="568.7" font-size="9" fill="#555">next</text>
+<line x1="1661.8" y1="407.7" x2="1641.2" y2="822.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1651.5" y="615.1" font-size="9" fill="#555">recommends</text>
+<line x1="1694.0" y1="470.0" x2="497.4" y2="1053.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1095.7" y="761.5" font-size="9" fill="#555">next</text>
+<line x1="1694.0" y1="470.0" x2="88.2" y2="673.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="891.1" y="571.8" font-size="9" fill="#555">occurs_in</text>
+<line x1="1694.0" y1="470.0" x2="1679.5" y2="761.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1686.7" y="615.8" font-size="9" fill="#555">has_activity</text>
+<line x1="1694.0" y1="470.0" x2="1073.4" y2="1108.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1383.7" y="789.1" font-size="9" fill="#555">next</text>
+<line x1="1713.5" y1="534.5" x2="431.7" y2="1026.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1072.6" y="780.7" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="543.3" y2="131.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1128.4" y="333.1" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="590.6" y2="1081.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1152.0" y="808.1" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="188.7" y2="858.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="951.1" y="696.7" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="1148.4" y2="104.4" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1430.9" y="319.5" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="971.1" y2="1118.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1342.3" y="826.3" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="1173.0" y2="109.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1443.2" y="322.1" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="945.2" y2="1119.2" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1329.4" y="826.9" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="102.8" y2="722.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="908.1" y="628.2" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="431.7" y2="173.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1072.6" y="353.8" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="815.9" y2="1117.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1264.7" y="825.9" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="1629.7" y2="837.2" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1671.6" y="685.8" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="971.1" y2="81.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1342.3" y="308.2" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="245.8" y2="913.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="979.6" y="724.0" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="1719.6" y2="583.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1716.5" y="559.0" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="639.2" y2="107.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1176.3" y="320.7" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="713.9" y2="93.5" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1213.7" y="314.0" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="1022.5" y2="1114.2" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1368.0" y="824.3" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="1716.3" y2="550.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1714.9" y="542.7" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="520.2" y2="139.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1116.8" y="336.8" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="390.1" y2="1007.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1051.8" y="770.9" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="1718.4" y2="567.2" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1715.9" y="550.8" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="453.1" y2="1036.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1083.3" y="785.3" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="142.9" y2="799.9" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="928.2" y="667.2" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="475.1" y2="1044.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1094.3" y="789.6" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="102.8" y2="478.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="908.1" y="506.3" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="313.3" y2="963.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1013.4" y="748.9" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="80.0" y2="591.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="896.7" y="563.1" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="116.5" y2="753.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="915.0" y="644.1" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="1291.1" y2="143.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1502.3" y="338.7" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="1546.2" y2="920.1" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1629.9" y="727.3" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="1700.1" y2="486.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1706.8" y="510.3" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="1719.6" y2="616.4" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1716.5" y="575.5" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="945.2" y2="80.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1329.4" y="307.6" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="1221.2" y2="121.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1467.3" y="328.0" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="215.9" y2="886.8" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="964.7" y="710.6" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="1576.8" y2="306.4" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1645.1" y="420.5" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="1495.6" y2="957.4" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1604.5" y="746.0" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="133.4" y2="784.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="923.4" y="659.6" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="133.4" y2="415.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="923.4" y="474.9" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="80.8" y2="575.4" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="897.1" y="554.9" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="410.6" y2="182.7" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1062.1" y="358.6" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="153.3" y2="385.0" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="933.4" y="459.7" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="566.8" y2="1075.2" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1140.1" y="804.8" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="614.7" y2="1087.6" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="1164.1" y="811.0" font-size="9" fill="#555">contains</text>
+<line x1="1713.5" y1="534.5" x2="230.5" y2="900.3" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="972.0" y="717.4" font-size="9" fill="#555">contains</text>
+<circle cx="1720.0" cy="600.0" r="15" fill="#9467bd" stroke="#333"/>
+<text x="1720.0" y="629.0" text-anchor="middle" font-size="11">route-GG-officia</text>
+<circle cx="1719.6" cy="616.4" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="1719.6" y="645.4" text-anchor="middle" font-size="11">14:20—15:20</text>
+<circle cx="1718.4" cy="632.8" r="15" fill="#8c564b" stroke="#333"/>
+<text x="1718.4" y="661.8" text-anchor="middle" font-size="11">参观溥仪生活展</text>
+<circle cx="1716.3" cy="649.2" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="1716.3" y="678.2" text-anchor="middle" font-size="11">天安门</text>
+<circle cx="1713.5" cy="665.5" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="1713.5" y="694.5" text-anchor="middle" font-size="11">建议先休息，并取消珍宝馆支线</text>
+<circle cx="1709.8" cy="681.8" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="1709.8" y="710.8" text-anchor="middle" font-size="11">奉先殿</text>
+<circle cx="1705.3" cy="697.9" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="1705.3" y="726.9" text-anchor="middle" font-size="11">前朝三大殿</text>
+<circle cx="1700.1" cy="714.0" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="1700.1" y="743.0" text-anchor="middle" font-size="11">保和殿西庑</text>
+<circle cx="1694.0" cy="730.0" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="1694.0" y="759.0" text-anchor="middle" font-size="11">两小时左右</text>
+<circle cx="1687.1" cy="745.8" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="1687.1" y="774.8" text-anchor="middle" font-size="11">乾清宫附近休息点</text>
+<circle cx="1679.5" cy="761.5" r="15" fill="#8c564b" stroke="#333"/>
+<text x="1679.5" y="790.5" text-anchor="middle" font-size="11">参观建筑</text>
+<circle cx="1671.0" cy="777.0" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="1671.0" y="806.0" text-anchor="middle" font-size="11">减少支线并安排休息</text>
+<circle cx="1661.8" cy="792.3" r="15" fill="#2ca02c" stroke="#333"/>
+<text x="1661.8" y="821.3" text-anchor="middle" font-size="11">公交</text>
+<circle cx="1651.9" cy="807.5" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="1651.9" y="836.5" text-anchor="middle" font-size="11">可在不妨碍通行的地点安排拍照</text>
+<circle cx="1641.2" cy="822.5" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="1641.2" y="851.5" text-anchor="middle" font-size="11">可以酌情缩短停留，避免在行程起点</text>
+<circle cx="1629.7" cy="837.2" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="1629.7" y="866.2" text-anchor="middle" font-size="11">一小时</text>
+<circle cx="1617.6" cy="851.7" r="15" fill="#8c564b" stroke="#333"/>
+<text x="1617.6" y="880.7" text-anchor="middle" font-size="11">经过交泰殿后参观乾清宫</text>
+<circle cx="1604.7" cy="865.9" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="1604.7" y="894.9" text-anchor="middle" font-size="11">下午3点多</text>
+<circle cx="1591.1" cy="879.9" r="15" fill="#e377c2" stroke="#333"/>
+<text x="1591.1" y="908.9" text-anchor="middle" font-size="11">里面很大很容易迷路</text>
+<circle cx="1576.8" cy="893.6" r="15" fill="#2ca02c" stroke="#333"/>
+<text x="1576.8" y="922.6" text-anchor="middle" font-size="11">地铁</text>
+<circle cx="1561.9" cy="907.0" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="1561.9" y="936.0" text-anchor="middle" font-size="11">三大殿</text>
+<circle cx="1546.2" cy="920.1" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="1546.2" y="949.1" text-anchor="middle" font-size="11">13:00—14:20</text>
+<circle cx="1530.0" cy="932.9" r="15" fill="#8c564b" stroke="#333"/>
+<text x="1530.0" y="961.9" text-anchor="middle" font-size="11">沿开放通道离院</text>
+<circle cx="1513.1" cy="945.3" r="15" fill="#e377c2" stroke="#333"/>
+<text x="1513.1" y="974.3" text-anchor="middle" font-size="11">在皇家宫殿里遛娃</text>
+<circle cx="1495.6" cy="957.4" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="1495.6" y="986.4" text-anchor="middle" font-size="11">13:30</text>
+<circle cx="1477.5" cy="969.2" r="15" fill="#e377c2" stroke="#333"/>
+<text x="1477.5" y="998.2" text-anchor="middle" font-size="11">同行者使用轮椅</text>
+<circle cx="1458.9" cy="980.5" r="24" fill="#d62728" stroke="#333"/>
+<text x="1458.9" y="1018.5" text-anchor="middle" font-size="11">颐和园</text>
+<circle cx="1439.6" cy="991.5" r="15" fill="#8c564b" stroke="#333"/>
+<text x="1439.6" y="1020.5" text-anchor="middle" font-size="11">入院与辨认导览</text>
+<circle cx="1419.9" cy="1002.1" r="15" fill="#e377c2" stroke="#333"/>
+<text x="1419.9" y="1031.1" text-anchor="middle" font-size="11">想拍照或带孩子观察建筑细节</text>
+<circle cx="1399.6" cy="1012.3" r="15" fill="#e377c2" stroke="#333"/>
+<text x="1399.6" y="1041.3" text-anchor="middle" font-size="11">在通行与体力都允许时</text>
+<circle cx="1378.8" cy="1022.1" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="1378.8" y="1051.1" text-anchor="middle" font-size="11">西六宫</text>
+<circle cx="1357.6" cy="1031.5" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="1357.6" y="1060.5" text-anchor="middle" font-size="11">教育好熊孩子不要触碰到皇家文物</text>
+<circle cx="1335.9" cy="1040.5" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="1335.9" y="1069.5" text-anchor="middle" font-size="11">坤宁宫</text>
+<circle cx="1313.7" cy="1049.0" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="1313.7" y="1078.0" text-anchor="middle" font-size="11">10:10—10:40</text>
+<circle cx="1291.1" cy="1057.0" r="24" fill="#d62728" stroke="#333"/>
+<text x="1291.1" y="1095.0" text-anchor="middle" font-size="11">故宫</text>
+<circle cx="1268.2" cy="1064.6" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="1268.2" y="1093.6" text-anchor="middle" font-size="11">内廷</text>
+<circle cx="1244.9" cy="1071.8" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="1244.9" y="1100.8" text-anchor="middle" font-size="11">故宫城角是很多摄影爱好者必拍的</text>
+<circle cx="1221.2" cy="1078.4" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="1221.2" y="1107.4" text-anchor="middle" font-size="11">应先核实无障碍通道;资料没有说明</text>
+<circle cx="1197.3" cy="1084.6" r="15" fill="#8c564b" stroke="#333"/>
+<text x="1197.3" y="1113.6" text-anchor="middle" font-size="11">从神武门离开</text>
+<circle cx="1173.0" cy="1090.3" r="15" fill="#8c564b" stroke="#333"/>
+<text x="1173.0" y="1119.3" text-anchor="middle" font-size="11">参观珍宝馆</text>
+<circle cx="1148.4" cy="1095.6" r="15" fill="#9467bd" stroke="#333"/>
+<text x="1148.4" y="1124.6" text-anchor="middle" font-size="11">route-GG-travele</text>
+<circle cx="1123.6" cy="1100.3" r="15" fill="#8c564b" stroke="#333"/>
+<text x="1123.6" y="1129.3" text-anchor="middle" font-size="11">观察殿宇与广场</text>
+<circle cx="1098.6" cy="1104.5" r="15" fill="#e377c2" stroke="#333"/>
+<text x="1098.6" y="1133.5" text-anchor="middle" font-size="11">第一次参观故宫，又只有两小时左右</text>
+<circle cx="1073.4" cy="1108.3" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="1073.4" y="1137.3" text-anchor="middle" font-size="11">乾清宫</text>
+<circle cx="1048.0" cy="1111.5" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="1048.0" y="1140.5" text-anchor="middle" font-size="11">东华门</text>
+<circle cx="1022.5" cy="1114.2" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="1022.5" y="1143.2" text-anchor="middle" font-size="11">40分钟</text>
+<circle cx="996.8" cy="1116.4" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="996.8" y="1145.4" text-anchor="middle" font-size="11">可以减少在入口附近停留的时间，把</text>
+<circle cx="971.1" cy="1118.1" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="971.1" y="1147.1" text-anchor="middle" font-size="11">中午12:00</text>
+<circle cx="945.2" cy="1119.2" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="945.2" y="1148.2" text-anchor="middle" font-size="11">下午</text>
+<circle cx="919.4" cy="1119.9" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="919.4" y="1148.9" text-anchor="middle" font-size="11">神武门</text>
+<circle cx="893.5" cy="1120.0" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="893.5" y="1149.0" text-anchor="middle" font-size="11">畅音阁</text>
+<circle cx="867.6" cy="1119.6" r="15" fill="#8c564b" stroke="#333"/>
+<text x="867.6" y="1148.6" text-anchor="middle" font-size="11">观看展陈</text>
+<circle cx="841.7" cy="1118.7" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="841.7" y="1147.7" text-anchor="middle" font-size="11">执行整个计划</text>
+<circle cx="815.9" cy="1117.3" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="815.9" y="1146.3" text-anchor="middle" font-size="11">12:10</text>
+<circle cx="790.2" cy="1115.3" r="15" fill="#8c564b" stroke="#333"/>
+<text x="790.2" y="1144.3" text-anchor="middle" font-size="11">参观钟表馆</text>
+<circle cx="764.6" cy="1112.9" r="15" fill="#9467bd" stroke="#333"/>
+<text x="764.6" y="1141.9" text-anchor="middle" font-size="11">route-GG-synthet</text>
+<circle cx="739.2" cy="1109.9" r="15" fill="#e377c2" stroke="#333"/>
+<text x="739.2" y="1138.9" text-anchor="middle" font-size="11">同行者是情侣</text>
+<circle cx="713.9" cy="1106.5" r="15" fill="#2ca02c" stroke="#333"/>
+<text x="713.9" y="1135.5" text-anchor="middle" font-size="11">乘船</text>
+<circle cx="688.7" cy="1102.5" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="688.7" y="1131.5" text-anchor="middle" font-size="11">那我一定选择故宫博物馆</text>
+<circle cx="663.8" cy="1098.0" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="663.8" y="1127.0" text-anchor="middle" font-size="11">太和殿广场</text>
+<circle cx="639.2" cy="1093.0" r="15" fill="#e377c2" stroke="#333"/>
+<text x="639.2" y="1122.0" text-anchor="middle" font-size="11">带孩子且孩子已经疲劳</text>
+<circle cx="614.7" cy="1087.6" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="614.7" y="1116.6" text-anchor="middle" font-size="11">三十分钟</text>
+<circle cx="590.6" cy="1081.6" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="590.6" y="1110.6" text-anchor="middle" font-size="11">当天</text>
+<circle cx="566.8" cy="1075.2" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="566.8" y="1104.2" text-anchor="middle" font-size="11">下午12:40—13:30</text>
+<circle cx="543.3" cy="1068.3" r="15" fill="#e377c2" stroke="#333"/>
+<text x="543.3" y="1097.3" text-anchor="middle" font-size="11">同行者兴趣不同</text>
+<circle cx="520.2" cy="1060.9" r="15" fill="#8c564b" stroke="#333"/>
+<text x="520.2" y="1089.9" text-anchor="middle" font-size="11">参观内廷</text>
+<circle cx="497.4" cy="1053.1" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="497.4" y="1082.1" text-anchor="middle" font-size="11">乾清门</text>
+<circle cx="475.1" cy="1044.8" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="475.1" y="1073.8" text-anchor="middle" font-size="11">09:20—10:10</text>
+<circle cx="453.1" cy="1036.0" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="453.1" y="1065.0" text-anchor="middle" font-size="11">09:00至16:00</text>
+<circle cx="431.7" cy="1026.9" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="431.7" y="1055.9" text-anchor="middle" font-size="11">上午</text>
+<circle cx="410.6" cy="1017.3" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="410.6" y="1046.3" text-anchor="middle" font-size="11">东六宫</text>
+<circle cx="390.1" cy="1007.3" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="390.1" y="1036.3" text-anchor="middle" font-size="11">早上</text>
+<circle cx="370.1" cy="996.9" r="15" fill="#e377c2" stroke="#333"/>
+<text x="370.1" y="1025.9" text-anchor="middle" font-size="11">只能选择一个博物馆可以去</text>
+<circle cx="350.6" cy="986.1" r="15" fill="#e377c2" stroke="#333"/>
+<text x="350.6" y="1015.1" text-anchor="middle" font-size="11">遇临时封闭或明显拥挤</text>
+<circle cx="331.6" cy="974.9" r="15" fill="#e377c2" stroke="#333"/>
+<text x="331.6" y="1003.9" text-anchor="middle" font-size="11">天气与开放情况得到确认</text>
+<circle cx="313.3" cy="963.3" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="313.3" y="992.3" text-anchor="middle" font-size="11">30分钟</text>
+<circle cx="295.5" cy="951.4" r="15" fill="#8c564b" stroke="#333"/>
+<text x="295.5" y="980.4" text-anchor="middle" font-size="11">从午门进入前朝</text>
+<circle cx="278.3" cy="939.1" r="15" fill="#e377c2" stroke="#333"/>
+<text x="278.3" y="968.1" text-anchor="middle" font-size="11">带老人或孩子</text>
+<circle cx="261.7" cy="926.5" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="261.7" y="955.5" text-anchor="middle" font-size="11">可以提前选择一个重点，避免把全日</text>
+<circle cx="245.8" cy="913.6" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="245.8" y="942.6" text-anchor="middle" font-size="11">半天</text>
+<circle cx="230.5" cy="900.3" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="230.5" y="929.3" text-anchor="middle" font-size="11">四小时</text>
+<circle cx="215.9" cy="886.8" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="215.9" y="915.8" text-anchor="middle" font-size="11">两点</text>
+<circle cx="201.9" cy="872.9" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="201.9" y="901.9" text-anchor="middle" font-size="11">优先离园，不再增加拍照任务</text>
+<circle cx="188.7" cy="858.8" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="188.7" y="887.8" text-anchor="middle" font-size="11">四十分钟</text>
+<circle cx="176.2" cy="844.5" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="176.2" y="873.5" text-anchor="middle" font-size="11">太和殿</text>
+<circle cx="164.3" cy="829.8" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="164.3" y="858.8" text-anchor="middle" font-size="11">午门</text>
+<circle cx="153.3" cy="815.0" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="153.3" y="844.0" text-anchor="middle" font-size="11">交泰殿</text>
+<circle cx="142.9" cy="799.9" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="142.9" y="828.9" text-anchor="middle" font-size="11">09:00—09:20</text>
+<circle cx="133.4" cy="784.7" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="133.4" y="813.7" text-anchor="middle" font-size="11">上午10:00—10:20</text>
+<circle cx="124.6" cy="769.3" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="124.6" y="798.3" text-anchor="middle" font-size="11">乐寿堂</text>
+<circle cx="116.5" cy="753.7" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="116.5" y="782.7" text-anchor="middle" font-size="11">12:00—13:00</text>
+<circle cx="109.3" cy="737.9" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="109.3" y="766.9" text-anchor="middle" font-size="11">可以在院落间适当休息</text>
+<circle cx="102.8" cy="722.0" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="102.8" y="751.0" text-anchor="middle" font-size="11">上午09:30</text>
+<circle cx="97.1" cy="706.0" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="97.1" y="735.0" text-anchor="middle" font-size="11">内金水桥</text>
+<circle cx="92.2" cy="689.9" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="92.2" y="718.9" text-anchor="middle" font-size="11">在御花园增加休息，并减少珍宝馆的</text>
+<circle cx="88.2" cy="673.6" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="88.2" y="702.6" text-anchor="middle" font-size="11">morning</text>
+<circle cx="84.9" cy="657.3" r="15" fill="#8c564b" stroke="#333"/>
+<text x="84.9" y="686.3" text-anchor="middle" font-size="11">皇朝礼乐展</text>
+<circle cx="82.5" cy="641.0" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="82.5" y="670.0" text-anchor="middle" font-size="11">应及时减少支线，把休息和顺利离院</text>
+<circle cx="80.8" cy="624.6" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="80.8" y="653.6" text-anchor="middle" font-size="11">景山公园</text>
+<circle cx="80.0" cy="608.2" r="15" fill="#e377c2" stroke="#333"/>
+<text x="80.0" y="637.2" text-anchor="middle" font-size="11">展陈较多</text>
+<circle cx="80.0" cy="591.8" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="80.0" y="620.8" text-anchor="middle" font-size="11">11:20—12:00</text>
+<circle cx="80.8" cy="575.4" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="80.8" y="604.4" text-anchor="middle" font-size="11">11:00—11:40</text>
+<circle cx="82.5" cy="559.0" r="15" fill="#e377c2" stroke="#333"/>
+<text x="82.5" y="588.0" text-anchor="middle" font-size="11">珍宝馆当天未开放</text>
+<circle cx="84.9" cy="542.7" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="84.9" y="571.7" text-anchor="middle" font-size="11">珍宝馆</text>
+<circle cx="88.2" cy="526.4" r="15" fill="#8c564b" stroke="#333"/>
+<text x="88.2" y="555.4" text-anchor="middle" font-size="11">到坤宁宫参观</text>
+<circle cx="92.2" cy="510.1" r="15" fill="#2ca02c" stroke="#333"/>
+<text x="92.2" y="539.1" text-anchor="middle" font-size="11">出租车</text>
+<circle cx="97.1" cy="494.0" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="97.1" y="523.0" text-anchor="middle" font-size="11">金水桥</text>
+<circle cx="102.8" cy="478.0" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="102.8" y="507.0" text-anchor="middle" font-size="11">50分钟</text>
+<circle cx="109.3" cy="462.1" r="15" fill="#e377c2" stroke="#333"/>
+<text x="109.3" y="491.1" text-anchor="middle" font-size="11">下小雨且现场仍允许游览</text>
+<circle cx="116.5" cy="446.3" r="15" fill="#e377c2" stroke="#333"/>
+<text x="116.5" y="475.3" text-anchor="middle" font-size="11">出现雷雨或临时闭园</text>
+<circle cx="124.6" cy="430.7" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="124.6" y="459.7" text-anchor="middle" font-size="11">可预先约定参观结束后的会合地点，</text>
+<circle cx="133.4" cy="415.3" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="133.4" y="444.3" text-anchor="middle" font-size="11">10:20—11:00</text>
+<circle cx="142.9" cy="400.1" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="142.9" y="429.1" text-anchor="middle" font-size="11">可以在太和殿安排短暂停留</text>
+<circle cx="153.3" cy="385.0" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="153.3" y="414.0" text-anchor="middle" font-size="11">中午11:40—12:40</text>
+<circle cx="164.3" cy="370.2" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="164.3" y="399.2" text-anchor="middle" font-size="11">取消该支线，沿现场开放通道继续参</text>
+<circle cx="176.2" cy="355.5" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="176.2" y="384.5" text-anchor="middle" font-size="11">可以先把注意力放在中轴线</text>
+<circle cx="188.7" cy="341.2" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="188.7" y="370.2" text-anchor="middle" font-size="11">最好提前规划好游玩攻略</text>
+<circle cx="201.9" cy="327.1" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="201.9" y="356.1" text-anchor="middle" font-size="11">故宫</text>
+<circle cx="215.9" cy="313.2" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="215.9" y="342.2" text-anchor="middle" font-size="11">珍妃井</text>
+<circle cx="230.5" cy="299.7" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="230.5" y="328.7" text-anchor="middle" font-size="11">文华殿</text>
+<circle cx="245.8" cy="286.4" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="245.8" y="315.4" text-anchor="middle" font-size="11">加入下午支线</text>
+<circle cx="261.7" cy="273.5" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="261.7" y="302.5" text-anchor="middle" font-size="11">每连续步行二十分钟安排一次休息，</text>
+<circle cx="278.3" cy="260.9" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="278.3" y="289.9" text-anchor="middle" font-size="11">钟表馆</text>
+<circle cx="295.5" cy="248.6" r="15" fill="#e377c2" stroke="#333"/>
+<text x="295.5" y="277.6" text-anchor="middle" font-size="11">临近结束仍有未看完的内容</text>
+<circle cx="313.3" cy="236.7" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="313.3" y="265.7" text-anchor="middle" font-size="11">永寿宫</text>
+<circle cx="331.6" cy="225.1" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="331.6" y="254.1" text-anchor="middle" font-size="11">afternoon</text>
+<circle cx="350.6" cy="213.9" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="350.6" y="242.9" text-anchor="middle" font-size="11">宁寿宫</text>
+<circle cx="370.1" cy="203.1" r="15" fill="#e377c2" stroke="#333"/>
+<text x="370.1" y="232.1" text-anchor="middle" font-size="11">希望在较短时间内兼顾建筑与展陈</text>
+<circle cx="390.1" cy="192.7" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="390.1" y="221.7" text-anchor="middle" font-size="11">御花园</text>
+<circle cx="410.6" cy="182.7" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="410.6" y="211.7" text-anchor="middle" font-size="11">十分钟</text>
+<circle cx="431.7" cy="173.1" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="431.7" y="202.1" text-anchor="middle" font-size="11">十五分钟</text>
+<circle cx="453.1" cy="164.0" r="15" fill="#2ca02c" stroke="#333"/>
+<text x="453.1" y="193.0" text-anchor="middle" font-size="11">步行</text>
+<circle cx="475.1" cy="155.2" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="475.1" y="184.2" text-anchor="middle" font-size="11">武英殿</text>
+<circle cx="497.4" cy="146.9" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="497.4" y="175.9" text-anchor="middle" font-size="11">两个小时</text>
+<circle cx="520.2" cy="139.1" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="520.2" y="168.1" text-anchor="middle" font-size="11">今天</text>
+<circle cx="543.3" cy="131.7" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="543.3" y="160.7" text-anchor="middle" font-size="11">10:00</text>
+<circle cx="566.8" cy="124.8" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="566.8" y="153.8" text-anchor="middle" font-size="11">5月17日</text>
+<circle cx="590.6" cy="118.4" r="15" fill="#e377c2" stroke="#333"/>
+<text x="590.6" y="147.4" text-anchor="middle" font-size="11">再次到访</text>
+<circle cx="614.7" cy="112.4" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="614.7" y="141.4" text-anchor="middle" font-size="11">太和门</text>
+<circle cx="639.2" cy="107.0" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="639.2" y="136.0" text-anchor="middle" font-size="11">两小时</text>
+<circle cx="663.8" cy="102.0" r="15" fill="#8c564b" stroke="#333"/>
+<text x="663.8" y="131.0" text-anchor="middle" font-size="11">游览乾清宫</text>
+<circle cx="688.7" cy="97.5" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="688.7" y="126.5" text-anchor="middle" font-size="11">养心殿</text>
+<circle cx="713.9" cy="93.5" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="713.9" y="122.5" text-anchor="middle" font-size="11">20分钟</text>
+<circle cx="739.2" cy="90.1" r="15" fill="#e377c2" stroke="#333"/>
+<text x="739.2" y="119.1" text-anchor="middle" font-size="11">带孩子</text>
+<circle cx="764.6" cy="87.1" r="15" fill="#e377c2" stroke="#333"/>
+<text x="764.6" y="116.1" text-anchor="middle" font-size="11">带孩子且已经疲劳</text>
+<circle cx="790.2" cy="84.7" r="15" fill="#8c564b" stroke="#333"/>
+<text x="790.2" y="113.7" text-anchor="middle" font-size="11">从午门进入</text>
+<circle cx="815.9" cy="82.7" r="15" fill="#8c564b" stroke="#333"/>
+<text x="815.9" y="111.7" text-anchor="middle" font-size="11">游览太和殿</text>
+<circle cx="841.7" cy="81.3" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="841.7" y="110.3" text-anchor="middle" font-size="11">宁寿宫区</text>
+<circle cx="867.6" cy="80.4" r="15" fill="#8c564b" stroke="#333"/>
+<text x="867.6" y="109.4" text-anchor="middle" font-size="11">准备从神武门离开</text>
+<circle cx="893.5" cy="80.0" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="893.5" y="109.0" text-anchor="middle" font-size="11">保和殿东庑</text>
+<circle cx="919.4" cy="80.1" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="919.4" y="109.1" text-anchor="middle" font-size="11">可以参考北京旅游网的两小时推荐路</text>
+<circle cx="945.2" cy="80.8" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="945.2" y="109.8" text-anchor="middle" font-size="11">15:20—16:00</text>
+<circle cx="971.1" cy="81.9" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="971.1" y="110.9" text-anchor="middle" font-size="11">晚上</text>
+<circle cx="996.8" cy="83.6" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="996.8" y="112.6" text-anchor="middle" font-size="11">第2天</text>
+<circle cx="1022.5" cy="85.8" r="15" fill="#9467bd" stroke="#333"/>
+<text x="1022.5" y="114.8" text-anchor="middle" font-size="11">route-GG-travele</text>
+<circle cx="1048.0" cy="88.5" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="1048.0" y="117.5" text-anchor="middle" font-size="11">储秀宫</text>
+<circle cx="1073.4" cy="91.7" r="15" fill="#e377c2" stroke="#333"/>
+<text x="1073.4" y="120.7" text-anchor="middle" font-size="11">当天排队较多</text>
+<circle cx="1098.6" cy="95.5" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="1098.6" y="124.5" text-anchor="middle" font-size="11">应缩减目标或延长时间，而不是把所</text>
+<circle cx="1123.6" cy="99.7" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="1123.6" y="128.7" text-anchor="middle" font-size="11">斋宫</text>
+<circle cx="1148.4" cy="104.4" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="1148.4" y="133.4" text-anchor="middle" font-size="11">二十分钟</text>
+<circle cx="1173.0" cy="109.7" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="1173.0" y="138.7" text-anchor="middle" font-size="11">13:00</text>
+<circle cx="1197.3" cy="115.4" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="1197.3" y="144.4" text-anchor="middle" font-size="11">应服从现场引导，必要时删减停留点</text>
+<circle cx="1221.2" cy="121.6" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="1221.2" y="150.6" text-anchor="middle" font-size="11">午后</text>
+<circle cx="1244.9" cy="128.2" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="1244.9" y="157.2" text-anchor="middle" font-size="11">停止户外行程并服从管理</text>
+<circle cx="1268.2" cy="135.4" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="1268.2" y="164.4" text-anchor="middle" font-size="11">10:40—11:20</text>
+<circle cx="1291.1" cy="143.0" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="1291.1" y="172.0" text-anchor="middle" font-size="11">60分钟</text>
+<circle cx="1313.7" cy="151.0" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="1313.7" y="180.0" text-anchor="middle" font-size="11">西华门</text>
+<circle cx="1335.9" cy="159.5" r="15" fill="#e377c2" stroke="#333"/>
+<text x="1335.9" y="188.5" text-anchor="middle" font-size="11">只剩一小时</text>
+<circle cx="1357.6" cy="168.5" r="15" fill="#e377c2" stroke="#333"/>
+<text x="1357.6" y="197.5" text-anchor="middle" font-size="11">摄影爱好者</text>
+<circle cx="1378.8" cy="177.9" r="15" fill="#e377c2" stroke="#333"/>
+<text x="1378.8" y="206.9" text-anchor="middle" font-size="11">仅仅想拍照</text>
+<circle cx="1399.6" cy="187.7" r="15" fill="#e377c2" stroke="#333"/>
+<text x="1399.6" y="216.7" text-anchor="middle" font-size="11">只有三十分钟，却希望完整参观所有</text>
+<circle cx="1419.9" cy="197.9" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="1419.9" y="226.9" text-anchor="middle" font-size="11">可以压缩某一展厅的停留，而把整体</text>
+<circle cx="1439.6" cy="208.5" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="1439.6" y="237.5" text-anchor="middle" font-size="11">中和殿</text>
+<circle cx="1458.9" cy="219.5" r="15" fill="#e377c2" stroke="#333"/>
+<text x="1458.9" y="248.5" text-anchor="middle" font-size="11">有临时闭馆、天气变化或体力下降</text>
+<circle cx="1477.5" cy="230.8" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="1477.5" y="259.8" text-anchor="middle" font-size="11">文渊阁</text>
+<circle cx="1495.6" cy="242.6" r="15" fill="#e377c2" stroke="#333"/>
+<text x="1495.6" y="271.6" text-anchor="middle" font-size="11">带老人</text>
+<circle cx="1513.1" cy="254.7" r="15" fill="#e377c2" stroke="#333"/>
+<text x="1513.1" y="283.7" text-anchor="middle" font-size="11">老人明确表示疲劳</text>
+<circle cx="1530.0" cy="267.1" r="15" fill="#e377c2" stroke="#333"/>
+<text x="1530.0" y="296.1" text-anchor="middle" font-size="11">体力允许并且相关区域开放</text>
+<circle cx="1546.2" cy="279.9" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="1546.2" y="308.9" text-anchor="middle" font-size="11">台北故宫</text>
+<circle cx="1561.9" cy="293.0" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="1561.9" y="322.0" text-anchor="middle" font-size="11">弘义阁</text>
+<circle cx="1576.8" cy="306.4" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="1576.8" y="335.4" text-anchor="middle" font-size="11">约二十分钟</text>
+<circle cx="1591.1" cy="320.1" r="15" fill="#8c564b" stroke="#333"/>
+<text x="1591.1" y="349.1" text-anchor="middle" font-size="11">从神武门进入紫禁城</text>
+<circle cx="1604.7" cy="334.1" r="15" fill="#8c564b" stroke="#333"/>
+<text x="1604.7" y="363.1" text-anchor="middle" font-size="11">参观养心殿</text>
+<circle cx="1617.6" cy="348.3" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="1617.6" y="377.3" text-anchor="middle" font-size="11">删减支线，并说明无法完成全日路线</text>
+<circle cx="1629.7" cy="362.8" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="1629.7" y="391.8" text-anchor="middle" font-size="11">天安门广场</text>
+<circle cx="1641.2" cy="377.5" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="1641.2" y="406.5" text-anchor="middle" font-size="11">建议按兴趣选出重点，其他部分以了</text>
+<circle cx="1651.9" cy="392.5" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="1651.9" y="421.5" text-anchor="middle" font-size="11">可以留待再次参观，不必在最后一段</text>
+<circle cx="1661.8" cy="407.7" r="15" fill="#e377c2" stroke="#333"/>
+<text x="1661.8" y="436.7" text-anchor="middle" font-size="11">遇等候</text>
+<circle cx="1671.0" cy="423.0" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="1671.0" y="452.0" text-anchor="middle" font-size="11">不承诺乘船、登高或进入特定院落</text>
+<circle cx="1679.5" cy="438.5" r="15" fill="#8c564b" stroke="#333"/>
+<text x="1679.5" y="467.5" text-anchor="middle" font-size="11">散步与休息</text>
+<circle cx="1687.1" cy="454.2" r="15" fill="#8c564b" stroke="#333"/>
+<text x="1687.1" y="483.2" text-anchor="middle" font-size="11">到御花园游览</text>
+<circle cx="1694.0" cy="470.0" r="15" fill="#1f77b4" stroke="#333"/>
+<text x="1694.0" y="499.0" text-anchor="middle" font-size="11">保和殿</text>
+<circle cx="1700.1" cy="486.0" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="1700.1" y="515.0" text-anchor="middle" font-size="11">80分钟</text>
+<circle cx="1705.3" cy="502.1" r="15" fill="#8c564b" stroke="#333"/>
+<text x="1705.3" y="531.1" text-anchor="middle" font-size="11">返回御花园</text>
+<circle cx="1709.8" cy="518.2" r="15" fill="#7f7f7f" stroke="#333"/>
+<text x="1709.8" y="547.2" text-anchor="middle" font-size="11">减少露天停留，按现场指引选择可进</text>
+<circle cx="1713.5" cy="534.5" r="24" fill="#d62728" stroke="#333"/>
+<text x="1713.5" y="572.5" text-anchor="middle" font-size="11">天坛</text>
+<circle cx="1716.3" cy="550.8" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="1716.3" y="579.8" text-anchor="middle" font-size="11">一点</text>
+<circle cx="1718.4" cy="567.2" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="1718.4" y="596.2" text-anchor="middle" font-size="11">中午</text>
+<circle cx="1719.6" cy="583.6" r="15" fill="#ff7f0e" stroke="#333"/>
+<text x="1719.6" y="612.6" text-anchor="middle" font-size="11">一天</text>
+</svg>

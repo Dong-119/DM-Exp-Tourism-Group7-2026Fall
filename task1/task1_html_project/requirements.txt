@@ -1,0 +1,2 @@
+# Python >= 3.9
+# Standard library only. No pip packages, API keys or network access required.

@@ -1,0 +1,327 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2100" height="1795" viewBox="0 0 2100 1795">
+<defs><marker id="edge-arrow" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#64748b"/></marker></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="35" y="38" font-size="25" font-weight="bold">完整关系图：recommends</text>
+<text x="35" y="68" font-size="15" fill="#475569">本页显示该关系第 1—40 条，共 95 条；每行一条边</text>
+<line x1="35" y1="88" x2="2065" y2="88" stroke="#cbd5e1"/>
+<text x="35" y="115" font-size="13" fill="#64748b">1</text>
+<rect x="75" y="93" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="112" font-size="14" fill="white">condition · 下小雨且现场仍允许游览</text>
+<line x1="590" y1="107" x2="825" y2="107" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="102" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="93" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="112" font-size="14" fill="white">advice · 减少露天停留，按现场指引选择可进入的避雨处</text>
+<text x="1380" y="112" font-size="12" fill="#475569">condition_type=天气季节；source_document=GG_S03；source_type=task5</text>
+<text x="35" y="157" font-size="13" fill="#64748b">2</text>
+<rect x="75" y="135" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="154" font-size="14" fill="white">condition · 下小雨且现场仍允许游览</text>
+<line x1="590" y1="149" x2="825" y2="149" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="144" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="135" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="154" font-size="14" fill="white">advice · 减少露天停留，按现场指引选择可进入的避雨处</text>
+<text x="1380" y="154" font-size="12" fill="#475569">condition_type=天气季节；source_document=TT_S03；source_type=task5</text>
+<text x="35" y="199" font-size="13" fill="#64748b">3</text>
+<rect x="75" y="177" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="196" font-size="14" fill="white">condition · 下小雨且现场仍允许游览</text>
+<line x1="590" y1="191" x2="825" y2="191" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="186" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="177" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="196" font-size="14" fill="white">advice · 减少露天停留，按现场指引选择可进入的避雨处</text>
+<text x="1380" y="196" font-size="12" fill="#475569">condition_type=天气季节；source_document=YHY_S03；source_type=task5</text>
+<text x="35" y="241" font-size="13" fill="#64748b">4</text>
+<rect x="75" y="219" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="238" font-size="14" fill="white">condition · 不适合上下坡或台阶</text>
+<line x1="590" y1="233" x2="825" y2="233" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="228" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="219" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="238" font-size="14" fill="white">advice · 应在行前了解园内导览，必要时调整路线</text>
+<text x="1380" y="238" font-size="12" fill="#475569">condition_type=现场情境；source_document=YHY_O03；source_type=task5</text>
+<text x="35" y="283" font-size="13" fill="#64748b">5</text>
+<rect x="75" y="261" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="280" font-size="14" fill="white">condition · 临近结束仍有未看完的内容</text>
+<line x1="590" y1="275" x2="825" y2="275" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="270" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="261" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="280" font-size="14" fill="white">advice · 可以留待再次参观，不必在最后一段仓促穿行</text>
+<text x="1380" y="280" font-size="12" fill="#475569">condition_type=现场情境；source_document=GG_O04；source_type=task5</text>
+<text x="35" y="325" font-size="13" fill="#64748b">6</text>
+<rect x="75" y="303" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="322" font-size="14" fill="white">condition · 仅仅想拍照</text>
+<line x1="590" y1="317" x2="825" y2="317" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="312" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="303" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="322" font-size="14" fill="white">advice · 可以在仁寿殿安排短暂停留</text>
+<text x="1380" y="322" font-size="12" fill="#475569">condition_type=游览偏好；source_document=YHY_S03；source_type=task5</text>
+<text x="35" y="367" font-size="13" fill="#64748b">7</text>
+<rect x="75" y="345" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="364" font-size="14" fill="white">condition · 仅仅想拍照</text>
+<line x1="590" y1="359" x2="825" y2="359" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="354" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="345" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="364" font-size="14" fill="white">advice · 可以在圜丘安排短暂停留</text>
+<text x="1380" y="364" font-size="12" fill="#475569">condition_type=游览偏好；source_document=TT_S03；source_type=task5</text>
+<text x="35" y="409" font-size="13" fill="#64748b">8</text>
+<rect x="75" y="387" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="406" font-size="14" fill="white">condition · 仅仅想拍照</text>
+<line x1="590" y1="401" x2="825" y2="401" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="396" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="387" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="406" font-size="14" fill="white">advice · 可以在太和殿安排短暂停留</text>
+<text x="1380" y="406" font-size="12" fill="#475569">condition_type=游览偏好；source_document=GG_S03；source_type=task5</text>
+<text x="35" y="451" font-size="13" fill="#64748b">9</text>
+<rect x="75" y="429" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="448" font-size="14" fill="white">condition · 体力允许并且相关区域开放</text>
+<line x1="590" y1="443" x2="825" y2="443" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="438" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="429" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="448" font-size="14" fill="white">advice · 加入下午支线</text>
+<text x="1380" y="448" font-size="12" fill="#475569">condition_type=开放与通行；source_document=GG_S03；source_type=task5</text>
+<text x="35" y="493" font-size="13" fill="#64748b">10</text>
+<rect x="75" y="471" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="490" font-size="14" fill="white">condition · 体力允许并且相关区域开放</text>
+<line x1="590" y1="485" x2="825" y2="485" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="480" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="471" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="490" font-size="14" fill="white">advice · 加入下午支线</text>
+<text x="1380" y="490" font-size="12" fill="#475569">condition_type=开放与通行；source_document=TT_S03；source_type=task5</text>
+<text x="35" y="535" font-size="13" fill="#64748b">11</text>
+<rect x="75" y="513" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="532" font-size="14" fill="white">condition · 体力允许并且相关区域开放</text>
+<line x1="590" y1="527" x2="825" y2="527" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="522" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="513" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="532" font-size="14" fill="white">advice · 加入下午支线</text>
+<text x="1380" y="532" font-size="12" fill="#475569">condition_type=开放与通行；source_document=YHY_S03；source_type=task5</text>
+<text x="35" y="577" font-size="13" fill="#64748b">12</text>
+<rect x="75" y="555" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="574" font-size="14" fill="white">condition · 停航或等候较久</text>
+<line x1="590" y1="569" x2="825" y2="569" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="564" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="555" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="574" font-size="14" fill="white">advice · 需要重新评估步行安排，不能忽略从船程变为步行后的距离变化</text>
+<text x="1380" y="574" font-size="12" fill="#475569">condition_type=开放与通行；source_document=YHY_O04；source_type=task5</text>
+<text x="35" y="619" font-size="13" fill="#64748b">13</text>
+<rect x="75" y="597" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="616" font-size="14" fill="white">condition · 再次到访</text>
+<line x1="590" y1="611" x2="825" y2="611" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="606" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="597" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="616" font-size="14" fill="white">advice · 可以提前选择一个重点，避免把全日清单当成亲子游必须完成的任务</text>
+<text x="1380" y="616" font-size="12" fill="#475569">condition_type=现场情境；source_document=GG_S04；source_type=task5</text>
+<text x="35" y="661" font-size="13" fill="#64748b">14</text>
+<rect x="75" y="639" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="658" font-size="14" fill="white">condition · 再次到访</text>
+<line x1="590" y1="653" x2="825" y2="653" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="648" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="639" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="658" font-size="14" fill="white">advice · 可以提前选择一个重点，避免把全日清单当成亲子游必须完成的任务</text>
+<text x="1380" y="658" font-size="12" fill="#475569">condition_type=现场情境；source_document=TT_S04；source_type=task5</text>
+<text x="35" y="703" font-size="13" fill="#64748b">15</text>
+<rect x="75" y="681" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="700" font-size="14" fill="white">condition · 再次到访</text>
+<line x1="590" y1="695" x2="825" y2="695" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="690" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="681" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="700" font-size="14" fill="white">advice · 可以提前选择一个重点，避免把全日清单当成亲子游必须完成的任务</text>
+<text x="1380" y="700" font-size="12" fill="#475569">condition_type=现场情境；source_document=YHY_S04；source_type=task5</text>
+<text x="35" y="745" font-size="13" fill="#64748b">16</text>
+<rect x="75" y="723" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="742" font-size="14" fill="white">condition · 出现雷雨或临时闭园</text>
+<line x1="590" y1="737" x2="825" y2="737" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="732" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="723" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="742" font-size="14" fill="white">advice · 停止户外行程并服从管理</text>
+<text x="1380" y="742" font-size="12" fill="#475569">condition_type=复合条件；source_document=GG_S03；source_type=task5</text>
+<text x="35" y="787" font-size="13" fill="#64748b">17</text>
+<rect x="75" y="765" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="784" font-size="14" fill="white">condition · 出现雷雨或临时闭园</text>
+<line x1="590" y1="779" x2="825" y2="779" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="774" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="765" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="784" font-size="14" fill="white">advice · 停止户外行程并服从管理</text>
+<text x="1380" y="784" font-size="12" fill="#475569">condition_type=复合条件；source_document=TT_S03；source_type=task5</text>
+<text x="35" y="829" font-size="13" fill="#64748b">18</text>
+<rect x="75" y="807" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="826" font-size="14" fill="white">condition · 出现雷雨或临时闭园</text>
+<line x1="590" y1="821" x2="825" y2="821" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="816" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="807" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="826" font-size="14" fill="white">advice · 停止户外行程并服从管理</text>
+<text x="1380" y="826" font-size="12" fill="#475569">condition_type=复合条件；source_document=YHY_S03；source_type=task5</text>
+<text x="35" y="871" font-size="13" fill="#64748b">19</text>
+<rect x="75" y="849" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="868" font-size="14" fill="white">condition · 前山停留已占用较长时间</text>
+<line x1="590" y1="863" x2="825" y2="863" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="858" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="849" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="868" font-size="14" fill="white">advice · 可以减少后段院落的深入参观，把路线作为一个可调整的框架</text>
+<text x="1380" y="868" font-size="12" fill="#475569">condition_type=时间安排；source_document=YHY_O04；source_type=task5</text>
+<text x="35" y="913" font-size="13" fill="#64748b">20</text>
+<rect x="75" y="891" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="910" font-size="14" fill="white">condition · 去哪儿上预订房间</text>
+<line x1="590" y1="905" x2="825" y2="905" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="900" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="891" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="910" font-size="14" fill="white">advice · 建议朋友们慎选</text>
+<text x="1380" y="910" font-size="12" fill="#475569">condition_type=出行安排；source_document=TT_T03；source_type=task5</text>
+<text x="35" y="955" font-size="13" fill="#64748b">21</text>
+<rect x="75" y="933" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="952" font-size="14" fill="white">condition · 只剩一小时</text>
+<line x1="590" y1="947" x2="825" y2="947" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="942" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="933" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="952" font-size="14" fill="white">advice · 删减支线，并说明无法完成全日路线</text>
+<text x="1380" y="952" font-size="12" fill="#475569">condition_type=时间安排；source_document=GG_S05；source_type=task5</text>
+<text x="35" y="997" font-size="13" fill="#64748b">22</text>
+<rect x="75" y="975" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="994" font-size="14" fill="white">condition · 只剩一小时</text>
+<line x1="590" y1="989" x2="825" y2="989" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="984" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="975" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="994" font-size="14" fill="white">advice · 删减支线，并说明无法完成全日路线</text>
+<text x="1380" y="994" font-size="12" fill="#475569">condition_type=时间安排；source_document=TT_S05；source_type=task5</text>
+<text x="35" y="1039" font-size="13" fill="#64748b">23</text>
+<rect x="75" y="1017" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="1036" font-size="14" fill="white">condition · 只剩一小时</text>
+<line x1="590" y1="1031" x2="825" y2="1031" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="1026" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="1017" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="1036" font-size="14" fill="white">advice · 删减支线，并说明无法完成全日路线</text>
+<text x="1380" y="1036" font-size="12" fill="#475569">condition_type=时间安排；source_document=YHY_S05；source_type=task5</text>
+<text x="35" y="1081" font-size="13" fill="#64748b">24</text>
+<rect x="75" y="1059" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="1078" font-size="14" fill="white">condition · 只想重点看祈年殿</text>
+<line x1="590" y1="1073" x2="825" y2="1073" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="1068" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="1059" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="1078" font-size="14" fill="white">advice · 可以在前段多停留，后续适当删减</text>
+<text x="1380" y="1078" font-size="12" fill="#475569">condition_type=游览偏好；source_document=TT_O05；source_type=task5</text>
+<text x="35" y="1123" font-size="13" fill="#64748b">25</text>
+<rect x="75" y="1101" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="1120" font-size="14" fill="white">condition · 只有三十分钟，却希望完整参观所有展区</text>
+<line x1="590" y1="1115" x2="825" y2="1115" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="1110" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="1101" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="1120" font-size="14" fill="white">advice · 应缩减目标或延长时间，而不是把所有停留压缩到几分钟</text>
+<text x="1380" y="1120" font-size="12" fill="#475569">condition_type=复合条件；source_document=GG_S02；source_type=task5</text>
+<text x="35" y="1165" font-size="13" fill="#64748b">26</text>
+<rect x="75" y="1143" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="1162" font-size="14" fill="white">condition · 只有三十分钟，却希望完整参观所有展区</text>
+<line x1="590" y1="1157" x2="825" y2="1157" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="1152" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="1143" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="1162" font-size="14" fill="white">advice · 应缩减目标或延长时间，而不是把所有停留压缩到几分钟</text>
+<text x="1380" y="1162" font-size="12" fill="#475569">condition_type=复合条件；source_document=YHY_S02；source_type=task5</text>
+<text x="35" y="1207" font-size="13" fill="#64748b">27</text>
+<rect x="75" y="1185" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="1204" font-size="14" fill="white">condition · 只有三十分钟，却希望完整参观所有展区</text>
+<line x1="590" y1="1199" x2="825" y2="1199" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="1194" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="1185" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="1204" font-size="14" fill="white">advice · 应缩减目标或延长时间，而不是把所有停留压缩到几分钟</text>
+<text x="1380" y="1204" font-size="12" fill="#475569">condition_type=复合条件；source_document=TT_S02；source_type=task5</text>
+<text x="35" y="1249" font-size="13" fill="#64748b">28</text>
+<rect x="75" y="1227" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="1246" font-size="14" fill="white">condition · 只能选择一个博物馆可以去</text>
+<line x1="590" y1="1241" x2="825" y2="1241" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="1236" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="1227" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="1246" font-size="14" fill="white">advice · 那我一定选择故宫博物馆</text>
+<text x="1380" y="1246" font-size="12" fill="#475569">condition_type=游览偏好；source_document=GG_T02；source_type=task5</text>
+<text x="35" y="1291" font-size="13" fill="#64748b">29</text>
+<rect x="75" y="1269" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="1288" font-size="14" fill="white">condition · 吃正宗的</text>
+<line x1="590" y1="1283" x2="825" y2="1283" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="1278" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="1269" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="1288" font-size="14" fill="white">advice · 就要吃当地人爱吃的地儿</text>
+<text x="1380" y="1288" font-size="12" fill="#475569">condition_type=游览偏好；source_document=TT_T03；source_type=task5</text>
+<text x="35" y="1333" font-size="13" fill="#64748b">30</text>
+<rect x="75" y="1311" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="1330" font-size="14" fill="white">condition · 同行者使用轮椅</text>
+<line x1="590" y1="1325" x2="825" y2="1325" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="1320" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="1311" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="1330" font-size="14" fill="white">advice · 应先核实无障碍通道;资料没有说明时，不能直接回答“全程无台阶</text>
+<text x="1380" y="1330" font-size="12" fill="#475569">condition_type=游客类型；source_document=GG_S02；source_type=task5</text>
+<text x="35" y="1375" font-size="13" fill="#64748b">31</text>
+<rect x="75" y="1353" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="1372" font-size="14" fill="white">condition · 同行者使用轮椅</text>
+<line x1="590" y1="1367" x2="825" y2="1367" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="1362" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="1353" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="1372" font-size="14" fill="white">advice · 应先核实无障碍通道;资料没有说明时，不能直接回答“全程无台阶</text>
+<text x="1380" y="1372" font-size="12" fill="#475569">condition_type=游客类型；source_document=TT_S02；source_type=task5</text>
+<text x="35" y="1417" font-size="13" fill="#64748b">32</text>
+<rect x="75" y="1395" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="1414" font-size="14" fill="white">condition · 同行者使用轮椅</text>
+<line x1="590" y1="1409" x2="825" y2="1409" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="1404" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="1395" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="1414" font-size="14" fill="white">advice · 应先核实无障碍通道;资料没有说明时，不能直接回答“全程无台阶</text>
+<text x="1380" y="1414" font-size="12" fill="#475569">condition_type=游客类型；source_document=YHY_S02；source_type=task5</text>
+<text x="35" y="1459" font-size="13" fill="#64748b">33</text>
+<rect x="75" y="1437" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="1456" font-size="14" fill="white">condition · 同行者兴趣不同</text>
+<line x1="590" y1="1451" x2="825" y2="1451" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="1446" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="1437" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="1456" font-size="14" fill="white">advice · 可预先约定参观结束后的会合地点，避免有人留在展厅、有人已经继续向北</text>
+<text x="1380" y="1456" font-size="12" fill="#475569">condition_type=游览偏好；source_document=GG_O03；source_type=task5</text>
+<text x="35" y="1501" font-size="13" fill="#64748b">34</text>
+<rect x="75" y="1479" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="1498" font-size="14" fill="white">condition · 同行者是情侣</text>
+<line x1="590" y1="1493" x2="825" y2="1493" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="1488" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="1479" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="1498" font-size="14" fill="white">advice · 可在不妨碍通行的地点安排拍照</text>
+<text x="1380" y="1498" font-size="12" fill="#475569">condition_type=游客类型；source_document=GG_S01；source_type=task5</text>
+<text x="35" y="1543" font-size="13" fill="#64748b">35</text>
+<rect x="75" y="1521" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="1540" font-size="14" fill="white">condition · 同行者是情侣</text>
+<line x1="590" y1="1535" x2="825" y2="1535" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="1530" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="1521" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="1540" font-size="14" fill="white">advice · 可在不妨碍通行的地点安排拍照</text>
+<text x="1380" y="1540" font-size="12" fill="#475569">condition_type=游客类型；source_document=TT_S01；source_type=task5</text>
+<text x="35" y="1585" font-size="13" fill="#64748b">36</text>
+<rect x="75" y="1563" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="1582" font-size="14" fill="white">condition · 同行者是情侣</text>
+<line x1="590" y1="1577" x2="825" y2="1577" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="1572" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="1563" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="1582" font-size="14" fill="white">advice · 可在不妨碍通行的地点安排拍照</text>
+<text x="1380" y="1582" font-size="12" fill="#475569">condition_type=游客类型；source_document=YHY_S01；source_type=task5</text>
+<text x="35" y="1627" font-size="13" fill="#64748b">37</text>
+<rect x="75" y="1605" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="1624" font-size="14" fill="white">condition · 同行者需要休息</text>
+<line x1="590" y1="1619" x2="825" y2="1619" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="1614" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="1605" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="1624" font-size="14" fill="white">advice · 可放缓节奏，不必在入园后立即赶到每一个拍摄位置</text>
+<text x="1380" y="1624" font-size="12" fill="#475569">condition_type=现场情境；source_document=TT_O02；source_type=task5</text>
+<text x="35" y="1669" font-size="13" fill="#64748b">38</text>
+<rect x="75" y="1647" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="1666" font-size="14" fill="white">condition · 在皇家宫殿里遛娃</text>
+<line x1="590" y1="1661" x2="825" y2="1661" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="1656" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="1647" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="1666" font-size="14" fill="white">advice · 教育好熊孩子不要触碰到皇家文物</text>
+<text x="1380" y="1666" font-size="12" fill="#475569">condition_type=游客类型；source_document=GG_T02；source_type=task5</text>
+<text x="35" y="1711" font-size="13" fill="#64748b">39</text>
+<rect x="75" y="1689" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="1708" font-size="14" fill="white">condition · 在通行与体力都允许时</text>
+<line x1="590" y1="1703" x2="825" y2="1703" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="1698" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="1689" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="1708" font-size="14" fill="white">advice · 执行整个计划</text>
+<text x="1380" y="1708" font-size="12" fill="#475569">condition_type=开放与通行；source_document=GG_S03；source_type=task5</text>
+<text x="35" y="1753" font-size="13" fill="#64748b">40</text>
+<rect x="75" y="1731" width="500" height="28" rx="5" fill="#be185d"/>
+<text x="90" y="1750" font-size="14" fill="white">condition · 在通行与体力都允许时</text>
+<line x1="590" y1="1745" x2="825" y2="1745" stroke="#64748b" stroke-width="2" marker-end="url(#edge-arrow)"/>
+<text x="705" y="1740" text-anchor="middle" font-size="12" fill="#334155">recommends</text>
+<rect x="850" y="1731" width="500" height="28" rx="5" fill="#475569"/>
+<text x="865" y="1750" font-size="14" fill="white">advice · 执行整个计划</text>
+<text x="1380" y="1750" font-size="12" fill="#475569">condition_type=开放与通行；source_document=TT_S03；source_type=task5</text>
+</svg>

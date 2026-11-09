@@ -1,0 +1,32 @@
+{
+  "drop_tags": [
+    "script",
+    "style",
+    "nav",
+    "aside",
+    "footer",
+    "noscript",
+    "template"
+  ],
+  "drop_classes": [
+    "breadcrumb",
+    "sharebar",
+    "related",
+    "comment",
+    "comments",
+    "meta",
+    "metadata",
+    "crawl-residue"
+  ],
+  "join_words": [
+    "游览"
+  ],
+  "mojibake_tokens": [
+    "锟斤拷",
+    "�"
+  ],
+  "adjacent_duplicate_min_chars": 30,
+  "near_duplicate_threshold": 0.97,
+  "near_duplicate_min_length_ratio": 0.97,
+  "min_content_chars": 40
+}

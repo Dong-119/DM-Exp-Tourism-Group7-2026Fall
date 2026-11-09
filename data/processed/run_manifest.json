@@ -1,0 +1,213 @@
+{
+  "version": "1.0.0",
+  "python_version": "3.14.10",
+  "inputs": [
+    "./data/html"
+  ],
+  "output": "result",
+  "source_mode": "已有HTML数据包，沿用其教师语料/整理稿/模拟稿来源声明；不是新执行网络爬取",
+  "input_files": [
+    {
+      "input_path": "data\\html\\天坛\\游客游记\\TT_S04.html",
+      "sha256": "8173f19a25347baddf3d4fd706fae6e2511bfeace3bb6d199807a0ac38158233"
+    },
+    {
+      "input_path": "data\\html\\天坛\\游客游记\\TT_S05.html",
+      "sha256": "b2c9d76fefadb5c9be077c2d6a3a3e6ac695562a3750768fd62b894fd6999d44"
+    },
+    {
+      "input_path": "data\\html\\天坛\\游客游记\\TT_T01.html",
+      "sha256": "c75bc072fdf7329f2c061277dd28f6ee09f3fe30a7c53bfb566aa6da05ac9691"
+    },
+    {
+      "input_path": "data\\html\\天坛\\游客游记\\TT_T02.html",
+      "sha256": "89daac8a89029d7acab0e46b41d85dcb3111703456f215e1ad36dde70cd34aeb"
+    },
+    {
+      "input_path": "data\\html\\天坛\\游客游记\\TT_T02_M.html",
+      "sha256": "a1f68cadff784fcc8a06a5ab0f7a93bfb74a8661a38fa821389c446372a301c2"
+    },
+    {
+      "input_path": "data\\html\\天坛\\游客游记\\TT_T03.html",
+      "sha256": "ad95debd01042835dc66f402f2b8b1096ae7e7dfc8cc92bdb6a63454b31e6067"
+    },
+    {
+      "input_path": "data\\html\\天坛\\游客游记\\TT_T04.html",
+      "sha256": "29ecb87873b8007ba7f10047f972a594e7a934199d78eb66f7537469294876c8"
+    },
+    {
+      "input_path": "data\\html\\天坛\\游客游记\\TT_T05.html",
+      "sha256": "8d00dde12e2fcb931184e3595c43baef1beb656bcdb0c48f206e4bc2a8af94f5"
+    },
+    {
+      "input_path": "data\\html\\天坛\\游玩路线\\TT_F01.html",
+      "sha256": "411ff0166337e32547238bdb4a9051ef3cdd00aeaa38d462bc01d297dbb6cf4a"
+    },
+    {
+      "input_path": "data\\html\\天坛\\游玩路线\\TT_O01.html",
+      "sha256": "b94f6852e9d1378200dfb957bab07e6c7490e5711ed9a7c1a08160e4904b0946"
+    },
+    {
+      "input_path": "data\\html\\天坛\\游玩路线\\TT_O02.html",
+      "sha256": "1daa1f0b221f49df29203f8a2c800a70b86ea79c06487d7848e887e1162e1cff"
+    },
+    {
+      "input_path": "data\\html\\天坛\\游玩路线\\TT_O03.html",
+      "sha256": "a10bd5e13db6ef643d8c8884f9b91e75fcd91eea9b6e8b23d80b0958fec1db11"
+    },
+    {
+      "input_path": "data\\html\\天坛\\游玩路线\\TT_O04.html",
+      "sha256": "58a339e2c98daa3893525b12a730bfd7c7abd142c1d8019c260db50f7aa9708e"
+    },
+    {
+      "input_path": "data\\html\\天坛\\游玩路线\\TT_O05.html",
+      "sha256": "bd160bb7f68bef16f832ad14fed94dbf9cb2c1a363cc7d816d9ef0464ebebc0f"
+    },
+    {
+      "input_path": "data\\html\\天坛\\游玩路线\\TT_S01.html",
+      "sha256": "a9e1b0f435211c45dffa56de142609bebf35a8d5549e52df1326a5e8e98729bf"
+    },
+    {
+      "input_path": "data\\html\\天坛\\游玩路线\\TT_S02.html",
+      "sha256": "8293116696f8b50e397902dcaa9ca1f19ac034e5f0f11acca301c5e8ab12e5e9"
+    },
+    {
+      "input_path": "data\\html\\天坛\\游玩路线\\TT_S03.html",
+      "sha256": "33fa6c136527495c612d3e4d87575fbc0e965489c064f575b69541fa4c828066"
+    },
+    {
+      "input_path": "data\\html\\故宫\\游客游记\\GG_S04.html",
+      "sha256": "738defb52e4ba28811726676b2c1c682102bc3b555ce7261dbbb4b174c843b0f"
+    },
+    {
+      "input_path": "data\\html\\故宫\\游客游记\\GG_S05.html",
+      "sha256": "3aebac6a83e14cea8655dc22d283b9934a3d1b2c7fa993a5245a2ce67b9a95a1"
+    },
+    {
+      "input_path": "data\\html\\故宫\\游客游记\\GG_T01.html",
+      "sha256": "0bf8815d0c263c58c0465db36924caa7e886a4ef9f4de3b667a3096838f23044"
+    },
+    {
+      "input_path": "data\\html\\故宫\\游客游记\\GG_T02.html",
+      "sha256": "e8cb8181c404072890836f46141d0d354a327bd95f2d3d64c0b2a8a8940660b9"
+    },
+    {
+      "input_path": "data\\html\\故宫\\游客游记\\GG_T03.html",
+      "sha256": "11a11c3f5402a9e4574a05a813e604782f0c0c0561ba2a87ff9c92dfc497a651"
+    },
+    {
+      "input_path": "data\\html\\故宫\\游客游记\\GG_T04.html",
+      "sha256": "732d3c8b37695476f69af38b6ecbf4ef8ece32f429bee37c1fc2715f23a13fa6"
+    },
+    {
+      "input_path": "data\\html\\故宫\\游客游记\\GG_T05.html",
+      "sha256": "d9d93eb49ff38a52158d86f9a80349ac9197f9d5a72cd45672a4893033937861"
+    },
+    {
+      "input_path": "data\\html\\故宫\\游玩路线\\GG_F01.html",
+      "sha256": "7f7a4ce4606c6f9da69239454bd67cac1477d6b30ca66bf5b0e2247572522172"
+    },
+    {
+      "input_path": "data\\html\\故宫\\游玩路线\\GG_O01.html",
+      "sha256": "d5b9de8a56a16543fa19e5b8e4718609caf7c5ec6dbfa45c1d12b58f4668aeb8"
+    },
+    {
+      "input_path": "data\\html\\故宫\\游玩路线\\GG_O01_DUP.html",
+      "sha256": "326b77c8e2cdc0133de6e3b3c2d4ef67459b3c9a4d9ddff1e5c254d6c9d3c96e"
+    },
+    {
+      "input_path": "data\\html\\故宫\\游玩路线\\GG_O02.html",
+      "sha256": "b342d1b7dd0f02677b4534837027b5a8098be84f9dcfe6405ad612387abb3b43"
+    },
+    {
+      "input_path": "data\\html\\故宫\\游玩路线\\GG_O03.html",
+      "sha256": "92da51cb74f73bbc7d59a32fc27b3b87a95a54e39b218a6cbb1758874b2af60e"
+    },
+    {
+      "input_path": "data\\html\\故宫\\游玩路线\\GG_O04.html",
+      "sha256": "3d3568b76e1af46b251a6d51054a6f679720588dd20a4ed86e2816ffef91ee41"
+    },
+    {
+      "input_path": "data\\html\\故宫\\游玩路线\\GG_O05.html",
+      "sha256": "9f8bb5cae412402bafeef0e56ab27f890cf108d17bb3b686159be3d22778fa72"
+    },
+    {
+      "input_path": "data\\html\\故宫\\游玩路线\\GG_S01.html",
+      "sha256": "eee0b9175640ccf3aa0edf1731e9b055cc9a3ac4ed42e07861357bb66d158646"
+    },
+    {
+      "input_path": "data\\html\\故宫\\游玩路线\\GG_S02.html",
+      "sha256": "eaf2364125c611175721146132b93846d6e0654589cfa87919e993e210510ed2"
+    },
+    {
+      "input_path": "data\\html\\故宫\\游玩路线\\GG_S03.html",
+      "sha256": "b26ce04e97f44ed02f6cb4a3dbb0c550e65483298f1e4d33c72ba7ac92308443"
+    },
+    {
+      "input_path": "data\\html\\颐和园\\游客游记\\YHY_S04.html",
+      "sha256": "032b18c9da3c8e11615d9c328443ca62fbe7eb23d162a23db5843595e983ff9c"
+    },
+    {
+      "input_path": "data\\html\\颐和园\\游客游记\\YHY_S05.html",
+      "sha256": "dd51efce3911218b96e1159d36b9d556a249b1b69ad7eabc7f156ac816676ff7"
+    },
+    {
+      "input_path": "data\\html\\颐和园\\游客游记\\YHY_T01.html",
+      "sha256": "971d79f70f192391b3b12491693b893622a69b3b42d7efc811fe9e2ae2dfff97"
+    },
+    {
+      "input_path": "data\\html\\颐和园\\游客游记\\YHY_T02.html",
+      "sha256": "d019780472651ae2470f1c0f217333fc336d03410918b7b564d51d1bff4df8ae"
+    },
+    {
+      "input_path": "data\\html\\颐和园\\游客游记\\YHY_T03.html",
+      "sha256": "4dbdfd60e8819ae92e6bc1cd849d47a4212a5aaa21975ce7bd7b07c895654620"
+    },
+    {
+      "input_path": "data\\html\\颐和园\\游客游记\\YHY_T04.html",
+      "sha256": "ba83d21c788715ca404f0be9c7367b941f5c2ec2c63f9eee0cf075278c4ed071"
+    },
+    {
+      "input_path": "data\\html\\颐和园\\游客游记\\YHY_T05.html",
+      "sha256": "c60adbf5ff09b688d130f712e2903a045d2228a89e6de16870b9c7e0beb46876"
+    },
+    {
+      "input_path": "data\\html\\颐和园\\游玩路线\\YHY_F01.html",
+      "sha256": "476abf876ef12d4b973c249cb52bd248c6ba46541ec280039569054fcc77907f"
+    },
+    {
+      "input_path": "data\\html\\颐和园\\游玩路线\\YHY_O01.html",
+      "sha256": "d9d711a0eff90a8db64089438847dea5526cda5197c1f156cf11212cb15748cb"
+    },
+    {
+      "input_path": "data\\html\\颐和园\\游玩路线\\YHY_O02.html",
+      "sha256": "086af393ac0446bc6752cfa83a9e841957c65eceac413021876eea54f4377b8d"
+    },
+    {
+      "input_path": "data\\html\\颐和园\\游玩路线\\YHY_O03.html",
+      "sha256": "bd3721020bdfd1371c08ea532ff45468df555bf1604b89fd29ba1162b6ed3cc5"
+    },
+    {
+      "input_path": "data\\html\\颐和园\\游玩路线\\YHY_O04.html",
+      "sha256": "0d472a306f005c26678a1c018ac1a001e871c0e45267327e6363781cd0c46319"
+    },
+    {
+      "input_path": "data\\html\\颐和园\\游玩路线\\YHY_O05.html",
+      "sha256": "0433f95b91255e279c6ba95cbe5984cd1301f01ba210d24b9ba9fb960da346bb"
+    },
+    {
+      "input_path": "data\\html\\颐和园\\游玩路线\\YHY_S01.html",
+      "sha256": "87029100f6bc4846d7778da0661564ffd896ad8307a8a9327cdc5f8dfc8cbe73"
+    },
+    {
+      "input_path": "data\\html\\颐和园\\游玩路线\\YHY_S02.html",
+      "sha256": "c4a7ac697c2be2e43d1fc5c9b7f54c822445f31e31b752a839c359fd0bb0771a"
+    },
+    {
+      "input_path": "data\\html\\颐和园\\游玩路线\\YHY_S03.html",
+      "sha256": "4eb3b3e2614b8b25aa7f9760077e416ad4725e0a324256cb5237393d6644cd1d"
+    }
+  ],
+  "rules_sha256": "ac454d06a00285142c469b1ee0c8256437f6433fef5e5f465bf490ce53874a6d",
+  "elapsed_seconds": 0.2037
+}

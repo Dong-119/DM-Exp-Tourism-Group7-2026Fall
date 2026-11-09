@@ -1,0 +1,12310 @@
+{
+  "doc_id": "YHY_T02",
+  "tokens": [
+    {
+      "token": "原文",
+      "start": 0,
+      "end": 2
+    },
+    {
+      "token": "地址",
+      "start": 2,
+      "end": 4
+    },
+    {
+      "token": "：",
+      "start": 4,
+      "end": 5
+    },
+    {
+      "token": "晴朗",
+      "start": 5,
+      "end": 7
+    },
+    {
+      "token": "冬日",
+      "start": 7,
+      "end": 9
+    },
+    {
+      "token": "游",
+      "start": 9,
+      "end": 10
+    },
+    {
+      "token": "颐和园",
+      "start": 10,
+      "end": 13
+    },
+    {
+      "token": "西堤",
+      "start": 13,
+      "end": 15
+    },
+    {
+      "token": "六",
+      "start": 15,
+      "end": 16
+    },
+    {
+      "token": "桥",
+      "start": 16,
+      "end": 17
+    },
+    {
+      "token": "作者",
+      "start": 17,
+      "end": 19
+    },
+    {
+      "token": "：",
+      "start": 19,
+      "end": 20
+    },
+    {
+      "token": "人在旅途",
+      "start": 20,
+      "end": 24
+    },
+    {
+      "token": " ",
+      "start": 24,
+      "end": 25
+    },
+    {
+      "token": "乾隆皇帝",
+      "start": 25,
+      "end": 29
+    },
+    {
+      "token": "曾",
+      "start": 29,
+      "end": 30
+    },
+    {
+      "token": "有",
+      "start": 30,
+      "end": 31
+    },
+    {
+      "token": "诗",
+      "start": 31,
+      "end": 32
+    },
+    {
+      "token": "曰",
+      "start": 32,
+      "end": 33
+    },
+    {
+      "token": "：",
+      "start": 33,
+      "end": 34
+    },
+    {
+      "token": "\"",
+      "start": 34,
+      "end": 35
+    },
+    {
+      "token": "面",
+      "start": 35,
+      "end": 36
+    },
+    {
+      "token": "水",
+      "start": 36,
+      "end": 37
+    },
+    {
+      "token": "背",
+      "start": 37,
+      "end": 38
+    },
+    {
+      "token": "山地",
+      "start": 38,
+      "end": 40
+    },
+    {
+      "token": "，",
+      "start": 40,
+      "end": 41
+    },
+    {
+      "token": "明",
+      "start": 41,
+      "end": 42
+    },
+    {
+      "token": "湖",
+      "start": 42,
+      "end": 43
+    },
+    {
+      "token": "仿",
+      "start": 43,
+      "end": 44
+    },
+    {
+      "token": "浙西",
+      "start": 44,
+      "end": 46
+    },
+    {
+      "token": ";",
+      "start": 46,
+      "end": 47
+    },
+    {
+      "token": "琳琅",
+      "start": 47,
+      "end": 49
+    },
+    {
+      "token": "三",
+      "start": 49,
+      "end": 50
+    },
+    {
+      "token": "竺",
+      "start": 50,
+      "end": 51
+    },
+    {
+      "token": "宇",
+      "start": 51,
+      "end": 52
+    },
+    {
+      "token": "，",
+      "start": 52,
+      "end": 53
+    },
+    {
+      "token": "花柳",
+      "start": 53,
+      "end": 55
+    },
+    {
+      "token": "六",
+      "start": 55,
+      "end": 56
+    },
+    {
+      "token": "桥",
+      "start": 56,
+      "end": 57
+    },
+    {
+      "token": "堤",
+      "start": 57,
+      "end": 58
+    },
+    {
+      "token": ".",
+      "start": 58,
+      "end": 59
+    },
+    {
+      "token": "\"",
+      "start": 59,
+      "end": 60
+    },
+    {
+      "token": "诗",
+      "start": 60,
+      "end": 61
+    },
+    {
+      "token": "中",
+      "start": 61,
+      "end": 62
+    },
+    {
+      "token": "所",
+      "start": 62,
+      "end": 63
+    },
+    {
+      "token": "描绘",
+      "start": 63,
+      "end": 65
+    },
+    {
+      "token": "的",
+      "start": 65,
+      "end": 66
+    },
+    {
+      "token": "是",
+      "start": 66,
+      "end": 67
+    },
+    {
+      "token": "颐和园",
+      "start": 67,
+      "end": 70
+    },
+    {
+      "token": "中",
+      "start": 70,
+      "end": 71
+    },
+    {
+      "token": "西堤",
+      "start": 71,
+      "end": 73
+    },
+    {
+      "token": "的",
+      "start": 73,
+      "end": 74
+    },
+    {
+      "token": "景色",
+      "start": 74,
+      "end": 76
+    },
+    {
+      "token": "，",
+      "start": 76,
+      "end": 77
+    },
+    {
+      "token": "说明",
+      "start": 77,
+      "end": 79
+    },
+    {
+      "token": "这",
+      "start": 79,
+      "end": 80
+    },
+    {
+      "token": "昆明湖",
+      "start": 80,
+      "end": 83
+    },
+    {
+      "token": "水中",
+      "start": 83,
+      "end": 85
+    },
+    {
+      "token": "的",
+      "start": 85,
+      "end": 86
+    },
+    {
+      "token": "长堤",
+      "start": 86,
+      "end": 88
+    },
+    {
+      "token": "是",
+      "start": 88,
+      "end": 89
+    },
+    {
+      "token": "仿",
+      "start": 89,
+      "end": 90
+    },
+    {
+      "token": "杭州",
+      "start": 90,
+      "end": 92
+    },
+    {
+      "token": "西湖",
+      "start": 92,
+      "end": 94
+    },
+    {
+      "token": "上",
+      "start": 94,
+      "end": 95
+    },
+    {
+      "token": "的",
+      "start": 95,
+      "end": 96
+    },
+    {
+      "token": "苏堤",
+      "start": 96,
+      "end": 98
+    },
+    {
+      "token": "而",
+      "start": 98,
+      "end": 99
+    },
+    {
+      "token": "建",
+      "start": 99,
+      "end": 100
+    },
+    {
+      "token": "，",
+      "start": 100,
+      "end": 101
+    },
+    {
+      "token": "其",
+      "start": 101,
+      "end": 102
+    },
+    {
+      "token": "上",
+      "start": 102,
+      "end": 103
+    },
+    {
+      "token": "建有",
+      "start": 103,
+      "end": 105
+    },
+    {
+      "token": "六座",
+      "start": 105,
+      "end": 107
+    },
+    {
+      "token": "桥",
+      "start": 107,
+      "end": 108
+    },
+    {
+      "token": "亭",
+      "start": 108,
+      "end": 109
+    },
+    {
+      "token": "，",
+      "start": 109,
+      "end": 110
+    },
+    {
+      "token": "沿",
+      "start": 110,
+      "end": 111
+    },
+    {
+      "token": "堤",
+      "start": 111,
+      "end": 112
+    },
+    {
+      "token": "遍",
+      "start": 112,
+      "end": 113
+    },
+    {
+      "token": "植桃柳",
+      "start": 113,
+      "end": 116
+    },
+    {
+      "token": "，",
+      "start": 116,
+      "end": 117
+    },
+    {
+      "token": "春",
+      "start": 117,
+      "end": 118
+    },
+    {
+      "token": "来",
+      "start": 118,
+      "end": 119
+    },
+    {
+      "token": "柳绿桃红",
+      "start": 119,
+      "end": 123
+    },
+    {
+      "token": "，",
+      "start": 123,
+      "end": 124
+    },
+    {
+      "token": "一派",
+      "start": 124,
+      "end": 126
+    },
+    {
+      "token": "江南",
+      "start": 126,
+      "end": 128
+    },
+    {
+      "token": "景色",
+      "start": 128,
+      "end": 130
+    },
+    {
+      "token": "。",
+      "start": 130,
+      "end": 131
+    },
+    {
+      "token": "印证",
+      "start": 131,
+      "end": 133
+    },
+    {
+      "token": "了",
+      "start": 133,
+      "end": 134
+    },
+    {
+      "token": "乾隆皇帝",
+      "start": 134,
+      "end": 138
+    },
+    {
+      "token": "下",
+      "start": 138,
+      "end": 139
+    },
+    {
+      "token": "江南",
+      "start": 139,
+      "end": 141
+    },
+    {
+      "token": "，",
+      "start": 141,
+      "end": 142
+    },
+    {
+      "token": "陶醉",
+      "start": 142,
+      "end": 144
+    },
+    {
+      "token": "于",
+      "start": 144,
+      "end": 145
+    },
+    {
+      "token": "江南",
+      "start": 145,
+      "end": 147
+    },
+    {
+      "token": "秀美",
+      "start": 147,
+      "end": 149
+    },
+    {
+      "token": "山水",
+      "start": 149,
+      "end": 151
+    },
+    {
+      "token": "，",
+      "start": 151,
+      "end": 152
+    },
+    {
+      "token": "费尽心机",
+      "start": 152,
+      "end": 156
+    },
+    {
+      "token": "要",
+      "start": 156,
+      "end": 157
+    },
+    {
+      "token": "把",
+      "start": 157,
+      "end": 158
+    },
+    {
+      "token": "江南",
+      "start": 158,
+      "end": 160
+    },
+    {
+      "token": "情调",
+      "start": 160,
+      "end": 162
+    },
+    {
+      "token": "搬",
+      "start": 162,
+      "end": 163
+    },
+    {
+      "token": "到",
+      "start": 163,
+      "end": 164
+    },
+    {
+      "token": "京城",
+      "start": 164,
+      "end": 166
+    },
+    {
+      "token": "园林",
+      "start": 166,
+      "end": 168
+    },
+    {
+      "token": "中",
+      "start": 168,
+      "end": 169
+    },
+    {
+      "token": "来",
+      "start": 169,
+      "end": 170
+    },
+    {
+      "token": "。",
+      "start": 170,
+      "end": 171
+    },
+    {
+      "token": " ",
+      "start": 171,
+      "end": 172
+    },
+    {
+      "token": "20",
+      "start": 172,
+      "end": 174
+    },
+    {
+      "token": "年前",
+      "start": 174,
+      "end": 176
+    },
+    {
+      "token": "我",
+      "start": 176,
+      "end": 177
+    },
+    {
+      "token": "在",
+      "start": 177,
+      "end": 178
+    },
+    {
+      "token": "北京",
+      "start": 178,
+      "end": 180
+    },
+    {
+      "token": "上学",
+      "start": 180,
+      "end": 182
+    },
+    {
+      "token": "和",
+      "start": 182,
+      "end": 183
+    },
+    {
+      "token": "工作",
+      "start": 183,
+      "end": 185
+    },
+    {
+      "token": "期间",
+      "start": 185,
+      "end": 187
+    },
+    {
+      "token": "，",
+      "start": 187,
+      "end": 188
+    },
+    {
+      "token": "虽然",
+      "start": 188,
+      "end": 190
+    },
+    {
+      "token": "也",
+      "start": 190,
+      "end": 191
+    },
+    {
+      "token": "来",
+      "start": 191,
+      "end": 192
+    },
+    {
+      "token": "过",
+      "start": 192,
+      "end": 193
+    },
+    {
+      "token": "颐和园",
+      "start": 193,
+      "end": 196
+    },
+    {
+      "token": "多次",
+      "start": 196,
+      "end": 198
+    },
+    {
+      "token": "，",
+      "start": 198,
+      "end": 199
+    },
+    {
+      "token": "但",
+      "start": 199,
+      "end": 200
+    },
+    {
+      "token": "从没",
+      "start": 200,
+      "end": 202
+    },
+    {
+      "token": "上",
+      "start": 202,
+      "end": 203
+    },
+    {
+      "token": "过",
+      "start": 203,
+      "end": 204
+    },
+    {
+      "token": "西堤",
+      "start": 204,
+      "end": 206
+    },
+    {
+      "token": "，",
+      "start": 206,
+      "end": 207
+    },
+    {
+      "token": "那时",
+      "start": 207,
+      "end": 209
+    },
+    {
+      "token": "泛舟",
+      "start": 209,
+      "end": 211
+    },
+    {
+      "token": "昆明湖",
+      "start": 211,
+      "end": 214
+    },
+    {
+      "token": "上",
+      "start": 214,
+      "end": 215
+    },
+    {
+      "token": "，",
+      "start": 215,
+      "end": 216
+    },
+    {
+      "token": "远",
+      "start": 216,
+      "end": 217
+    },
+    {
+      "token": "看",
+      "start": 217,
+      "end": 218
+    },
+    {
+      "token": "西堤",
+      "start": 218,
+      "end": 220
+    },
+    {
+      "token": "，",
+      "start": 220,
+      "end": 221
+    },
+    {
+      "token": "觉得",
+      "start": 221,
+      "end": 223
+    },
+    {
+      "token": "很",
+      "start": 223,
+      "end": 224
+    },
+    {
+      "token": "荒凉",
+      "start": 224,
+      "end": 226
+    },
+    {
+      "token": "破败",
+      "start": 226,
+      "end": 228
+    },
+    {
+      "token": "，",
+      "start": 228,
+      "end": 229
+    },
+    {
+      "token": "它",
+      "start": 229,
+      "end": 230
+    },
+    {
+      "token": "只是",
+      "start": 230,
+      "end": 232
+    },
+    {
+      "token": "颐和园",
+      "start": 232,
+      "end": 235
+    },
+    {
+      "token": "的",
+      "start": 235,
+      "end": 236
+    },
+    {
+      "token": "西",
+      "start": 236,
+      "end": 237
+    },
+    {
+      "token": "边界",
+      "start": 237,
+      "end": 239
+    },
+    {
+      "token": "。",
+      "start": 239,
+      "end": 240
+    },
+    {
+      "token": "这次",
+      "start": 240,
+      "end": 242
+    },
+    {
+      "token": "重游",
+      "start": 242,
+      "end": 244
+    },
+    {
+      "token": "颐和园",
+      "start": 244,
+      "end": 247
+    },
+    {
+      "token": "，",
+      "start": 247,
+      "end": 248
+    },
+    {
+      "token": "被",
+      "start": 248,
+      "end": 249
+    },
+    {
+      "token": "这边",
+      "start": 249,
+      "end": 251
+    },
+    {
+      "token": "的",
+      "start": 251,
+      "end": 252
+    },
+    {
+      "token": "景致",
+      "start": 252,
+      "end": 254
+    },
+    {
+      "token": "所",
+      "start": 254,
+      "end": 255
+    },
+    {
+      "token": "吸引",
+      "start": 255,
+      "end": 257
+    },
+    {
+      "token": "，",
+      "start": 257,
+      "end": 258
+    },
+    {
+      "token": "第一次",
+      "start": 258,
+      "end": 261
+    },
+    {
+      "token": "从",
+      "start": 261,
+      "end": 262
+    },
+    {
+      "token": "北",
+      "start": 262,
+      "end": 263
+    },
+    {
+      "token": "到",
+      "start": 263,
+      "end": 264
+    },
+    {
+      "token": "南",
+      "start": 264,
+      "end": 265
+    },
+    {
+      "token": "全程",
+      "start": 265,
+      "end": 267
+    },
+    {
+      "token": "走过",
+      "start": 267,
+      "end": 269
+    },
+    {
+      "token": "了",
+      "start": 269,
+      "end": 270
+    },
+    {
+      "token": "西堤",
+      "start": 270,
+      "end": 272
+    },
+    {
+      "token": "，",
+      "start": 272,
+      "end": 273
+    },
+    {
+      "token": "发现",
+      "start": 273,
+      "end": 275
+    },
+    {
+      "token": "经过",
+      "start": 275,
+      "end": 277
+    },
+    {
+      "token": "近",
+      "start": 277,
+      "end": 278
+    },
+    {
+      "token": "10",
+      "start": 278,
+      "end": 280
+    },
+    {
+      "token": "多年",
+      "start": 280,
+      "end": 282
+    },
+    {
+      "token": "来",
+      "start": 282,
+      "end": 283
+    },
+    {
+      "token": "的",
+      "start": 283,
+      "end": 284
+    },
+    {
+      "token": "重修",
+      "start": 284,
+      "end": 286
+    },
+    {
+      "token": "，",
+      "start": 286,
+      "end": 287
+    },
+    {
+      "token": "感觉",
+      "start": 287,
+      "end": 289
+    },
+    {
+      "token": "还",
+      "start": 289,
+      "end": 290
+    },
+    {
+      "token": "真",
+      "start": 290,
+      "end": 291
+    },
+    {
+      "token": "颇",
+      "start": 291,
+      "end": 292
+    },
+    {
+      "token": "有些",
+      "start": 292,
+      "end": 294
+    },
+    {
+      "token": "杭州",
+      "start": 294,
+      "end": 296
+    },
+    {
+      "token": "西湖",
+      "start": 296,
+      "end": 298
+    },
+    {
+      "token": "苏堤",
+      "start": 298,
+      "end": 300
+    },
+    {
+      "token": "的",
+      "start": 300,
+      "end": 301
+    },
+    {
+      "token": "味道",
+      "start": 301,
+      "end": 303
+    },
+    {
+      "token": "了",
+      "start": 303,
+      "end": 304
+    },
+    {
+      "token": "。",
+      "start": 304,
+      "end": 305
+    },
+    {
+      "token": "颐和园",
+      "start": 305,
+      "end": 308
+    },
+    {
+      "token": "的",
+      "start": 308,
+      "end": 309
+    },
+    {
+      "token": "西",
+      "start": 309,
+      "end": 310
+    },
+    {
+      "token": "边界",
+      "start": 310,
+      "end": 312
+    },
+    {
+      "token": "已",
+      "start": 312,
+      "end": 313
+    },
+    {
+      "token": "向",
+      "start": 313,
+      "end": 314
+    },
+    {
+      "token": "西",
+      "start": 314,
+      "end": 315
+    },
+    {
+      "token": "扩展",
+      "start": 315,
+      "end": 317
+    },
+    {
+      "token": "了",
+      "start": 317,
+      "end": 318
+    },
+    {
+      "token": "很多",
+      "start": 318,
+      "end": 320
+    },
+    {
+      "token": "，",
+      "start": 320,
+      "end": 321
+    },
+    {
+      "token": "西堤",
+      "start": 321,
+      "end": 323
+    },
+    {
+      "token": "东面",
+      "start": 323,
+      "end": 325
+    },
+    {
+      "token": "是",
+      "start": 325,
+      "end": 326
+    },
+    {
+      "token": "传统",
+      "start": 326,
+      "end": 328
+    },
+    {
+      "token": "的",
+      "start": 328,
+      "end": 329
+    },
+    {
+      "token": "昆明湖",
+      "start": 329,
+      "end": 332
+    },
+    {
+      "token": "，",
+      "start": 332,
+      "end": 333
+    },
+    {
+      "token": "西堤",
+      "start": 333,
+      "end": 335
+    },
+    {
+      "token": "的",
+      "start": 335,
+      "end": 336
+    },
+    {
+      "token": "西面",
+      "start": 336,
+      "end": 338
+    },
+    {
+      "token": "有",
+      "start": 338,
+      "end": 339
+    },
+    {
+      "token": "南北",
+      "start": 339,
+      "end": 341
+    },
+    {
+      "token": "两湖",
+      "start": 341,
+      "end": 343
+    },
+    {
+      "token": "-",
+      "start": 343,
+      "end": 344
+    },
+    {
+      "token": "西湖",
+      "start": 344,
+      "end": 346
+    },
+    {
+      "token": "和",
+      "start": 346,
+      "end": 347
+    },
+    {
+      "token": "养心",
+      "start": 347,
+      "end": 349
+    },
+    {
+      "token": "湖",
+      "start": 349,
+      "end": 350
+    },
+    {
+      "token": "。",
+      "start": 350,
+      "end": 351
+    },
+    {
+      "token": "西堤",
+      "start": 351,
+      "end": 353
+    },
+    {
+      "token": "及其",
+      "start": 353,
+      "end": 355
+    },
+    {
+      "token": "支",
+      "start": 355,
+      "end": 356
+    },
+    {
+      "token": "堤",
+      "start": 356,
+      "end": 357
+    },
+    {
+      "token": "就",
+      "start": 357,
+      "end": 358
+    },
+    {
+      "token": "把",
+      "start": 358,
+      "end": 359
+    },
+    {
+      "token": "整个",
+      "start": 359,
+      "end": 361
+    },
+    {
+      "token": "湖面",
+      "start": 361,
+      "end": 363
+    },
+    {
+      "token": "划分",
+      "start": 363,
+      "end": 365
+    },
+    {
+      "token": "为",
+      "start": 365,
+      "end": 366
+    },
+    {
+      "token": "三个",
+      "start": 366,
+      "end": 368
+    },
+    {
+      "token": "大小不等",
+      "start": 368,
+      "end": 372
+    },
+    {
+      "token": "的",
+      "start": 372,
+      "end": 373
+    },
+    {
+      "token": "水域",
+      "start": 373,
+      "end": 375
+    },
+    {
+      "token": "，",
+      "start": 375,
+      "end": 376
+    },
+    {
+      "token": "每个",
+      "start": 376,
+      "end": 378
+    },
+    {
+      "token": "水域",
+      "start": 378,
+      "end": 380
+    },
+    {
+      "token": "各",
+      "start": 380,
+      "end": 381
+    },
+    {
+      "token": "有",
+      "start": 381,
+      "end": 382
+    },
+    {
+      "token": "一个",
+      "start": 382,
+      "end": 384
+    },
+    {
+      "token": "湖心岛",
+      "start": 384,
+      "end": 387
+    },
+    {
+      "token": "。",
+      "start": 387,
+      "end": 388
+    },
+    {
+      "token": "这",
+      "start": 388,
+      "end": 389
+    },
+    {
+      "token": "才",
+      "start": 389,
+      "end": 390
+    },
+    {
+      "token": "真正",
+      "start": 390,
+      "end": 392
+    },
+    {
+      "token": "恢复",
+      "start": 392,
+      "end": 394
+    },
+    {
+      "token": "了",
+      "start": 394,
+      "end": 395
+    },
+    {
+      "token": "清",
+      "start": 395,
+      "end": 396
+    },
+    {
+      "token": "皇室",
+      "start": 396,
+      "end": 398
+    },
+    {
+      "token": "当初",
+      "start": 398,
+      "end": 400
+    },
+    {
+      "token": "建",
+      "start": 400,
+      "end": 401
+    },
+    {
+      "token": "清漪园",
+      "start": 401,
+      "end": 404
+    },
+    {
+      "token": "(",
+      "start": 404,
+      "end": 405
+    },
+    {
+      "token": "颐和园",
+      "start": 405,
+      "end": 408
+    },
+    {
+      "token": "前身",
+      "start": 408,
+      "end": 410
+    },
+    {
+      "token": ")",
+      "start": 410,
+      "end": 411
+    },
+    {
+      "token": "时",
+      "start": 411,
+      "end": 412
+    },
+    {
+      "token": "的",
+      "start": 412,
+      "end": 413
+    },
+    {
+      "token": "规模",
+      "start": 413,
+      "end": 415
+    },
+    {
+      "token": "，",
+      "start": 415,
+      "end": 416
+    },
+    {
+      "token": "即",
+      "start": 416,
+      "end": 417
+    },
+    {
+      "token": "仿照",
+      "start": 417,
+      "end": 419
+    },
+    {
+      "token": "东海",
+      "start": 419,
+      "end": 421
+    },
+    {
+      "token": "仙境",
+      "start": 421,
+      "end": 423
+    },
+    {
+      "token": "三山",
+      "start": 423,
+      "end": 425
+    },
+    {
+      "token": "\"",
+      "start": 425,
+      "end": 426
+    },
+    {
+      "token": "蓬莱",
+      "start": 426,
+      "end": 428
+    },
+    {
+      "token": "，",
+      "start": 428,
+      "end": 429
+    },
+    {
+      "token": "方丈",
+      "start": 429,
+      "end": 431
+    },
+    {
+      "token": "，",
+      "start": 431,
+      "end": 432
+    },
+    {
+      "token": "瀛洲",
+      "start": 432,
+      "end": 434
+    },
+    {
+      "token": "\"",
+      "start": 434,
+      "end": 435
+    },
+    {
+      "token": "而",
+      "start": 435,
+      "end": 436
+    },
+    {
+      "token": "做",
+      "start": 436,
+      "end": 437
+    },
+    {
+      "token": "的",
+      "start": 437,
+      "end": 438
+    },
+    {
+      "token": "\"",
+      "start": 438,
+      "end": 439
+    },
+    {
+      "token": "一",
+      "start": 439,
+      "end": 440
+    },
+    {
+      "token": "水",
+      "start": 440,
+      "end": 441
+    },
+    {
+      "token": "三山",
+      "start": 441,
+      "end": 443
+    },
+    {
+      "token": "\"",
+      "start": 443,
+      "end": 444
+    },
+    {
+      "token": "的",
+      "start": 444,
+      "end": 445
+    },
+    {
+      "token": "设计",
+      "start": 445,
+      "end": 447
+    },
+    {
+      "token": "，",
+      "start": 447,
+      "end": 448
+    },
+    {
+      "token": "使",
+      "start": 448,
+      "end": 449
+    },
+    {
+      "token": "湖面",
+      "start": 449,
+      "end": 451
+    },
+    {
+      "token": "出现",
+      "start": 451,
+      "end": 453
+    },
+    {
+      "token": "层次",
+      "start": 453,
+      "end": 455
+    },
+    {
+      "token": "，",
+      "start": 455,
+      "end": 456
+    },
+    {
+      "token": "避免",
+      "start": 456,
+      "end": 458
+    },
+    {
+      "token": "了",
+      "start": 458,
+      "end": 459
+    },
+    {
+      "token": "单调",
+      "start": 459,
+      "end": 461
+    },
+    {
+      "token": "空疏",
+      "start": 461,
+      "end": 463
+    },
+    {
+      "token": "。",
+      "start": 463,
+      "end": 464
+    },
+    {
+      "token": " ",
+      "start": 464,
+      "end": 465
+    },
+    {
+      "token": "站",
+      "start": 465,
+      "end": 466
+    },
+    {
+      "token": "在",
+      "start": 466,
+      "end": 467
+    },
+    {
+      "token": "万寿山",
+      "start": 467,
+      "end": 470
+    },
+    {
+      "token": "的",
+      "start": 470,
+      "end": 471
+    },
+    {
+      "token": "佛香阁",
+      "start": 471,
+      "end": 474
+    },
+    {
+      "token": "山",
+      "start": 474,
+      "end": 475
+    },
+    {
+      "token": "门前",
+      "start": 475,
+      "end": 477
+    },
+    {
+      "token": "，",
+      "start": 477,
+      "end": 478
+    },
+    {
+      "token": "向",
+      "start": 478,
+      "end": 479
+    },
+    {
+      "token": "西",
+      "start": 479,
+      "end": 480
+    },
+    {
+      "token": "望去",
+      "start": 480,
+      "end": 482
+    },
+    {
+      "token": "，",
+      "start": 482,
+      "end": 483
+    },
+    {
+      "token": "就",
+      "start": 483,
+      "end": 484
+    },
+    {
+      "token": "可以",
+      "start": 484,
+      "end": 486
+    },
+    {
+      "token": "看到",
+      "start": 486,
+      "end": 488
+    },
+    {
+      "token": "湖上",
+      "start": 488,
+      "end": 490
+    },
+    {
+      "token": "的",
+      "start": 490,
+      "end": 491
+    },
+    {
+      "token": "西堤",
+      "start": 491,
+      "end": 493
+    },
+    {
+      "token": "，",
+      "start": 493,
+      "end": 494
+    },
+    {
+      "token": "堤上",
+      "start": 494,
+      "end": 496
+    },
+    {
+      "token": "的",
+      "start": 496,
+      "end": 497
+    },
+    {
+      "token": "豳",
+      "start": 497,
+      "end": 498
+    },
+    {
+      "token": "风",
+      "start": 498,
+      "end": 499
+    },
+    {
+      "token": "桥",
+      "start": 499,
+      "end": 500
+    },
+    {
+      "token": "和",
+      "start": 500,
+      "end": 501
+    },
+    {
+      "token": "其",
+      "start": 501,
+      "end": 502
+    },
+    {
+      "token": "周围",
+      "start": 502,
+      "end": 504
+    },
+    {
+      "token": "茂密",
+      "start": 504,
+      "end": 506
+    },
+    {
+      "token": "的",
+      "start": 506,
+      "end": 507
+    },
+    {
+      "token": "林木",
+      "start": 507,
+      "end": 509
+    },
+    {
+      "token": "，",
+      "start": 509,
+      "end": 510
+    },
+    {
+      "token": "在",
+      "start": 510,
+      "end": 511
+    },
+    {
+      "token": "镜头",
+      "start": 511,
+      "end": 513
+    },
+    {
+      "token": "的",
+      "start": 513,
+      "end": 514
+    },
+    {
+      "token": "压缩",
+      "start": 514,
+      "end": 516
+    },
+    {
+      "token": "下",
+      "start": 516,
+      "end": 517
+    },
+    {
+      "token": "，",
+      "start": 517,
+      "end": 518
+    },
+    {
+      "token": "西堤",
+      "start": 518,
+      "end": 520
+    },
+    {
+      "token": "似乎",
+      "start": 520,
+      "end": 522
+    },
+    {
+      "token": "与",
+      "start": 522,
+      "end": 523
+    },
+    {
+      "token": "远处",
+      "start": 523,
+      "end": 525
+    },
+    {
+      "token": "玉泉山",
+      "start": 525,
+      "end": 528
+    },
+    {
+      "token": "秀丽",
+      "start": 528,
+      "end": 530
+    },
+    {
+      "token": "的",
+      "start": 530,
+      "end": 531
+    },
+    {
+      "token": "山形",
+      "start": 531,
+      "end": 533
+    },
+    {
+      "token": "和",
+      "start": 533,
+      "end": 534
+    },
+    {
+      "token": "山顶",
+      "start": 534,
+      "end": 536
+    },
+    {
+      "token": "的",
+      "start": 536,
+      "end": 537
+    },
+    {
+      "token": "玉",
+      "start": 537,
+      "end": 538
+    },
+    {
+      "token": "峰",
+      "start": 538,
+      "end": 539
+    },
+    {
+      "token": "塔",
+      "start": 539,
+      "end": 540
+    },
+    {
+      "token": "组成",
+      "start": 540,
+      "end": 542
+    },
+    {
+      "token": "了",
+      "start": 542,
+      "end": 543
+    },
+    {
+      "token": "一个",
+      "start": 543,
+      "end": 545
+    },
+    {
+      "token": "整体",
+      "start": 545,
+      "end": 547
+    },
+    {
+      "token": "景致",
+      "start": 547,
+      "end": 549
+    },
+    {
+      "token": "。",
+      "start": 549,
+      "end": 550
+    },
+    {
+      "token": "正是",
+      "start": 550,
+      "end": 552
+    },
+    {
+      "token": "被",
+      "start": 552,
+      "end": 553
+    },
+    {
+      "token": "此",
+      "start": 553,
+      "end": 554
+    },
+    {
+      "token": "美景",
+      "start": 554,
+      "end": 556
+    },
+    {
+      "token": "所",
+      "start": 556,
+      "end": 557
+    },
+    {
+      "token": "吸引",
+      "start": 557,
+      "end": 559
+    },
+    {
+      "token": "，",
+      "start": 559,
+      "end": 560
+    },
+    {
+      "token": "才",
+      "start": 560,
+      "end": 561
+    },
+    {
+      "token": "决定",
+      "start": 561,
+      "end": 563
+    },
+    {
+      "token": "要",
+      "start": 563,
+      "end": 564
+    },
+    {
+      "token": "到",
+      "start": 564,
+      "end": 565
+    },
+    {
+      "token": "西堤",
+      "start": 565,
+      "end": 567
+    },
+    {
+      "token": "上",
+      "start": 567,
+      "end": 568
+    },
+    {
+      "token": "走走",
+      "start": 568,
+      "end": 570
+    },
+    {
+      "token": "。",
+      "start": 570,
+      "end": 571
+    },
+    {
+      "token": " ",
+      "start": 571,
+      "end": 572
+    },
+    {
+      "token": "从",
+      "start": 572,
+      "end": 573
+    },
+    {
+      "token": "万寿山",
+      "start": 573,
+      "end": 576
+    },
+    {
+      "token": "的",
+      "start": 576,
+      "end": 577
+    },
+    {
+      "token": "西侧",
+      "start": 577,
+      "end": 579
+    },
+    {
+      "token": "下山",
+      "start": 579,
+      "end": 581
+    },
+    {
+      "token": "，",
+      "start": 581,
+      "end": 582
+    },
+    {
+      "token": "跨过",
+      "start": 582,
+      "end": 584
+    },
+    {
+      "token": "这",
+      "start": 584,
+      "end": 585
+    },
+    {
+      "token": "座",
+      "start": 585,
+      "end": 586
+    },
+    {
+      "token": "拱桥",
+      "start": 586,
+      "end": 588
+    },
+    {
+      "token": "-",
+      "start": 588,
+      "end": 589
+    },
+    {
+      "token": "半壁",
+      "start": 589,
+      "end": 591
+    },
+    {
+      "token": "桥",
+      "start": 591,
+      "end": 592
+    },
+    {
+      "token": "，",
+      "start": 592,
+      "end": 593
+    },
+    {
+      "token": "就",
+      "start": 593,
+      "end": 594
+    },
+    {
+      "token": "来到",
+      "start": 594,
+      "end": 596
+    },
+    {
+      "token": "了",
+      "start": 596,
+      "end": 597
+    },
+    {
+      "token": "西堤",
+      "start": 597,
+      "end": 599
+    },
+    {
+      "token": "的",
+      "start": 599,
+      "end": 600
+    },
+    {
+      "token": "最",
+      "start": 600,
+      "end": 601
+    },
+    {
+      "token": "北端",
+      "start": 601,
+      "end": 603
+    },
+    {
+      "token": "。",
+      "start": 603,
+      "end": 604
+    },
+    {
+      "token": "这里",
+      "start": 604,
+      "end": 606
+    },
+    {
+      "token": "也",
+      "start": 606,
+      "end": 607
+    },
+    {
+      "token": "是",
+      "start": 607,
+      "end": 608
+    },
+    {
+      "token": "颐和园",
+      "start": 608,
+      "end": 611
+    },
+    {
+      "token": "的",
+      "start": 611,
+      "end": 612
+    },
+    {
+      "token": "西北角",
+      "start": 612,
+      "end": 615
+    },
+    {
+      "token": "，",
+      "start": 615,
+      "end": 616
+    },
+    {
+      "token": "有",
+      "start": 616,
+      "end": 617
+    },
+    {
+      "token": "个",
+      "start": 617,
+      "end": 618
+    },
+    {
+      "token": "北",
+      "start": 618,
+      "end": 619
+    },
+    {
+      "token": "如意门",
+      "start": 619,
+      "end": 622
+    },
+    {
+      "token": "，",
+      "start": 622,
+      "end": 623
+    },
+    {
+      "token": "京",
+      "start": 623,
+      "end": 624
+    },
+    {
+      "token": "密",
+      "start": 624,
+      "end": 625
+    },
+    {
+      "token": "引水渠",
+      "start": 625,
+      "end": 628
+    },
+    {
+      "token": "也",
+      "start": 628,
+      "end": 629
+    },
+    {
+      "token": "在",
+      "start": 629,
+      "end": 630
+    },
+    {
+      "token": "此",
+      "start": 630,
+      "end": 631
+    },
+    {
+      "token": "跟",
+      "start": 631,
+      "end": 632
+    },
+    {
+      "token": "昆明湖",
+      "start": 632,
+      "end": 635
+    },
+    {
+      "token": "相接",
+      "start": 635,
+      "end": 637
+    },
+    {
+      "token": "，",
+      "start": 637,
+      "end": 638
+    },
+    {
+      "token": "为",
+      "start": 638,
+      "end": 639
+    },
+    {
+      "token": "昆明湖",
+      "start": 639,
+      "end": 642
+    },
+    {
+      "token": "补水",
+      "start": 642,
+      "end": 644
+    },
+    {
+      "token": "。",
+      "start": 644,
+      "end": 645
+    },
+    {
+      "token": " ",
+      "start": 645,
+      "end": 646
+    },
+    {
+      "token": "尽管",
+      "start": 646,
+      "end": 648
+    },
+    {
+      "token": "是",
+      "start": 648,
+      "end": 649
+    },
+    {
+      "token": "冬日",
+      "start": 649,
+      "end": 651
+    },
+    {
+      "token": "，",
+      "start": 651,
+      "end": 652
+    },
+    {
+      "token": "但",
+      "start": 652,
+      "end": 653
+    },
+    {
+      "token": "西堤",
+      "start": 653,
+      "end": 655
+    },
+    {
+      "token": "的",
+      "start": 655,
+      "end": 656
+    },
+    {
+      "token": "东侧",
+      "start": 656,
+      "end": 658
+    },
+    {
+      "token": "这边",
+      "start": 658,
+      "end": 660
+    },
+    {
+      "token": "，",
+      "start": 660,
+      "end": 661
+    },
+    {
+      "token": "倒像",
+      "start": 661,
+      "end": 663
+    },
+    {
+      "token": "是",
+      "start": 663,
+      "end": 664
+    },
+    {
+      "token": "春意盎然",
+      "start": 664,
+      "end": 668
+    },
+    {
+      "token": "，",
+      "start": 668,
+      "end": 669
+    },
+    {
+      "token": "岸边",
+      "start": 669,
+      "end": 671
+    },
+    {
+      "token": "依旧",
+      "start": 671,
+      "end": 673
+    },
+    {
+      "token": "柳树",
+      "start": 673,
+      "end": 675
+    },
+    {
+      "token": "婆娑",
+      "start": 675,
+      "end": 677
+    },
+    {
+      "token": "，",
+      "start": 677,
+      "end": 678
+    },
+    {
+      "token": "湖水",
+      "start": 678,
+      "end": 680
+    },
+    {
+      "token": "清清",
+      "start": 680,
+      "end": 682
+    },
+    {
+      "token": "，",
+      "start": 682,
+      "end": 683
+    },
+    {
+      "token": "水草",
+      "start": 683,
+      "end": 685
+    },
+    {
+      "token": "茂盛",
+      "start": 685,
+      "end": 687
+    },
+    {
+      "token": "，",
+      "start": 687,
+      "end": 688
+    },
+    {
+      "token": "不知",
+      "start": 688,
+      "end": 690
+    },
+    {
+      "token": "何故",
+      "start": 690,
+      "end": 692
+    },
+    {
+      "token": "这里",
+      "start": 692,
+      "end": 694
+    },
+    {
+      "token": "的",
+      "start": 694,
+      "end": 695
+    },
+    {
+      "token": "水温",
+      "start": 695,
+      "end": 697
+    },
+    {
+      "token": "会",
+      "start": 697,
+      "end": 698
+    },
+    {
+      "token": "比较",
+      "start": 698,
+      "end": 700
+    },
+    {
+      "token": "高",
+      "start": 700,
+      "end": 701
+    },
+    {
+      "token": "，",
+      "start": 701,
+      "end": 702
+    },
+    {
+      "token": "是因为",
+      "start": 702,
+      "end": 705
+    },
+    {
+      "token": "从",
+      "start": 705,
+      "end": 706
+    },
+    {
+      "token": "京",
+      "start": 706,
+      "end": 707
+    },
+    {
+      "token": "密",
+      "start": 707,
+      "end": 708
+    },
+    {
+      "token": "引水渠",
+      "start": 708,
+      "end": 711
+    },
+    {
+      "token": "放进来",
+      "start": 711,
+      "end": 714
+    },
+    {
+      "token": "的",
+      "start": 714,
+      "end": 715
+    },
+    {
+      "token": "水",
+      "start": 715,
+      "end": 716
+    },
+    {
+      "token": "温度",
+      "start": 716,
+      "end": 718
+    },
+    {
+      "token": "较",
+      "start": 718,
+      "end": 719
+    },
+    {
+      "token": "高",
+      "start": 719,
+      "end": 720
+    },
+    {
+      "token": "?",
+      "start": 720,
+      "end": 721
+    },
+    {
+      "token": "不得而知",
+      "start": 721,
+      "end": 725
+    },
+    {
+      "token": "。",
+      "start": 725,
+      "end": 726
+    },
+    {
+      "token": " ",
+      "start": 726,
+      "end": 727
+    },
+    {
+      "token": "但",
+      "start": 727,
+      "end": 728
+    },
+    {
+      "token": "西堤",
+      "start": 728,
+      "end": 730
+    },
+    {
+      "token": "的",
+      "start": 730,
+      "end": 731
+    },
+    {
+      "token": "外侧",
+      "start": 731,
+      "end": 733
+    },
+    {
+      "token": "(",
+      "start": 733,
+      "end": 734
+    },
+    {
+      "token": "西侧",
+      "start": 734,
+      "end": 736
+    },
+    {
+      "token": ")",
+      "start": 736,
+      "end": 737
+    },
+    {
+      "token": "这边",
+      "start": 737,
+      "end": 739
+    },
+    {
+      "token": "，",
+      "start": 739,
+      "end": 740
+    },
+    {
+      "token": "却",
+      "start": 740,
+      "end": 741
+    },
+    {
+      "token": "冰冻",
+      "start": 741,
+      "end": 743
+    },
+    {
+      "token": "湖面",
+      "start": 743,
+      "end": 745
+    },
+    {
+      "token": "，",
+      "start": 745,
+      "end": 746
+    },
+    {
+      "token": "枯枝",
+      "start": 746,
+      "end": 748
+    },
+    {
+      "token": "荒草",
+      "start": 748,
+      "end": 750
+    },
+    {
+      "token": "。",
+      "start": 750,
+      "end": 751
+    },
+    {
+      "token": "远处",
+      "start": 751,
+      "end": 753
+    },
+    {
+      "token": "那",
+      "start": 753,
+      "end": 754
+    },
+    {
+      "token": "座",
+      "start": 754,
+      "end": 755
+    },
+    {
+      "token": "桥",
+      "start": 755,
+      "end": 756
+    },
+    {
+      "token": "就是",
+      "start": 756,
+      "end": 758
+    },
+    {
+      "token": "西堤",
+      "start": 758,
+      "end": 760
+    },
+    {
+      "token": "六",
+      "start": 760,
+      "end": 761
+    },
+    {
+      "token": "桥",
+      "start": 761,
+      "end": 762
+    },
+    {
+      "token": "的",
+      "start": 762,
+      "end": 763
+    },
+    {
+      "token": "第一座",
+      "start": 763,
+      "end": 766
+    },
+    {
+      "token": "桥",
+      "start": 766,
+      "end": 767
+    },
+    {
+      "token": "-",
+      "start": 767,
+      "end": 768
+    },
+    {
+      "token": "界湖",
+      "start": 768,
+      "end": 770
+    },
+    {
+      "token": "桥",
+      "start": 770,
+      "end": 771
+    },
+    {
+      "token": "。",
+      "start": 771,
+      "end": 772
+    },
+    {
+      "token": "西堤",
+      "start": 772,
+      "end": 774
+    },
+    {
+      "token": "六",
+      "start": 774,
+      "end": 775
+    },
+    {
+      "token": "桥",
+      "start": 775,
+      "end": 776
+    },
+    {
+      "token": "从北向南",
+      "start": 776,
+      "end": 780
+    },
+    {
+      "token": "依次",
+      "start": 780,
+      "end": 782
+    },
+    {
+      "token": "为",
+      "start": 782,
+      "end": 783
+    },
+    {
+      "token": "界湖",
+      "start": 783,
+      "end": 785
+    },
+    {
+      "token": "桥",
+      "start": 785,
+      "end": 786
+    },
+    {
+      "token": "，",
+      "start": 786,
+      "end": 787
+    },
+    {
+      "token": "豳",
+      "start": 787,
+      "end": 788
+    },
+    {
+      "token": "风",
+      "start": 788,
+      "end": 789
+    },
+    {
+      "token": "桥",
+      "start": 789,
+      "end": 790
+    },
+    {
+      "token": "，",
+      "start": 790,
+      "end": 791
+    },
+    {
+      "token": "玉带桥",
+      "start": 791,
+      "end": 794
+    },
+    {
+      "token": "，",
+      "start": 794,
+      "end": 795
+    },
+    {
+      "token": "镜",
+      "start": 795,
+      "end": 796
+    },
+    {
+      "token": "桥",
+      "start": 796,
+      "end": 797
+    },
+    {
+      "token": "，",
+      "start": 797,
+      "end": 798
+    },
+    {
+      "token": "练",
+      "start": 798,
+      "end": 799
+    },
+    {
+      "token": "桥",
+      "start": 799,
+      "end": 800
+    },
+    {
+      "token": "，",
+      "start": 800,
+      "end": 801
+    },
+    {
+      "token": "柳",
+      "start": 801,
+      "end": 802
+    },
+    {
+      "token": "桥",
+      "start": 802,
+      "end": 803
+    },
+    {
+      "token": "，",
+      "start": 803,
+      "end": 804
+    },
+    {
+      "token": "风格",
+      "start": 804,
+      "end": 806
+    },
+    {
+      "token": "样式",
+      "start": 806,
+      "end": 808
+    },
+    {
+      "token": "各异",
+      "start": 808,
+      "end": 810
+    },
+    {
+      "token": "。",
+      "start": 810,
+      "end": 811
+    },
+    {
+      "token": "界湖",
+      "start": 811,
+      "end": 813
+    },
+    {
+      "token": "桥",
+      "start": 813,
+      "end": 814
+    },
+    {
+      "token": "的",
+      "start": 814,
+      "end": 815
+    },
+    {
+      "token": "名称",
+      "start": 815,
+      "end": 817
+    },
+    {
+      "token": "由来",
+      "start": 817,
+      "end": 819
+    },
+    {
+      "token": "大概",
+      "start": 819,
+      "end": 821
+    },
+    {
+      "token": "因",
+      "start": 821,
+      "end": 822
+    },
+    {
+      "token": "其",
+      "start": 822,
+      "end": 823
+    },
+    {
+      "token": "是",
+      "start": 823,
+      "end": 824
+    },
+    {
+      "token": "处于",
+      "start": 824,
+      "end": 826
+    },
+    {
+      "token": "内外",
+      "start": 826,
+      "end": 828
+    },
+    {
+      "token": "湖",
+      "start": 828,
+      "end": 829
+    },
+    {
+      "token": "的",
+      "start": 829,
+      "end": 830
+    },
+    {
+      "token": "分界",
+      "start": 830,
+      "end": 832
+    },
+    {
+      "token": "处",
+      "start": 832,
+      "end": 833
+    },
+    {
+      "token": "，",
+      "start": 833,
+      "end": 834
+    },
+    {
+      "token": "它",
+      "start": 834,
+      "end": 835
+    },
+    {
+      "token": "也",
+      "start": 835,
+      "end": 836
+    },
+    {
+      "token": "是",
+      "start": 836,
+      "end": 837
+    },
+    {
+      "token": "六",
+      "start": 837,
+      "end": 838
+    },
+    {
+      "token": "桥",
+      "start": 838,
+      "end": 839
+    },
+    {
+      "token": "中",
+      "start": 839,
+      "end": 840
+    },
+    {
+      "token": "唯一",
+      "start": 840,
+      "end": 842
+    },
+    {
+      "token": "没有",
+      "start": 842,
+      "end": 844
+    },
+    {
+      "token": "桥",
+      "start": 844,
+      "end": 845
+    },
+    {
+      "token": "亭",
+      "start": 845,
+      "end": 846
+    },
+    {
+      "token": "的",
+      "start": 846,
+      "end": 847
+    },
+    {
+      "token": "，",
+      "start": 847,
+      "end": 848
+    },
+    {
+      "token": "其",
+      "start": 848,
+      "end": 849
+    },
+    {
+      "token": "上",
+      "start": 849,
+      "end": 850
+    },
+    {
+      "token": "桥",
+      "start": 850,
+      "end": 851
+    },
+    {
+      "token": "亭",
+      "start": 851,
+      "end": 852
+    },
+    {
+      "token": "毁于",
+      "start": 852,
+      "end": 854
+    },
+    {
+      "token": "一八",
+      "start": 854,
+      "end": 856
+    },
+    {
+      "token": "六",
+      "start": 856,
+      "end": 857
+    },
+    {
+      "token": "〇",
+      "start": 857,
+      "end": 858
+    },
+    {
+      "token": "年",
+      "start": 858,
+      "end": 859
+    },
+    {
+      "token": "英法联军",
+      "start": 859,
+      "end": 863
+    },
+    {
+      "token": "之",
+      "start": 863,
+      "end": 864
+    },
+    {
+      "token": "劫",
+      "start": 864,
+      "end": 865
+    },
+    {
+      "token": "，",
+      "start": 865,
+      "end": 866
+    },
+    {
+      "token": "一直",
+      "start": 866,
+      "end": 868
+    },
+    {
+      "token": "未",
+      "start": 868,
+      "end": 869
+    },
+    {
+      "token": "再",
+      "start": 869,
+      "end": 870
+    },
+    {
+      "token": "复建",
+      "start": 870,
+      "end": 872
+    },
+    {
+      "token": "。",
+      "start": 872,
+      "end": 873
+    },
+    {
+      "token": " ",
+      "start": 873,
+      "end": 874
+    },
+    {
+      "token": "从",
+      "start": 874,
+      "end": 875
+    },
+    {
+      "token": "西堤",
+      "start": 875,
+      "end": 877
+    },
+    {
+      "token": "看",
+      "start": 877,
+      "end": 878
+    },
+    {
+      "token": "对岸",
+      "start": 878,
+      "end": 880
+    },
+    {
+      "token": "的",
+      "start": 880,
+      "end": 881
+    },
+    {
+      "token": "万寿山",
+      "start": 881,
+      "end": 884
+    },
+    {
+      "token": "西侧",
+      "start": 884,
+      "end": 886
+    },
+    {
+      "token": "，",
+      "start": 886,
+      "end": 887
+    },
+    {
+      "token": "这",
+      "start": 887,
+      "end": 888
+    },
+    {
+      "token": "是",
+      "start": 888,
+      "end": 889
+    },
+    {
+      "token": "一座",
+      "start": 889,
+      "end": 891
+    },
+    {
+      "token": "城关",
+      "start": 891,
+      "end": 893
+    },
+    {
+      "token": "-",
+      "start": 893,
+      "end": 894
+    },
+    {
+      "token": "宿",
+      "start": 894,
+      "end": 895
+    },
+    {
+      "token": "云",
+      "start": 895,
+      "end": 896
+    },
+    {
+      "token": "檐",
+      "start": 896,
+      "end": 897
+    },
+    {
+      "token": "，",
+      "start": 897,
+      "end": 898
+    },
+    {
+      "token": "在",
+      "start": 898,
+      "end": 899
+    },
+    {
+      "token": "乾隆",
+      "start": 899,
+      "end": 901
+    },
+    {
+      "token": "时期",
+      "start": 901,
+      "end": 903
+    },
+    {
+      "token": "，",
+      "start": 903,
+      "end": 904
+    },
+    {
+      "token": "昆明湖",
+      "start": 904,
+      "end": 907
+    },
+    {
+      "token": "三面",
+      "start": 907,
+      "end": 909
+    },
+    {
+      "token": "没有",
+      "start": 909,
+      "end": 911
+    },
+    {
+      "token": "围墙",
+      "start": 911,
+      "end": 913
+    },
+    {
+      "token": "，",
+      "start": 913,
+      "end": 914
+    },
+    {
+      "token": "这",
+      "start": 914,
+      "end": 915
+    },
+    {
+      "token": "座",
+      "start": 915,
+      "end": 916
+    },
+    {
+      "token": "城关",
+      "start": 916,
+      "end": 918
+    },
+    {
+      "token": "就",
+      "start": 918,
+      "end": 919
+    },
+    {
+      "token": "是从",
+      "start": 919,
+      "end": 921
+    },
+    {
+      "token": "西部",
+      "start": 921,
+      "end": 923
+    },
+    {
+      "token": "入",
+      "start": 923,
+      "end": 924
+    },
+    {
+      "token": "园",
+      "start": 924,
+      "end": 925
+    },
+    {
+      "token": "的",
+      "start": 925,
+      "end": 926
+    },
+    {
+      "token": "门户",
+      "start": 926,
+      "end": 928
+    },
+    {
+      "token": "，",
+      "start": 928,
+      "end": 929
+    },
+    {
+      "token": "此处",
+      "start": 929,
+      "end": 931
+    },
+    {
+      "token": "设",
+      "start": 931,
+      "end": 932
+    },
+    {
+      "token": "入",
+      "start": 932,
+      "end": 933
+    },
+    {
+      "token": "园",
+      "start": 933,
+      "end": 934
+    },
+    {
+      "token": "关卡",
+      "start": 934,
+      "end": 936
+    },
+    {
+      "token": "，",
+      "start": 936,
+      "end": 937
+    },
+    {
+      "token": "有",
+      "start": 937,
+      "end": 938
+    },
+    {
+      "token": "重兵把守",
+      "start": 938,
+      "end": 942
+    },
+    {
+      "token": "。",
+      "start": 942,
+      "end": 943
+    },
+    {
+      "token": "城关",
+      "start": 943,
+      "end": 945
+    },
+    {
+      "token": "下",
+      "start": 945,
+      "end": 946
+    },
+    {
+      "token": "有",
+      "start": 946,
+      "end": 947
+    },
+    {
+      "token": "大",
+      "start": 947,
+      "end": 948
+    },
+    {
+      "token": "船坞",
+      "start": 948,
+      "end": 950
+    },
+    {
+      "token": "，",
+      "start": 950,
+      "end": 951
+    },
+    {
+      "token": "想必",
+      "start": 951,
+      "end": 953
+    },
+    {
+      "token": "以前",
+      "start": 953,
+      "end": 955
+    },
+    {
+      "token": "皇室",
+      "start": 955,
+      "end": 957
+    },
+    {
+      "token": "成员",
+      "start": 957,
+      "end": 959
+    },
+    {
+      "token": "们",
+      "start": 959,
+      "end": 960
+    },
+    {
+      "token": "游湖",
+      "start": 960,
+      "end": 962
+    },
+    {
+      "token": "所",
+      "start": 962,
+      "end": 963
+    },
+    {
+      "token": "乘",
+      "start": 963,
+      "end": 964
+    },
+    {
+      "token": "的",
+      "start": 964,
+      "end": 965
+    },
+    {
+      "token": "大船",
+      "start": 965,
+      "end": 967
+    },
+    {
+      "token": "平日",
+      "start": 967,
+      "end": 969
+    },
+    {
+      "token": "就",
+      "start": 969,
+      "end": 970
+    },
+    {
+      "token": "停放在",
+      "start": 970,
+      "end": 973
+    },
+    {
+      "token": "此处",
+      "start": 973,
+      "end": 975
+    },
+    {
+      "token": "。",
+      "start": 975,
+      "end": 976
+    },
+    {
+      "token": " ",
+      "start": 976,
+      "end": 977
+    },
+    {
+      "token": "进入",
+      "start": 977,
+      "end": 979
+    },
+    {
+      "token": "冬季",
+      "start": 979,
+      "end": 981
+    },
+    {
+      "token": "冰冻期",
+      "start": 981,
+      "end": 984
+    },
+    {
+      "token": "，",
+      "start": 984,
+      "end": 985
+    },
+    {
+      "token": "昆明湖",
+      "start": 985,
+      "end": 988
+    },
+    {
+      "token": "上",
+      "start": 988,
+      "end": 989
+    },
+    {
+      "token": "的",
+      "start": 989,
+      "end": 990
+    },
+    {
+      "token": "画舫",
+      "start": 990,
+      "end": 992
+    },
+    {
+      "token": "游船",
+      "start": 992,
+      "end": 994
+    },
+    {
+      "token": "都",
+      "start": 994,
+      "end": 995
+    },
+    {
+      "token": "已",
+      "start": 995,
+      "end": 996
+    },
+    {
+      "token": "停运",
+      "start": 996,
+      "end": 998
+    },
+    {
+      "token": "，",
+      "start": 998,
+      "end": 999
+    },
+    {
+      "token": "现在",
+      "start": 999,
+      "end": 1001
+    },
+    {
+      "token": "游船",
+      "start": 1001,
+      "end": 1003
+    },
+    {
+      "token": "跟",
+      "start": 1003,
+      "end": 1004
+    },
+    {
+      "token": "那",
+      "start": 1004,
+      "end": 1005
+    },
+    {
+      "token": "著名",
+      "start": 1005,
+      "end": 1007
+    },
+    {
+      "token": "的",
+      "start": 1007,
+      "end": 1008
+    },
+    {
+      "token": "西洋",
+      "start": 1008,
+      "end": 1010
+    },
+    {
+      "token": "建筑风格",
+      "start": 1010,
+      "end": 1014
+    },
+    {
+      "token": "大",
+      "start": 1014,
+      "end": 1015
+    },
+    {
+      "token": "石舫",
+      "start": 1015,
+      "end": 1017
+    },
+    {
+      "token": "，",
+      "start": 1017,
+      "end": 1018
+    },
+    {
+      "token": "整齐",
+      "start": 1018,
+      "end": 1020
+    },
+    {
+      "token": "并排",
+      "start": 1020,
+      "end": 1022
+    },
+    {
+      "token": "停放",
+      "start": 1022,
+      "end": 1024
+    },
+    {
+      "token": "着",
+      "start": 1024,
+      "end": 1025
+    },
+    {
+      "token": "，",
+      "start": 1025,
+      "end": 1026
+    },
+    {
+      "token": "鹅黄色",
+      "start": 1026,
+      "end": 1029
+    },
+    {
+      "token": "的",
+      "start": 1029,
+      "end": 1030
+    },
+    {
+      "token": "船",
+      "start": 1030,
+      "end": 1031
+    },
+    {
+      "token": "顶",
+      "start": 1031,
+      "end": 1032
+    },
+    {
+      "token": "透",
+      "start": 1032,
+      "end": 1033
+    },
+    {
+      "token": "着",
+      "start": 1033,
+      "end": 1034
+    },
+    {
+      "token": "皇家",
+      "start": 1034,
+      "end": 1036
+    },
+    {
+      "token": "的",
+      "start": 1036,
+      "end": 1037
+    },
+    {
+      "token": "范",
+      "start": 1037,
+      "end": 1038
+    },
+    {
+      "token": "儿",
+      "start": 1038,
+      "end": 1039
+    },
+    {
+      "token": "。",
+      "start": 1039,
+      "end": 1040
+    },
+    {
+      "token": " ",
+      "start": 1040,
+      "end": 1041
+    },
+    {
+      "token": "万寿山",
+      "start": 1041,
+      "end": 1044
+    },
+    {
+      "token": "并",
+      "start": 1044,
+      "end": 1045
+    },
+    {
+      "token": "不",
+      "start": 1045,
+      "end": 1046
+    },
+    {
+      "token": "高",
+      "start": 1046,
+      "end": 1047
+    },
+    {
+      "token": "，",
+      "start": 1047,
+      "end": 1048
+    },
+    {
+      "token": "但",
+      "start": 1048,
+      "end": 1049
+    },
+    {
+      "token": "其",
+      "start": 1049,
+      "end": 1050
+    },
+    {
+      "token": "上",
+      "start": 1050,
+      "end": 1051
+    },
+    {
+      "token": "的",
+      "start": 1051,
+      "end": 1052
+    },
+    {
+      "token": "主",
+      "start": 1052,
+      "end": 1053
+    },
+    {
+      "token": "建筑",
+      "start": 1053,
+      "end": 1055
+    },
+    {
+      "token": "-",
+      "start": 1055,
+      "end": 1056
+    },
+    {
+      "token": "佛香阁",
+      "start": 1056,
+      "end": 1059
+    },
+    {
+      "token": "及其",
+      "start": 1059,
+      "end": 1061
+    },
+    {
+      "token": "前后左右",
+      "start": 1061,
+      "end": 1065
+    },
+    {
+      "token": "的",
+      "start": 1065,
+      "end": 1066
+    },
+    {
+      "token": "建筑群",
+      "start": 1066,
+      "end": 1069
+    },
+    {
+      "token": "，",
+      "start": 1069,
+      "end": 1070
+    },
+    {
+      "token": "在",
+      "start": 1070,
+      "end": 1071
+    },
+    {
+      "token": "冬日",
+      "start": 1071,
+      "end": 1073
+    },
+    {
+      "token": "晴朗",
+      "start": 1073,
+      "end": 1075
+    },
+    {
+      "token": "的",
+      "start": 1075,
+      "end": 1076
+    },
+    {
+      "token": "阳光",
+      "start": 1076,
+      "end": 1078
+    },
+    {
+      "token": "照耀",
+      "start": 1078,
+      "end": 1080
+    },
+    {
+      "token": "下",
+      "start": 1080,
+      "end": 1081
+    },
+    {
+      "token": "，",
+      "start": 1081,
+      "end": 1082
+    },
+    {
+      "token": "分外",
+      "start": 1082,
+      "end": 1084
+    },
+    {
+      "token": "醒目",
+      "start": 1084,
+      "end": 1086
+    },
+    {
+      "token": "，",
+      "start": 1086,
+      "end": 1087
+    },
+    {
+      "token": "在",
+      "start": 1087,
+      "end": 1088
+    },
+    {
+      "token": "开阔",
+      "start": 1088,
+      "end": 1090
+    },
+    {
+      "token": "的",
+      "start": 1090,
+      "end": 1091
+    },
+    {
+      "token": "湖面",
+      "start": 1091,
+      "end": 1093
+    },
+    {
+      "token": "映衬",
+      "start": 1093,
+      "end": 1095
+    },
+    {
+      "token": "下",
+      "start": 1095,
+      "end": 1096
+    },
+    {
+      "token": "，",
+      "start": 1096,
+      "end": 1097
+    },
+    {
+      "token": "颇",
+      "start": 1097,
+      "end": 1098
+    },
+    {
+      "token": "有",
+      "start": 1098,
+      "end": 1099
+    },
+    {
+      "token": "君临天下",
+      "start": 1099,
+      "end": 1103
+    },
+    {
+      "token": "的",
+      "start": 1103,
+      "end": 1104
+    },
+    {
+      "token": "王者",
+      "start": 1104,
+      "end": 1106
+    },
+    {
+      "token": "之",
+      "start": 1106,
+      "end": 1107
+    },
+    {
+      "token": "尊",
+      "start": 1107,
+      "end": 1108
+    },
+    {
+      "token": "。",
+      "start": 1108,
+      "end": 1109
+    },
+    {
+      "token": " ",
+      "start": 1109,
+      "end": 1110
+    },
+    {
+      "token": "回到",
+      "start": 1110,
+      "end": 1112
+    },
+    {
+      "token": "西堤",
+      "start": 1112,
+      "end": 1114
+    },
+    {
+      "token": "的",
+      "start": 1114,
+      "end": 1115
+    },
+    {
+      "token": "西面",
+      "start": 1115,
+      "end": 1117
+    },
+    {
+      "token": "，",
+      "start": 1117,
+      "end": 1118
+    },
+    {
+      "token": "这里",
+      "start": 1118,
+      "end": 1120
+    },
+    {
+      "token": "有",
+      "start": 1120,
+      "end": 1121
+    },
+    {
+      "token": "一",
+      "start": 1121,
+      "end": 1122
+    },
+    {
+      "token": "大片",
+      "start": 1122,
+      "end": 1124
+    },
+    {
+      "token": "建筑",
+      "start": 1124,
+      "end": 1126
+    },
+    {
+      "token": "和",
+      "start": 1126,
+      "end": 1127
+    },
+    {
+      "token": "绿地",
+      "start": 1127,
+      "end": 1129
+    },
+    {
+      "token": "，",
+      "start": 1129,
+      "end": 1130
+    },
+    {
+      "token": "是",
+      "start": 1130,
+      "end": 1131
+    },
+    {
+      "token": "颐和园",
+      "start": 1131,
+      "end": 1134
+    },
+    {
+      "token": "的",
+      "start": 1134,
+      "end": 1135
+    },
+    {
+      "token": "耕织图景区",
+      "start": 1135,
+      "end": 1140
+    },
+    {
+      "token": "。",
+      "start": 1140,
+      "end": 1141
+    },
+    {
+      "token": "它",
+      "start": 1141,
+      "end": 1142
+    },
+    {
+      "token": "始建",
+      "start": 1142,
+      "end": 1144
+    },
+    {
+      "token": "于",
+      "start": 1144,
+      "end": 1145
+    },
+    {
+      "token": "乾隆",
+      "start": 1145,
+      "end": 1147
+    },
+    {
+      "token": "时期",
+      "start": 1147,
+      "end": 1149
+    },
+    {
+      "token": "，",
+      "start": 1149,
+      "end": 1150
+    },
+    {
+      "token": "当时",
+      "start": 1150,
+      "end": 1152
+    },
+    {
+      "token": "乾隆皇帝",
+      "start": 1152,
+      "end": 1156
+    },
+    {
+      "token": "特意",
+      "start": 1156,
+      "end": 1158
+    },
+    {
+      "token": "将",
+      "start": 1158,
+      "end": 1159
+    },
+    {
+      "token": "宫廷",
+      "start": 1159,
+      "end": 1161
+    },
+    {
+      "token": "内务府",
+      "start": 1161,
+      "end": 1164
+    },
+    {
+      "token": "织",
+      "start": 1164,
+      "end": 1165
+    },
+    {
+      "token": "染",
+      "start": 1165,
+      "end": 1166
+    },
+    {
+      "token": "局",
+      "start": 1166,
+      "end": 1167
+    },
+    {
+      "token": "迁",
+      "start": 1167,
+      "end": 1168
+    },
+    {
+      "token": "到",
+      "start": 1168,
+      "end": 1169
+    },
+    {
+      "token": "此处",
+      "start": 1169,
+      "end": 1171
+    },
+    {
+      "token": "，",
+      "start": 1171,
+      "end": 1172
+    },
+    {
+      "token": "建成",
+      "start": 1172,
+      "end": 1174
+    },
+    {
+      "token": "了",
+      "start": 1174,
+      "end": 1175
+    },
+    {
+      "token": "体现",
+      "start": 1175,
+      "end": 1177
+    },
+    {
+      "token": "中国",
+      "start": 1177,
+      "end": 1179
+    },
+    {
+      "token": "传统",
+      "start": 1179,
+      "end": 1181
+    },
+    {
+      "token": "\"",
+      "start": 1181,
+      "end": 1182
+    },
+    {
+      "token": "男耕女织",
+      "start": 1182,
+      "end": 1186
+    },
+    {
+      "token": "\"",
+      "start": 1186,
+      "end": 1187
+    },
+    {
+      "token": "思想",
+      "start": 1187,
+      "end": 1189
+    },
+    {
+      "token": "的",
+      "start": 1189,
+      "end": 1190
+    },
+    {
+      "token": "一处",
+      "start": 1190,
+      "end": 1192
+    },
+    {
+      "token": "独具匠心",
+      "start": 1192,
+      "end": 1196
+    },
+    {
+      "token": "的",
+      "start": 1196,
+      "end": 1197
+    },
+    {
+      "token": "绝妙",
+      "start": 1197,
+      "end": 1199
+    },
+    {
+      "token": "佳景",
+      "start": 1199,
+      "end": 1201
+    },
+    {
+      "token": ".",
+      "start": 1201,
+      "end": 1202
+    },
+    {
+      "token": "1860",
+      "start": 1202,
+      "end": 1206
+    },
+    {
+      "token": "年",
+      "start": 1206,
+      "end": 1207
+    },
+    {
+      "token": "，",
+      "start": 1207,
+      "end": 1208
+    },
+    {
+      "token": "英法联军",
+      "start": 1208,
+      "end": 1212
+    },
+    {
+      "token": "焚毁",
+      "start": 1212,
+      "end": 1214
+    },
+    {
+      "token": "这里",
+      "start": 1214,
+      "end": 1216
+    },
+    {
+      "token": ".",
+      "start": 1216,
+      "end": 1217
+    },
+    {
+      "token": "2000",
+      "start": 1217,
+      "end": 1221
+    },
+    {
+      "token": "年",
+      "start": 1221,
+      "end": 1222
+    },
+    {
+      "token": "以后",
+      "start": 1222,
+      "end": 1224
+    },
+    {
+      "token": "颐和园",
+      "start": 1224,
+      "end": 1227
+    },
+    {
+      "token": "陆续",
+      "start": 1227,
+      "end": 1229
+    },
+    {
+      "token": "复建",
+      "start": 1229,
+      "end": 1231
+    },
+    {
+      "token": "了",
+      "start": 1231,
+      "end": 1232
+    },
+    {
+      "token": "这里",
+      "start": 1232,
+      "end": 1234
+    },
+    {
+      "token": "的",
+      "start": 1234,
+      "end": 1235
+    },
+    {
+      "token": "建筑",
+      "start": 1235,
+      "end": 1237
+    },
+    {
+      "token": "和",
+      "start": 1237,
+      "end": 1238
+    },
+    {
+      "token": "园林",
+      "start": 1238,
+      "end": 1240
+    },
+    {
+      "token": "，",
+      "start": 1240,
+      "end": 1241
+    },
+    {
+      "token": "使",
+      "start": 1241,
+      "end": 1242
+    },
+    {
+      "token": "其",
+      "start": 1242,
+      "end": 1243
+    },
+    {
+      "token": "以",
+      "start": 1243,
+      "end": 1244
+    },
+    {
+      "token": "水榭",
+      "start": 1244,
+      "end": 1246
+    },
+    {
+      "token": "，",
+      "start": 1246,
+      "end": 1247
+    },
+    {
+      "token": "河湖",
+      "start": 1247,
+      "end": 1249
+    },
+    {
+      "token": "，",
+      "start": 1249,
+      "end": 1250
+    },
+    {
+      "token": "稻田",
+      "start": 1250,
+      "end": 1252
+    },
+    {
+      "token": "，",
+      "start": 1252,
+      "end": 1253
+    },
+    {
+      "token": "蚕桑",
+      "start": 1253,
+      "end": 1255
+    },
+    {
+      "token": "等",
+      "start": 1255,
+      "end": 1256
+    },
+    {
+      "token": "自然景观",
+      "start": 1256,
+      "end": 1260
+    },
+    {
+      "token": "为主",
+      "start": 1260,
+      "end": 1262
+    },
+    {
+      "token": "，",
+      "start": 1262,
+      "end": 1263
+    },
+    {
+      "token": "具有",
+      "start": 1263,
+      "end": 1265
+    },
+    {
+      "token": "浓郁",
+      "start": 1265,
+      "end": 1267
+    },
+    {
+      "token": "江南水乡",
+      "start": 1267,
+      "end": 1271
+    },
+    {
+      "token": "情趣",
+      "start": 1271,
+      "end": 1273
+    },
+    {
+      "token": "。",
+      "start": 1273,
+      "end": 1274
+    },
+    {
+      "token": "可惜",
+      "start": 1274,
+      "end": 1276
+    },
+    {
+      "token": "受",
+      "start": 1276,
+      "end": 1277
+    },
+    {
+      "token": "时间",
+      "start": 1277,
+      "end": 1279
+    },
+    {
+      "token": "限制",
+      "start": 1279,
+      "end": 1281
+    },
+    {
+      "token": "，",
+      "start": 1281,
+      "end": 1282
+    },
+    {
+      "token": "这次",
+      "start": 1282,
+      "end": 1284
+    },
+    {
+      "token": "不能",
+      "start": 1284,
+      "end": 1286
+    },
+    {
+      "token": "去",
+      "start": 1286,
+      "end": 1287
+    },
+    {
+      "token": "细细",
+      "start": 1287,
+      "end": 1289
+    },
+    {
+      "token": "游览",
+      "start": 1289,
+      "end": 1291
+    },
+    {
+      "token": "了",
+      "start": 1291,
+      "end": 1292
+    },
+    {
+      "token": "。",
+      "start": 1292,
+      "end": 1293
+    },
+    {
+      "token": " ",
+      "start": 1293,
+      "end": 1294
+    },
+    {
+      "token": "此",
+      "start": 1294,
+      "end": 1295
+    },
+    {
+      "token": "桥",
+      "start": 1295,
+      "end": 1296
+    },
+    {
+      "token": "就是",
+      "start": 1296,
+      "end": 1298
+    },
+    {
+      "token": "第二座",
+      "start": 1298,
+      "end": 1301
+    },
+    {
+      "token": "桥",
+      "start": 1301,
+      "end": 1302
+    },
+    {
+      "token": "-",
+      "start": 1302,
+      "end": 1303
+    },
+    {
+      "token": "\"",
+      "start": 1303,
+      "end": 1304
+    },
+    {
+      "token": "豳",
+      "start": 1304,
+      "end": 1305
+    },
+    {
+      "token": "风",
+      "start": 1305,
+      "end": 1306
+    },
+    {
+      "token": "桥",
+      "start": 1306,
+      "end": 1307
+    },
+    {
+      "token": "\"",
+      "start": 1307,
+      "end": 1308
+    },
+    {
+      "token": ",",
+      "start": 1308,
+      "end": 1309
+    },
+    {
+      "token": "\"",
+      "start": 1309,
+      "end": 1310
+    },
+    {
+      "token": "豳",
+      "start": 1310,
+      "end": 1311
+    },
+    {
+      "token": "(",
+      "start": 1311,
+      "end": 1312
+    },
+    {
+      "token": "音",
+      "start": 1312,
+      "end": 1313
+    },
+    {
+      "token": "宾",
+      "start": 1313,
+      "end": 1314
+    },
+    {
+      "token": ")",
+      "start": 1314,
+      "end": 1315
+    },
+    {
+      "token": "风",
+      "start": 1315,
+      "end": 1316
+    },
+    {
+      "token": "\"",
+      "start": 1316,
+      "end": 1317
+    },
+    {
+      "token": "取自",
+      "start": 1317,
+      "end": 1319
+    },
+    {
+      "token": "我国",
+      "start": 1319,
+      "end": 1321
+    },
+    {
+      "token": "最",
+      "start": 1321,
+      "end": 1322
+    },
+    {
+      "token": "古老",
+      "start": 1322,
+      "end": 1324
+    },
+    {
+      "token": "的",
+      "start": 1324,
+      "end": 1325
+    },
+    {
+      "token": "诗歌集",
+      "start": 1325,
+      "end": 1328
+    },
+    {
+      "token": "\"",
+      "start": 1328,
+      "end": 1329
+    },
+    {
+      "token": "诗经",
+      "start": 1329,
+      "end": 1331
+    },
+    {
+      "token": "\"",
+      "start": 1331,
+      "end": 1332
+    },
+    {
+      "token": "中",
+      "start": 1332,
+      "end": 1333
+    },
+    {
+      "token": "的",
+      "start": 1333,
+      "end": 1334
+    },
+    {
+      "token": "\"",
+      "start": 1334,
+      "end": 1335
+    },
+    {
+      "token": "豳",
+      "start": 1335,
+      "end": 1336
+    },
+    {
+      "token": "风",
+      "start": 1336,
+      "end": 1337
+    },
+    {
+      "token": "七月",
+      "start": 1337,
+      "end": 1339
+    },
+    {
+      "token": "\"",
+      "start": 1339,
+      "end": 1340
+    },
+    {
+      "token": "一",
+      "start": 1340,
+      "end": 1341
+    },
+    {
+      "token": "诗",
+      "start": 1341,
+      "end": 1342
+    },
+    {
+      "token": "，",
+      "start": 1342,
+      "end": 1343
+    },
+    {
+      "token": "诗歌",
+      "start": 1343,
+      "end": 1345
+    },
+    {
+      "token": "描写",
+      "start": 1345,
+      "end": 1347
+    },
+    {
+      "token": "了",
+      "start": 1347,
+      "end": 1348
+    },
+    {
+      "token": "西周时期",
+      "start": 1348,
+      "end": 1352
+    },
+    {
+      "token": "豳",
+      "start": 1352,
+      "end": 1353
+    },
+    {
+      "token": "地",
+      "start": 1353,
+      "end": 1354
+    },
+    {
+      "token": "(",
+      "start": 1354,
+      "end": 1355
+    },
+    {
+      "token": "今",
+      "start": 1355,
+      "end": 1356
+    },
+    {
+      "token": "陕西省",
+      "start": 1356,
+      "end": 1359
+    },
+    {
+      "token": "彬县",
+      "start": 1359,
+      "end": 1361
+    },
+    {
+      "token": ")",
+      "start": 1361,
+      "end": 1362
+    },
+    {
+      "token": "百姓",
+      "start": 1362,
+      "end": 1364
+    },
+    {
+      "token": "农耕",
+      "start": 1364,
+      "end": 1366
+    },
+    {
+      "token": "蚕桑",
+      "start": 1366,
+      "end": 1368
+    },
+    {
+      "token": "等",
+      "start": 1368,
+      "end": 1369
+    },
+    {
+      "token": "生产",
+      "start": 1369,
+      "end": 1371
+    },
+    {
+      "token": "生活",
+      "start": 1371,
+      "end": 1373
+    },
+    {
+      "token": "，",
+      "start": 1373,
+      "end": 1374
+    },
+    {
+      "token": "桥名",
+      "start": 1374,
+      "end": 1376
+    },
+    {
+      "token": "恰好",
+      "start": 1376,
+      "end": 1378
+    },
+    {
+      "token": "与",
+      "start": 1378,
+      "end": 1379
+    },
+    {
+      "token": "此",
+      "start": 1379,
+      "end": 1380
+    },
+    {
+      "token": "桥",
+      "start": 1380,
+      "end": 1381
+    },
+    {
+      "token": "西侧",
+      "start": 1381,
+      "end": 1383
+    },
+    {
+      "token": "\"",
+      "start": 1383,
+      "end": 1384
+    },
+    {
+      "token": "耕织图景区",
+      "start": 1384,
+      "end": 1389
+    },
+    {
+      "token": "\"",
+      "start": 1389,
+      "end": 1390
+    },
+    {
+      "token": "中",
+      "start": 1390,
+      "end": 1391
+    },
+    {
+      "token": "水乡泽国",
+      "start": 1391,
+      "end": 1395
+    },
+    {
+      "token": "，",
+      "start": 1395,
+      "end": 1396
+    },
+    {
+      "token": "男耕女织",
+      "start": 1396,
+      "end": 1400
+    },
+    {
+      "token": "的",
+      "start": 1400,
+      "end": 1401
+    },
+    {
+      "token": "生活",
+      "start": 1401,
+      "end": 1403
+    },
+    {
+      "token": "场景",
+      "start": 1403,
+      "end": 1405
+    },
+    {
+      "token": "吻合",
+      "start": 1405,
+      "end": 1407
+    },
+    {
+      "token": "。",
+      "start": 1407,
+      "end": 1408
+    },
+    {
+      "token": "当初",
+      "start": 1408,
+      "end": 1410
+    },
+    {
+      "token": "乾隆帝",
+      "start": 1410,
+      "end": 1413
+    },
+    {
+      "token": "将",
+      "start": 1413,
+      "end": 1414
+    },
+    {
+      "token": "它",
+      "start": 1414,
+      "end": 1415
+    },
+    {
+      "token": "命名",
+      "start": 1415,
+      "end": 1417
+    },
+    {
+      "token": "为",
+      "start": 1417,
+      "end": 1418
+    },
+    {
+      "token": "\"",
+      "start": 1418,
+      "end": 1419
+    },
+    {
+      "token": "桑",
+      "start": 1419,
+      "end": 1420
+    },
+    {
+      "token": "苎",
+      "start": 1420,
+      "end": 1421
+    },
+    {
+      "token": "桥",
+      "start": 1421,
+      "end": 1422
+    },
+    {
+      "token": "\"",
+      "start": 1422,
+      "end": 1423
+    },
+    {
+      "token": ",",
+      "start": 1423,
+      "end": 1424
+    },
+    {
+      "token": "1860",
+      "start": 1424,
+      "end": 1428
+    },
+    {
+      "token": "年",
+      "start": 1428,
+      "end": 1429
+    },
+    {
+      "token": "此",
+      "start": 1429,
+      "end": 1430
+    },
+    {
+      "token": "桥",
+      "start": 1430,
+      "end": 1431
+    },
+    {
+      "token": "被",
+      "start": 1431,
+      "end": 1432
+    },
+    {
+      "token": "英法联军",
+      "start": 1432,
+      "end": 1436
+    },
+    {
+      "token": "烧毁",
+      "start": 1436,
+      "end": 1438
+    },
+    {
+      "token": "，",
+      "start": 1438,
+      "end": 1439
+    },
+    {
+      "token": "到",
+      "start": 1439,
+      "end": 1440
+    },
+    {
+      "token": "光绪年间",
+      "start": 1440,
+      "end": 1444
+    },
+    {
+      "token": "重建",
+      "start": 1444,
+      "end": 1446
+    },
+    {
+      "token": "时",
+      "start": 1446,
+      "end": 1447
+    },
+    {
+      "token": "，",
+      "start": 1447,
+      "end": 1448
+    },
+    {
+      "token": "慈禧太后",
+      "start": 1448,
+      "end": 1452
+    },
+    {
+      "token": "此时",
+      "start": 1452,
+      "end": 1454
+    },
+    {
+      "token": "垂帘听政",
+      "start": 1454,
+      "end": 1458
+    },
+    {
+      "token": "，",
+      "start": 1458,
+      "end": 1459
+    },
+    {
+      "token": "对",
+      "start": 1459,
+      "end": 1460
+    },
+    {
+      "token": "\"",
+      "start": 1460,
+      "end": 1461
+    },
+    {
+      "token": "桑",
+      "start": 1461,
+      "end": 1462
+    },
+    {
+      "token": "苎",
+      "start": 1462,
+      "end": 1463
+    },
+    {
+      "token": "\"",
+      "start": 1463,
+      "end": 1464
+    },
+    {
+      "token": "一名",
+      "start": 1464,
+      "end": 1466
+    },
+    {
+      "token": "大为",
+      "start": 1466,
+      "end": 1468
+    },
+    {
+      "token": "不满",
+      "start": 1468,
+      "end": 1470
+    },
+    {
+      "token": "，",
+      "start": 1470,
+      "end": 1471
+    },
+    {
+      "token": "她",
+      "start": 1471,
+      "end": 1472
+    },
+    {
+      "token": "想起",
+      "start": 1472,
+      "end": 1474
+    },
+    {
+      "token": "了",
+      "start": 1474,
+      "end": 1475
+    },
+    {
+      "token": "死去",
+      "start": 1475,
+      "end": 1477
+    },
+    {
+      "token": "的",
+      "start": 1477,
+      "end": 1478
+    },
+    {
+      "token": "丈夫",
+      "start": 1478,
+      "end": 1480
+    },
+    {
+      "token": "奕",
+      "start": 1480,
+      "end": 1481
+    },
+    {
+      "token": "泞",
+      "start": 1481,
+      "end": 1482
+    },
+    {
+      "token": "(",
+      "start": 1482,
+      "end": 1483
+    },
+    {
+      "token": "咸丰",
+      "start": 1483,
+      "end": 1485
+    },
+    {
+      "token": "皇帝",
+      "start": 1485,
+      "end": 1487
+    },
+    {
+      "token": ")",
+      "start": 1487,
+      "end": 1488
+    },
+    {
+      "token": ".",
+      "start": 1488,
+      "end": 1489
+    },
+    {
+      "token": "由于",
+      "start": 1489,
+      "end": 1491
+    },
+    {
+      "token": "\"",
+      "start": 1491,
+      "end": 1492
+    },
+    {
+      "token": "泞",
+      "start": 1492,
+      "end": 1493
+    },
+    {
+      "token": "\"",
+      "start": 1493,
+      "end": 1494
+    },
+    {
+      "token": "和",
+      "start": 1494,
+      "end": 1495
+    },
+    {
+      "token": "\"",
+      "start": 1495,
+      "end": 1496
+    },
+    {
+      "token": "苎",
+      "start": 1496,
+      "end": 1497
+    },
+    {
+      "token": "\"",
+      "start": 1497,
+      "end": 1498
+    },
+    {
+      "token": "同音",
+      "start": 1498,
+      "end": 1500
+    },
+    {
+      "token": "，",
+      "start": 1500,
+      "end": 1501
+    },
+    {
+      "token": "而",
+      "start": 1501,
+      "end": 1502
+    },
+    {
+      "token": "\"",
+      "start": 1502,
+      "end": 1503
+    },
+    {
+      "token": "桑",
+      "start": 1503,
+      "end": 1504
+    },
+    {
+      "token": "\"",
+      "start": 1504,
+      "end": 1505
+    },
+    {
+      "token": "和",
+      "start": 1505,
+      "end": 1506
+    },
+    {
+      "token": "\"",
+      "start": 1506,
+      "end": 1507
+    },
+    {
+      "token": "丧",
+      "start": 1507,
+      "end": 1508
+    },
+    {
+      "token": "\"",
+      "start": 1508,
+      "end": 1509
+    },
+    {
+      "token": "又",
+      "start": 1509,
+      "end": 1510
+    },
+    {
+      "token": "是",
+      "start": 1510,
+      "end": 1511
+    },
+    {
+      "token": "谐音",
+      "start": 1511,
+      "end": 1513
+    },
+    {
+      "token": "，",
+      "start": 1513,
+      "end": 1514
+    },
+    {
+      "token": "故犯",
+      "start": 1514,
+      "end": 1516
+    },
+    {
+      "token": "大忌",
+      "start": 1516,
+      "end": 1518
+    },
+    {
+      "token": "，",
+      "start": 1518,
+      "end": 1519
+    },
+    {
+      "token": "因此",
+      "start": 1519,
+      "end": 1521
+    },
+    {
+      "token": "下令",
+      "start": 1521,
+      "end": 1523
+    },
+    {
+      "token": "改名",
+      "start": 1523,
+      "end": 1525
+    },
+    {
+      "token": "。",
+      "start": 1525,
+      "end": 1526
+    },
+    {
+      "token": " ",
+      "start": 1526,
+      "end": 1527
+    },
+    {
+      "token": "西堤",
+      "start": 1527,
+      "end": 1529
+    },
+    {
+      "token": "上",
+      "start": 1529,
+      "end": 1530
+    },
+    {
+      "token": "有",
+      "start": 1530,
+      "end": 1531
+    },
+    {
+      "token": "很多",
+      "start": 1531,
+      "end": 1533
+    },
+    {
+      "token": "古",
+      "start": 1533,
+      "end": 1534
+    },
+    {
+      "token": "桑树",
+      "start": 1534,
+      "end": 1536
+    },
+    {
+      "token": "，",
+      "start": 1536,
+      "end": 1537
+    },
+    {
+      "token": "这些",
+      "start": 1537,
+      "end": 1539
+    },
+    {
+      "token": "古",
+      "start": 1539,
+      "end": 1540
+    },
+    {
+      "token": "桑",
+      "start": 1540,
+      "end": 1541
+    },
+    {
+      "token": "都",
+      "start": 1541,
+      "end": 1542
+    },
+    {
+      "token": "是",
+      "start": 1542,
+      "end": 1543
+    },
+    {
+      "token": "乾隆年间",
+      "start": 1543,
+      "end": 1547
+    },
+    {
+      "token": "栽种",
+      "start": 1547,
+      "end": 1549
+    },
+    {
+      "token": "的",
+      "start": 1549,
+      "end": 1550
+    },
+    {
+      "token": "，",
+      "start": 1550,
+      "end": 1551
+    },
+    {
+      "token": "因为",
+      "start": 1551,
+      "end": 1553
+    },
+    {
+      "token": "迁",
+      "start": 1553,
+      "end": 1554
+    },
+    {
+      "token": "到",
+      "start": 1554,
+      "end": 1555
+    },
+    {
+      "token": "此处",
+      "start": 1555,
+      "end": 1557
+    },
+    {
+      "token": "的",
+      "start": 1557,
+      "end": 1558
+    },
+    {
+      "token": "织",
+      "start": 1558,
+      "end": 1559
+    },
+    {
+      "token": "染",
+      "start": 1559,
+      "end": 1560
+    },
+    {
+      "token": "局",
+      "start": 1560,
+      "end": 1561
+    },
+    {
+      "token": "蚕",
+      "start": 1561,
+      "end": 1562
+    },
+    {
+      "token": "户",
+      "start": 1562,
+      "end": 1563
+    },
+    {
+      "token": "房",
+      "start": 1563,
+      "end": 1564
+    },
+    {
+      "token": "需要",
+      "start": 1564,
+      "end": 1566
+    },
+    {
+      "token": "养蚕",
+      "start": 1566,
+      "end": 1568
+    },
+    {
+      "token": "的",
+      "start": 1568,
+      "end": 1569
+    },
+    {
+      "token": "食料",
+      "start": 1569,
+      "end": 1571
+    },
+    {
+      "token": "。",
+      "start": 1571,
+      "end": 1572
+    },
+    {
+      "token": "如今",
+      "start": 1572,
+      "end": 1574
+    },
+    {
+      "token": "已",
+      "start": 1574,
+      "end": 1575
+    },
+    {
+      "token": "不再",
+      "start": 1575,
+      "end": 1577
+    },
+    {
+      "token": "需要",
+      "start": 1577,
+      "end": 1579
+    },
+    {
+      "token": "这些",
+      "start": 1579,
+      "end": 1581
+    },
+    {
+      "token": "桑叶",
+      "start": 1581,
+      "end": 1583
+    },
+    {
+      "token": "喂",
+      "start": 1583,
+      "end": 1584
+    },
+    {
+      "token": "蚕",
+      "start": 1584,
+      "end": 1585
+    },
+    {
+      "token": "，",
+      "start": 1585,
+      "end": 1586
+    },
+    {
+      "token": "只有",
+      "start": 1586,
+      "end": 1588
+    },
+    {
+      "token": "游人",
+      "start": 1588,
+      "end": 1590
+    },
+    {
+      "token": "徘徊",
+      "start": 1590,
+      "end": 1592
+    },
+    {
+      "token": "在",
+      "start": 1592,
+      "end": 1593
+    },
+    {
+      "token": "这些",
+      "start": 1593,
+      "end": 1595
+    },
+    {
+      "token": "古",
+      "start": 1595,
+      "end": 1596
+    },
+    {
+      "token": "桑",
+      "start": 1596,
+      "end": 1597
+    },
+    {
+      "token": "柳",
+      "start": 1597,
+      "end": 1598
+    },
+    {
+      "token": "间",
+      "start": 1598,
+      "end": 1599
+    },
+    {
+      "token": "，",
+      "start": 1599,
+      "end": 1600
+    },
+    {
+      "token": "冬",
+      "start": 1600,
+      "end": 1601
+    },
+    {
+      "token": "望",
+      "start": 1601,
+      "end": 1602
+    },
+    {
+      "token": "西山",
+      "start": 1602,
+      "end": 1604
+    },
+    {
+      "token": "雪",
+      "start": 1604,
+      "end": 1605
+    },
+    {
+      "token": "，",
+      "start": 1605,
+      "end": 1606
+    },
+    {
+      "token": "夏",
+      "start": 1606,
+      "end": 1607
+    },
+    {
+      "token": "赏",
+      "start": 1607,
+      "end": 1608
+    },
+    {
+      "token": "万",
+      "start": 1608,
+      "end": 1609
+    },
+    {
+      "token": "寿",
+      "start": 1609,
+      "end": 1610
+    },
+    {
+      "token": "景",
+      "start": 1610,
+      "end": 1611
+    },
+    {
+      "token": "，",
+      "start": 1611,
+      "end": 1612
+    },
+    {
+      "token": "一处",
+      "start": 1612,
+      "end": 1614
+    },
+    {
+      "token": "绝好",
+      "start": 1614,
+      "end": 1616
+    },
+    {
+      "token": "的",
+      "start": 1616,
+      "end": 1617
+    },
+    {
+      "token": "休闲",
+      "start": 1617,
+      "end": 1619
+    },
+    {
+      "token": "之",
+      "start": 1619,
+      "end": 1620
+    },
+    {
+      "token": "地",
+      "start": 1620,
+      "end": 1621
+    },
+    {
+      "token": "。",
+      "start": 1621,
+      "end": 1622
+    },
+    {
+      "token": " ",
+      "start": 1622,
+      "end": 1623
+    },
+    {
+      "token": "来到",
+      "start": 1623,
+      "end": 1625
+    },
+    {
+      "token": "了",
+      "start": 1625,
+      "end": 1626
+    },
+    {
+      "token": "六",
+      "start": 1626,
+      "end": 1627
+    },
+    {
+      "token": "桥",
+      "start": 1627,
+      "end": 1628
+    },
+    {
+      "token": "中",
+      "start": 1628,
+      "end": 1629
+    },
+    {
+      "token": "最",
+      "start": 1629,
+      "end": 1630
+    },
+    {
+      "token": "著名",
+      "start": 1630,
+      "end": 1632
+    },
+    {
+      "token": "的",
+      "start": 1632,
+      "end": 1633
+    },
+    {
+      "token": "桥",
+      "start": 1633,
+      "end": 1634
+    },
+    {
+      "token": "-",
+      "start": 1634,
+      "end": 1635
+    },
+    {
+      "token": "\"",
+      "start": 1635,
+      "end": 1636
+    },
+    {
+      "token": "玉带桥",
+      "start": 1636,
+      "end": 1639
+    },
+    {
+      "token": "\"",
+      "start": 1639,
+      "end": 1640
+    },
+    {
+      "token": "，",
+      "start": 1640,
+      "end": 1641
+    },
+    {
+      "token": "建造",
+      "start": 1641,
+      "end": 1643
+    },
+    {
+      "token": "于",
+      "start": 1643,
+      "end": 1644
+    },
+    {
+      "token": "乾隆年间",
+      "start": 1644,
+      "end": 1648
+    },
+    {
+      "token": "，",
+      "start": 1648,
+      "end": 1649
+    },
+    {
+      "token": "拱",
+      "start": 1649,
+      "end": 1650
+    },
+    {
+      "token": "高",
+      "start": 1650,
+      "end": 1651
+    },
+    {
+      "token": "而",
+      "start": 1651,
+      "end": 1652
+    },
+    {
+      "token": "薄",
+      "start": 1652,
+      "end": 1653
+    },
+    {
+      "token": "，",
+      "start": 1653,
+      "end": 1654
+    },
+    {
+      "token": "桥身",
+      "start": 1654,
+      "end": 1656
+    },
+    {
+      "token": "，",
+      "start": 1656,
+      "end": 1657
+    },
+    {
+      "token": "桥栏",
+      "start": 1657,
+      "end": 1659
+    },
+    {
+      "token": "用",
+      "start": 1659,
+      "end": 1660
+    },
+    {
+      "token": "青",
+      "start": 1660,
+      "end": 1661
+    },
+    {
+      "token": "白石",
+      "start": 1661,
+      "end": 1663
+    },
+    {
+      "token": "和",
+      "start": 1663,
+      "end": 1664
+    },
+    {
+      "token": "汉白玉石",
+      "start": 1664,
+      "end": 1668
+    },
+    {
+      "token": "雕砌",
+      "start": 1668,
+      "end": 1670
+    },
+    {
+      "token": "，",
+      "start": 1670,
+      "end": 1671
+    },
+    {
+      "token": "优美",
+      "start": 1671,
+      "end": 1673
+    },
+    {
+      "token": "的",
+      "start": 1673,
+      "end": 1674
+    },
+    {
+      "token": "弧形",
+      "start": 1674,
+      "end": 1676
+    },
+    {
+      "token": "线条",
+      "start": 1676,
+      "end": 1678
+    },
+    {
+      "token": "十分",
+      "start": 1678,
+      "end": 1680
+    },
+    {
+      "token": "流畅",
+      "start": 1680,
+      "end": 1682
+    },
+    {
+      "token": "，",
+      "start": 1682,
+      "end": 1683
+    },
+    {
+      "token": "宛若",
+      "start": 1683,
+      "end": 1685
+    },
+    {
+      "token": "玉带",
+      "start": 1685,
+      "end": 1687
+    },
+    {
+      "token": "，",
+      "start": 1687,
+      "end": 1688
+    },
+    {
+      "token": "故",
+      "start": 1688,
+      "end": 1689
+    },
+    {
+      "token": "得",
+      "start": 1689,
+      "end": 1690
+    },
+    {
+      "token": "此",
+      "start": 1690,
+      "end": 1691
+    },
+    {
+      "token": "名",
+      "start": 1691,
+      "end": 1692
+    },
+    {
+      "token": "。",
+      "start": 1692,
+      "end": 1693
+    },
+    {
+      "token": "桥下",
+      "start": 1693,
+      "end": 1695
+    },
+    {
+      "token": "原",
+      "start": 1695,
+      "end": 1696
+    },
+    {
+      "token": "为",
+      "start": 1696,
+      "end": 1697
+    },
+    {
+      "token": "玉泉山",
+      "start": 1697,
+      "end": 1700
+    },
+    {
+      "token": "泉水",
+      "start": 1700,
+      "end": 1702
+    },
+    {
+      "token": "注入",
+      "start": 1702,
+      "end": 1704
+    },
+    {
+      "token": "昆明湖",
+      "start": 1704,
+      "end": 1707
+    },
+    {
+      "token": "的",
+      "start": 1707,
+      "end": 1708
+    },
+    {
+      "token": "入",
+      "start": 1708,
+      "end": 1709
+    },
+    {
+      "token": "水口",
+      "start": 1709,
+      "end": 1711
+    },
+    {
+      "token": "，",
+      "start": 1711,
+      "end": 1712
+    },
+    {
+      "token": "当年",
+      "start": 1712,
+      "end": 1714
+    },
+    {
+      "token": "帝",
+      "start": 1714,
+      "end": 1715
+    },
+    {
+      "token": "后",
+      "start": 1715,
+      "end": 1716
+    },
+    {
+      "token": "们",
+      "start": 1716,
+      "end": 1717
+    },
+    {
+      "token": "乘船",
+      "start": 1717,
+      "end": 1719
+    },
+    {
+      "token": "由",
+      "start": 1719,
+      "end": 1720
+    },
+    {
+      "token": "清漪园",
+      "start": 1720,
+      "end": 1723
+    },
+    {
+      "token": "至",
+      "start": 1723,
+      "end": 1724
+    },
+    {
+      "token": "玉泉山",
+      "start": 1724,
+      "end": 1727
+    },
+    {
+      "token": "，",
+      "start": 1727,
+      "end": 1728
+    },
+    {
+      "token": "往返",
+      "start": 1728,
+      "end": 1730
+    },
+    {
+      "token": "均",
+      "start": 1730,
+      "end": 1731
+    },
+    {
+      "token": "过",
+      "start": 1731,
+      "end": 1732
+    },
+    {
+      "token": "此",
+      "start": 1732,
+      "end": 1733
+    },
+    {
+      "token": "桥",
+      "start": 1733,
+      "end": 1734
+    },
+    {
+      "token": "。",
+      "start": 1734,
+      "end": 1735
+    },
+    {
+      "token": " ",
+      "start": 1735,
+      "end": 1736
+    },
+    {
+      "token": "玉带桥",
+      "start": 1736,
+      "end": 1739
+    },
+    {
+      "token": "的",
+      "start": 1739,
+      "end": 1740
+    },
+    {
+      "token": "西面",
+      "start": 1740,
+      "end": 1742
+    },
+    {
+      "token": "就是",
+      "start": 1742,
+      "end": 1744
+    },
+    {
+      "token": "西湖",
+      "start": 1744,
+      "end": 1746
+    },
+    {
+      "token": "，",
+      "start": 1746,
+      "end": 1747
+    },
+    {
+      "token": "湖",
+      "start": 1747,
+      "end": 1748
+    },
+    {
+      "token": "中心",
+      "start": 1748,
+      "end": 1750
+    },
+    {
+      "token": "有",
+      "start": 1750,
+      "end": 1751
+    },
+    {
+      "token": "一座",
+      "start": 1751,
+      "end": 1753
+    },
+    {
+      "token": "荒岛",
+      "start": 1753,
+      "end": 1755
+    },
+    {
+      "token": "，",
+      "start": 1755,
+      "end": 1756
+    },
+    {
+      "token": "此",
+      "start": 1756,
+      "end": 1757
+    },
+    {
+      "token": "岛",
+      "start": 1757,
+      "end": 1758
+    },
+    {
+      "token": "正是",
+      "start": 1758,
+      "end": 1760
+    },
+    {
+      "token": "昆明湖",
+      "start": 1760,
+      "end": 1763
+    },
+    {
+      "token": "\"",
+      "start": 1763,
+      "end": 1764
+    },
+    {
+      "token": "一",
+      "start": 1764,
+      "end": 1765
+    },
+    {
+      "token": "水",
+      "start": 1765,
+      "end": 1766
+    },
+    {
+      "token": "三山",
+      "start": 1766,
+      "end": 1768
+    },
+    {
+      "token": "\"",
+      "start": 1768,
+      "end": 1769
+    },
+    {
+      "token": "的",
+      "start": 1769,
+      "end": 1770
+    },
+    {
+      "token": "三山",
+      "start": 1770,
+      "end": 1772
+    },
+    {
+      "token": "之一",
+      "start": 1772,
+      "end": 1774
+    },
+    {
+      "token": "，",
+      "start": 1774,
+      "end": 1775
+    },
+    {
+      "token": "岛上",
+      "start": 1775,
+      "end": 1777
+    },
+    {
+      "token": "的",
+      "start": 1777,
+      "end": 1778
+    },
+    {
+      "token": "建筑",
+      "start": 1778,
+      "end": 1780
+    },
+    {
+      "token": "残迹",
+      "start": 1780,
+      "end": 1782
+    },
+    {
+      "token": "，",
+      "start": 1782,
+      "end": 1783
+    },
+    {
+      "token": "是",
+      "start": 1783,
+      "end": 1784
+    },
+    {
+      "token": "乾隆年间",
+      "start": 1784,
+      "end": 1788
+    },
+    {
+      "token": "所",
+      "start": 1788,
+      "end": 1789
+    },
+    {
+      "token": "建",
+      "start": 1789,
+      "end": 1790
+    },
+    {
+      "token": "的",
+      "start": 1790,
+      "end": 1791
+    },
+    {
+      "token": "一组",
+      "start": 1791,
+      "end": 1793
+    },
+    {
+      "token": "圆形",
+      "start": 1793,
+      "end": 1795
+    },
+    {
+      "token": "城堡",
+      "start": 1795,
+      "end": 1797
+    },
+    {
+      "token": "式",
+      "start": 1797,
+      "end": 1798
+    },
+    {
+      "token": "的",
+      "start": 1798,
+      "end": 1799
+    },
+    {
+      "token": "高大",
+      "start": 1799,
+      "end": 1801
+    },
+    {
+      "token": "建筑",
+      "start": 1801,
+      "end": 1803
+    },
+    {
+      "token": "留下",
+      "start": 1803,
+      "end": 1805
+    },
+    {
+      "token": "的",
+      "start": 1805,
+      "end": 1806
+    },
+    {
+      "token": "，",
+      "start": 1806,
+      "end": 1807
+    },
+    {
+      "token": "名曰",
+      "start": 1807,
+      "end": 1809
+    },
+    {
+      "token": "\"",
+      "start": 1809,
+      "end": 1810
+    },
+    {
+      "token": "治",
+      "start": 1810,
+      "end": 1811
+    },
+    {
+      "token": "镜",
+      "start": 1811,
+      "end": 1812
+    },
+    {
+      "token": "阁",
+      "start": 1812,
+      "end": 1813
+    },
+    {
+      "token": "\"",
+      "start": 1813,
+      "end": 1814
+    },
+    {
+      "token": "，",
+      "start": 1814,
+      "end": 1815
+    },
+    {
+      "token": "为了",
+      "start": 1815,
+      "end": 1817
+    },
+    {
+      "token": "营造",
+      "start": 1817,
+      "end": 1819
+    },
+    {
+      "token": "出",
+      "start": 1819,
+      "end": 1820
+    },
+    {
+      "token": "海上",
+      "start": 1820,
+      "end": 1822
+    },
+    {
+      "token": "\"",
+      "start": 1822,
+      "end": 1823
+    },
+    {
+      "token": "仙山琼阁",
+      "start": 1823,
+      "end": 1827
+    },
+    {
+      "token": "\"",
+      "start": 1827,
+      "end": 1828
+    },
+    {
+      "token": "的",
+      "start": 1828,
+      "end": 1829
+    },
+    {
+      "token": "模样",
+      "start": 1829,
+      "end": 1831
+    },
+    {
+      "token": "，",
+      "start": 1831,
+      "end": 1832
+    },
+    {
+      "token": "当年",
+      "start": 1832,
+      "end": 1834
+    },
+    {
+      "token": "乾隆帝",
+      "start": 1834,
+      "end": 1837
+    },
+    {
+      "token": "对",
+      "start": 1837,
+      "end": 1838
+    },
+    {
+      "token": "这",
+      "start": 1838,
+      "end": 1839
+    },
+    {
+      "token": "座",
+      "start": 1839,
+      "end": 1840
+    },
+    {
+      "token": "阁",
+      "start": 1840,
+      "end": 1841
+    },
+    {
+      "token": "宇",
+      "start": 1841,
+      "end": 1842
+    },
+    {
+      "token": "的",
+      "start": 1842,
+      "end": 1843
+    },
+    {
+      "token": "建造",
+      "start": 1843,
+      "end": 1845
+    },
+    {
+      "token": "倾注",
+      "start": 1845,
+      "end": 1847
+    },
+    {
+      "token": "了",
+      "start": 1847,
+      "end": 1848
+    },
+    {
+      "token": "很多",
+      "start": 1848,
+      "end": 1850
+    },
+    {
+      "token": "心血",
+      "start": 1850,
+      "end": 1852
+    },
+    {
+      "token": "。",
+      "start": 1852,
+      "end": 1853
+    },
+    {
+      "token": "虽然",
+      "start": 1853,
+      "end": 1855
+    },
+    {
+      "token": "在",
+      "start": 1855,
+      "end": 1856
+    },
+    {
+      "token": "1860",
+      "start": 1856,
+      "end": 1860
+    },
+    {
+      "token": "年",
+      "start": 1860,
+      "end": 1861
+    },
+    {
+      "token": "，",
+      "start": 1861,
+      "end": 1862
+    },
+    {
+      "token": "英法联军",
+      "start": 1862,
+      "end": 1866
+    },
+    {
+      "token": "火烧",
+      "start": 1866,
+      "end": 1868
+    },
+    {
+      "token": "清漪园",
+      "start": 1868,
+      "end": 1871
+    },
+    {
+      "token": "时",
+      "start": 1871,
+      "end": 1872
+    },
+    {
+      "token": "，",
+      "start": 1872,
+      "end": 1873
+    },
+    {
+      "token": "治",
+      "start": 1873,
+      "end": 1874
+    },
+    {
+      "token": "镜",
+      "start": 1874,
+      "end": 1875
+    },
+    {
+      "token": "阁",
+      "start": 1875,
+      "end": 1876
+    },
+    {
+      "token": "因",
+      "start": 1876,
+      "end": 1877
+    },
+    {
+      "token": "孤",
+      "start": 1877,
+      "end": 1878
+    },
+    {
+      "token": "悬",
+      "start": 1878,
+      "end": 1879
+    },
+    {
+      "token": "湖",
+      "start": 1879,
+      "end": 1880
+    },
+    {
+      "token": "中心",
+      "start": 1880,
+      "end": 1882
+    },
+    {
+      "token": "而",
+      "start": 1882,
+      "end": 1883
+    },
+    {
+      "token": "免遭",
+      "start": 1883,
+      "end": 1885
+    },
+    {
+      "token": "厄运",
+      "start": 1885,
+      "end": 1887
+    },
+    {
+      "token": "。",
+      "start": 1887,
+      "end": 1888
+    },
+    {
+      "token": "至",
+      "start": 1888,
+      "end": 1889
+    },
+    {
+      "token": "1886",
+      "start": 1889,
+      "end": 1893
+    },
+    {
+      "token": "年",
+      "start": 1893,
+      "end": 1894
+    },
+    {
+      "token": "慈禧",
+      "start": 1894,
+      "end": 1896
+    },
+    {
+      "token": "命",
+      "start": 1896,
+      "end": 1897
+    },
+    {
+      "token": "人",
+      "start": 1897,
+      "end": 1898
+    },
+    {
+      "token": "重修",
+      "start": 1898,
+      "end": 1900
+    },
+    {
+      "token": "颐和园",
+      "start": 1900,
+      "end": 1903
+    },
+    {
+      "token": "时",
+      "start": 1903,
+      "end": 1904
+    },
+    {
+      "token": "，",
+      "start": 1904,
+      "end": 1905
+    },
+    {
+      "token": "治",
+      "start": 1905,
+      "end": 1906
+    },
+    {
+      "token": "镜",
+      "start": 1906,
+      "end": 1907
+    },
+    {
+      "token": "阁",
+      "start": 1907,
+      "end": 1908
+    },
+    {
+      "token": "已经",
+      "start": 1908,
+      "end": 1910
+    },
+    {
+      "token": "因",
+      "start": 1910,
+      "end": 1911
+    },
+    {
+      "token": "年久失修",
+      "start": 1911,
+      "end": 1915
+    },
+    {
+      "token": "而",
+      "start": 1915,
+      "end": 1916
+    },
+    {
+      "token": "破败",
+      "start": 1916,
+      "end": 1918
+    },
+    {
+      "token": ";",
+      "start": 1918,
+      "end": 1919
+    },
+    {
+      "token": "同时",
+      "start": 1919,
+      "end": 1921
+    },
+    {
+      "token": "，",
+      "start": 1921,
+      "end": 1922
+    },
+    {
+      "token": "因为",
+      "start": 1922,
+      "end": 1924
+    },
+    {
+      "token": "财力",
+      "start": 1924,
+      "end": 1926
+    },
+    {
+      "token": "匮乏",
+      "start": 1926,
+      "end": 1928
+    },
+    {
+      "token": "，",
+      "start": 1928,
+      "end": 1929
+    },
+    {
+      "token": "慈禧",
+      "start": 1929,
+      "end": 1931
+    },
+    {
+      "token": "不仅",
+      "start": 1931,
+      "end": 1933
+    },
+    {
+      "token": "无力",
+      "start": 1933,
+      "end": 1935
+    },
+    {
+      "token": "修复",
+      "start": 1935,
+      "end": 1937
+    },
+    {
+      "token": "治",
+      "start": 1937,
+      "end": 1938
+    },
+    {
+      "token": "镜",
+      "start": 1938,
+      "end": 1939
+    },
+    {
+      "token": "阁",
+      "start": 1939,
+      "end": 1940
+    },
+    {
+      "token": "，",
+      "start": 1940,
+      "end": 1941
+    },
+    {
+      "token": "还",
+      "start": 1941,
+      "end": 1942
+    },
+    {
+      "token": "不得不",
+      "start": 1942,
+      "end": 1945
+    },
+    {
+      "token": "将",
+      "start": 1945,
+      "end": 1946
+    },
+    {
+      "token": "阁",
+      "start": 1946,
+      "end": 1947
+    },
+    {
+      "token": "上",
+      "start": 1947,
+      "end": 1948
+    },
+    {
+      "token": "的",
+      "start": 1948,
+      "end": 1949
+    },
+    {
+      "token": "部分",
+      "start": 1949,
+      "end": 1951
+    },
+    {
+      "token": "木石",
+      "start": 1951,
+      "end": 1953
+    },
+    {
+      "token": "构件",
+      "start": 1953,
+      "end": 1955
+    },
+    {
+      "token": "拆下",
+      "start": 1955,
+      "end": 1957
+    },
+    {
+      "token": "，",
+      "start": 1957,
+      "end": 1958
+    },
+    {
+      "token": "去",
+      "start": 1958,
+      "end": 1959
+    },
+    {
+      "token": "营建",
+      "start": 1959,
+      "end": 1961
+    },
+    {
+      "token": "园内",
+      "start": 1961,
+      "end": 1963
+    },
+    {
+      "token": "的",
+      "start": 1963,
+      "end": 1964
+    },
+    {
+      "token": "其他",
+      "start": 1964,
+      "end": 1966
+    },
+    {
+      "token": "建筑",
+      "start": 1966,
+      "end": 1968
+    },
+    {
+      "token": "，",
+      "start": 1968,
+      "end": 1969
+    },
+    {
+      "token": "治",
+      "start": 1969,
+      "end": 1970
+    },
+    {
+      "token": "镜",
+      "start": 1970,
+      "end": 1971
+    },
+    {
+      "token": "阁",
+      "start": 1971,
+      "end": 1972
+    },
+    {
+      "token": "由此",
+      "start": 1972,
+      "end": 1974
+    },
+    {
+      "token": "废弃",
+      "start": 1974,
+      "end": 1976
+    },
+    {
+      "token": "。",
+      "start": 1976,
+      "end": 1977
+    },
+    {
+      "token": "治",
+      "start": 1977,
+      "end": 1978
+    },
+    {
+      "token": "镜",
+      "start": 1978,
+      "end": 1979
+    },
+    {
+      "token": "阁",
+      "start": 1979,
+      "end": 1980
+    },
+    {
+      "token": "曾",
+      "start": 1980,
+      "end": 1981
+    },
+    {
+      "token": "是",
+      "start": 1981,
+      "end": 1982
+    },
+    {
+      "token": "这",
+      "start": 1982,
+      "end": 1983
+    },
+    {
+      "token": "座",
+      "start": 1983,
+      "end": 1984
+    },
+    {
+      "token": "皇家",
+      "start": 1984,
+      "end": 1986
+    },
+    {
+      "token": "园林",
+      "start": 1986,
+      "end": 1988
+    },
+    {
+      "token": "中",
+      "start": 1988,
+      "end": 1989
+    },
+    {
+      "token": "最",
+      "start": 1989,
+      "end": 1990
+    },
+    {
+      "token": "重要",
+      "start": 1990,
+      "end": 1992
+    },
+    {
+      "token": "的",
+      "start": 1992,
+      "end": 1993
+    },
+    {
+      "token": "建筑",
+      "start": 1993,
+      "end": 1995
+    },
+    {
+      "token": "之一",
+      "start": 1995,
+      "end": 1997
+    },
+    {
+      "token": "，",
+      "start": 1997,
+      "end": 1998
+    },
+    {
+      "token": "如果",
+      "start": 1998,
+      "end": 2000
+    },
+    {
+      "token": "今后",
+      "start": 2000,
+      "end": 2002
+    },
+    {
+      "token": "能",
+      "start": 2002,
+      "end": 2003
+    },
+    {
+      "token": "得以",
+      "start": 2003,
+      "end": 2005
+    },
+    {
+      "token": "复建",
+      "start": 2005,
+      "end": 2007
+    },
+    {
+      "token": "，",
+      "start": 2007,
+      "end": 2008
+    },
+    {
+      "token": "颐和园",
+      "start": 2008,
+      "end": 2011
+    },
+    {
+      "token": "的",
+      "start": 2011,
+      "end": 2012
+    },
+    {
+      "token": "景观",
+      "start": 2012,
+      "end": 2014
+    },
+    {
+      "token": "无疑",
+      "start": 2014,
+      "end": 2016
+    },
+    {
+      "token": "将",
+      "start": 2016,
+      "end": 2017
+    },
+    {
+      "token": "会",
+      "start": 2017,
+      "end": 2018
+    },
+    {
+      "token": "更加",
+      "start": 2018,
+      "end": 2020
+    },
+    {
+      "token": "完美",
+      "start": 2020,
+      "end": 2022
+    },
+    {
+      "token": "。",
+      "start": 2022,
+      "end": 2023
+    },
+    {
+      "token": " ",
+      "start": 2023,
+      "end": 2024
+    },
+    {
+      "token": "这",
+      "start": 2024,
+      "end": 2025
+    },
+    {
+      "token": "是",
+      "start": 2025,
+      "end": 2026
+    },
+    {
+      "token": "六",
+      "start": 2026,
+      "end": 2027
+    },
+    {
+      "token": "桥",
+      "start": 2027,
+      "end": 2028
+    },
+    {
+      "token": "的",
+      "start": 2028,
+      "end": 2029
+    },
+    {
+      "token": "第四座",
+      "start": 2029,
+      "end": 2032
+    },
+    {
+      "token": "-",
+      "start": 2032,
+      "end": 2033
+    },
+    {
+      "token": "\"",
+      "start": 2033,
+      "end": 2034
+    },
+    {
+      "token": "镜",
+      "start": 2034,
+      "end": 2035
+    },
+    {
+      "token": "桥",
+      "start": 2035,
+      "end": 2036
+    },
+    {
+      "token": "\"",
+      "start": 2036,
+      "end": 2037
+    },
+    {
+      "token": "，",
+      "start": 2037,
+      "end": 2038
+    },
+    {
+      "token": "桥",
+      "start": 2038,
+      "end": 2039
+    },
+    {
+      "token": "上",
+      "start": 2039,
+      "end": 2040
+    },
+    {
+      "token": "有",
+      "start": 2040,
+      "end": 2041
+    },
+    {
+      "token": "一座",
+      "start": 2041,
+      "end": 2043
+    },
+    {
+      "token": "八角",
+      "start": 2043,
+      "end": 2045
+    },
+    {
+      "token": "重檐",
+      "start": 2045,
+      "end": 2047
+    },
+    {
+      "token": "的",
+      "start": 2047,
+      "end": 2048
+    },
+    {
+      "token": "华丽",
+      "start": 2048,
+      "end": 2050
+    },
+    {
+      "token": "桥",
+      "start": 2050,
+      "end": 2051
+    },
+    {
+      "token": "亭",
+      "start": 2051,
+      "end": 2052
+    },
+    {
+      "token": "，",
+      "start": 2052,
+      "end": 2053
+    },
+    {
+      "token": "始建",
+      "start": 2053,
+      "end": 2055
+    },
+    {
+      "token": "于",
+      "start": 2055,
+      "end": 2056
+    },
+    {
+      "token": "乾隆年间",
+      "start": 2056,
+      "end": 2060
+    },
+    {
+      "token": "，",
+      "start": 2060,
+      "end": 2061
+    },
+    {
+      "token": "光绪",
+      "start": 2061,
+      "end": 2063
+    },
+    {
+      "token": "时",
+      "start": 2063,
+      "end": 2064
+    },
+    {
+      "token": "重建",
+      "start": 2064,
+      "end": 2066
+    },
+    {
+      "token": "。",
+      "start": 2066,
+      "end": 2067
+    },
+    {
+      "token": "桥名",
+      "start": 2067,
+      "end": 2069
+    },
+    {
+      "token": "出自",
+      "start": 2069,
+      "end": 2071
+    },
+    {
+      "token": "唐代",
+      "start": 2071,
+      "end": 2073
+    },
+    {
+      "token": "诗人",
+      "start": 2073,
+      "end": 2075
+    },
+    {
+      "token": "李白",
+      "start": 2075,
+      "end": 2077
+    },
+    {
+      "token": "\"",
+      "start": 2077,
+      "end": 2078
+    },
+    {
+      "token": "两",
+      "start": 2078,
+      "end": 2079
+    },
+    {
+      "token": "水",
+      "start": 2079,
+      "end": 2080
+    },
+    {
+      "token": "夹",
+      "start": 2080,
+      "end": 2081
+    },
+    {
+      "token": "明镜",
+      "start": 2081,
+      "end": 2083
+    },
+    {
+      "token": "，",
+      "start": 2083,
+      "end": 2084
+    },
+    {
+      "token": "双桥",
+      "start": 2084,
+      "end": 2086
+    },
+    {
+      "token": "落",
+      "start": 2086,
+      "end": 2087
+    },
+    {
+      "token": "彩虹",
+      "start": 2087,
+      "end": 2089
+    },
+    {
+      "token": "\"",
+      "start": 2089,
+      "end": 2090
+    },
+    {
+      "token": "的",
+      "start": 2090,
+      "end": 2091
+    },
+    {
+      "token": "诗句",
+      "start": 2091,
+      "end": 2093
+    },
+    {
+      "token": "。",
+      "start": 2093,
+      "end": 2094
+    },
+    {
+      "token": "镜",
+      "start": 2094,
+      "end": 2095
+    },
+    {
+      "token": "桥",
+      "start": 2095,
+      "end": 2096
+    },
+    {
+      "token": "处在",
+      "start": 2096,
+      "end": 2098
+    },
+    {
+      "token": "西堤",
+      "start": 2098,
+      "end": 2100
+    },
+    {
+      "token": "的",
+      "start": 2100,
+      "end": 2101
+    },
+    {
+      "token": "中心",
+      "start": 2101,
+      "end": 2103
+    },
+    {
+      "token": "位置",
+      "start": 2103,
+      "end": 2105
+    },
+    {
+      "token": "，",
+      "start": 2105,
+      "end": 2106
+    },
+    {
+      "token": "可",
+      "start": 2106,
+      "end": 2107
+    },
+    {
+      "token": "一览",
+      "start": 2107,
+      "end": 2109
+    },
+    {
+      "token": "四周",
+      "start": 2109,
+      "end": 2111
+    },
+    {
+      "token": "颐和园",
+      "start": 2111,
+      "end": 2114
+    },
+    {
+      "token": "的",
+      "start": 2114,
+      "end": 2115
+    },
+    {
+      "token": "昆明湖",
+      "start": 2115,
+      "end": 2118
+    },
+    {
+      "token": "，",
+      "start": 2118,
+      "end": 2119
+    },
+    {
+      "token": "南湖",
+      "start": 2119,
+      "end": 2121
+    },
+    {
+      "token": "，",
+      "start": 2121,
+      "end": 2122
+    },
+    {
+      "token": "西湖",
+      "start": 2122,
+      "end": 2124
+    },
+    {
+      "token": "，",
+      "start": 2124,
+      "end": 2125
+    },
+    {
+      "token": "养心",
+      "start": 2125,
+      "end": 2127
+    },
+    {
+      "token": "湖",
+      "start": 2127,
+      "end": 2128
+    },
+    {
+      "token": "景色",
+      "start": 2128,
+      "end": 2130
+    },
+    {
+      "token": "。",
+      "start": 2130,
+      "end": 2131
+    },
+    {
+      "token": " ",
+      "start": 2131,
+      "end": 2132
+    },
+    {
+      "token": "镜",
+      "start": 2132,
+      "end": 2133
+    },
+    {
+      "token": "桥",
+      "start": 2133,
+      "end": 2134
+    },
+    {
+      "token": "东侧",
+      "start": 2134,
+      "end": 2136
+    },
+    {
+      "token": "的",
+      "start": 2136,
+      "end": 2137
+    },
+    {
+      "token": "昆明湖",
+      "start": 2137,
+      "end": 2140
+    },
+    {
+      "token": "中",
+      "start": 2140,
+      "end": 2141
+    },
+    {
+      "token": "，",
+      "start": 2141,
+      "end": 2142
+    },
+    {
+      "token": "有",
+      "start": 2142,
+      "end": 2143
+    },
+    {
+      "token": "一个",
+      "start": 2143,
+      "end": 2145
+    },
+    {
+      "token": "小岛",
+      "start": 2145,
+      "end": 2147
+    },
+    {
+      "token": "叫",
+      "start": 2147,
+      "end": 2148
+    },
+    {
+      "token": "南湖岛",
+      "start": 2148,
+      "end": 2151
+    },
+    {
+      "token": "，",
+      "start": 2151,
+      "end": 2152
+    },
+    {
+      "token": "通过",
+      "start": 2152,
+      "end": 2154
+    },
+    {
+      "token": "十七孔桥",
+      "start": 2154,
+      "end": 2158
+    },
+    {
+      "token": "与",
+      "start": 2158,
+      "end": 2159
+    },
+    {
+      "token": "东",
+      "start": 2159,
+      "end": 2160
+    },
+    {
+      "token": "堤",
+      "start": 2160,
+      "end": 2161
+    },
+    {
+      "token": "相连",
+      "start": 2161,
+      "end": 2163
+    },
+    {
+      "token": "。",
+      "start": 2163,
+      "end": 2164
+    },
+    {
+      "token": "南湖岛",
+      "start": 2164,
+      "end": 2167
+    },
+    {
+      "token": "也",
+      "start": 2167,
+      "end": 2168
+    },
+    {
+      "token": "是",
+      "start": 2168,
+      "end": 2169
+    },
+    {
+      "token": "昆明湖",
+      "start": 2169,
+      "end": 2172
+    },
+    {
+      "token": "\"",
+      "start": 2172,
+      "end": 2173
+    },
+    {
+      "token": "一",
+      "start": 2173,
+      "end": 2174
+    },
+    {
+      "token": "水",
+      "start": 2174,
+      "end": 2175
+    },
+    {
+      "token": "三山",
+      "start": 2175,
+      "end": 2177
+    },
+    {
+      "token": "\"",
+      "start": 2177,
+      "end": 2178
+    },
+    {
+      "token": "的",
+      "start": 2178,
+      "end": 2179
+    },
+    {
+      "token": "三山",
+      "start": 2179,
+      "end": 2181
+    },
+    {
+      "token": "之一",
+      "start": 2181,
+      "end": 2183
+    },
+    {
+      "token": "，",
+      "start": 2183,
+      "end": 2184
+    },
+    {
+      "token": "十七孔桥",
+      "start": 2184,
+      "end": 2188
+    },
+    {
+      "token": "则",
+      "start": 2188,
+      "end": 2189
+    },
+    {
+      "token": "是",
+      "start": 2189,
+      "end": 2190
+    },
+    {
+      "token": "内",
+      "start": 2190,
+      "end": 2191
+    },
+    {
+      "token": "最大",
+      "start": 2191,
+      "end": 2193
+    },
+    {
+      "token": "的",
+      "start": 2193,
+      "end": 2194
+    },
+    {
+      "token": "石桥",
+      "start": 2194,
+      "end": 2196
+    },
+    {
+      "token": "，",
+      "start": 2196,
+      "end": 2197
+    },
+    {
+      "token": "状",
+      "start": 2197,
+      "end": 2198
+    },
+    {
+      "token": "若",
+      "start": 2198,
+      "end": 2199
+    },
+    {
+      "token": "长虹",
+      "start": 2199,
+      "end": 2201
+    },
+    {
+      "token": "卧",
+      "start": 2201,
+      "end": 2202
+    },
+    {
+      "token": "波",
+      "start": 2202,
+      "end": 2203
+    },
+    {
+      "token": "。",
+      "start": 2203,
+      "end": 2204
+    },
+    {
+      "token": "十七孔桥",
+      "start": 2204,
+      "end": 2208
+    },
+    {
+      "token": "的",
+      "start": 2208,
+      "end": 2209
+    },
+    {
+      "token": "桥洞",
+      "start": 2209,
+      "end": 2211
+    },
+    {
+      "token": "为什么",
+      "start": 2211,
+      "end": 2214
+    },
+    {
+      "token": "要",
+      "start": 2214,
+      "end": 2215
+    },
+    {
+      "token": "建",
+      "start": 2215,
+      "end": 2216
+    },
+    {
+      "token": "十七个",
+      "start": 2216,
+      "end": 2219
+    },
+    {
+      "token": "孔",
+      "start": 2219,
+      "end": 2220
+    },
+    {
+      "token": "呢",
+      "start": 2220,
+      "end": 2221
+    },
+    {
+      "token": "?",
+      "start": 2221,
+      "end": 2222
+    },
+    {
+      "token": "因为",
+      "start": 2222,
+      "end": 2224
+    },
+    {
+      "token": "桥",
+      "start": 2224,
+      "end": 2225
+    },
+    {
+      "token": "正中",
+      "start": 2225,
+      "end": 2227
+    },
+    {
+      "token": "的",
+      "start": 2227,
+      "end": 2228
+    },
+    {
+      "token": "大",
+      "start": 2228,
+      "end": 2229
+    },
+    {
+      "token": "孔",
+      "start": 2229,
+      "end": 2230
+    },
+    {
+      "token": "，",
+      "start": 2230,
+      "end": 2231
+    },
+    {
+      "token": "从",
+      "start": 2231,
+      "end": 2232
+    },
+    {
+      "token": "桥",
+      "start": 2232,
+      "end": 2233
+    },
+    {
+      "token": "两端",
+      "start": 2233,
+      "end": 2235
+    },
+    {
+      "token": "数",
+      "start": 2235,
+      "end": 2236
+    },
+    {
+      "token": "来",
+      "start": 2236,
+      "end": 2237
+    },
+    {
+      "token": "正好",
+      "start": 2237,
+      "end": 2239
+    },
+    {
+      "token": "是",
+      "start": 2239,
+      "end": 2240
+    },
+    {
+      "token": "\"",
+      "start": 2240,
+      "end": 2241
+    },
+    {
+      "token": "9",
+      "start": 2241,
+      "end": 2242
+    },
+    {
+      "token": "\"",
+      "start": 2242,
+      "end": 2243
+    },
+    {
+      "token": "，",
+      "start": 2243,
+      "end": 2244
+    },
+    {
+      "token": "而",
+      "start": 2244,
+      "end": 2245
+    },
+    {
+      "token": "\"",
+      "start": 2245,
+      "end": 2246
+    },
+    {
+      "token": "9",
+      "start": 2246,
+      "end": 2247
+    },
+    {
+      "token": "\"",
+      "start": 2247,
+      "end": 2248
+    },
+    {
+      "token": "被",
+      "start": 2248,
+      "end": 2249
+    },
+    {
+      "token": "称为",
+      "start": 2249,
+      "end": 2251
+    },
+    {
+      "token": "极",
+      "start": 2251,
+      "end": 2252
+    },
+    {
+      "token": "阳数",
+      "start": 2252,
+      "end": 2254
+    },
+    {
+      "token": "，",
+      "start": 2254,
+      "end": 2255
+    },
+    {
+      "token": "是",
+      "start": 2255,
+      "end": 2256
+    },
+    {
+      "token": "过去",
+      "start": 2256,
+      "end": 2258
+    },
+    {
+      "token": "封建",
+      "start": 2258,
+      "end": 2260
+    },
+    {
+      "token": "帝王",
+      "start": 2260,
+      "end": 2262
+    },
+    {
+      "token": "最",
+      "start": 2262,
+      "end": 2263
+    },
+    {
+      "token": "喜欢",
+      "start": 2263,
+      "end": 2265
+    },
+    {
+      "token": "的",
+      "start": 2265,
+      "end": 2266
+    },
+    {
+      "token": "吉利",
+      "start": 2266,
+      "end": 2268
+    },
+    {
+      "token": "数字",
+      "start": 2268,
+      "end": 2270
+    },
+    {
+      "token": "，",
+      "start": 2270,
+      "end": 2271
+    },
+    {
+      "token": "所以",
+      "start": 2271,
+      "end": 2273
+    },
+    {
+      "token": "将",
+      "start": 2273,
+      "end": 2274
+    },
+    {
+      "token": "桥",
+      "start": 2274,
+      "end": 2275
+    },
+    {
+      "token": "建成",
+      "start": 2275,
+      "end": 2277
+    },
+    {
+      "token": "17",
+      "start": 2277,
+      "end": 2279
+    },
+    {
+      "token": "孔",
+      "start": 2279,
+      "end": 2280
+    },
+    {
+      "token": "。",
+      "start": 2280,
+      "end": 2281
+    },
+    {
+      "token": " ",
+      "start": 2281,
+      "end": 2282
+    },
+    {
+      "token": "镜",
+      "start": 2282,
+      "end": 2283
+    },
+    {
+      "token": "桥",
+      "start": 2283,
+      "end": 2284
+    },
+    {
+      "token": "西侧",
+      "start": 2284,
+      "end": 2286
+    },
+    {
+      "token": "是",
+      "start": 2286,
+      "end": 2287
+    },
+    {
+      "token": "养心",
+      "start": 2287,
+      "end": 2289
+    },
+    {
+      "token": "湖",
+      "start": 2289,
+      "end": 2290
+    },
+    {
+      "token": "，",
+      "start": 2290,
+      "end": 2291
+    },
+    {
+      "token": "远望",
+      "start": 2291,
+      "end": 2293
+    },
+    {
+      "token": "\"",
+      "start": 2293,
+      "end": 2294
+    },
+    {
+      "token": "燕京",
+      "start": 2294,
+      "end": 2296
+    },
+    {
+      "token": "八景",
+      "start": 2296,
+      "end": 2298
+    },
+    {
+      "token": "\"",
+      "start": 2298,
+      "end": 2299
+    },
+    {
+      "token": "之一",
+      "start": 2299,
+      "end": 2301
+    },
+    {
+      "token": "的",
+      "start": 2301,
+      "end": 2302
+    },
+    {
+      "token": "玉泉山",
+      "start": 2302,
+      "end": 2305
+    },
+    {
+      "token": "，",
+      "start": 2305,
+      "end": 2306
+    },
+    {
+      "token": "主峰",
+      "start": 2306,
+      "end": 2308
+    },
+    {
+      "token": "上",
+      "start": 2308,
+      "end": 2309
+    },
+    {
+      "token": "的",
+      "start": 2309,
+      "end": 2310
+    },
+    {
+      "token": "香积寺",
+      "start": 2310,
+      "end": 2313
+    },
+    {
+      "token": "内",
+      "start": 2313,
+      "end": 2314
+    },
+    {
+      "token": "那",
+      "start": 2314,
+      "end": 2315
+    },
+    {
+      "token": "座",
+      "start": 2315,
+      "end": 2316
+    },
+    {
+      "token": "八角",
+      "start": 2316,
+      "end": 2318
+    },
+    {
+      "token": "七级",
+      "start": 2318,
+      "end": 2320
+    },
+    {
+      "token": "仿",
+      "start": 2320,
+      "end": 2321
+    },
+    {
+      "token": "木构",
+      "start": 2321,
+      "end": 2323
+    },
+    {
+      "token": "楼阁",
+      "start": 2323,
+      "end": 2325
+    },
+    {
+      "token": "式",
+      "start": 2325,
+      "end": 2326
+    },
+    {
+      "token": "石塔",
+      "start": 2326,
+      "end": 2328
+    },
+    {
+      "token": "-",
+      "start": 2328,
+      "end": 2329
+    },
+    {
+      "token": "玉",
+      "start": 2329,
+      "end": 2330
+    },
+    {
+      "token": "峰",
+      "start": 2330,
+      "end": 2331
+    },
+    {
+      "token": "塔",
+      "start": 2331,
+      "end": 2332
+    },
+    {
+      "token": "，",
+      "start": 2332,
+      "end": 2333
+    },
+    {
+      "token": "历历在目",
+      "start": 2333,
+      "end": 2337
+    },
+    {
+      "token": "。",
+      "start": 2337,
+      "end": 2338
+    },
+    {
+      "token": "在",
+      "start": 2338,
+      "end": 2339
+    },
+    {
+      "token": "乾隆皇帝",
+      "start": 2339,
+      "end": 2343
+    },
+    {
+      "token": "下",
+      "start": 2343,
+      "end": 2344
+    },
+    {
+      "token": "江南",
+      "start": 2344,
+      "end": 2346
+    },
+    {
+      "token": "的",
+      "start": 2346,
+      "end": 2347
+    },
+    {
+      "token": "时候",
+      "start": 2347,
+      "end": 2349
+    },
+    {
+      "token": "，",
+      "start": 2349,
+      "end": 2350
+    },
+    {
+      "token": "在",
+      "start": 2350,
+      "end": 2351
+    },
+    {
+      "token": "镇江",
+      "start": 2351,
+      "end": 2353
+    },
+    {
+      "token": "的",
+      "start": 2353,
+      "end": 2354
+    },
+    {
+      "token": "金山寺",
+      "start": 2354,
+      "end": 2357
+    },
+    {
+      "token": "见到",
+      "start": 2357,
+      "end": 2359
+    },
+    {
+      "token": "了",
+      "start": 2359,
+      "end": 2360
+    },
+    {
+      "token": "高大",
+      "start": 2360,
+      "end": 2362
+    },
+    {
+      "token": "巍峨",
+      "start": 2362,
+      "end": 2364
+    },
+    {
+      "token": "的",
+      "start": 2364,
+      "end": 2365
+    },
+    {
+      "token": "慈",
+      "start": 2365,
+      "end": 2366
+    },
+    {
+      "token": "寿",
+      "start": 2366,
+      "end": 2367
+    },
+    {
+      "token": "塔",
+      "start": 2367,
+      "end": 2368
+    },
+    {
+      "token": "，",
+      "start": 2368,
+      "end": 2369
+    },
+    {
+      "token": "遂",
+      "start": 2369,
+      "end": 2370
+    },
+    {
+      "token": "命",
+      "start": 2370,
+      "end": 2371
+    },
+    {
+      "token": "人",
+      "start": 2371,
+      "end": 2372
+    },
+    {
+      "token": "将",
+      "start": 2372,
+      "end": 2373
+    },
+    {
+      "token": "塔",
+      "start": 2373,
+      "end": 2374
+    },
+    {
+      "token": "绘成",
+      "start": 2374,
+      "end": 2376
+    },
+    {
+      "token": "图",
+      "start": 2376,
+      "end": 2377
+    },
+    {
+      "token": "，",
+      "start": 2377,
+      "end": 2378
+    },
+    {
+      "token": "回",
+      "start": 2378,
+      "end": 2379
+    },
+    {
+      "token": "北京",
+      "start": 2379,
+      "end": 2381
+    },
+    {
+      "token": "后",
+      "start": 2381,
+      "end": 2382
+    },
+    {
+      "token": "于",
+      "start": 2382,
+      "end": 2383
+    },
+    {
+      "token": "玉泉山",
+      "start": 2383,
+      "end": 2386
+    },
+    {
+      "token": "主峰",
+      "start": 2386,
+      "end": 2388
+    },
+    {
+      "token": "上",
+      "start": 2388,
+      "end": 2389
+    },
+    {
+      "token": "建起",
+      "start": 2389,
+      "end": 2391
+    },
+    {
+      "token": "了",
+      "start": 2391,
+      "end": 2392
+    },
+    {
+      "token": "这",
+      "start": 2392,
+      "end": 2393
+    },
+    {
+      "token": "座",
+      "start": 2393,
+      "end": 2394
+    },
+    {
+      "token": "玉",
+      "start": 2394,
+      "end": 2395
+    },
+    {
+      "token": "峰",
+      "start": 2395,
+      "end": 2396
+    },
+    {
+      "token": "塔",
+      "start": 2396,
+      "end": 2397
+    },
+    {
+      "token": "。",
+      "start": 2397,
+      "end": 2398
+    },
+    {
+      "token": "只",
+      "start": 2398,
+      "end": 2399
+    },
+    {
+      "token": "可惜",
+      "start": 2399,
+      "end": 2401
+    },
+    {
+      "token": "那里",
+      "start": 2401,
+      "end": 2403
+    },
+    {
+      "token": "在",
+      "start": 2403,
+      "end": 2404
+    },
+    {
+      "token": "1949",
+      "start": 2404,
+      "end": 2408
+    },
+    {
+      "token": "年后",
+      "start": 2408,
+      "end": 2410
+    },
+    {
+      "token": "，",
+      "start": 2410,
+      "end": 2411
+    },
+    {
+      "token": "从不",
+      "start": 2411,
+      "end": 2413
+    },
+    {
+      "token": "对",
+      "start": 2413,
+      "end": 2414
+    },
+    {
+      "token": "普通",
+      "start": 2414,
+      "end": 2416
+    },
+    {
+      "token": "游人",
+      "start": 2416,
+      "end": 2418
+    },
+    {
+      "token": "开放",
+      "start": 2418,
+      "end": 2420
+    },
+    {
+      "token": "。",
+      "start": 2420,
+      "end": 2421
+    },
+    {
+      "token": " ",
+      "start": 2421,
+      "end": 2422
+    },
+    {
+      "token": "养心",
+      "start": 2422,
+      "end": 2424
+    },
+    {
+      "token": "湖",
+      "start": 2424,
+      "end": 2425
+    },
+    {
+      "token": "的",
+      "start": 2425,
+      "end": 2426
+    },
+    {
+      "token": "水面",
+      "start": 2426,
+      "end": 2428
+    },
+    {
+      "token": "相当",
+      "start": 2428,
+      "end": 2430
+    },
+    {
+      "token": "辽阔",
+      "start": 2430,
+      "end": 2432
+    },
+    {
+      "token": "，",
+      "start": 2432,
+      "end": 2433
+    },
+    {
+      "token": "远望",
+      "start": 2433,
+      "end": 2435
+    },
+    {
+      "token": "西山",
+      "start": 2435,
+      "end": 2437
+    },
+    {
+      "token": "逶迤",
+      "start": 2437,
+      "end": 2439
+    },
+    {
+      "token": "，",
+      "start": 2439,
+      "end": 2440
+    },
+    {
+      "token": "秀丽",
+      "start": 2440,
+      "end": 2442
+    },
+    {
+      "token": "玉泉山",
+      "start": 2442,
+      "end": 2445
+    },
+    {
+      "token": "和",
+      "start": 2445,
+      "end": 2446
+    },
+    {
+      "token": "\"",
+      "start": 2446,
+      "end": 2447
+    },
+    {
+      "token": "玉",
+      "start": 2447,
+      "end": 2448
+    },
+    {
+      "token": "峰",
+      "start": 2448,
+      "end": 2449
+    },
+    {
+      "token": "塔",
+      "start": 2449,
+      "end": 2450
+    },
+    {
+      "token": "影",
+      "start": 2450,
+      "end": 2451
+    },
+    {
+      "token": "\"",
+      "start": 2451,
+      "end": 2452
+    },
+    {
+      "token": "，",
+      "start": 2452,
+      "end": 2453
+    },
+    {
+      "token": "都",
+      "start": 2453,
+      "end": 2454
+    },
+    {
+      "token": "被",
+      "start": 2454,
+      "end": 2455
+    },
+    {
+      "token": "收",
+      "start": 2455,
+      "end": 2456
+    },
+    {
+      "token": "摄",
+      "start": 2456,
+      "end": 2457
+    },
+    {
+      "token": "作为",
+      "start": 2457,
+      "end": 2459
+    },
+    {
+      "token": "湖光山色",
+      "start": 2459,
+      "end": 2463
+    },
+    {
+      "token": "的",
+      "start": 2463,
+      "end": 2464
+    },
+    {
+      "token": "组成部分",
+      "start": 2464,
+      "end": 2468
+    },
+    {
+      "token": "，",
+      "start": 2468,
+      "end": 2469
+    },
+    {
+      "token": "这",
+      "start": 2469,
+      "end": 2470
+    },
+    {
+      "token": "是",
+      "start": 2470,
+      "end": 2471
+    },
+    {
+      "token": "中国",
+      "start": 2471,
+      "end": 2473
+    },
+    {
+      "token": "园林",
+      "start": 2473,
+      "end": 2475
+    },
+    {
+      "token": "中",
+      "start": 2475,
+      "end": 2476
+    },
+    {
+      "token": "运用",
+      "start": 2476,
+      "end": 2478
+    },
+    {
+      "token": "借景",
+      "start": 2478,
+      "end": 2480
+    },
+    {
+      "token": "手法",
+      "start": 2480,
+      "end": 2482
+    },
+    {
+      "token": "的",
+      "start": 2482,
+      "end": 2483
+    },
+    {
+      "token": "杰出",
+      "start": 2483,
+      "end": 2485
+    },
+    {
+      "token": "范例",
+      "start": 2485,
+      "end": 2487
+    },
+    {
+      "token": "。",
+      "start": 2487,
+      "end": 2488
+    },
+    {
+      "token": " ",
+      "start": 2488,
+      "end": 2489
+    },
+    {
+      "token": "环湖",
+      "start": 2489,
+      "end": 2491
+    },
+    {
+      "token": "岸边",
+      "start": 2491,
+      "end": 2493
+    },
+    {
+      "token": "生长",
+      "start": 2493,
+      "end": 2495
+    },
+    {
+      "token": "着",
+      "start": 2495,
+      "end": 2496
+    },
+    {
+      "token": "茂密",
+      "start": 2496,
+      "end": 2498
+    },
+    {
+      "token": "的",
+      "start": 2498,
+      "end": 2499
+    },
+    {
+      "token": "芦荻",
+      "start": 2499,
+      "end": 2501
+    },
+    {
+      "token": "，",
+      "start": 2501,
+      "end": 2502
+    },
+    {
+      "token": "为",
+      "start": 2502,
+      "end": 2503
+    },
+    {
+      "token": "这",
+      "start": 2503,
+      "end": 2504
+    },
+    {
+      "token": "皇家",
+      "start": 2504,
+      "end": 2506
+    },
+    {
+      "token": "园林",
+      "start": 2506,
+      "end": 2508
+    },
+    {
+      "token": "增添",
+      "start": 2508,
+      "end": 2510
+    },
+    {
+      "token": "了",
+      "start": 2510,
+      "end": 2511
+    },
+    {
+      "token": "自然",
+      "start": 2511,
+      "end": 2513
+    },
+    {
+      "token": "野趣",
+      "start": 2513,
+      "end": 2515
+    },
+    {
+      "token": "。",
+      "start": 2515,
+      "end": 2516
+    },
+    {
+      "token": " ",
+      "start": 2516,
+      "end": 2517
+    },
+    {
+      "token": "湖",
+      "start": 2517,
+      "end": 2518
+    },
+    {
+      "token": "中心",
+      "start": 2518,
+      "end": 2520
+    },
+    {
+      "token": "有",
+      "start": 2520,
+      "end": 2521
+    },
+    {
+      "token": "一",
+      "start": 2521,
+      "end": 2522
+    },
+    {
+      "token": "小岛",
+      "start": 2522,
+      "end": 2524
+    },
+    {
+      "token": "，",
+      "start": 2524,
+      "end": 2525
+    },
+    {
+      "token": "岛上",
+      "start": 2525,
+      "end": 2527
+    },
+    {
+      "token": "的",
+      "start": 2527,
+      "end": 2528
+    },
+    {
+      "token": "建筑",
+      "start": 2528,
+      "end": 2530
+    },
+    {
+      "token": "叫",
+      "start": 2530,
+      "end": 2531
+    },
+    {
+      "token": "\"",
+      "start": 2531,
+      "end": 2532
+    },
+    {
+      "token": "藻",
+      "start": 2532,
+      "end": 2533
+    },
+    {
+      "token": "鉴",
+      "start": 2533,
+      "end": 2534
+    },
+    {
+      "token": "堂",
+      "start": 2534,
+      "end": 2535
+    },
+    {
+      "token": "\"",
+      "start": 2535,
+      "end": 2536
+    },
+    {
+      "token": "，",
+      "start": 2536,
+      "end": 2537
+    },
+    {
+      "token": "这",
+      "start": 2537,
+      "end": 2538
+    },
+    {
+      "token": "又",
+      "start": 2538,
+      "end": 2539
+    },
+    {
+      "token": "是",
+      "start": 2539,
+      "end": 2540
+    },
+    {
+      "token": "昆明湖",
+      "start": 2540,
+      "end": 2543
+    },
+    {
+      "token": "\"",
+      "start": 2543,
+      "end": 2544
+    },
+    {
+      "token": "一",
+      "start": 2544,
+      "end": 2545
+    },
+    {
+      "token": "水",
+      "start": 2545,
+      "end": 2546
+    },
+    {
+      "token": "三山",
+      "start": 2546,
+      "end": 2548
+    },
+    {
+      "token": "\"",
+      "start": 2548,
+      "end": 2549
+    },
+    {
+      "token": "的",
+      "start": 2549,
+      "end": 2550
+    },
+    {
+      "token": "三山",
+      "start": 2550,
+      "end": 2552
+    },
+    {
+      "token": "之一",
+      "start": 2552,
+      "end": 2554
+    },
+    {
+      "token": "。",
+      "start": 2554,
+      "end": 2555
+    },
+    {
+      "token": "藻",
+      "start": 2555,
+      "end": 2556
+    },
+    {
+      "token": "鉴",
+      "start": 2556,
+      "end": 2557
+    },
+    {
+      "token": "堂",
+      "start": 2557,
+      "end": 2558
+    },
+    {
+      "token": "始建",
+      "start": 2558,
+      "end": 2560
+    },
+    {
+      "token": "于",
+      "start": 2560,
+      "end": 2561
+    },
+    {
+      "token": "乾隆年间",
+      "start": 2561,
+      "end": 2565
+    },
+    {
+      "token": "，",
+      "start": 2565,
+      "end": 2566
+    },
+    {
+      "token": "乾隆帝",
+      "start": 2566,
+      "end": 2569
+    },
+    {
+      "token": "曾",
+      "start": 2569,
+      "end": 2570
+    },
+    {
+      "token": "在",
+      "start": 2570,
+      "end": 2571
+    },
+    {
+      "token": "此",
+      "start": 2571,
+      "end": 2572
+    },
+    {
+      "token": "休憩",
+      "start": 2572,
+      "end": 2574
+    },
+    {
+      "token": "品茗",
+      "start": 2574,
+      "end": 2576
+    },
+    {
+      "token": "，",
+      "start": 2576,
+      "end": 2577
+    },
+    {
+      "token": "吟诗",
+      "start": 2577,
+      "end": 2579
+    },
+    {
+      "token": "赏",
+      "start": 2579,
+      "end": 2580
+    },
+    {
+      "token": "景",
+      "start": 2580,
+      "end": 2581
+    },
+    {
+      "token": ".",
+      "start": 2581,
+      "end": 2582
+    },
+    {
+      "token": "1860",
+      "start": 2582,
+      "end": 2586
+    },
+    {
+      "token": "年",
+      "start": 2586,
+      "end": 2587
+    },
+    {
+      "token": "毁于",
+      "start": 2587,
+      "end": 2589
+    },
+    {
+      "token": "英法联军",
+      "start": 2589,
+      "end": 2593
+    },
+    {
+      "token": "之",
+      "start": 2593,
+      "end": 2594
+    },
+    {
+      "token": "手",
+      "start": 2594,
+      "end": 2595
+    },
+    {
+      "token": "，",
+      "start": 2595,
+      "end": 2596
+    },
+    {
+      "token": "光绪年间",
+      "start": 2596,
+      "end": 2600
+    },
+    {
+      "token": "重建",
+      "start": 2600,
+      "end": 2602
+    },
+    {
+      "token": "，",
+      "start": 2602,
+      "end": 2603
+    },
+    {
+      "token": "慈禧",
+      "start": 2603,
+      "end": 2605
+    },
+    {
+      "token": "也",
+      "start": 2605,
+      "end": 2606
+    },
+    {
+      "token": "曾",
+      "start": 2606,
+      "end": 2607
+    },
+    {
+      "token": "在",
+      "start": 2607,
+      "end": 2608
+    },
+    {
+      "token": "此",
+      "start": 2608,
+      "end": 2609
+    },
+    {
+      "token": "宴请",
+      "start": 2609,
+      "end": 2611
+    },
+    {
+      "token": "过",
+      "start": 2611,
+      "end": 2612
+    },
+    {
+      "token": "外国",
+      "start": 2612,
+      "end": 2614
+    },
+    {
+      "token": "使节",
+      "start": 2614,
+      "end": 2616
+    },
+    {
+      "token": "夫人",
+      "start": 2616,
+      "end": 2618
+    },
+    {
+      "token": "，",
+      "start": 2618,
+      "end": 2619
+    },
+    {
+      "token": "此后",
+      "start": 2619,
+      "end": 2621
+    },
+    {
+      "token": "又",
+      "start": 2621,
+      "end": 2622
+    },
+    {
+      "token": "毁于",
+      "start": 2622,
+      "end": 2624
+    },
+    {
+      "token": "何时",
+      "start": 2624,
+      "end": 2626
+    },
+    {
+      "token": "，",
+      "start": 2626,
+      "end": 2627
+    },
+    {
+      "token": "无人知晓",
+      "start": 2627,
+      "end": 2631
+    },
+    {
+      "token": "。",
+      "start": 2631,
+      "end": 2632
+    },
+    {
+      "token": "现有",
+      "start": 2632,
+      "end": 2634
+    },
+    {
+      "token": "是",
+      "start": 2634,
+      "end": 2635
+    },
+    {
+      "token": "市委",
+      "start": 2635,
+      "end": 2637
+    },
+    {
+      "token": "老干部",
+      "start": 2637,
+      "end": 2640
+    },
+    {
+      "token": "的",
+      "start": 2640,
+      "end": 2641
+    },
+    {
+      "token": "一个",
+      "start": 2641,
+      "end": 2643
+    },
+    {
+      "token": "活动场所",
+      "start": 2643,
+      "end": 2647
+    },
+    {
+      "token": "，",
+      "start": 2647,
+      "end": 2648
+    },
+    {
+      "token": "尚未",
+      "start": 2648,
+      "end": 2650
+    },
+    {
+      "token": "交还给",
+      "start": 2650,
+      "end": 2653
+    },
+    {
+      "token": "颐和园",
+      "start": 2653,
+      "end": 2656
+    },
+    {
+      "token": "。",
+      "start": 2656,
+      "end": 2657
+    },
+    {
+      "token": " ",
+      "start": 2657,
+      "end": 2658
+    },
+    {
+      "token": "这",
+      "start": 2658,
+      "end": 2659
+    },
+    {
+      "token": "是",
+      "start": 2659,
+      "end": 2660
+    },
+    {
+      "token": "六",
+      "start": 2660,
+      "end": 2661
+    },
+    {
+      "token": "桥",
+      "start": 2661,
+      "end": 2662
+    },
+    {
+      "token": "的",
+      "start": 2662,
+      "end": 2663
+    },
+    {
+      "token": "第五",
+      "start": 2663,
+      "end": 2665
+    },
+    {
+      "token": "座",
+      "start": 2665,
+      "end": 2666
+    },
+    {
+      "token": "-",
+      "start": 2666,
+      "end": 2667
+    },
+    {
+      "token": "\"",
+      "start": 2667,
+      "end": 2668
+    },
+    {
+      "token": "练",
+      "start": 2668,
+      "end": 2669
+    },
+    {
+      "token": "桥",
+      "start": 2669,
+      "end": 2670
+    },
+    {
+      "token": "\"",
+      "start": 2670,
+      "end": 2671
+    },
+    {
+      "token": "，",
+      "start": 2671,
+      "end": 2672
+    },
+    {
+      "token": "桥",
+      "start": 2672,
+      "end": 2673
+    },
+    {
+      "token": "亭",
+      "start": 2673,
+      "end": 2674
+    },
+    {
+      "token": "是",
+      "start": 2674,
+      "end": 2675
+    },
+    {
+      "token": "一座",
+      "start": 2675,
+      "end": 2677
+    },
+    {
+      "token": "四方形",
+      "start": 2677,
+      "end": 2680
+    },
+    {
+      "token": "的",
+      "start": 2680,
+      "end": 2681
+    },
+    {
+      "token": "重檐",
+      "start": 2681,
+      "end": 2683
+    },
+    {
+      "token": "四角",
+      "start": 2683,
+      "end": 2685
+    },
+    {
+      "token": "攒",
+      "start": 2685,
+      "end": 2686
+    },
+    {
+      "token": "尖",
+      "start": 2686,
+      "end": 2687
+    },
+    {
+      "token": "亭",
+      "start": 2687,
+      "end": 2688
+    },
+    {
+      "token": "。",
+      "start": 2688,
+      "end": 2689
+    },
+    {
+      "token": "练",
+      "start": 2689,
+      "end": 2690
+    },
+    {
+      "token": "桥",
+      "start": 2690,
+      "end": 2691
+    },
+    {
+      "token": "桥名",
+      "start": 2691,
+      "end": 2693
+    },
+    {
+      "token": "，",
+      "start": 2693,
+      "end": 2694
+    },
+    {
+      "token": "语",
+      "start": 2694,
+      "end": 2695
+    },
+    {
+      "token": "出",
+      "start": 2695,
+      "end": 2696
+    },
+    {
+      "token": "南朝",
+      "start": 2696,
+      "end": 2698
+    },
+    {
+      "token": "诗人",
+      "start": 2698,
+      "end": 2700
+    },
+    {
+      "token": "谢",
+      "start": 2700,
+      "end": 2701
+    },
+    {
+      "token": "眺",
+      "start": 2701,
+      "end": 2702
+    },
+    {
+      "token": "\"",
+      "start": 2702,
+      "end": 2703
+    },
+    {
+      "token": "晚",
+      "start": 2703,
+      "end": 2704
+    },
+    {
+      "token": "登",
+      "start": 2704,
+      "end": 2705
+    },
+    {
+      "token": "三山",
+      "start": 2705,
+      "end": 2707
+    },
+    {
+      "token": "远望",
+      "start": 2707,
+      "end": 2709
+    },
+    {
+      "token": "京",
+      "start": 2709,
+      "end": 2710
+    },
+    {
+      "token": "邑",
+      "start": 2710,
+      "end": 2711
+    },
+    {
+      "token": "\"",
+      "start": 2711,
+      "end": 2712
+    },
+    {
+      "token": ":",
+      "start": 2712,
+      "end": 2713
+    },
+    {
+      "token": "\"",
+      "start": 2713,
+      "end": 2714
+    },
+    {
+      "token": "余",
+      "start": 2714,
+      "end": 2715
+    },
+    {
+      "token": "霞",
+      "start": 2715,
+      "end": 2716
+    },
+    {
+      "token": "散",
+      "start": 2716,
+      "end": 2717
+    },
+    {
+      "token": "成",
+      "start": 2717,
+      "end": 2718
+    },
+    {
+      "token": "绮",
+      "start": 2718,
+      "end": 2719
+    },
+    {
+      "token": "，",
+      "start": 2719,
+      "end": 2720
+    },
+    {
+      "token": "澄江",
+      "start": 2720,
+      "end": 2722
+    },
+    {
+      "token": "静",
+      "start": 2722,
+      "end": 2723
+    },
+    {
+      "token": "如",
+      "start": 2723,
+      "end": 2724
+    },
+    {
+      "token": "练",
+      "start": 2724,
+      "end": 2725
+    },
+    {
+      "token": "\"",
+      "start": 2725,
+      "end": 2726
+    },
+    {
+      "token": "的",
+      "start": 2726,
+      "end": 2727
+    },
+    {
+      "token": "诗意",
+      "start": 2727,
+      "end": 2729
+    },
+    {
+      "token": "。",
+      "start": 2729,
+      "end": 2730
+    },
+    {
+      "token": " ",
+      "start": 2730,
+      "end": 2731
+    },
+    {
+      "token": "从",
+      "start": 2731,
+      "end": 2732
+    },
+    {
+      "token": "练",
+      "start": 2732,
+      "end": 2733
+    },
+    {
+      "token": "桥",
+      "start": 2733,
+      "end": 2734
+    },
+    {
+      "token": "继续",
+      "start": 2734,
+      "end": 2736
+    },
+    {
+      "token": "南行",
+      "start": 2736,
+      "end": 2738
+    },
+    {
+      "token": "，",
+      "start": 2738,
+      "end": 2739
+    },
+    {
+      "token": "就",
+      "start": 2739,
+      "end": 2740
+    },
+    {
+      "token": "来到",
+      "start": 2740,
+      "end": 2742
+    },
+    {
+      "token": "了",
+      "start": 2742,
+      "end": 2743
+    },
+    {
+      "token": "\"",
+      "start": 2743,
+      "end": 2744
+    },
+    {
+      "token": "景",
+      "start": 2744,
+      "end": 2745
+    },
+    {
+      "token": "明",
+      "start": 2745,
+      "end": 2746
+    },
+    {
+      "token": "楼",
+      "start": 2746,
+      "end": 2747
+    },
+    {
+      "token": "\"",
+      "start": 2747,
+      "end": 2748
+    },
+    {
+      "token": "，",
+      "start": 2748,
+      "end": 2749
+    },
+    {
+      "token": "其",
+      "start": 2749,
+      "end": 2750
+    },
+    {
+      "token": "楼",
+      "start": 2750,
+      "end": 2751
+    },
+    {
+      "token": "名",
+      "start": 2751,
+      "end": 2752
+    },
+    {
+      "token": "源自",
+      "start": 2752,
+      "end": 2754
+    },
+    {
+      "token": "宋代",
+      "start": 2754,
+      "end": 2756
+    },
+    {
+      "token": "名家",
+      "start": 2756,
+      "end": 2758
+    },
+    {
+      "token": "范仲淹",
+      "start": 2758,
+      "end": 2761
+    },
+    {
+      "token": "\"",
+      "start": 2761,
+      "end": 2762
+    },
+    {
+      "token": "岳阳楼记",
+      "start": 2762,
+      "end": 2766
+    },
+    {
+      "token": "\"",
+      "start": 2766,
+      "end": 2767
+    },
+    {
+      "token": "中",
+      "start": 2767,
+      "end": 2768
+    },
+    {
+      "token": "的",
+      "start": 2768,
+      "end": 2769
+    },
+    {
+      "token": "名句",
+      "start": 2769,
+      "end": 2771
+    },
+    {
+      "token": "\"",
+      "start": 2771,
+      "end": 2772
+    },
+    {
+      "token": "春和景明",
+      "start": 2772,
+      "end": 2776
+    },
+    {
+      "token": "，",
+      "start": 2776,
+      "end": 2777
+    },
+    {
+      "token": "波澜不惊",
+      "start": 2777,
+      "end": 2781
+    },
+    {
+      "token": "\"",
+      "start": 2781,
+      "end": 2782
+    },
+    {
+      "token": "，",
+      "start": 2782,
+      "end": 2783
+    },
+    {
+      "token": "由",
+      "start": 2783,
+      "end": 2784
+    },
+    {
+      "token": "主楼",
+      "start": 2784,
+      "end": 2786
+    },
+    {
+      "token": "和",
+      "start": 2786,
+      "end": 2787
+    },
+    {
+      "token": "两座",
+      "start": 2787,
+      "end": 2789
+    },
+    {
+      "token": "配",
+      "start": 2789,
+      "end": 2790
+    },
+    {
+      "token": "楼",
+      "start": 2790,
+      "end": 2791
+    },
+    {
+      "token": "组成",
+      "start": 2791,
+      "end": 2793
+    },
+    {
+      "token": "。",
+      "start": 2793,
+      "end": 2794
+    },
+    {
+      "token": "在",
+      "start": 2794,
+      "end": 2795
+    },
+    {
+      "token": "开篇",
+      "start": 2795,
+      "end": 2797
+    },
+    {
+      "token": "乾隆皇帝",
+      "start": 2797,
+      "end": 2801
+    },
+    {
+      "token": "那",
+      "start": 2801,
+      "end": 2802
+    },
+    {
+      "token": "首",
+      "start": 2802,
+      "end": 2803
+    },
+    {
+      "token": "诗",
+      "start": 2803,
+      "end": 2804
+    },
+    {
+      "token": "中",
+      "start": 2804,
+      "end": 2805
+    },
+    {
+      "token": "，",
+      "start": 2805,
+      "end": 2806
+    },
+    {
+      "token": "所",
+      "start": 2806,
+      "end": 2807
+    },
+    {
+      "token": "提到",
+      "start": 2807,
+      "end": 2809
+    },
+    {
+      "token": "的",
+      "start": 2809,
+      "end": 2810
+    },
+    {
+      "token": "\"",
+      "start": 2810,
+      "end": 2811
+    },
+    {
+      "token": "琳琅",
+      "start": 2811,
+      "end": 2813
+    },
+    {
+      "token": "三",
+      "start": 2813,
+      "end": 2814
+    },
+    {
+      "token": "竺",
+      "start": 2814,
+      "end": 2815
+    },
+    {
+      "token": "宇",
+      "start": 2815,
+      "end": 2816
+    },
+    {
+      "token": "\"",
+      "start": 2816,
+      "end": 2817
+    },
+    {
+      "token": "，",
+      "start": 2817,
+      "end": 2818
+    },
+    {
+      "token": "应该",
+      "start": 2818,
+      "end": 2820
+    },
+    {
+      "token": "指",
+      "start": 2820,
+      "end": 2821
+    },
+    {
+      "token": "的",
+      "start": 2821,
+      "end": 2822
+    },
+    {
+      "token": "就是",
+      "start": 2822,
+      "end": 2824
+    },
+    {
+      "token": "这里",
+      "start": 2824,
+      "end": 2826
+    },
+    {
+      "token": ".",
+      "start": 2826,
+      "end": 2827
+    },
+    {
+      "token": "1860",
+      "start": 2827,
+      "end": 2831
+    },
+    {
+      "token": "年",
+      "start": 2831,
+      "end": 2832
+    },
+    {
+      "token": "毁于",
+      "start": 2832,
+      "end": 2834
+    },
+    {
+      "token": "英法联军",
+      "start": 2834,
+      "end": 2838
+    },
+    {
+      "token": "的",
+      "start": 2838,
+      "end": 2839
+    },
+    {
+      "token": "炮火",
+      "start": 2839,
+      "end": 2841
+    },
+    {
+      "token": "，",
+      "start": 2841,
+      "end": 2842
+    },
+    {
+      "token": "1992",
+      "start": 2842,
+      "end": 2846
+    },
+    {
+      "token": "年",
+      "start": 2846,
+      "end": 2847
+    },
+    {
+      "token": "重建",
+      "start": 2847,
+      "end": 2849
+    },
+    {
+      "token": "。",
+      "start": 2849,
+      "end": 2850
+    },
+    {
+      "token": "景",
+      "start": 2850,
+      "end": 2851
+    },
+    {
+      "token": "明",
+      "start": 2851,
+      "end": 2852
+    },
+    {
+      "token": "楼",
+      "start": 2852,
+      "end": 2853
+    },
+    {
+      "token": "在",
+      "start": 2853,
+      "end": 2854
+    },
+    {
+      "token": "1860",
+      "start": 2854,
+      "end": 2858
+    },
+    {
+      "token": "年",
+      "start": 2858,
+      "end": 2859
+    },
+    {
+      "token": "被",
+      "start": 2859,
+      "end": 2860
+    },
+    {
+      "token": "英法联军",
+      "start": 2860,
+      "end": 2864
+    },
+    {
+      "token": "焚毁",
+      "start": 2864,
+      "end": 2866
+    },
+    {
+      "token": "后",
+      "start": 2866,
+      "end": 2867
+    },
+    {
+      "token": "，",
+      "start": 2867,
+      "end": 2868
+    },
+    {
+      "token": "由于",
+      "start": 2868,
+      "end": 2870
+    },
+    {
+      "token": "时间",
+      "start": 2870,
+      "end": 2872
+    },
+    {
+      "token": "长远",
+      "start": 2872,
+      "end": 2874
+    },
+    {
+      "token": "，",
+      "start": 2874,
+      "end": 2875
+    },
+    {
+      "token": "不但",
+      "start": 2875,
+      "end": 2877
+    },
+    {
+      "token": "建筑",
+      "start": 2877,
+      "end": 2879
+    },
+    {
+      "token": "主体",
+      "start": 2879,
+      "end": 2881
+    },
+    {
+      "token": "不见",
+      "start": 2881,
+      "end": 2883
+    },
+    {
+      "token": "了",
+      "start": 2883,
+      "end": 2884
+    },
+    {
+      "token": "，",
+      "start": 2884,
+      "end": 2885
+    },
+    {
+      "token": "连",
+      "start": 2885,
+      "end": 2886
+    },
+    {
+      "token": "建筑",
+      "start": 2886,
+      "end": 2888
+    },
+    {
+      "token": "遗址",
+      "start": 2888,
+      "end": 2890
+    },
+    {
+      "token": "也",
+      "start": 2890,
+      "end": 2891
+    },
+    {
+      "token": "很",
+      "start": 2891,
+      "end": 2892
+    },
+    {
+      "token": "难",
+      "start": 2892,
+      "end": 2893
+    },
+    {
+      "token": "找到",
+      "start": 2893,
+      "end": 2895
+    },
+    {
+      "token": ".",
+      "start": 2895,
+      "end": 2896
+    },
+    {
+      "token": "1991",
+      "start": 2896,
+      "end": 2900
+    },
+    {
+      "token": "年初",
+      "start": 2900,
+      "end": 2902
+    },
+    {
+      "token": "，",
+      "start": 2902,
+      "end": 2903
+    },
+    {
+      "token": "已有",
+      "start": 2903,
+      "end": 2905
+    },
+    {
+      "token": "240",
+      "start": 2905,
+      "end": 2908
+    },
+    {
+      "token": "年",
+      "start": 2908,
+      "end": 2909
+    },
+    {
+      "token": "历史",
+      "start": 2909,
+      "end": 2911
+    },
+    {
+      "token": "的",
+      "start": 2911,
+      "end": 2912
+    },
+    {
+      "token": "昆明湖",
+      "start": 2912,
+      "end": 2915
+    },
+    {
+      "token": "由于",
+      "start": 2915,
+      "end": 2917
+    },
+    {
+      "token": "湖底",
+      "start": 2917,
+      "end": 2919
+    },
+    {
+      "token": "淤泥",
+      "start": 2919,
+      "end": 2921
+    },
+    {
+      "token": "，",
+      "start": 2921,
+      "end": 2922
+    },
+    {
+      "token": "北京市",
+      "start": 2922,
+      "end": 2925
+    },
+    {
+      "token": "组织",
+      "start": 2925,
+      "end": 2927
+    },
+    {
+      "token": "了",
+      "start": 2927,
+      "end": 2928
+    },
+    {
+      "token": "约",
+      "start": 2928,
+      "end": 2929
+    },
+    {
+      "token": "20",
+      "start": 2929,
+      "end": 2931
+    },
+    {
+      "token": "万",
+      "start": 2931,
+      "end": 2932
+    },
+    {
+      "token": "人",
+      "start": 2932,
+      "end": 2933
+    },
+    {
+      "token": "进行",
+      "start": 2933,
+      "end": 2935
+    },
+    {
+      "token": "了",
+      "start": 2935,
+      "end": 2936
+    },
+    {
+      "token": "空前",
+      "start": 2936,
+      "end": 2938
+    },
+    {
+      "token": "规模",
+      "start": 2938,
+      "end": 2940
+    },
+    {
+      "token": "的",
+      "start": 2940,
+      "end": 2941
+    },
+    {
+      "token": "清淤",
+      "start": 2941,
+      "end": 2943
+    },
+    {
+      "token": "工程",
+      "start": 2943,
+      "end": 2945
+    },
+    {
+      "token": "。",
+      "start": 2945,
+      "end": 2946
+    },
+    {
+      "token": "当",
+      "start": 2946,
+      "end": 2947
+    },
+    {
+      "token": "把",
+      "start": 2947,
+      "end": 2948
+    },
+    {
+      "token": "湖水",
+      "start": 2948,
+      "end": 2950
+    },
+    {
+      "token": "放",
+      "start": 2950,
+      "end": 2951
+    },
+    {
+      "token": "干",
+      "start": 2951,
+      "end": 2952
+    },
+    {
+      "token": "清除",
+      "start": 2952,
+      "end": 2954
+    },
+    {
+      "token": "厚厚的",
+      "start": 2954,
+      "end": 2957
+    },
+    {
+      "token": "淤泥",
+      "start": 2957,
+      "end": 2959
+    },
+    {
+      "token": "时",
+      "start": 2959,
+      "end": 2960
+    },
+    {
+      "token": "，",
+      "start": 2960,
+      "end": 2961
+    },
+    {
+      "token": "被",
+      "start": 2961,
+      "end": 2962
+    },
+    {
+      "token": "埋",
+      "start": 2962,
+      "end": 2963
+    },
+    {
+      "token": "在",
+      "start": 2963,
+      "end": 2964
+    },
+    {
+      "token": "水下",
+      "start": 2964,
+      "end": 2966
+    },
+    {
+      "token": "淤泥",
+      "start": 2966,
+      "end": 2968
+    },
+    {
+      "token": "深处",
+      "start": 2968,
+      "end": 2970
+    },
+    {
+      "token": "长",
+      "start": 2970,
+      "end": 2971
+    },
+    {
+      "token": "达",
+      "start": 2971,
+      "end": 2972
+    },
+    {
+      "token": "130",
+      "start": 2972,
+      "end": 2975
+    },
+    {
+      "token": "年",
+      "start": 2975,
+      "end": 2976
+    },
+    {
+      "token": "之",
+      "start": 2976,
+      "end": 2977
+    },
+    {
+      "token": "久",
+      "start": 2977,
+      "end": 2978
+    },
+    {
+      "token": "的",
+      "start": 2978,
+      "end": 2979
+    },
+    {
+      "token": "景",
+      "start": 2979,
+      "end": 2980
+    },
+    {
+      "token": "明",
+      "start": 2980,
+      "end": 2981
+    },
+    {
+      "token": "楼",
+      "start": 2981,
+      "end": 2982
+    },
+    {
+      "token": "地基",
+      "start": 2982,
+      "end": 2984
+    },
+    {
+      "token": "终于",
+      "start": 2984,
+      "end": 2986
+    },
+    {
+      "token": "露出",
+      "start": 2986,
+      "end": 2988
+    },
+    {
+      "token": "了",
+      "start": 2988,
+      "end": 2989
+    },
+    {
+      "token": "面目",
+      "start": 2989,
+      "end": 2991
+    },
+    {
+      "token": "。",
+      "start": 2991,
+      "end": 2992
+    },
+    {
+      "token": " ",
+      "start": 2992,
+      "end": 2993
+    },
+    {
+      "token": "西堤",
+      "start": 2993,
+      "end": 2995
+    },
+    {
+      "token": "游人",
+      "start": 2995,
+      "end": 2997
+    },
+    {
+      "token": "不",
+      "start": 2997,
+      "end": 2998
+    },
+    {
+      "token": "多",
+      "start": 2998,
+      "end": 2999
+    },
+    {
+      "token": "，",
+      "start": 2999,
+      "end": 3000
+    },
+    {
+      "token": "走来",
+      "start": 3000,
+      "end": 3002
+    },
+    {
+      "token": "宁静",
+      "start": 3002,
+      "end": 3004
+    },
+    {
+      "token": "闲适",
+      "start": 3004,
+      "end": 3006
+    },
+    {
+      "token": "，",
+      "start": 3006,
+      "end": 3007
+    },
+    {
+      "token": "与",
+      "start": 3007,
+      "end": 3008
+    },
+    {
+      "token": "万寿山",
+      "start": 3008,
+      "end": 3011
+    },
+    {
+      "token": "和",
+      "start": 3011,
+      "end": 3012
+    },
+    {
+      "token": "昆明湖",
+      "start": 3012,
+      "end": 3015
+    },
+    {
+      "token": "东",
+      "start": 3015,
+      "end": 3016
+    },
+    {
+      "token": "堤",
+      "start": 3016,
+      "end": 3017
+    },
+    {
+      "token": "那边",
+      "start": 3017,
+      "end": 3019
+    },
+    {
+      "token": "的",
+      "start": 3019,
+      "end": 3020
+    },
+    {
+      "token": "人声鼎沸",
+      "start": 3020,
+      "end": 3024
+    },
+    {
+      "token": "形成",
+      "start": 3024,
+      "end": 3026
+    },
+    {
+      "token": "对比",
+      "start": 3026,
+      "end": 3028
+    },
+    {
+      "token": "。",
+      "start": 3028,
+      "end": 3029
+    },
+    {
+      "token": "沿",
+      "start": 3029,
+      "end": 3030
+    },
+    {
+      "token": "堤",
+      "start": 3030,
+      "end": 3031
+    },
+    {
+      "token": "茂",
+      "start": 3031,
+      "end": 3032
+    },
+    {
+      "token": "植",
+      "start": 3032,
+      "end": 3033
+    },
+    {
+      "token": "桃",
+      "start": 3033,
+      "end": 3034
+    },
+    {
+      "token": "，",
+      "start": 3034,
+      "end": 3035
+    },
+    {
+      "token": "桑",
+      "start": 3035,
+      "end": 3036
+    },
+    {
+      "token": "，",
+      "start": 3036,
+      "end": 3037
+    },
+    {
+      "token": "柳",
+      "start": 3037,
+      "end": 3038
+    },
+    {
+      "token": "，",
+      "start": 3038,
+      "end": 3039
+    },
+    {
+      "token": "春季",
+      "start": 3039,
+      "end": 3041
+    },
+    {
+      "token": "会",
+      "start": 3041,
+      "end": 3042
+    },
+    {
+      "token": "是",
+      "start": 3042,
+      "end": 3043
+    },
+    {
+      "token": "一路",
+      "start": 3043,
+      "end": 3045
+    },
+    {
+      "token": "桃花",
+      "start": 3045,
+      "end": 3047
+    },
+    {
+      "token": "一路",
+      "start": 3047,
+      "end": 3049
+    },
+    {
+      "token": "香",
+      "start": 3049,
+      "end": 3050
+    },
+    {
+      "token": "，",
+      "start": 3050,
+      "end": 3051
+    },
+    {
+      "token": "夏季",
+      "start": 3051,
+      "end": 3053
+    },
+    {
+      "token": "定",
+      "start": 3053,
+      "end": 3054
+    },
+    {
+      "token": "是",
+      "start": 3054,
+      "end": 3055
+    },
+    {
+      "token": "烟柳",
+      "start": 3055,
+      "end": 3057
+    },
+    {
+      "token": "婆娑",
+      "start": 3057,
+      "end": 3059
+    },
+    {
+      "token": "生",
+      "start": 3059,
+      "end": 3060
+    },
+    {
+      "token": "，",
+      "start": 3060,
+      "end": 3061
+    },
+    {
+      "token": "绿意盎然",
+      "start": 3061,
+      "end": 3065
+    },
+    {
+      "token": "。",
+      "start": 3065,
+      "end": 3066
+    },
+    {
+      "token": " ",
+      "start": 3066,
+      "end": 3067
+    },
+    {
+      "token": "这",
+      "start": 3067,
+      "end": 3068
+    },
+    {
+      "token": "是",
+      "start": 3068,
+      "end": 3069
+    },
+    {
+      "token": "六",
+      "start": 3069,
+      "end": 3070
+    },
+    {
+      "token": "桥",
+      "start": 3070,
+      "end": 3071
+    },
+    {
+      "token": "的",
+      "start": 3071,
+      "end": 3072
+    },
+    {
+      "token": "最后",
+      "start": 3072,
+      "end": 3074
+    },
+    {
+      "token": "一座",
+      "start": 3074,
+      "end": 3076
+    },
+    {
+      "token": "-",
+      "start": 3076,
+      "end": 3077
+    },
+    {
+      "token": "\"",
+      "start": 3077,
+      "end": 3078
+    },
+    {
+      "token": "柳",
+      "start": 3078,
+      "end": 3079
+    },
+    {
+      "token": "桥",
+      "start": 3079,
+      "end": 3080
+    },
+    {
+      "token": "\"",
+      "start": 3080,
+      "end": 3081
+    },
+    {
+      "token": "，",
+      "start": 3081,
+      "end": 3082
+    },
+    {
+      "token": "桥名",
+      "start": 3082,
+      "end": 3084
+    },
+    {
+      "token": "取自",
+      "start": 3084,
+      "end": 3086
+    },
+    {
+      "token": "杜甫",
+      "start": 3086,
+      "end": 3088
+    },
+    {
+      "token": "句",
+      "start": 3088,
+      "end": 3089
+    },
+    {
+      "token": "诗",
+      "start": 3089,
+      "end": 3090
+    },
+    {
+      "token": "\"",
+      "start": 3090,
+      "end": 3091
+    },
+    {
+      "token": "柳",
+      "start": 3091,
+      "end": 3092
+    },
+    {
+      "token": "桥",
+      "start": 3092,
+      "end": 3093
+    },
+    {
+      "token": "晴",
+      "start": 3093,
+      "end": 3094
+    },
+    {
+      "token": "有",
+      "start": 3094,
+      "end": 3095
+    },
+    {
+      "token": "絮",
+      "start": 3095,
+      "end": 3096
+    },
+    {
+      "token": "，",
+      "start": 3096,
+      "end": 3097
+    },
+    {
+      "token": "雾凇",
+      "start": 3097,
+      "end": 3099
+    },
+    {
+      "token": "扮",
+      "start": 3099,
+      "end": 3100
+    },
+    {
+      "token": "瑶台",
+      "start": 3100,
+      "end": 3102
+    },
+    {
+      "token": "\"",
+      "start": 3102,
+      "end": 3103
+    },
+    {
+      "token": "之",
+      "start": 3103,
+      "end": 3104
+    },
+    {
+      "token": "意",
+      "start": 3104,
+      "end": 3105
+    },
+    {
+      "token": "。",
+      "start": 3105,
+      "end": 3106
+    },
+    {
+      "token": " ",
+      "start": 3106,
+      "end": 3107
+    },
+    {
+      "token": "回望",
+      "start": 3107,
+      "end": 3109
+    },
+    {
+      "token": "柳",
+      "start": 3109,
+      "end": 3110
+    },
+    {
+      "token": "桥",
+      "start": 3110,
+      "end": 3111
+    },
+    {
+      "token": "，",
+      "start": 3111,
+      "end": 3112
+    },
+    {
+      "token": "五",
+      "start": 3112,
+      "end": 3113
+    },
+    {
+      "token": "孔",
+      "start": 3113,
+      "end": 3114
+    },
+    {
+      "token": "石桥",
+      "start": 3114,
+      "end": 3116
+    },
+    {
+      "token": "上",
+      "start": 3116,
+      "end": 3117
+    },
+    {
+      "token": "立",
+      "start": 3117,
+      "end": 3118
+    },
+    {
+      "token": "着",
+      "start": 3118,
+      "end": 3119
+    },
+    {
+      "token": "八柱",
+      "start": 3119,
+      "end": 3121
+    },
+    {
+      "token": "，",
+      "start": 3121,
+      "end": 3122
+    },
+    {
+      "token": "四角",
+      "start": 3122,
+      "end": 3124
+    },
+    {
+      "token": "重檐",
+      "start": 3124,
+      "end": 3126
+    },
+    {
+      "token": "的",
+      "start": 3126,
+      "end": 3127
+    },
+    {
+      "token": "一座",
+      "start": 3127,
+      "end": 3129
+    },
+    {
+      "token": "隽",
+      "start": 3129,
+      "end": 3130
+    },
+    {
+      "token": "秀",
+      "start": 3130,
+      "end": 3131
+    },
+    {
+      "token": "亭子",
+      "start": 3131,
+      "end": 3133
+    },
+    {
+      "token": "，",
+      "start": 3133,
+      "end": 3134
+    },
+    {
+      "token": "桥",
+      "start": 3134,
+      "end": 3135
+    },
+    {
+      "token": "南北",
+      "start": 3135,
+      "end": 3137
+    },
+    {
+      "token": "两端",
+      "start": 3137,
+      "end": 3139
+    },
+    {
+      "token": "的",
+      "start": 3139,
+      "end": 3140
+    },
+    {
+      "token": "柳丝",
+      "start": 3140,
+      "end": 3142
+    },
+    {
+      "token": "婀娜多姿",
+      "start": 3142,
+      "end": 3146
+    },
+    {
+      "token": "，",
+      "start": 3146,
+      "end": 3147
+    },
+    {
+      "token": "楚楚动人",
+      "start": 3147,
+      "end": 3151
+    },
+    {
+      "token": "。",
+      "start": 3151,
+      "end": 3152
+    },
+    {
+      "token": " ",
+      "start": 3152,
+      "end": 3153
+    },
+    {
+      "token": "再",
+      "start": 3153,
+      "end": 3154
+    },
+    {
+      "token": "回望",
+      "start": 3154,
+      "end": 3156
+    },
+    {
+      "token": "远处",
+      "start": 3156,
+      "end": 3158
+    },
+    {
+      "token": "的",
+      "start": 3158,
+      "end": 3159
+    },
+    {
+      "token": "景",
+      "start": 3159,
+      "end": 3160
+    },
+    {
+      "token": "明",
+      "start": 3160,
+      "end": 3161
+    },
+    {
+      "token": "楼",
+      "start": 3161,
+      "end": 3162
+    },
+    {
+      "token": "，",
+      "start": 3162,
+      "end": 3163
+    },
+    {
+      "token": "当年",
+      "start": 3163,
+      "end": 3165
+    },
+    {
+      "token": "乾隆皇帝",
+      "start": 3165,
+      "end": 3169
+    },
+    {
+      "token": "每年",
+      "start": 3169,
+      "end": 3171
+    },
+    {
+      "token": "都",
+      "start": 3171,
+      "end": 3172
+    },
+    {
+      "token": "要",
+      "start": 3172,
+      "end": 3173
+    },
+    {
+      "token": "到",
+      "start": 3173,
+      "end": 3174
+    },
+    {
+      "token": "这里",
+      "start": 3174,
+      "end": 3176
+    },
+    {
+      "token": "赏",
+      "start": 3176,
+      "end": 3177
+    },
+    {
+      "token": "景",
+      "start": 3177,
+      "end": 3178
+    },
+    {
+      "token": "赋诗",
+      "start": 3178,
+      "end": 3180
+    },
+    {
+      "token": "或",
+      "start": 3180,
+      "end": 3181
+    },
+    {
+      "token": "荡舟",
+      "start": 3181,
+      "end": 3183
+    },
+    {
+      "token": "观",
+      "start": 3183,
+      "end": 3184
+    },
+    {
+      "token": "楼",
+      "start": 3184,
+      "end": 3185
+    },
+    {
+      "token": "，",
+      "start": 3185,
+      "end": 3186
+    },
+    {
+      "token": "他",
+      "start": 3186,
+      "end": 3187
+    },
+    {
+      "token": "从",
+      "start": 3187,
+      "end": 3188
+    },
+    {
+      "token": "\"",
+      "start": 3188,
+      "end": 3189
+    },
+    {
+      "token": "岳阳楼记",
+      "start": 3189,
+      "end": 3193
+    },
+    {
+      "token": "\"",
+      "start": 3193,
+      "end": 3194
+    },
+    {
+      "token": "取",
+      "start": 3194,
+      "end": 3195
+    },
+    {
+      "token": "\"",
+      "start": 3195,
+      "end": 3196
+    },
+    {
+      "token": "景",
+      "start": 3196,
+      "end": 3197
+    },
+    {
+      "token": "明",
+      "start": 3197,
+      "end": 3198
+    },
+    {
+      "token": "\"",
+      "start": 3198,
+      "end": 3199
+    },
+    {
+      "token": "二",
+      "start": 3199,
+      "end": 3200
+    },
+    {
+      "token": "字",
+      "start": 3200,
+      "end": 3201
+    },
+    {
+      "token": "，",
+      "start": 3201,
+      "end": 3202
+    },
+    {
+      "token": "想必",
+      "start": 3202,
+      "end": 3204
+    },
+    {
+      "token": "也",
+      "start": 3204,
+      "end": 3205
+    },
+    {
+      "token": "是",
+      "start": 3205,
+      "end": 3206
+    },
+    {
+      "token": "提醒",
+      "start": 3206,
+      "end": 3208
+    },
+    {
+      "token": "自己",
+      "start": 3208,
+      "end": 3210
+    },
+    {
+      "token": "\"",
+      "start": 3210,
+      "end": 3211
+    },
+    {
+      "token": "先天下之忧而忧",
+      "start": 3211,
+      "end": 3218
+    },
+    {
+      "token": "，",
+      "start": 3218,
+      "end": 3219
+    },
+    {
+      "token": "后天下之乐而乐",
+      "start": 3219,
+      "end": 3226
+    },
+    {
+      "token": "\"",
+      "start": 3226,
+      "end": 3227
+    },
+    {
+      "token": "，",
+      "start": 3227,
+      "end": 3228
+    },
+    {
+      "token": "让",
+      "start": 3228,
+      "end": 3229
+    },
+    {
+      "token": "自己",
+      "start": 3229,
+      "end": 3231
+    },
+    {
+      "token": "在",
+      "start": 3231,
+      "end": 3232
+    },
+    {
+      "token": "游",
+      "start": 3232,
+      "end": 3233
+    },
+    {
+      "token": "娱",
+      "start": 3233,
+      "end": 3234
+    },
+    {
+      "token": "之中",
+      "start": 3234,
+      "end": 3236
+    },
+    {
+      "token": "\"",
+      "start": 3236,
+      "end": 3237
+    },
+    {
+      "token": "偷闲",
+      "start": 3237,
+      "end": 3239
+    },
+    {
+      "token": "略",
+      "start": 3239,
+      "end": 3240
+    },
+    {
+      "token": "赏",
+      "start": 3240,
+      "end": 3241
+    },
+    {
+      "token": "还",
+      "start": 3241,
+      "end": 3242
+    },
+    {
+      "token": "知",
+      "start": 3242,
+      "end": 3243
+    },
+    {
+      "token": "愧",
+      "start": 3243,
+      "end": 3244
+    },
+    {
+      "token": "\"",
+      "start": 3244,
+      "end": 3245
+    },
+    {
+      "token": ",",
+      "start": 3245,
+      "end": 3246
+    },
+    {
+      "token": "\"",
+      "start": 3246,
+      "end": 3247
+    },
+    {
+      "token": "后",
+      "start": 3247,
+      "end": 3248
+    },
+    {
+      "token": "了",
+      "start": 3248,
+      "end": 3249
+    },
+    {
+      "token": "先",
+      "start": 3249,
+      "end": 3250
+    },
+    {
+      "token": "忧",
+      "start": 3250,
+      "end": 3251
+    },
+    {
+      "token": "缅",
+      "start": 3251,
+      "end": 3252
+    },
+    {
+      "token": "前贤",
+      "start": 3252,
+      "end": 3254
+    },
+    {
+      "token": "\"",
+      "start": 3254,
+      "end": 3255
+    },
+    {
+      "token": ".",
+      "start": 3255,
+      "end": 3256
+    },
+    {
+      "token": " ",
+      "start": 3256,
+      "end": 3257
+    },
+    {
+      "token": "已经",
+      "start": 3257,
+      "end": 3259
+    },
+    {
+      "token": "来到",
+      "start": 3259,
+      "end": 3261
+    },
+    {
+      "token": "昆明湖",
+      "start": 3261,
+      "end": 3264
+    },
+    {
+      "token": "的",
+      "start": 3264,
+      "end": 3265
+    },
+    {
+      "token": "南岸",
+      "start": 3265,
+      "end": 3267
+    },
+    {
+      "token": "，",
+      "start": 3267,
+      "end": 3268
+    },
+    {
+      "token": "从",
+      "start": 3268,
+      "end": 3269
+    },
+    {
+      "token": "望远镜",
+      "start": 3269,
+      "end": 3272
+    },
+    {
+      "token": "头",
+      "start": 3272,
+      "end": 3273
+    },
+    {
+      "token": "看",
+      "start": 3273,
+      "end": 3274
+    },
+    {
+      "token": "万寿山",
+      "start": 3274,
+      "end": 3277
+    },
+    {
+      "token": "上",
+      "start": 3277,
+      "end": 3278
+    },
+    {
+      "token": "建筑群",
+      "start": 3278,
+      "end": 3281
+    },
+    {
+      "token": "。",
+      "start": 3281,
+      "end": 3282
+    },
+    {
+      "token": "佛香阁",
+      "start": 3282,
+      "end": 3285
+    },
+    {
+      "token": "那",
+      "start": 3285,
+      "end": 3286
+    },
+    {
+      "token": "八角形",
+      "start": 3286,
+      "end": 3289
+    },
+    {
+      "token": "，",
+      "start": 3289,
+      "end": 3290
+    },
+    {
+      "token": "四",
+      "start": 3290,
+      "end": 3291
+    },
+    {
+      "token": "重檐",
+      "start": 3291,
+      "end": 3293
+    },
+    {
+      "token": "，",
+      "start": 3293,
+      "end": 3294
+    },
+    {
+      "token": "攒",
+      "start": 3294,
+      "end": 3295
+    },
+    {
+      "token": "尖顶",
+      "start": 3295,
+      "end": 3297
+    },
+    {
+      "token": "的",
+      "start": 3297,
+      "end": 3298
+    },
+    {
+      "token": "形象",
+      "start": 3298,
+      "end": 3300
+    },
+    {
+      "token": "在",
+      "start": 3300,
+      "end": 3301
+    },
+    {
+      "token": "园内",
+      "start": 3301,
+      "end": 3303
+    },
+    {
+      "token": "园外",
+      "start": 3303,
+      "end": 3305
+    },
+    {
+      "token": "的",
+      "start": 3305,
+      "end": 3306
+    },
+    {
+      "token": "许多",
+      "start": 3306,
+      "end": 3308
+    },
+    {
+      "token": "地方",
+      "start": 3308,
+      "end": 3310
+    },
+    {
+      "token": "都",
+      "start": 3310,
+      "end": 3311
+    },
+    {
+      "token": "能",
+      "start": 3311,
+      "end": 3312
+    },
+    {
+      "token": "看到",
+      "start": 3312,
+      "end": 3314
+    },
+    {
+      "token": "，",
+      "start": 3314,
+      "end": 3315
+    },
+    {
+      "token": "器宇轩昂",
+      "start": 3315,
+      "end": 3319
+    },
+    {
+      "token": "，",
+      "start": 3319,
+      "end": 3320
+    },
+    {
+      "token": "凌驾",
+      "start": 3320,
+      "end": 3322
+    },
+    {
+      "token": "群伦",
+      "start": 3322,
+      "end": 3324
+    },
+    {
+      "token": "，",
+      "start": 3324,
+      "end": 3325
+    },
+    {
+      "token": "成为",
+      "start": 3325,
+      "end": 3327
+    },
+    {
+      "token": "整个",
+      "start": 3327,
+      "end": 3329
+    },
+    {
+      "token": "前山",
+      "start": 3329,
+      "end": 3331
+    },
+    {
+      "token": "和",
+      "start": 3331,
+      "end": 3332
+    },
+    {
+      "token": "昆明湖",
+      "start": 3332,
+      "end": 3335
+    },
+    {
+      "token": "的",
+      "start": 3335,
+      "end": 3336
+    },
+    {
+      "token": "总",
+      "start": 3336,
+      "end": 3337
+    },
+    {
+      "token": "绾",
+      "start": 3337,
+      "end": 3338
+    },
+    {
+      "token": "全局",
+      "start": 3338,
+      "end": 3340
+    },
+    {
+      "token": "的",
+      "start": 3340,
+      "end": 3341
+    },
+    {
+      "token": "构图",
+      "start": 3341,
+      "end": 3343
+    },
+    {
+      "token": "中心",
+      "start": 3343,
+      "end": 3345
+    },
+    {
+      "token": "。",
+      "start": 3345,
+      "end": 3346
+    },
+    {
+      "token": " ",
+      "start": 3346,
+      "end": 3347
+    },
+    {
+      "token": "在",
+      "start": 3347,
+      "end": 3348
+    },
+    {
+      "token": "靠近",
+      "start": 3348,
+      "end": 3350
+    },
+    {
+      "token": "昆明湖",
+      "start": 3350,
+      "end": 3353
+    },
+    {
+      "token": "南岸",
+      "start": 3353,
+      "end": 3355
+    },
+    {
+      "token": "的",
+      "start": 3355,
+      "end": 3356
+    },
+    {
+      "token": "湖中",
+      "start": 3356,
+      "end": 3358
+    },
+    {
+      "token": "有",
+      "start": 3358,
+      "end": 3359
+    },
+    {
+      "token": "一个",
+      "start": 3359,
+      "end": 3361
+    },
+    {
+      "token": "很小",
+      "start": 3361,
+      "end": 3363
+    },
+    {
+      "token": "的",
+      "start": 3363,
+      "end": 3364
+    },
+    {
+      "token": "岛",
+      "start": 3364,
+      "end": 3365
+    },
+    {
+      "token": "-",
+      "start": 3365,
+      "end": 3366
+    },
+    {
+      "token": "\"",
+      "start": 3366,
+      "end": 3367
+    },
+    {
+      "token": "凤凰",
+      "start": 3367,
+      "end": 3369
+    },
+    {
+      "token": "墩",
+      "start": 3369,
+      "end": 3370
+    },
+    {
+      "token": "\"",
+      "start": 3370,
+      "end": 3371
+    },
+    {
+      "token": ".",
+      "start": 3371,
+      "end": 3372
+    },
+    {
+      "token": "凤凰",
+      "start": 3372,
+      "end": 3374
+    },
+    {
+      "token": "墩",
+      "start": 3374,
+      "end": 3375
+    },
+    {
+      "token": "是",
+      "start": 3375,
+      "end": 3376
+    },
+    {
+      "token": "仿",
+      "start": 3376,
+      "end": 3377
+    },
+    {
+      "token": "无锡",
+      "start": 3377,
+      "end": 3379
+    },
+    {
+      "token": "运河",
+      "start": 3379,
+      "end": 3381
+    },
+    {
+      "token": "中",
+      "start": 3381,
+      "end": 3382
+    },
+    {
+      "token": "的",
+      "start": 3382,
+      "end": 3383
+    },
+    {
+      "token": "皇甫",
+      "start": 3383,
+      "end": 3385
+    },
+    {
+      "token": "墩",
+      "start": 3385,
+      "end": 3386
+    },
+    {
+      "token": "而",
+      "start": 3386,
+      "end": 3387
+    },
+    {
+      "token": "建",
+      "start": 3387,
+      "end": 3388
+    },
+    {
+      "token": "。",
+      "start": 3388,
+      "end": 3389
+    },
+    {
+      "token": "乾隆",
+      "start": 3389,
+      "end": 3391
+    },
+    {
+      "token": "和",
+      "start": 3391,
+      "end": 3392
+    },
+    {
+      "token": "太后",
+      "start": 3392,
+      "end": 3394
+    },
+    {
+      "token": "到",
+      "start": 3394,
+      "end": 3395
+    },
+    {
+      "token": "江南",
+      "start": 3395,
+      "end": 3397
+    },
+    {
+      "token": "，",
+      "start": 3397,
+      "end": 3398
+    },
+    {
+      "token": "路过",
+      "start": 3398,
+      "end": 3400
+    },
+    {
+      "token": "皇甫",
+      "start": 3400,
+      "end": 3402
+    },
+    {
+      "token": "墩",
+      "start": 3402,
+      "end": 3403
+    },
+    {
+      "token": "时",
+      "start": 3403,
+      "end": 3404
+    },
+    {
+      "token": "，",
+      "start": 3404,
+      "end": 3405
+    },
+    {
+      "token": "皇太后",
+      "start": 3405,
+      "end": 3408
+    },
+    {
+      "token": "感冒",
+      "start": 3408,
+      "end": 3410
+    },
+    {
+      "token": "了",
+      "start": 3410,
+      "end": 3411
+    },
+    {
+      "token": "，",
+      "start": 3411,
+      "end": 3412
+    },
+    {
+      "token": "经过",
+      "start": 3412,
+      "end": 3414
+    },
+    {
+      "token": "寺",
+      "start": 3414,
+      "end": 3415
+    },
+    {
+      "token": "中",
+      "start": 3415,
+      "end": 3416
+    },
+    {
+      "token": "方丈",
+      "start": 3416,
+      "end": 3418
+    },
+    {
+      "token": "治疗",
+      "start": 3418,
+      "end": 3420
+    },
+    {
+      "token": "好转",
+      "start": 3420,
+      "end": 3422
+    },
+    {
+      "token": "，",
+      "start": 3422,
+      "end": 3423
+    },
+    {
+      "token": "乾隆",
+      "start": 3423,
+      "end": 3425
+    },
+    {
+      "token": "回",
+      "start": 3425,
+      "end": 3426
+    },
+    {
+      "token": "北京",
+      "start": 3426,
+      "end": 3428
+    },
+    {
+      "token": "后",
+      "start": 3428,
+      "end": 3429
+    },
+    {
+      "token": "，",
+      "start": 3429,
+      "end": 3430
+    },
+    {
+      "token": "便",
+      "start": 3430,
+      "end": 3431
+    },
+    {
+      "token": "命",
+      "start": 3431,
+      "end": 3432
+    },
+    {
+      "token": "人",
+      "start": 3432,
+      "end": 3433
+    },
+    {
+      "token": "在",
+      "start": 3433,
+      "end": 3434
+    },
+    {
+      "token": "昆明湖",
+      "start": 3434,
+      "end": 3437
+    },
+    {
+      "token": "中",
+      "start": 3437,
+      "end": 3438
+    },
+    {
+      "token": "修建",
+      "start": 3438,
+      "end": 3440
+    },
+    {
+      "token": "凤凰",
+      "start": 3440,
+      "end": 3442
+    },
+    {
+      "token": "墩",
+      "start": 3442,
+      "end": 3443
+    },
+    {
+      "token": "，",
+      "start": 3443,
+      "end": 3444
+    },
+    {
+      "token": "并",
+      "start": 3444,
+      "end": 3445
+    },
+    {
+      "token": "在",
+      "start": 3445,
+      "end": 3446
+    },
+    {
+      "token": "墩",
+      "start": 3446,
+      "end": 3447
+    },
+    {
+      "token": "上",
+      "start": 3447,
+      "end": 3448
+    },
+    {
+      "token": "修建",
+      "start": 3448,
+      "end": 3450
+    },
+    {
+      "token": "了",
+      "start": 3450,
+      "end": 3451
+    },
+    {
+      "token": "一座",
+      "start": 3451,
+      "end": 3453
+    },
+    {
+      "token": "凤凰",
+      "start": 3453,
+      "end": 3455
+    },
+    {
+      "token": "楼",
+      "start": 3455,
+      "end": 3456
+    },
+    {
+      "token": "，",
+      "start": 3456,
+      "end": 3457
+    },
+    {
+      "token": "楼内",
+      "start": 3457,
+      "end": 3459
+    },
+    {
+      "token": "供奉",
+      "start": 3459,
+      "end": 3461
+    },
+    {
+      "token": "一只",
+      "start": 3461,
+      "end": 3463
+    },
+    {
+      "token": "铜",
+      "start": 3463,
+      "end": 3464
+    },
+    {
+      "token": "凤凰",
+      "start": 3464,
+      "end": 3466
+    },
+    {
+      "token": "。",
+      "start": 3466,
+      "end": 3467
+    },
+    {
+      "token": "相传",
+      "start": 3467,
+      "end": 3469
+    },
+    {
+      "token": "道光",
+      "start": 3469,
+      "end": 3471
+    },
+    {
+      "token": "皇帝",
+      "start": 3471,
+      "end": 3473
+    },
+    {
+      "token": "生",
+      "start": 3473,
+      "end": 3474
+    },
+    {
+      "token": "的",
+      "start": 3474,
+      "end": 3475
+    },
+    {
+      "token": "公主",
+      "start": 3475,
+      "end": 3477
+    },
+    {
+      "token": "多",
+      "start": 3477,
+      "end": 3478
+    },
+    {
+      "token": "儿子",
+      "start": 3478,
+      "end": 3480
+    },
+    {
+      "token": "少",
+      "start": 3480,
+      "end": 3481
+    },
+    {
+      "token": "，",
+      "start": 3481,
+      "end": 3482
+    },
+    {
+      "token": "风水先生",
+      "start": 3482,
+      "end": 3486
+    },
+    {
+      "token": "一",
+      "start": 3486,
+      "end": 3487
+    },
+    {
+      "token": "算",
+      "start": 3487,
+      "end": 3488
+    },
+    {
+      "token": "说",
+      "start": 3488,
+      "end": 3489
+    },
+    {
+      "token": "，",
+      "start": 3489,
+      "end": 3490
+    },
+    {
+      "token": "因",
+      "start": 3490,
+      "end": 3491
+    },
+    {
+      "token": "凤凰",
+      "start": 3491,
+      "end": 3493
+    },
+    {
+      "token": "属",
+      "start": 3493,
+      "end": 3494
+    },
+    {
+      "token": "阴",
+      "start": 3494,
+      "end": 3495
+    },
+    {
+      "token": "，",
+      "start": 3495,
+      "end": 3496
+    },
+    {
+      "token": "是",
+      "start": 3496,
+      "end": 3497
+    },
+    {
+      "token": "清漪园",
+      "start": 3497,
+      "end": 3500
+    },
+    {
+      "token": "的",
+      "start": 3500,
+      "end": 3501
+    },
+    {
+      "token": "凤凰",
+      "start": 3501,
+      "end": 3503
+    },
+    {
+      "token": "楼",
+      "start": 3503,
+      "end": 3504
+    },
+    {
+      "token": "及",
+      "start": 3504,
+      "end": 3505
+    },
+    {
+      "token": "凤凰",
+      "start": 3505,
+      "end": 3507
+    },
+    {
+      "token": "作怪",
+      "start": 3507,
+      "end": 3509
+    },
+    {
+      "token": "，",
+      "start": 3509,
+      "end": 3510
+    },
+    {
+      "token": "所以",
+      "start": 3510,
+      "end": 3512
+    },
+    {
+      "token": "道光",
+      "start": 3512,
+      "end": 3514
+    },
+    {
+      "token": "命",
+      "start": 3514,
+      "end": 3515
+    },
+    {
+      "token": "人",
+      "start": 3515,
+      "end": 3516
+    },
+    {
+      "token": "拆除",
+      "start": 3516,
+      "end": 3518
+    },
+    {
+      "token": "了",
+      "start": 3518,
+      "end": 3519
+    },
+    {
+      "token": "凤凰",
+      "start": 3519,
+      "end": 3521
+    },
+    {
+      "token": "楼",
+      "start": 3521,
+      "end": 3522
+    },
+    {
+      "token": "。",
+      "start": 3522,
+      "end": 3523
+    },
+    {
+      "token": "现在",
+      "start": 3523,
+      "end": 3525
+    },
+    {
+      "token": "的",
+      "start": 3525,
+      "end": 3526
+    },
+    {
+      "token": "岛上",
+      "start": 3526,
+      "end": 3528
+    },
+    {
+      "token": "有",
+      "start": 3528,
+      "end": 3529
+    },
+    {
+      "token": "一个",
+      "start": 3529,
+      "end": 3531
+    },
+    {
+      "token": "八角",
+      "start": 3531,
+      "end": 3533
+    },
+    {
+      "token": "小亭",
+      "start": 3533,
+      "end": 3535
+    },
+    {
+      "token": "，",
+      "start": 3535,
+      "end": 3536
+    },
+    {
+      "token": "为",
+      "start": 3536,
+      "end": 3537
+    },
+    {
+      "token": "现代",
+      "start": 3537,
+      "end": 3539
+    },
+    {
+      "token": "仿建",
+      "start": 3539,
+      "end": 3541
+    },
+    {
+      "token": "。",
+      "start": 3541,
+      "end": 3542
+    },
+    {
+      "token": " ",
+      "start": 3542,
+      "end": 3543
+    },
+    {
+      "token": "西堤",
+      "start": 3543,
+      "end": 3545
+    },
+    {
+      "token": "走",
+      "start": 3545,
+      "end": 3546
+    },
+    {
+      "token": "到",
+      "start": 3546,
+      "end": 3547
+    },
+    {
+      "token": "了",
+      "start": 3547,
+      "end": 3548
+    },
+    {
+      "token": "最南端",
+      "start": 3548,
+      "end": 3551
+    },
+    {
+      "token": "，",
+      "start": 3551,
+      "end": 3552
+    },
+    {
+      "token": "这里",
+      "start": 3552,
+      "end": 3554
+    },
+    {
+      "token": "也",
+      "start": 3554,
+      "end": 3555
+    },
+    {
+      "token": "是",
+      "start": 3555,
+      "end": 3556
+    },
+    {
+      "token": "昆明湖",
+      "start": 3556,
+      "end": 3559
+    },
+    {
+      "token": "南",
+      "start": 3559,
+      "end": 3560
+    },
+    {
+      "token": "出口",
+      "start": 3560,
+      "end": 3562
+    },
+    {
+      "token": "，",
+      "start": 3562,
+      "end": 3563
+    },
+    {
+      "token": "有",
+      "start": 3563,
+      "end": 3564
+    },
+    {
+      "token": "一座",
+      "start": 3564,
+      "end": 3566
+    },
+    {
+      "token": "高大",
+      "start": 3566,
+      "end": 3568
+    },
+    {
+      "token": "的",
+      "start": 3568,
+      "end": 3569
+    },
+    {
+      "token": "白色",
+      "start": 3569,
+      "end": 3571
+    },
+    {
+      "token": "玉石",
+      "start": 3571,
+      "end": 3573
+    },
+    {
+      "token": "拱桥",
+      "start": 3573,
+      "end": 3575
+    },
+    {
+      "token": "-",
+      "start": 3575,
+      "end": 3576
+    },
+    {
+      "token": "\"",
+      "start": 3576,
+      "end": 3577
+    },
+    {
+      "token": "绣",
+      "start": 3577,
+      "end": 3578
+    },
+    {
+      "token": "漪",
+      "start": 3578,
+      "end": 3579
+    },
+    {
+      "token": "桥",
+      "start": 3579,
+      "end": 3580
+    },
+    {
+      "token": "\"",
+      "start": 3580,
+      "end": 3581
+    },
+    {
+      "token": "，",
+      "start": 3581,
+      "end": 3582
+    },
+    {
+      "token": "跟",
+      "start": 3582,
+      "end": 3583
+    },
+    {
+      "token": "玉带桥",
+      "start": 3583,
+      "end": 3586
+    },
+    {
+      "token": "非常",
+      "start": 3586,
+      "end": 3588
+    },
+    {
+      "token": "相似",
+      "start": 3588,
+      "end": 3590
+    },
+    {
+      "token": "。",
+      "start": 3590,
+      "end": 3591
+    },
+    {
+      "token": "绣",
+      "start": 3591,
+      "end": 3592
+    },
+    {
+      "token": "漪",
+      "start": 3592,
+      "end": 3593
+    },
+    {
+      "token": "桥",
+      "start": 3593,
+      "end": 3594
+    },
+    {
+      "token": "内",
+      "start": 3594,
+      "end": 3595
+    },
+    {
+      "token": "是",
+      "start": 3595,
+      "end": 3596
+    },
+    {
+      "token": "昆明湖",
+      "start": 3596,
+      "end": 3599
+    },
+    {
+      "token": "，",
+      "start": 3599,
+      "end": 3600
+    },
+    {
+      "token": "桥",
+      "start": 3600,
+      "end": 3601
+    },
+    {
+      "token": "外",
+      "start": 3601,
+      "end": 3602
+    },
+    {
+      "token": "则",
+      "start": 3602,
+      "end": 3603
+    },
+    {
+      "token": "是",
+      "start": 3603,
+      "end": 3604
+    },
+    {
+      "token": "万泉河",
+      "start": 3604,
+      "end": 3607
+    },
+    {
+      "token": "。",
+      "start": 3607,
+      "end": 3608
+    },
+    {
+      "token": "夏天",
+      "start": 3608,
+      "end": 3610
+    },
+    {
+      "token": "河水",
+      "start": 3610,
+      "end": 3612
+    },
+    {
+      "token": "丰沛",
+      "start": 3612,
+      "end": 3614
+    },
+    {
+      "token": "的",
+      "start": 3614,
+      "end": 3615
+    },
+    {
+      "token": "时候",
+      "start": 3615,
+      "end": 3617
+    },
+    {
+      "token": "，",
+      "start": 3617,
+      "end": 3618
+    },
+    {
+      "token": "从",
+      "start": 3618,
+      "end": 3619
+    },
+    {
+      "token": "这里",
+      "start": 3619,
+      "end": 3621
+    },
+    {
+      "token": "可以",
+      "start": 3621,
+      "end": 3623
+    },
+    {
+      "token": "乘",
+      "start": 3623,
+      "end": 3624
+    },
+    {
+      "token": "游船",
+      "start": 3624,
+      "end": 3626
+    },
+    {
+      "token": "一直",
+      "start": 3626,
+      "end": 3628
+    },
+    {
+      "token": "到",
+      "start": 3628,
+      "end": 3629
+    },
+    {
+      "token": "紫竹院",
+      "start": 3629,
+      "end": 3632
+    },
+    {
+      "token": "码头",
+      "start": 3632,
+      "end": 3634
+    },
+    {
+      "token": "。",
+      "start": 3634,
+      "end": 3635
+    },
+    {
+      "token": "想必",
+      "start": 3635,
+      "end": 3637
+    },
+    {
+      "token": "当年",
+      "start": 3637,
+      "end": 3639
+    },
+    {
+      "token": "慈禧太后",
+      "start": 3639,
+      "end": 3643
+    },
+    {
+      "token": "从",
+      "start": 3643,
+      "end": 3644
+    },
+    {
+      "token": "水路",
+      "start": 3644,
+      "end": 3646
+    },
+    {
+      "token": "来",
+      "start": 3646,
+      "end": 3647
+    },
+    {
+      "token": "颐和园",
+      "start": 3647,
+      "end": 3650
+    },
+    {
+      "token": "避暑",
+      "start": 3650,
+      "end": 3652
+    },
+    {
+      "token": "，",
+      "start": 3652,
+      "end": 3653
+    },
+    {
+      "token": "也",
+      "start": 3653,
+      "end": 3654
+    },
+    {
+      "token": "是从",
+      "start": 3654,
+      "end": 3656
+    },
+    {
+      "token": "紫竹院",
+      "start": 3656,
+      "end": 3659
+    },
+    {
+      "token": "那里",
+      "start": 3659,
+      "end": 3661
+    },
+    {
+      "token": "上船",
+      "start": 3661,
+      "end": 3663
+    },
+    {
+      "token": "，",
+      "start": 3663,
+      "end": 3664
+    },
+    {
+      "token": "一路",
+      "start": 3664,
+      "end": 3666
+    },
+    {
+      "token": "溯",
+      "start": 3666,
+      "end": 3667
+    },
+    {
+      "token": "河",
+      "start": 3667,
+      "end": 3668
+    },
+    {
+      "token": "而",
+      "start": 3668,
+      "end": 3669
+    },
+    {
+      "token": "上",
+      "start": 3669,
+      "end": 3670
+    },
+    {
+      "token": "的",
+      "start": 3670,
+      "end": 3671
+    },
+    {
+      "token": "。",
+      "start": 3671,
+      "end": 3672
+    },
+    {
+      "token": " ",
+      "start": 3672,
+      "end": 3673
+    },
+    {
+      "token": "这",
+      "start": 3673,
+      "end": 3674
+    },
+    {
+      "token": "是",
+      "start": 3674,
+      "end": 3675
+    },
+    {
+      "token": "在",
+      "start": 3675,
+      "end": 3676
+    },
+    {
+      "token": "网上",
+      "start": 3676,
+      "end": 3678
+    },
+    {
+      "token": "找到",
+      "start": 3678,
+      "end": 3680
+    },
+    {
+      "token": "的",
+      "start": 3680,
+      "end": 3681
+    },
+    {
+      "token": "一张",
+      "start": 3681,
+      "end": 3683
+    },
+    {
+      "token": "颐和园",
+      "start": 3683,
+      "end": 3686
+    },
+    {
+      "token": "全",
+      "start": 3686,
+      "end": 3687
+    },
+    {
+      "token": "图",
+      "start": 3687,
+      "end": 3688
+    },
+    {
+      "token": "，",
+      "start": 3688,
+      "end": 3689
+    },
+    {
+      "token": "可以",
+      "start": 3689,
+      "end": 3691
+    },
+    {
+      "token": "清楚",
+      "start": 3691,
+      "end": 3693
+    },
+    {
+      "token": "地",
+      "start": 3693,
+      "end": 3694
+    },
+    {
+      "token": "看到",
+      "start": 3694,
+      "end": 3696
+    },
+    {
+      "token": "西堤",
+      "start": 3696,
+      "end": 3698
+    },
+    {
+      "token": "的",
+      "start": 3698,
+      "end": 3699
+    },
+    {
+      "token": "方位",
+      "start": 3699,
+      "end": 3701
+    },
+    {
+      "token": "，",
+      "start": 3701,
+      "end": 3702
+    },
+    {
+      "token": "以及",
+      "start": 3702,
+      "end": 3704
+    },
+    {
+      "token": "颐和园",
+      "start": 3704,
+      "end": 3707
+    },
+    {
+      "token": "\"",
+      "start": 3707,
+      "end": 3708
+    },
+    {
+      "token": "一",
+      "start": 3708,
+      "end": 3709
+    },
+    {
+      "token": "水",
+      "start": 3709,
+      "end": 3710
+    },
+    {
+      "token": "三山",
+      "start": 3710,
+      "end": 3712
+    },
+    {
+      "token": "\"",
+      "start": 3712,
+      "end": 3713
+    },
+    {
+      "token": "的",
+      "start": 3713,
+      "end": 3714
+    },
+    {
+      "token": "结构",
+      "start": 3714,
+      "end": 3716
+    },
+    {
+      "token": "布局",
+      "start": 3716,
+      "end": 3718
+    },
+    {
+      "token": "。",
+      "start": 3718,
+      "end": 3719
+    }
+  ]
+}

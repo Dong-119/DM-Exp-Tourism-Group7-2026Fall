@@ -1,0 +1,1370 @@
+[
+  {
+    "doc_id": "TT_S04",
+    "scenic_name": "天坛",
+    "text_type": "travelogue",
+    "provenance_kind": "synthetic_teaching",
+    "source_name": "本数据包原创教学模拟语料",
+    "source_url": null,
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "为任务1—7编写的教学模拟文章；非真实游客经历、非官方原文；时刻、时长与适用人群均为情境设定，不是实测或官方承诺",
+    "source_records": [
+      {
+        "doc_id": "TT_S04",
+        "input_path": "data\\html\\天坛\\游客游记\\TT_S04.html",
+        "source_name": "本数据包原创教学模拟语料",
+        "source_url": null,
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "synthetic_teaching"
+      }
+    ]
+  },
+  {
+    "doc_id": "TT_S05",
+    "scenic_name": "天坛",
+    "text_type": "travelogue",
+    "provenance_kind": "synthetic_teaching",
+    "source_name": "本数据包原创教学模拟语料",
+    "source_url": null,
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "为任务1—7编写的教学模拟文章；非真实游客经历、非官方原文；时刻、时长与适用人群均为情境设定，不是实测或官方承诺",
+    "source_records": [
+      {
+        "doc_id": "TT_S05",
+        "input_path": "data\\html\\天坛\\游客游记\\TT_S05.html",
+        "source_name": "本数据包原创教学模拟语料",
+        "source_url": null,
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "synthetic_teaching"
+      }
+    ]
+  },
+  {
+    "doc_id": "TT_T01",
+    "scenic_name": "天坛",
+    "text_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_name": "BAAI IndustryCorpus2 教师参考语料",
+    "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": "chinese/middle/rank_00712.parquet",
+    "source_row": 177510,
+    "source_record_id": "525900012631",
+    "content_origin": "教师参考语料单条记录全文；标题为整理标签，非原网页标题",
+    "source_records": [
+      {
+        "doc_id": "TT_T01",
+        "input_path": "data\\html\\天坛\\游客游记\\TT_T01.html",
+        "source_name": "BAAI IndustryCorpus2 教师参考语料",
+        "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": "chinese/middle/rank_00712.parquet",
+        "source_row": 177510,
+        "source_record_id": "525900012631",
+        "provenance_kind": "dataset_corpus"
+      }
+    ]
+  },
+  {
+    "doc_id": "TT_T02",
+    "scenic_name": "天坛",
+    "text_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_name": "BAAI IndustryCorpus2 教师参考语料",
+    "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": "chinese/middle/rank_00712.parquet",
+    "source_row": 26026,
+    "source_record_id": "1199400000459",
+    "content_origin": "教师参考语料单条记录全文；标题为整理标签，非原网页标题",
+    "source_records": [
+      {
+        "doc_id": "TT_T02",
+        "input_path": "data\\html\\天坛\\游客游记\\TT_T02.html",
+        "source_name": "BAAI IndustryCorpus2 教师参考语料",
+        "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": "chinese/middle/rank_00712.parquet",
+        "source_row": 26026,
+        "source_record_id": "1199400000459",
+        "provenance_kind": "dataset_corpus"
+      },
+      {
+        "doc_id": "TT_T02_M",
+        "input_path": "data\\html\\天坛\\游客游记\\TT_T02_M.html",
+        "source_name": "BAAI IndustryCorpus2 教师参考语料",
+        "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": "chinese/middle/rank_00712.parquet",
+        "source_row": 26026,
+        "source_record_id": "1199400000459",
+        "provenance_kind": "dataset_corpus"
+      }
+    ]
+  },
+  {
+    "doc_id": "TT_T03",
+    "scenic_name": "天坛",
+    "text_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_name": "BAAI IndustryCorpus2 教师参考语料",
+    "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": "chinese/middle/rank_00712.parquet",
+    "source_row": 157107,
+    "source_record_id": "896800004552",
+    "content_origin": "教师参考语料单条记录全文；标题为整理标签，非原网页标题",
+    "source_records": [
+      {
+        "doc_id": "TT_T03",
+        "input_path": "data\\html\\天坛\\游客游记\\TT_T03.html",
+        "source_name": "BAAI IndustryCorpus2 教师参考语料",
+        "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": "chinese/middle/rank_00712.parquet",
+        "source_row": 157107,
+        "source_record_id": "896800004552",
+        "provenance_kind": "dataset_corpus"
+      }
+    ]
+  },
+  {
+    "doc_id": "TT_T04",
+    "scenic_name": "天坛",
+    "text_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_name": "BAAI IndustryCorpus2 教师参考语料",
+    "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": "chinese/middle/rank_00712.parquet",
+    "source_row": 97875,
+    "source_record_id": "1759100000613",
+    "content_origin": "教师参考语料单条记录全文；标题为整理标签，非原网页标题",
+    "source_records": [
+      {
+        "doc_id": "TT_T04",
+        "input_path": "data\\html\\天坛\\游客游记\\TT_T04.html",
+        "source_name": "BAAI IndustryCorpus2 教师参考语料",
+        "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": "chinese/middle/rank_00712.parquet",
+        "source_row": 97875,
+        "source_record_id": "1759100000613",
+        "provenance_kind": "dataset_corpus"
+      }
+    ]
+  },
+  {
+    "doc_id": "TT_T05",
+    "scenic_name": "天坛",
+    "text_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_name": "BAAI IndustryCorpus2 教师参考语料",
+    "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": "chinese/middle/rank_00712.parquet",
+    "source_row": 49031,
+    "source_record_id": "1782800004472",
+    "content_origin": "教师参考语料单条记录全文；标题为整理标签，非原网页标题",
+    "source_records": [
+      {
+        "doc_id": "TT_T05",
+        "input_path": "data\\html\\天坛\\游客游记\\TT_T05.html",
+        "source_name": "BAAI IndustryCorpus2 教师参考语料",
+        "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": "chinese/middle/rank_00712.parquet",
+        "source_row": 49031,
+        "source_record_id": "1782800004472",
+        "provenance_kind": "dataset_corpus"
+      }
+    ]
+  },
+  {
+    "doc_id": "TT_F01",
+    "scenic_name": "天坛",
+    "text_type": "route_guide",
+    "provenance_kind": "official_route_facts",
+    "source_name": "北京市人民政府首都之窗（来源北京日报，公园推荐路线）",
+    "source_url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202408/t20240808_3769005.html",
+    "original_article_url": null,
+    "reference_url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202408/t20240808_3769005.html",
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "官方发布路线的事实性信息重述；不是官网完整原文，不添加官方未给出的具体时刻或停留时长",
+    "source_records": [
+      {
+        "doc_id": "TT_F01",
+        "input_path": "data\\html\\天坛\\游玩路线\\TT_F01.html",
+        "source_name": "北京市人民政府首都之窗（来源北京日报，公园推荐路线）",
+        "source_url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202408/t20240808_3769005.html",
+        "original_article_url": null,
+        "reference_url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202408/t20240808_3769005.html",
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "official_route_facts"
+      }
+    ]
+  },
+  {
+    "doc_id": "TT_O01",
+    "scenic_name": "天坛",
+    "text_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_name": "北京市人民政府首都之窗（来源北京日报，公园推荐路线）",
+    "source_url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202408/t20240808_3769005.html",
+    "original_article_url": null,
+    "reference_url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202408/t20240808_3769005.html",
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "依据官方发布路线编写的完整攻略整理稿，非官方原文",
+    "source_records": [
+      {
+        "doc_id": "TT_O01",
+        "input_path": "data\\html\\天坛\\游玩路线\\TT_O01.html",
+        "source_name": "北京市人民政府首都之窗（来源北京日报，公园推荐路线）",
+        "source_url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202408/t20240808_3769005.html",
+        "original_article_url": null,
+        "reference_url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202408/t20240808_3769005.html",
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "editorial_route_guide"
+      }
+    ]
+  },
+  {
+    "doc_id": "TT_O02",
+    "scenic_name": "天坛",
+    "text_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_name": "北京市人民政府首都之窗（来源北京日报，公园推荐路线）",
+    "source_url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202408/t20240808_3769005.html",
+    "original_article_url": null,
+    "reference_url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202408/t20240808_3769005.html",
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "依据官方发布路线编写的完整攻略整理稿，非官方原文",
+    "source_records": [
+      {
+        "doc_id": "TT_O02",
+        "input_path": "data\\html\\天坛\\游玩路线\\TT_O02.html",
+        "source_name": "北京市人民政府首都之窗（来源北京日报，公园推荐路线）",
+        "source_url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202408/t20240808_3769005.html",
+        "original_article_url": null,
+        "reference_url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202408/t20240808_3769005.html",
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "editorial_route_guide"
+      }
+    ]
+  },
+  {
+    "doc_id": "TT_O03",
+    "scenic_name": "天坛",
+    "text_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_name": "北京市人民政府首都之窗（来源北京日报，公园推荐路线）",
+    "source_url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202408/t20240808_3769005.html",
+    "original_article_url": null,
+    "reference_url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202408/t20240808_3769005.html",
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "依据官方发布路线编写的完整攻略整理稿，非官方原文",
+    "source_records": [
+      {
+        "doc_id": "TT_O03",
+        "input_path": "data\\html\\天坛\\游玩路线\\TT_O03.html",
+        "source_name": "北京市人民政府首都之窗（来源北京日报，公园推荐路线）",
+        "source_url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202408/t20240808_3769005.html",
+        "original_article_url": null,
+        "reference_url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202408/t20240808_3769005.html",
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "editorial_route_guide"
+      }
+    ]
+  },
+  {
+    "doc_id": "TT_O04",
+    "scenic_name": "天坛",
+    "text_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_name": "北京旅游网（北京市文化和旅游局宣传中心）",
+    "source_url": "https://www.visitbeijing.com.cn/article/4N0bP1sjf3e?device=amp",
+    "original_article_url": null,
+    "reference_url": "https://www.visitbeijing.com.cn/article/4N0bP1sjf3e?device=amp",
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "依据官方发布路线编写的完整攻略整理稿，非官方原文",
+    "source_records": [
+      {
+        "doc_id": "TT_O04",
+        "input_path": "data\\html\\天坛\\游玩路线\\TT_O04.html",
+        "source_name": "北京旅游网（北京市文化和旅游局宣传中心）",
+        "source_url": "https://www.visitbeijing.com.cn/article/4N0bP1sjf3e?device=amp",
+        "original_article_url": null,
+        "reference_url": "https://www.visitbeijing.com.cn/article/4N0bP1sjf3e?device=amp",
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "editorial_route_guide"
+      }
+    ]
+  },
+  {
+    "doc_id": "TT_O05",
+    "scenic_name": "天坛",
+    "text_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_name": "北京旅游网（北京市文化和旅游局宣传中心）",
+    "source_url": "https://www.visitbeijing.com.cn/article/4N0bP1sjf3e?device=amp",
+    "original_article_url": null,
+    "reference_url": "https://www.visitbeijing.com.cn/article/4N0bP1sjf3e?device=amp",
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "依据官方发布路线编写的完整攻略整理稿，非官方原文",
+    "source_records": [
+      {
+        "doc_id": "TT_O05",
+        "input_path": "data\\html\\天坛\\游玩路线\\TT_O05.html",
+        "source_name": "北京旅游网（北京市文化和旅游局宣传中心）",
+        "source_url": "https://www.visitbeijing.com.cn/article/4N0bP1sjf3e?device=amp",
+        "original_article_url": null,
+        "reference_url": "https://www.visitbeijing.com.cn/article/4N0bP1sjf3e?device=amp",
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "editorial_route_guide"
+      }
+    ]
+  },
+  {
+    "doc_id": "TT_S01",
+    "scenic_name": "天坛",
+    "text_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_name": "本数据包原创教学模拟语料",
+    "source_url": null,
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "为任务1—7编写的教学模拟文章；非真实游客经历、非官方原文；时刻、时长与适用人群均为情境设定，不是实测或官方承诺",
+    "source_records": [
+      {
+        "doc_id": "TT_S01",
+        "input_path": "data\\html\\天坛\\游玩路线\\TT_S01.html",
+        "source_name": "本数据包原创教学模拟语料",
+        "source_url": null,
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "synthetic_teaching"
+      }
+    ]
+  },
+  {
+    "doc_id": "TT_S02",
+    "scenic_name": "天坛",
+    "text_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_name": "本数据包原创教学模拟语料",
+    "source_url": null,
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "为任务1—7编写的教学模拟文章；非真实游客经历、非官方原文；时刻、时长与适用人群均为情境设定，不是实测或官方承诺",
+    "source_records": [
+      {
+        "doc_id": "TT_S02",
+        "input_path": "data\\html\\天坛\\游玩路线\\TT_S02.html",
+        "source_name": "本数据包原创教学模拟语料",
+        "source_url": null,
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "synthetic_teaching"
+      }
+    ]
+  },
+  {
+    "doc_id": "TT_S03",
+    "scenic_name": "天坛",
+    "text_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_name": "本数据包原创教学模拟语料",
+    "source_url": null,
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "为任务1—7编写的教学模拟文章；非真实游客经历、非官方原文；时刻、时长与适用人群均为情境设定，不是实测或官方承诺",
+    "source_records": [
+      {
+        "doc_id": "TT_S03",
+        "input_path": "data\\html\\天坛\\游玩路线\\TT_S03.html",
+        "source_name": "本数据包原创教学模拟语料",
+        "source_url": null,
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "synthetic_teaching"
+      }
+    ]
+  },
+  {
+    "doc_id": "GG_S04",
+    "scenic_name": "故宫",
+    "text_type": "travelogue",
+    "provenance_kind": "synthetic_teaching",
+    "source_name": "本数据包原创教学模拟语料",
+    "source_url": null,
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "为任务1—7编写的教学模拟文章；非真实游客经历、非官方原文；时刻、时长与适用人群均为情境设定，不是实测或官方承诺",
+    "source_records": [
+      {
+        "doc_id": "GG_S04",
+        "input_path": "data\\html\\故宫\\游客游记\\GG_S04.html",
+        "source_name": "本数据包原创教学模拟语料",
+        "source_url": null,
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "synthetic_teaching"
+      }
+    ]
+  },
+  {
+    "doc_id": "GG_S05",
+    "scenic_name": "故宫",
+    "text_type": "travelogue",
+    "provenance_kind": "synthetic_teaching",
+    "source_name": "本数据包原创教学模拟语料",
+    "source_url": null,
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "为任务1—7编写的教学模拟文章；非真实游客经历、非官方原文；时刻、时长与适用人群均为情境设定，不是实测或官方承诺",
+    "source_records": [
+      {
+        "doc_id": "GG_S05",
+        "input_path": "data\\html\\故宫\\游客游记\\GG_S05.html",
+        "source_name": "本数据包原创教学模拟语料",
+        "source_url": null,
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "synthetic_teaching"
+      }
+    ]
+  },
+  {
+    "doc_id": "GG_T01",
+    "scenic_name": "故宫",
+    "text_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_name": "BAAI IndustryCorpus2 教师参考语料",
+    "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": "chinese/middle/rank_00712.parquet",
+    "source_row": 6730,
+    "source_record_id": "510900003945",
+    "content_origin": "教师参考语料单条记录全文；标题为整理标签，非原网页标题",
+    "source_records": [
+      {
+        "doc_id": "GG_T01",
+        "input_path": "data\\html\\故宫\\游客游记\\GG_T01.html",
+        "source_name": "BAAI IndustryCorpus2 教师参考语料",
+        "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": "chinese/middle/rank_00712.parquet",
+        "source_row": 6730,
+        "source_record_id": "510900003945",
+        "provenance_kind": "dataset_corpus"
+      }
+    ]
+  },
+  {
+    "doc_id": "GG_T02",
+    "scenic_name": "故宫",
+    "text_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_name": "BAAI IndustryCorpus2 教师参考语料",
+    "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": "chinese/middle/rank_00712.parquet",
+    "source_row": 91593,
+    "source_record_id": "108100005458",
+    "content_origin": "教师参考语料单条记录全文；标题为整理标签，非原网页标题",
+    "source_records": [
+      {
+        "doc_id": "GG_T02",
+        "input_path": "data\\html\\故宫\\游客游记\\GG_T02.html",
+        "source_name": "BAAI IndustryCorpus2 教师参考语料",
+        "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": "chinese/middle/rank_00712.parquet",
+        "source_row": 91593,
+        "source_record_id": "108100005458",
+        "provenance_kind": "dataset_corpus"
+      }
+    ]
+  },
+  {
+    "doc_id": "GG_T03",
+    "scenic_name": "故宫",
+    "text_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_name": "BAAI IndustryCorpus2 教师参考语料",
+    "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": "chinese/middle/rank_00712.parquet",
+    "source_row": 5819,
+    "source_record_id": "478800028439",
+    "content_origin": "教师参考语料单条记录全文；标题为整理标签，非原网页标题",
+    "source_records": [
+      {
+        "doc_id": "GG_T03",
+        "input_path": "data\\html\\故宫\\游客游记\\GG_T03.html",
+        "source_name": "BAAI IndustryCorpus2 教师参考语料",
+        "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": "chinese/middle/rank_00712.parquet",
+        "source_row": 5819,
+        "source_record_id": "478800028439",
+        "provenance_kind": "dataset_corpus"
+      }
+    ]
+  },
+  {
+    "doc_id": "GG_T04",
+    "scenic_name": "故宫",
+    "text_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_name": "BAAI IndustryCorpus2 教师参考语料",
+    "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": "chinese/middle/rank_00712.parquet",
+    "source_row": 947,
+    "source_record_id": "150600026865",
+    "content_origin": "教师参考语料单条记录全文；标题为整理标签，非原网页标题",
+    "source_records": [
+      {
+        "doc_id": "GG_T04",
+        "input_path": "data\\html\\故宫\\游客游记\\GG_T04.html",
+        "source_name": "BAAI IndustryCorpus2 教师参考语料",
+        "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": "chinese/middle/rank_00712.parquet",
+        "source_row": 947,
+        "source_record_id": "150600026865",
+        "provenance_kind": "dataset_corpus"
+      }
+    ]
+  },
+  {
+    "doc_id": "GG_T05",
+    "scenic_name": "故宫",
+    "text_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_name": "BAAI IndustryCorpus2 教师参考语料",
+    "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": "chinese/middle/rank_00712.parquet",
+    "source_row": 2327,
+    "source_record_id": "112000015212",
+    "content_origin": "教师参考语料单条记录全文；标题为整理标签，非原网页标题",
+    "source_records": [
+      {
+        "doc_id": "GG_T05",
+        "input_path": "data\\html\\故宫\\游客游记\\GG_T05.html",
+        "source_name": "BAAI IndustryCorpus2 教师参考语料",
+        "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": "chinese/middle/rank_00712.parquet",
+        "source_row": 2327,
+        "source_record_id": "112000015212",
+        "provenance_kind": "dataset_corpus"
+      }
+    ]
+  },
+  {
+    "doc_id": "GG_F01",
+    "scenic_name": "故宫",
+    "text_type": "route_guide",
+    "provenance_kind": "official_route_facts",
+    "source_name": "北京旅游网（北京市文化和旅游局宣传中心）",
+    "source_url": "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp",
+    "original_article_url": null,
+    "reference_url": "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp",
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "官方发布路线的事实性信息重述；不是官网完整原文，不添加官方未给出的具体时刻或停留时长",
+    "source_records": [
+      {
+        "doc_id": "GG_F01",
+        "input_path": "data\\html\\故宫\\游玩路线\\GG_F01.html",
+        "source_name": "北京旅游网（北京市文化和旅游局宣传中心）",
+        "source_url": "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp",
+        "original_article_url": null,
+        "reference_url": "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp",
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "official_route_facts"
+      }
+    ]
+  },
+  {
+    "doc_id": "GG_O01",
+    "scenic_name": "故宫",
+    "text_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_name": "北京旅游网（北京市文化和旅游局宣传中心）",
+    "source_url": "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp",
+    "original_article_url": null,
+    "reference_url": "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp",
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "依据官方发布路线编写的完整攻略整理稿，非官方原文",
+    "source_records": [
+      {
+        "doc_id": "GG_O01",
+        "input_path": "data\\html\\故宫\\游玩路线\\GG_O01.html",
+        "source_name": "北京旅游网（北京市文化和旅游局宣传中心）",
+        "source_url": "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp",
+        "original_article_url": null,
+        "reference_url": "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp",
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "editorial_route_guide"
+      },
+      {
+        "doc_id": "GG_O01_DUP",
+        "input_path": "data\\html\\故宫\\游玩路线\\GG_O01_DUP.html",
+        "source_name": "北京旅游网（北京市文化和旅游局宣传中心）",
+        "source_url": "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp",
+        "original_article_url": null,
+        "reference_url": "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp",
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "editorial_route_guide"
+      }
+    ]
+  },
+  {
+    "doc_id": "GG_O02",
+    "scenic_name": "故宫",
+    "text_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_name": "北京旅游网（北京市文化和旅游局宣传中心）",
+    "source_url": "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp",
+    "original_article_url": null,
+    "reference_url": "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp",
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "依据官方发布路线编写的完整攻略整理稿，非官方原文",
+    "source_records": [
+      {
+        "doc_id": "GG_O02",
+        "input_path": "data\\html\\故宫\\游玩路线\\GG_O02.html",
+        "source_name": "北京旅游网（北京市文化和旅游局宣传中心）",
+        "source_url": "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp",
+        "original_article_url": null,
+        "reference_url": "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp",
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "editorial_route_guide"
+      }
+    ]
+  },
+  {
+    "doc_id": "GG_O03",
+    "scenic_name": "故宫",
+    "text_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_name": "北京旅游网（北京市文化和旅游局宣传中心）",
+    "source_url": "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp",
+    "original_article_url": null,
+    "reference_url": "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp",
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "依据官方发布路线编写的完整攻略整理稿，非官方原文",
+    "source_records": [
+      {
+        "doc_id": "GG_O03",
+        "input_path": "data\\html\\故宫\\游玩路线\\GG_O03.html",
+        "source_name": "北京旅游网（北京市文化和旅游局宣传中心）",
+        "source_url": "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp",
+        "original_article_url": null,
+        "reference_url": "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp",
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "editorial_route_guide"
+      }
+    ]
+  },
+  {
+    "doc_id": "GG_O04",
+    "scenic_name": "故宫",
+    "text_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_name": "北京旅游网（北京市文化和旅游局宣传中心）",
+    "source_url": "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp",
+    "original_article_url": null,
+    "reference_url": "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp",
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "依据官方发布路线编写的完整攻略整理稿，非官方原文",
+    "source_records": [
+      {
+        "doc_id": "GG_O04",
+        "input_path": "data\\html\\故宫\\游玩路线\\GG_O04.html",
+        "source_name": "北京旅游网（北京市文化和旅游局宣传中心）",
+        "source_url": "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp",
+        "original_article_url": null,
+        "reference_url": "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp",
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "editorial_route_guide"
+      }
+    ]
+  },
+  {
+    "doc_id": "GG_O05",
+    "scenic_name": "故宫",
+    "text_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_name": "北京旅游网（北京市文化和旅游局宣传中心）",
+    "source_url": "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp",
+    "original_article_url": null,
+    "reference_url": "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp",
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "依据官方发布路线编写的完整攻略整理稿，非官方原文",
+    "source_records": [
+      {
+        "doc_id": "GG_O05",
+        "input_path": "data\\html\\故宫\\游玩路线\\GG_O05.html",
+        "source_name": "北京旅游网（北京市文化和旅游局宣传中心）",
+        "source_url": "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp",
+        "original_article_url": null,
+        "reference_url": "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp",
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "editorial_route_guide"
+      }
+    ]
+  },
+  {
+    "doc_id": "GG_S01",
+    "scenic_name": "故宫",
+    "text_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_name": "本数据包原创教学模拟语料",
+    "source_url": null,
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "为任务1—7编写的教学模拟文章；非真实游客经历、非官方原文；时刻、时长与适用人群均为情境设定，不是实测或官方承诺",
+    "source_records": [
+      {
+        "doc_id": "GG_S01",
+        "input_path": "data\\html\\故宫\\游玩路线\\GG_S01.html",
+        "source_name": "本数据包原创教学模拟语料",
+        "source_url": null,
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "synthetic_teaching"
+      }
+    ]
+  },
+  {
+    "doc_id": "GG_S02",
+    "scenic_name": "故宫",
+    "text_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_name": "本数据包原创教学模拟语料",
+    "source_url": null,
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "为任务1—7编写的教学模拟文章；非真实游客经历、非官方原文；时刻、时长与适用人群均为情境设定，不是实测或官方承诺",
+    "source_records": [
+      {
+        "doc_id": "GG_S02",
+        "input_path": "data\\html\\故宫\\游玩路线\\GG_S02.html",
+        "source_name": "本数据包原创教学模拟语料",
+        "source_url": null,
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "synthetic_teaching"
+      }
+    ]
+  },
+  {
+    "doc_id": "GG_S03",
+    "scenic_name": "故宫",
+    "text_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_name": "本数据包原创教学模拟语料",
+    "source_url": null,
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "为任务1—7编写的教学模拟文章；非真实游客经历、非官方原文；时刻、时长与适用人群均为情境设定，不是实测或官方承诺",
+    "source_records": [
+      {
+        "doc_id": "GG_S03",
+        "input_path": "data\\html\\故宫\\游玩路线\\GG_S03.html",
+        "source_name": "本数据包原创教学模拟语料",
+        "source_url": null,
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "synthetic_teaching"
+      }
+    ]
+  },
+  {
+    "doc_id": "YHY_S04",
+    "scenic_name": "颐和园",
+    "text_type": "travelogue",
+    "provenance_kind": "synthetic_teaching",
+    "source_name": "本数据包原创教学模拟语料",
+    "source_url": null,
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "为任务1—7编写的教学模拟文章；非真实游客经历、非官方原文；时刻、时长与适用人群均为情境设定，不是实测或官方承诺",
+    "source_records": [
+      {
+        "doc_id": "YHY_S04",
+        "input_path": "data\\html\\颐和园\\游客游记\\YHY_S04.html",
+        "source_name": "本数据包原创教学模拟语料",
+        "source_url": null,
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "synthetic_teaching"
+      }
+    ]
+  },
+  {
+    "doc_id": "YHY_S05",
+    "scenic_name": "颐和园",
+    "text_type": "travelogue",
+    "provenance_kind": "synthetic_teaching",
+    "source_name": "本数据包原创教学模拟语料",
+    "source_url": null,
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "为任务1—7编写的教学模拟文章；非真实游客经历、非官方原文；时刻、时长与适用人群均为情境设定，不是实测或官方承诺",
+    "source_records": [
+      {
+        "doc_id": "YHY_S05",
+        "input_path": "data\\html\\颐和园\\游客游记\\YHY_S05.html",
+        "source_name": "本数据包原创教学模拟语料",
+        "source_url": null,
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "synthetic_teaching"
+      }
+    ]
+  },
+  {
+    "doc_id": "YHY_T01",
+    "scenic_name": "颐和园",
+    "text_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_name": "BAAI IndustryCorpus2 教师参考语料",
+    "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": "chinese/middle/rank_00712.parquet",
+    "source_row": 15439,
+    "source_record_id": "130900005765",
+    "content_origin": "教师参考语料单条记录全文；标题为整理标签，非原网页标题",
+    "source_records": [
+      {
+        "doc_id": "YHY_T01",
+        "input_path": "data\\html\\颐和园\\游客游记\\YHY_T01.html",
+        "source_name": "BAAI IndustryCorpus2 教师参考语料",
+        "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": "chinese/middle/rank_00712.parquet",
+        "source_row": 15439,
+        "source_record_id": "130900005765",
+        "provenance_kind": "dataset_corpus"
+      }
+    ]
+  },
+  {
+    "doc_id": "YHY_T02",
+    "scenic_name": "颐和园",
+    "text_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_name": "BAAI IndustryCorpus2 教师参考语料",
+    "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": "chinese/middle/rank_00712.parquet",
+    "source_row": 50176,
+    "source_record_id": "159000009023",
+    "content_origin": "教师参考语料单条记录全文；标题为整理标签，非原网页标题",
+    "source_records": [
+      {
+        "doc_id": "YHY_T02",
+        "input_path": "data\\html\\颐和园\\游客游记\\YHY_T02.html",
+        "source_name": "BAAI IndustryCorpus2 教师参考语料",
+        "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": "chinese/middle/rank_00712.parquet",
+        "source_row": 50176,
+        "source_record_id": "159000009023",
+        "provenance_kind": "dataset_corpus"
+      }
+    ]
+  },
+  {
+    "doc_id": "YHY_T03",
+    "scenic_name": "颐和园",
+    "text_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_name": "BAAI IndustryCorpus2 教师参考语料",
+    "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": "chinese/middle/rank_00712.parquet",
+    "source_row": 143636,
+    "source_record_id": "277200034797",
+    "content_origin": "教师参考语料单条记录全文；标题为整理标签，非原网页标题",
+    "source_records": [
+      {
+        "doc_id": "YHY_T03",
+        "input_path": "data\\html\\颐和园\\游客游记\\YHY_T03.html",
+        "source_name": "BAAI IndustryCorpus2 教师参考语料",
+        "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": "chinese/middle/rank_00712.parquet",
+        "source_row": 143636,
+        "source_record_id": "277200034797",
+        "provenance_kind": "dataset_corpus"
+      }
+    ]
+  },
+  {
+    "doc_id": "YHY_T04",
+    "scenic_name": "颐和园",
+    "text_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_name": "BAAI IndustryCorpus2 教师参考语料",
+    "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": "chinese/middle/rank_00712.parquet",
+    "source_row": 116029,
+    "source_record_id": "1047200005574",
+    "content_origin": "教师参考语料单条记录全文；标题为整理标签，非原网页标题",
+    "source_records": [
+      {
+        "doc_id": "YHY_T04",
+        "input_path": "data\\html\\颐和园\\游客游记\\YHY_T04.html",
+        "source_name": "BAAI IndustryCorpus2 教师参考语料",
+        "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": "chinese/middle/rank_00712.parquet",
+        "source_row": 116029,
+        "source_record_id": "1047200005574",
+        "provenance_kind": "dataset_corpus"
+      }
+    ]
+  },
+  {
+    "doc_id": "YHY_T05",
+    "scenic_name": "颐和园",
+    "text_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_name": "BAAI IndustryCorpus2 教师参考语料",
+    "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": "chinese/middle/rank_00712.parquet",
+    "source_row": 33709,
+    "source_record_id": "1383500009693",
+    "content_origin": "教师参考语料单条记录全文；标题为整理标签，非原网页标题",
+    "source_records": [
+      {
+        "doc_id": "YHY_T05",
+        "input_path": "data\\html\\颐和园\\游客游记\\YHY_T05.html",
+        "source_name": "BAAI IndustryCorpus2 教师参考语料",
+        "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography",
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": "chinese/middle/rank_00712.parquet",
+        "source_row": 33709,
+        "source_record_id": "1383500009693",
+        "provenance_kind": "dataset_corpus"
+      }
+    ]
+  },
+  {
+    "doc_id": "YHY_F01",
+    "scenic_name": "颐和园",
+    "text_type": "route_guide",
+    "provenance_kind": "official_route_facts",
+    "source_name": "北京旅游网（北京市文化和旅游局宣传中心）",
+    "source_url": "https://s.visitbeijing.com.cn/attraction/101407",
+    "original_article_url": null,
+    "reference_url": "https://s.visitbeijing.com.cn/attraction/101407",
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "官方发布路线的事实性信息重述；不是官网完整原文，不添加官方未给出的具体时刻或停留时长",
+    "source_records": [
+      {
+        "doc_id": "YHY_F01",
+        "input_path": "data\\html\\颐和园\\游玩路线\\YHY_F01.html",
+        "source_name": "北京旅游网（北京市文化和旅游局宣传中心）",
+        "source_url": "https://s.visitbeijing.com.cn/attraction/101407",
+        "original_article_url": null,
+        "reference_url": "https://s.visitbeijing.com.cn/attraction/101407",
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "official_route_facts"
+      }
+    ]
+  },
+  {
+    "doc_id": "YHY_O01",
+    "scenic_name": "颐和园",
+    "text_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_name": "北京旅游网（北京市文化和旅游局宣传中心）",
+    "source_url": "https://s.visitbeijing.com.cn/attraction/101407",
+    "original_article_url": null,
+    "reference_url": "https://s.visitbeijing.com.cn/attraction/101407",
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "依据官方发布路线编写的完整攻略整理稿，非官方原文",
+    "source_records": [
+      {
+        "doc_id": "YHY_O01",
+        "input_path": "data\\html\\颐和园\\游玩路线\\YHY_O01.html",
+        "source_name": "北京旅游网（北京市文化和旅游局宣传中心）",
+        "source_url": "https://s.visitbeijing.com.cn/attraction/101407",
+        "original_article_url": null,
+        "reference_url": "https://s.visitbeijing.com.cn/attraction/101407",
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "editorial_route_guide"
+      }
+    ]
+  },
+  {
+    "doc_id": "YHY_O02",
+    "scenic_name": "颐和园",
+    "text_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_name": "北京旅游网（北京市文化和旅游局宣传中心）",
+    "source_url": "https://s.visitbeijing.com.cn/attraction/101407",
+    "original_article_url": null,
+    "reference_url": "https://s.visitbeijing.com.cn/attraction/101407",
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "依据官方发布路线编写的完整攻略整理稿，非官方原文",
+    "source_records": [
+      {
+        "doc_id": "YHY_O02",
+        "input_path": "data\\html\\颐和园\\游玩路线\\YHY_O02.html",
+        "source_name": "北京旅游网（北京市文化和旅游局宣传中心）",
+        "source_url": "https://s.visitbeijing.com.cn/attraction/101407",
+        "original_article_url": null,
+        "reference_url": "https://s.visitbeijing.com.cn/attraction/101407",
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "editorial_route_guide"
+      }
+    ]
+  },
+  {
+    "doc_id": "YHY_O03",
+    "scenic_name": "颐和园",
+    "text_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_name": "北京旅游网（北京市文化和旅游局宣传中心）",
+    "source_url": "https://s.visitbeijing.com.cn/attraction/101407",
+    "original_article_url": null,
+    "reference_url": "https://s.visitbeijing.com.cn/attraction/101407",
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "依据官方发布路线编写的完整攻略整理稿，非官方原文",
+    "source_records": [
+      {
+        "doc_id": "YHY_O03",
+        "input_path": "data\\html\\颐和园\\游玩路线\\YHY_O03.html",
+        "source_name": "北京旅游网（北京市文化和旅游局宣传中心）",
+        "source_url": "https://s.visitbeijing.com.cn/attraction/101407",
+        "original_article_url": null,
+        "reference_url": "https://s.visitbeijing.com.cn/attraction/101407",
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "editorial_route_guide"
+      }
+    ]
+  },
+  {
+    "doc_id": "YHY_O04",
+    "scenic_name": "颐和园",
+    "text_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_name": "北京旅游网（北京市文化和旅游局宣传中心）",
+    "source_url": "https://s.visitbeijing.com.cn/attraction/101407",
+    "original_article_url": null,
+    "reference_url": "https://s.visitbeijing.com.cn/attraction/101407",
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "依据官方发布路线编写的完整攻略整理稿，非官方原文",
+    "source_records": [
+      {
+        "doc_id": "YHY_O04",
+        "input_path": "data\\html\\颐和园\\游玩路线\\YHY_O04.html",
+        "source_name": "北京旅游网（北京市文化和旅游局宣传中心）",
+        "source_url": "https://s.visitbeijing.com.cn/attraction/101407",
+        "original_article_url": null,
+        "reference_url": "https://s.visitbeijing.com.cn/attraction/101407",
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "editorial_route_guide"
+      }
+    ]
+  },
+  {
+    "doc_id": "YHY_O05",
+    "scenic_name": "颐和园",
+    "text_type": "route_guide",
+    "provenance_kind": "editorial_route_guide",
+    "source_name": "北京旅游网（北京市文化和旅游局宣传中心）",
+    "source_url": "https://s.visitbeijing.com.cn/attraction/101407",
+    "original_article_url": null,
+    "reference_url": "https://s.visitbeijing.com.cn/attraction/101407",
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "依据官方发布路线编写的完整攻略整理稿，非官方原文",
+    "source_records": [
+      {
+        "doc_id": "YHY_O05",
+        "input_path": "data\\html\\颐和园\\游玩路线\\YHY_O05.html",
+        "source_name": "北京旅游网（北京市文化和旅游局宣传中心）",
+        "source_url": "https://s.visitbeijing.com.cn/attraction/101407",
+        "original_article_url": null,
+        "reference_url": "https://s.visitbeijing.com.cn/attraction/101407",
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "editorial_route_guide"
+      }
+    ]
+  },
+  {
+    "doc_id": "YHY_S01",
+    "scenic_name": "颐和园",
+    "text_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_name": "本数据包原创教学模拟语料",
+    "source_url": null,
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "为任务1—7编写的教学模拟文章；非真实游客经历、非官方原文；时刻、时长与适用人群均为情境设定，不是实测或官方承诺",
+    "source_records": [
+      {
+        "doc_id": "YHY_S01",
+        "input_path": "data\\html\\颐和园\\游玩路线\\YHY_S01.html",
+        "source_name": "本数据包原创教学模拟语料",
+        "source_url": null,
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "synthetic_teaching"
+      }
+    ]
+  },
+  {
+    "doc_id": "YHY_S02",
+    "scenic_name": "颐和园",
+    "text_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_name": "本数据包原创教学模拟语料",
+    "source_url": null,
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "为任务1—7编写的教学模拟文章；非真实游客经历、非官方原文；时刻、时长与适用人群均为情境设定，不是实测或官方承诺",
+    "source_records": [
+      {
+        "doc_id": "YHY_S02",
+        "input_path": "data\\html\\颐和园\\游玩路线\\YHY_S02.html",
+        "source_name": "本数据包原创教学模拟语料",
+        "source_url": null,
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "synthetic_teaching"
+      }
+    ]
+  },
+  {
+    "doc_id": "YHY_S03",
+    "scenic_name": "颐和园",
+    "text_type": "route_guide",
+    "provenance_kind": "synthetic_teaching",
+    "source_name": "本数据包原创教学模拟语料",
+    "source_url": null,
+    "original_article_url": null,
+    "reference_url": null,
+    "source_file": null,
+    "source_row": null,
+    "source_record_id": null,
+    "content_origin": "为任务1—7编写的教学模拟文章；非真实游客经历、非官方原文；时刻、时长与适用人群均为情境设定，不是实测或官方承诺",
+    "source_records": [
+      {
+        "doc_id": "YHY_S03",
+        "input_path": "data\\html\\颐和园\\游玩路线\\YHY_S03.html",
+        "source_name": "本数据包原创教学模拟语料",
+        "source_url": null,
+        "original_article_url": null,
+        "reference_url": null,
+        "source_file": null,
+        "source_row": null,
+        "source_record_id": null,
+        "provenance_kind": "synthetic_teaching"
+      }
+    ]
+  }
+]

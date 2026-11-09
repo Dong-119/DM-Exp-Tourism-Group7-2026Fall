@@ -1,0 +1,78 @@
+{
+  "version": "2.0",
+  "documents": [
+    "GG_S04",
+    "YHY_S04",
+    "TT_S04",
+    "YHY_T05",
+    "TT_T04"
+  ],
+  "mentions": 82,
+  "links": 41,
+  "status_counts": {
+    "ambiguous": 25,
+    "linked": 41,
+    "nonreferential": 12,
+    "unresolved": 4
+  },
+  "rule_counts": {
+    "event_or_demonstrative": 15,
+    "typed_nearest": 24,
+    "ordered_pair": 6,
+    "metalinguistic": 9,
+    "quoted_mention": 12,
+    "no_typed_candidate": 4,
+    "topic_subject": 1,
+    "pronoun_chain": 3,
+    "person_chain": 7,
+    "possessive_scope": 1
+  },
+  "per_document": {
+    "GG_S04": {
+      "mentions": 16,
+      "links": 6
+    },
+    "YHY_S04": {
+      "mentions": 16,
+      "links": 6
+    },
+    "TT_S04": {
+      "mentions": 16,
+      "links": 6
+    },
+    "YHY_T05": {
+      "mentions": 26,
+      "links": 19
+    },
+    "TT_T04": {
+      "mentions": 8,
+      "links": 4
+    }
+  },
+  "window_chars": 250,
+  "previous_sentences": 3,
+  "jieba_version": "0.42.1",
+  "hmm": false,
+  "input_sha256": "dc69a96596ab465e268e044b4225e5131d70e08814886b12e72ba2ee016acbaf",
+  "entities_sha256": "31b2dafd159632723503cc59f5b2fb1af4a71e89dbb9abe8b09eb717320ab89d",
+  "offsets": "任务一 clean_content 的 Unicode 字符零基下标 [start,end)",
+  "human_review_status": "pending",
+  "ai_review": {
+    "status": "completed_for_27_cases",
+    "reviewer": "AI辅助逐句核验",
+    "reviewed_mentions": 27,
+    "unreviewed_mentions": 55,
+    "evaluated_cases": 25,
+    "excluded_ambiguous": 2,
+    "reference_counts": {
+      "linked": 21,
+      "nonreferential": 2,
+      "unresolved": 2,
+      "ambiguous": 2
+    },
+    "metrics_file": "coref_metrics.json",
+    "annotations_file": "核验标注.csv",
+    "prediction_version": "原任务四 V2 固定输出",
+    "modified_predictions": false
+  }
+}

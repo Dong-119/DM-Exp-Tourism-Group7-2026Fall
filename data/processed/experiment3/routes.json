@@ -1,0 +1,1491 @@
+[
+  {
+    "route_id": "route-GG-official-facts",
+    "scenic_name": "故宫",
+    "route_kind": "official_route_facts",
+    "provenance_kind": "official_route_facts",
+    "document_id": "GG_F01",
+    "title": "故宫官方推荐路线依据：事实性路线记录",
+    "reference_url": "https://www.visitbeijing.com.cn/article/4D6YKXYu8aD?device=amp",
+    "parse_method": "recommended_order_chain",
+    "time_policy": "The source explicitly states that no time of day or per-stop time is given.",
+    "steps": [
+      {
+        "order": 1,
+        "poi": "午门",
+        "poi_id": "poi:故宫:午门",
+        "poi_kind": "named_poi",
+        "raw_label": "午门",
+        "activity": null,
+        "step_type": "entry",
+        "time_slot": "unknown",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "not_stated",
+        "source_quote": "午门",
+        "source_span": {
+          "start": 66,
+          "end": 68
+        }
+      },
+      {
+        "order": 2,
+        "poi": "太和门",
+        "poi_id": "poi:故宫:太和门",
+        "poi_kind": "named_poi",
+        "raw_label": "太和门",
+        "activity": null,
+        "step_type": "visit",
+        "time_slot": "unknown",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "not_stated",
+        "source_quote": "太和门",
+        "source_span": {
+          "start": 69,
+          "end": 72
+        }
+      },
+      {
+        "order": 3,
+        "poi": "弘义阁",
+        "poi_id": "poi:故宫:弘义阁",
+        "poi_kind": "named_poi",
+        "raw_label": "弘义阁(皇朝礼乐展)",
+        "activity": "皇朝礼乐展",
+        "step_type": "visit",
+        "time_slot": "unknown",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "not_stated",
+        "source_quote": "弘义阁(皇朝礼乐展)",
+        "source_span": {
+          "start": 73,
+          "end": 83
+        }
+      },
+      {
+        "order": 4,
+        "poi": "太和殿",
+        "poi_id": "poi:故宫:太和殿",
+        "poi_kind": "named_poi",
+        "raw_label": "太和殿",
+        "activity": null,
+        "step_type": "visit",
+        "time_slot": "unknown",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "not_stated",
+        "source_quote": "太和殿",
+        "source_span": {
+          "start": 84,
+          "end": 87
+        }
+      },
+      {
+        "order": 5,
+        "poi": "中和殿",
+        "poi_id": "poi:故宫:中和殿",
+        "poi_kind": "named_poi",
+        "raw_label": "中和殿",
+        "activity": null,
+        "step_type": "visit",
+        "time_slot": "unknown",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "not_stated",
+        "source_quote": "中和殿",
+        "source_span": {
+          "start": 88,
+          "end": 91
+        }
+      },
+      {
+        "order": 6,
+        "poi": "保和殿",
+        "poi_id": "poi:故宫:保和殿",
+        "poi_kind": "named_poi",
+        "raw_label": "保和殿",
+        "activity": null,
+        "step_type": "visit",
+        "time_slot": "unknown",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "not_stated",
+        "source_quote": "保和殿",
+        "source_span": {
+          "start": 92,
+          "end": 95
+        }
+      },
+      {
+        "order": 7,
+        "poi": "乾清门",
+        "poi_id": "poi:故宫:乾清门",
+        "poi_kind": "named_poi",
+        "raw_label": "乾清门",
+        "activity": null,
+        "step_type": "visit",
+        "time_slot": "unknown",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "not_stated",
+        "source_quote": "乾清门",
+        "source_span": {
+          "start": 96,
+          "end": 99
+        }
+      },
+      {
+        "order": 8,
+        "poi": "乾清宫",
+        "poi_id": "poi:故宫:乾清宫",
+        "poi_kind": "named_poi",
+        "raw_label": "乾清宫",
+        "activity": null,
+        "step_type": "visit",
+        "time_slot": "unknown",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "not_stated",
+        "source_quote": "乾清宫",
+        "source_span": {
+          "start": 100,
+          "end": 103
+        }
+      },
+      {
+        "order": 9,
+        "poi": "交泰殿",
+        "poi_id": "poi:故宫:交泰殿",
+        "poi_kind": "named_poi",
+        "raw_label": "交泰殿",
+        "activity": null,
+        "step_type": "visit",
+        "time_slot": "unknown",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "not_stated",
+        "source_quote": "交泰殿",
+        "source_span": {
+          "start": 104,
+          "end": 107
+        }
+      },
+      {
+        "order": 10,
+        "poi": "坤宁宫",
+        "poi_id": "poi:故宫:坤宁宫",
+        "poi_kind": "named_poi",
+        "raw_label": "坤宁宫",
+        "activity": null,
+        "step_type": "visit",
+        "time_slot": "unknown",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "not_stated",
+        "source_quote": "坤宁宫",
+        "source_span": {
+          "start": 108,
+          "end": 111
+        }
+      },
+      {
+        "order": 11,
+        "poi": "御花园",
+        "poi_id": "poi:故宫:御花园",
+        "poi_kind": "named_poi",
+        "raw_label": "御花园",
+        "activity": null,
+        "step_type": "visit",
+        "time_slot": "unknown",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "not_stated",
+        "source_quote": "御花园",
+        "source_span": {
+          "start": 112,
+          "end": 115
+        }
+      },
+      {
+        "order": 12,
+        "poi": "神武门",
+        "poi_id": "poi:故宫:神武门",
+        "poi_kind": "named_poi",
+        "raw_label": "神武门",
+        "activity": null,
+        "step_type": "exit",
+        "time_slot": "unknown",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "not_stated",
+        "source_quote": "神武门",
+        "source_span": {
+          "start": 116,
+          "end": 119
+        }
+      }
+    ],
+    "time_hierarchy": {
+      "morning": [],
+      "noon": [],
+      "afternoon": [],
+      "unknown": [
+        {
+          "order": 1,
+          "poi": "午门",
+          "poi_id": "poi:故宫:午门",
+          "poi_kind": "named_poi",
+          "raw_label": "午门",
+          "activity": null,
+          "step_type": "entry",
+          "time_slot": "unknown",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "not_stated",
+          "source_quote": "午门",
+          "source_span": {
+            "start": 66,
+            "end": 68
+          }
+        },
+        {
+          "order": 2,
+          "poi": "太和门",
+          "poi_id": "poi:故宫:太和门",
+          "poi_kind": "named_poi",
+          "raw_label": "太和门",
+          "activity": null,
+          "step_type": "visit",
+          "time_slot": "unknown",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "not_stated",
+          "source_quote": "太和门",
+          "source_span": {
+            "start": 69,
+            "end": 72
+          }
+        },
+        {
+          "order": 3,
+          "poi": "弘义阁",
+          "poi_id": "poi:故宫:弘义阁",
+          "poi_kind": "named_poi",
+          "raw_label": "弘义阁(皇朝礼乐展)",
+          "activity": "皇朝礼乐展",
+          "step_type": "visit",
+          "time_slot": "unknown",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "not_stated",
+          "source_quote": "弘义阁(皇朝礼乐展)",
+          "source_span": {
+            "start": 73,
+            "end": 83
+          }
+        },
+        {
+          "order": 4,
+          "poi": "太和殿",
+          "poi_id": "poi:故宫:太和殿",
+          "poi_kind": "named_poi",
+          "raw_label": "太和殿",
+          "activity": null,
+          "step_type": "visit",
+          "time_slot": "unknown",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "not_stated",
+          "source_quote": "太和殿",
+          "source_span": {
+            "start": 84,
+            "end": 87
+          }
+        },
+        {
+          "order": 5,
+          "poi": "中和殿",
+          "poi_id": "poi:故宫:中和殿",
+          "poi_kind": "named_poi",
+          "raw_label": "中和殿",
+          "activity": null,
+          "step_type": "visit",
+          "time_slot": "unknown",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "not_stated",
+          "source_quote": "中和殿",
+          "source_span": {
+            "start": 88,
+            "end": 91
+          }
+        },
+        {
+          "order": 6,
+          "poi": "保和殿",
+          "poi_id": "poi:故宫:保和殿",
+          "poi_kind": "named_poi",
+          "raw_label": "保和殿",
+          "activity": null,
+          "step_type": "visit",
+          "time_slot": "unknown",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "not_stated",
+          "source_quote": "保和殿",
+          "source_span": {
+            "start": 92,
+            "end": 95
+          }
+        },
+        {
+          "order": 7,
+          "poi": "乾清门",
+          "poi_id": "poi:故宫:乾清门",
+          "poi_kind": "named_poi",
+          "raw_label": "乾清门",
+          "activity": null,
+          "step_type": "visit",
+          "time_slot": "unknown",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "not_stated",
+          "source_quote": "乾清门",
+          "source_span": {
+            "start": 96,
+            "end": 99
+          }
+        },
+        {
+          "order": 8,
+          "poi": "乾清宫",
+          "poi_id": "poi:故宫:乾清宫",
+          "poi_kind": "named_poi",
+          "raw_label": "乾清宫",
+          "activity": null,
+          "step_type": "visit",
+          "time_slot": "unknown",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "not_stated",
+          "source_quote": "乾清宫",
+          "source_span": {
+            "start": 100,
+            "end": 103
+          }
+        },
+        {
+          "order": 9,
+          "poi": "交泰殿",
+          "poi_id": "poi:故宫:交泰殿",
+          "poi_kind": "named_poi",
+          "raw_label": "交泰殿",
+          "activity": null,
+          "step_type": "visit",
+          "time_slot": "unknown",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "not_stated",
+          "source_quote": "交泰殿",
+          "source_span": {
+            "start": 104,
+            "end": 107
+          }
+        },
+        {
+          "order": 10,
+          "poi": "坤宁宫",
+          "poi_id": "poi:故宫:坤宁宫",
+          "poi_kind": "named_poi",
+          "raw_label": "坤宁宫",
+          "activity": null,
+          "step_type": "visit",
+          "time_slot": "unknown",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "not_stated",
+          "source_quote": "坤宁宫",
+          "source_span": {
+            "start": 108,
+            "end": 111
+          }
+        },
+        {
+          "order": 11,
+          "poi": "御花园",
+          "poi_id": "poi:故宫:御花园",
+          "poi_kind": "named_poi",
+          "raw_label": "御花园",
+          "activity": null,
+          "step_type": "visit",
+          "time_slot": "unknown",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "not_stated",
+          "source_quote": "御花园",
+          "source_span": {
+            "start": 112,
+            "end": 115
+          }
+        },
+        {
+          "order": 12,
+          "poi": "神武门",
+          "poi_id": "poi:故宫:神武门",
+          "poi_kind": "named_poi",
+          "raw_label": "神武门",
+          "activity": null,
+          "step_type": "exit",
+          "time_slot": "unknown",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "not_stated",
+          "source_quote": "神武门",
+          "source_span": {
+            "start": 116,
+            "end": 119
+          }
+        }
+      ]
+    }
+  },
+  {
+    "route_id": "route-GG-synthetic-timed-fixture",
+    "scenic_name": "故宫",
+    "route_kind": "synthetic_teaching_fixture",
+    "provenance_kind": "synthetic_teaching",
+    "document_id": "GG_S01",
+    "title": "【教学情境】故宫一天行程：按时间编号组织的完整攻略",
+    "reference_url": null,
+    "parse_method": "time_header_and_numbered_steps",
+    "time_policy": "Times and time-of-day sections are copied only where explicitly stated in the teaching fixture.",
+    "steps": [
+      {
+        "order": 1,
+        "poi": "午门",
+        "poi_id": "poi:故宫:午门",
+        "poi_kind": "named_poi",
+        "raw_label": "午门",
+        "activity": "入院与辨认导览",
+        "step_type": "entry",
+        "time_slot": "morning",
+        "time_start": "09:00",
+        "time_end": "09:20",
+        "time_source": "explicit_in_source",
+        "source_quote": "1. 09:00—09:20，午门：入院与辨认导览，此步骤共20分钟。时间段包含相应步行和停留，二者没有单独实测，不应再次叠加同一时间。",
+        "source_span": {
+          "start": 142,
+          "end": 210
+        }
+      },
+      {
+        "order": 2,
+        "poi": "太和殿",
+        "poi_id": "poi:故宫:太和殿",
+        "poi_kind": "named_poi",
+        "raw_label": "太和殿",
+        "activity": "观察殿宇与广场",
+        "step_type": "visit",
+        "time_slot": "morning",
+        "time_start": "09:20",
+        "time_end": "10:10",
+        "time_source": "explicit_in_source",
+        "source_quote": "2. 09:20—10:10，太和殿：观察殿宇与广场，此步骤共50分钟。时间段包含相应步行和停留，二者没有单独实测，不应再次叠加同一时间。",
+        "source_span": {
+          "start": 211,
+          "end": 280
+        }
+      },
+      {
+        "order": 3,
+        "poi": "中和殿",
+        "poi_id": "poi:故宫:中和殿",
+        "poi_kind": "named_poi",
+        "raw_label": "中和殿",
+        "activity": "参观建筑",
+        "step_type": "visit",
+        "time_slot": "morning",
+        "time_start": "10:10",
+        "time_end": "10:40",
+        "time_source": "explicit_in_source",
+        "source_quote": "3. 10:10—10:40，中和殿：参观建筑，此步骤共30分钟。时间段包含相应步行和停留，二者没有单独实测，不应再次叠加同一时间。",
+        "source_span": {
+          "start": 281,
+          "end": 347
+        }
+      },
+      {
+        "order": 4,
+        "poi": "保和殿",
+        "poi_id": "poi:故宫:保和殿",
+        "poi_kind": "named_poi",
+        "raw_label": "保和殿",
+        "activity": "参观建筑",
+        "step_type": "visit",
+        "time_slot": "morning",
+        "time_start": "10:40",
+        "time_end": "11:20",
+        "time_source": "explicit_in_source",
+        "source_quote": "4. 10:40—11:20，保和殿：参观建筑，此步骤共40分钟。时间段包含相应步行和停留，二者没有单独实测，不应再次叠加同一时间。",
+        "source_span": {
+          "start": 348,
+          "end": 414
+        }
+      },
+      {
+        "order": 5,
+        "poi": "乾清宫",
+        "poi_id": "poi:故宫:乾清宫",
+        "poi_kind": "named_poi",
+        "raw_label": "乾清宫",
+        "activity": "参观内廷",
+        "step_type": "visit",
+        "time_slot": "morning",
+        "time_start": "11:20",
+        "time_end": "12:00",
+        "time_source": "explicit_in_source",
+        "source_quote": "5. 11:20—12:00，乾清宫：参观内廷，此步骤共40分钟。时间段包含相应步行和停留，二者没有单独实测，不应再次叠加同一时间。",
+        "source_span": {
+          "start": 415,
+          "end": 481
+        }
+      },
+      {
+        "order": 6,
+        "poi": "乾清宫附近休息点",
+        "poi_id": "poi:故宫:乾清宫附近休息点",
+        "poi_kind": "descriptive_location",
+        "raw_label": "乾清宫附近休息点",
+        "activity": "休息与自备午餐",
+        "step_type": "visit",
+        "time_slot": "noon",
+        "time_start": "12:00",
+        "time_end": "13:00",
+        "time_source": "explicit_in_source",
+        "source_quote": "6. 12:00—13:00，乾清宫附近休息点：休息与自备午餐，此步骤共60分钟。时间段包含相应步行和停留，二者没有单独实测，不应再次叠加同一时间。",
+        "source_span": {
+          "start": 501,
+          "end": 575
+        }
+      },
+      {
+        "order": 7,
+        "poi": "珍宝馆",
+        "poi_id": "poi:故宫:珍宝馆",
+        "poi_kind": "named_poi",
+        "raw_label": "珍宝馆",
+        "activity": "观看展陈",
+        "step_type": "visit",
+        "time_slot": "afternoon",
+        "time_start": "13:00",
+        "time_end": "14:20",
+        "time_source": "explicit_in_source",
+        "source_quote": "7. 13:00—14:20，珍宝馆：观看展陈，此步骤共80分钟。时间段包含相应步行和停留，二者没有单独实测，不应再次叠加同一时间。",
+        "source_span": {
+          "start": 598,
+          "end": 664
+        }
+      },
+      {
+        "order": 8,
+        "poi": "御花园",
+        "poi_id": "poi:故宫:御花园",
+        "poi_kind": "named_poi",
+        "raw_label": "御花园",
+        "activity": "散步与休息",
+        "step_type": "visit",
+        "time_slot": "afternoon",
+        "time_start": "14:20",
+        "time_end": "15:20",
+        "time_source": "explicit_in_source",
+        "source_quote": "8. 14:20—15:20，御花园：散步与休息，此步骤共60分钟。时间段包含相应步行和停留，二者没有单独实测，不应再次叠加同一时间。",
+        "source_span": {
+          "start": 665,
+          "end": 732
+        }
+      },
+      {
+        "order": 9,
+        "poi": "神武门",
+        "poi_id": "poi:故宫:神武门",
+        "poi_kind": "named_poi",
+        "raw_label": "神武门",
+        "activity": "沿开放通道离院",
+        "step_type": "exit",
+        "time_slot": "afternoon",
+        "time_start": "15:20",
+        "time_end": "16:00",
+        "time_source": "explicit_in_source",
+        "source_quote": "9. 15:20—16:00，神武门：沿开放通道离院，此步骤共40分钟。时间段包含相应步行和停留，二者没有单独实测，不应再次叠加同一时间。",
+        "source_span": {
+          "start": 733,
+          "end": 802
+        }
+      }
+    ],
+    "time_hierarchy": {
+      "morning": [
+        {
+          "order": 1,
+          "poi": "午门",
+          "poi_id": "poi:故宫:午门",
+          "poi_kind": "named_poi",
+          "raw_label": "午门",
+          "activity": "入院与辨认导览",
+          "step_type": "entry",
+          "time_slot": "morning",
+          "time_start": "09:00",
+          "time_end": "09:20",
+          "time_source": "explicit_in_source",
+          "source_quote": "1. 09:00—09:20，午门：入院与辨认导览，此步骤共20分钟。时间段包含相应步行和停留，二者没有单独实测，不应再次叠加同一时间。",
+          "source_span": {
+            "start": 142,
+            "end": 210
+          }
+        },
+        {
+          "order": 2,
+          "poi": "太和殿",
+          "poi_id": "poi:故宫:太和殿",
+          "poi_kind": "named_poi",
+          "raw_label": "太和殿",
+          "activity": "观察殿宇与广场",
+          "step_type": "visit",
+          "time_slot": "morning",
+          "time_start": "09:20",
+          "time_end": "10:10",
+          "time_source": "explicit_in_source",
+          "source_quote": "2. 09:20—10:10，太和殿：观察殿宇与广场，此步骤共50分钟。时间段包含相应步行和停留，二者没有单独实测，不应再次叠加同一时间。",
+          "source_span": {
+            "start": 211,
+            "end": 280
+          }
+        },
+        {
+          "order": 3,
+          "poi": "中和殿",
+          "poi_id": "poi:故宫:中和殿",
+          "poi_kind": "named_poi",
+          "raw_label": "中和殿",
+          "activity": "参观建筑",
+          "step_type": "visit",
+          "time_slot": "morning",
+          "time_start": "10:10",
+          "time_end": "10:40",
+          "time_source": "explicit_in_source",
+          "source_quote": "3. 10:10—10:40，中和殿：参观建筑，此步骤共30分钟。时间段包含相应步行和停留，二者没有单独实测，不应再次叠加同一时间。",
+          "source_span": {
+            "start": 281,
+            "end": 347
+          }
+        },
+        {
+          "order": 4,
+          "poi": "保和殿",
+          "poi_id": "poi:故宫:保和殿",
+          "poi_kind": "named_poi",
+          "raw_label": "保和殿",
+          "activity": "参观建筑",
+          "step_type": "visit",
+          "time_slot": "morning",
+          "time_start": "10:40",
+          "time_end": "11:20",
+          "time_source": "explicit_in_source",
+          "source_quote": "4. 10:40—11:20，保和殿：参观建筑，此步骤共40分钟。时间段包含相应步行和停留，二者没有单独实测，不应再次叠加同一时间。",
+          "source_span": {
+            "start": 348,
+            "end": 414
+          }
+        },
+        {
+          "order": 5,
+          "poi": "乾清宫",
+          "poi_id": "poi:故宫:乾清宫",
+          "poi_kind": "named_poi",
+          "raw_label": "乾清宫",
+          "activity": "参观内廷",
+          "step_type": "visit",
+          "time_slot": "morning",
+          "time_start": "11:20",
+          "time_end": "12:00",
+          "time_source": "explicit_in_source",
+          "source_quote": "5. 11:20—12:00，乾清宫：参观内廷，此步骤共40分钟。时间段包含相应步行和停留，二者没有单独实测，不应再次叠加同一时间。",
+          "source_span": {
+            "start": 415,
+            "end": 481
+          }
+        }
+      ],
+      "noon": [
+        {
+          "order": 6,
+          "poi": "乾清宫附近休息点",
+          "poi_id": "poi:故宫:乾清宫附近休息点",
+          "poi_kind": "descriptive_location",
+          "raw_label": "乾清宫附近休息点",
+          "activity": "休息与自备午餐",
+          "step_type": "visit",
+          "time_slot": "noon",
+          "time_start": "12:00",
+          "time_end": "13:00",
+          "time_source": "explicit_in_source",
+          "source_quote": "6. 12:00—13:00，乾清宫附近休息点：休息与自备午餐，此步骤共60分钟。时间段包含相应步行和停留，二者没有单独实测，不应再次叠加同一时间。",
+          "source_span": {
+            "start": 501,
+            "end": 575
+          }
+        }
+      ],
+      "afternoon": [
+        {
+          "order": 7,
+          "poi": "珍宝馆",
+          "poi_id": "poi:故宫:珍宝馆",
+          "poi_kind": "named_poi",
+          "raw_label": "珍宝馆",
+          "activity": "观看展陈",
+          "step_type": "visit",
+          "time_slot": "afternoon",
+          "time_start": "13:00",
+          "time_end": "14:20",
+          "time_source": "explicit_in_source",
+          "source_quote": "7. 13:00—14:20，珍宝馆：观看展陈，此步骤共80分钟。时间段包含相应步行和停留，二者没有单独实测，不应再次叠加同一时间。",
+          "source_span": {
+            "start": 598,
+            "end": 664
+          }
+        },
+        {
+          "order": 8,
+          "poi": "御花园",
+          "poi_id": "poi:故宫:御花园",
+          "poi_kind": "named_poi",
+          "raw_label": "御花园",
+          "activity": "散步与休息",
+          "step_type": "visit",
+          "time_slot": "afternoon",
+          "time_start": "14:20",
+          "time_end": "15:20",
+          "time_source": "explicit_in_source",
+          "source_quote": "8. 14:20—15:20，御花园：散步与休息，此步骤共60分钟。时间段包含相应步行和停留，二者没有单独实测，不应再次叠加同一时间。",
+          "source_span": {
+            "start": 665,
+            "end": 732
+          }
+        },
+        {
+          "order": 9,
+          "poi": "神武门",
+          "poi_id": "poi:故宫:神武门",
+          "poi_kind": "named_poi",
+          "raw_label": "神武门",
+          "activity": "沿开放通道离院",
+          "step_type": "exit",
+          "time_slot": "afternoon",
+          "time_start": "15:20",
+          "time_end": "16:00",
+          "time_source": "explicit_in_source",
+          "source_quote": "9. 15:20—16:00，神武门：沿开放通道离院，此步骤共40分钟。时间段包含相应步行和停留，二者没有单独实测，不应再次叠加同一时间。",
+          "source_span": {
+            "start": 733,
+            "end": 802
+          }
+        }
+      ],
+      "unknown": []
+    }
+  },
+  {
+    "route_id": "route-GG-traveler-GG_T01",
+    "scenic_name": "故宫",
+    "route_kind": "traveler_actual_route",
+    "provenance_kind": "dataset_corpus",
+    "document_id": "GG_T01",
+    "title": "紫禁城内廷一日游览记录",
+    "reference_url": null,
+    "source_note": "Sequence is a conservative manual annotation of explicitly narrated entry, visit, and exit evidence; named neighboring buildings are not assumed visited.",
+    "parse_method": "evidence_anchored_manual_annotation",
+    "time_policy": "Only explicit time-of-day wording is assigned; no clock time or stop duration is inferred.",
+    "steps": [
+      {
+        "order": 1,
+        "poi": "神武门",
+        "poi_id": "poi:故宫:神武门",
+        "poi_kind": "named_poi",
+        "raw_label": "神武门",
+        "activity": "从神武门进入紫禁城",
+        "step_type": "entry",
+        "time_slot": "morning",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "explicit_phase_in_source",
+        "source_quote": "我们就这样从上面写这故宫博物院5个大字的神武门进入紫禁城。",
+        "source_span": {
+          "start": 568,
+          "end": 597
+        }
+      },
+      {
+        "order": 2,
+        "poi": "御花园",
+        "poi_id": "poi:故宫:御花园",
+        "poi_kind": "named_poi",
+        "raw_label": "御花园",
+        "activity": "到御花园游览",
+        "step_type": "visit",
+        "time_slot": "morning",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "explicit_phase_in_source",
+        "source_quote": "早上我们从神武门进来紫禁城，经过顺贞门，首先看到的是御花园",
+        "source_span": {
+          "start": 940,
+          "end": 969
+        }
+      },
+      {
+        "order": 3,
+        "poi": "坤宁宫",
+        "poi_id": "poi:故宫:坤宁宫",
+        "poi_kind": "named_poi",
+        "raw_label": "坤宁宫",
+        "activity": "到坤宁宫参观",
+        "step_type": "visit",
+        "time_slot": "morning",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "explicit_phase_in_source",
+        "source_quote": "在经过御花园，走过坤宁门后，我们来到坤宁宫",
+        "source_span": {
+          "start": 1252,
+          "end": 1273
+        }
+      },
+      {
+        "order": 4,
+        "poi": "乾清宫",
+        "poi_id": "poi:故宫:乾清宫",
+        "poi_kind": "named_poi",
+        "raw_label": "干清宫",
+        "activity": "经过交泰殿后参观乾清宫",
+        "step_type": "visit",
+        "time_slot": "morning",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "explicit_phase_in_source",
+        "source_quote": "经过交泰殿后来到内廷最具规模的建筑-干清宫",
+        "source_span": {
+          "start": 1948,
+          "end": 1969
+        }
+      },
+      {
+        "order": 5,
+        "poi": "养心殿",
+        "poi_id": "poi:故宫:养心殿",
+        "poi_kind": "named_poi",
+        "raw_label": "养心殿",
+        "activity": "参观养心殿",
+        "step_type": "visit",
+        "time_slot": "morning",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "explicit_phase_in_source",
+        "source_quote": "在参观完坤宁宫，交泰殿，干清宫后，我们来到位于后廷中轴线西侧，继续参观慈禧太后垂帘听政的养心殿，还有永寿宫的清代妃嫔生活展跟储秀宫的溥仪生活展。",
+        "source_span": {
+          "start": 2313,
+          "end": 2385
+        }
+      },
+      {
+        "order": 6,
+        "poi": "永寿宫",
+        "poi_id": "poi:故宫:永寿宫",
+        "poi_kind": "named_poi",
+        "raw_label": "永寿宫",
+        "activity": "参观清代妃嫔生活展",
+        "step_type": "visit",
+        "time_slot": "morning",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "explicit_phase_in_source",
+        "source_quote": "在参观完坤宁宫，交泰殿，干清宫后，我们来到位于后廷中轴线西侧，继续参观慈禧太后垂帘听政的养心殿，还有永寿宫的清代妃嫔生活展跟储秀宫的溥仪生活展。",
+        "source_span": {
+          "start": 2313,
+          "end": 2385
+        }
+      },
+      {
+        "order": 7,
+        "poi": "储秀宫",
+        "poi_id": "poi:故宫:储秀宫",
+        "poi_kind": "named_poi",
+        "raw_label": "储秀宫",
+        "activity": "参观溥仪生活展",
+        "step_type": "visit",
+        "time_slot": "morning",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "explicit_phase_in_source",
+        "source_quote": "在参观完坤宁宫，交泰殿，干清宫后，我们来到位于后廷中轴线西侧，继续参观慈禧太后垂帘听政的养心殿，还有永寿宫的清代妃嫔生活展跟储秀宫的溥仪生活展。",
+        "source_span": {
+          "start": 2313,
+          "end": 2385
+        }
+      },
+      {
+        "order": 8,
+        "poi": "御花园",
+        "poi_id": "poi:故宫:御花园",
+        "poi_kind": "named_poi",
+        "raw_label": "御花园",
+        "activity": "返回御花园",
+        "step_type": "visit",
+        "time_slot": "morning",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "explicit_phase_in_source",
+        "source_quote": "在参观完溥仪生活展后，再度回到御花园来，准备循原路从神武门离开",
+        "source_span": {
+          "start": 3928,
+          "end": 3959
+        }
+      },
+      {
+        "order": 9,
+        "poi": "神武门",
+        "poi_id": "poi:故宫:神武门",
+        "poi_kind": "named_poi",
+        "raw_label": "神武门",
+        "activity": "准备从神武门离开",
+        "step_type": "exit",
+        "time_slot": "morning",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "explicit_phase_in_source",
+        "source_quote": "在参观完溥仪生活展后，再度回到御花园来，准备循原路从神武门离开",
+        "source_span": {
+          "start": 3928,
+          "end": 3959
+        }
+      },
+      {
+        "order": 10,
+        "poi": "午门",
+        "poi_id": "poi:故宫:午门",
+        "poi_kind": "named_poi",
+        "raw_label": "午门",
+        "activity": "从午门进入前朝",
+        "step_type": "entry",
+        "time_slot": "afternoon",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "explicit_phase_in_source",
+        "source_quote": "下午则是由天安门广场经午门进入前朝，参观紫禁城最主要的三大殿，以及钟表馆根珍宝馆。",
+        "source_span": {
+          "start": 403,
+          "end": 444
+        }
+      },
+      {
+        "order": 11,
+        "poi": "前朝三大殿",
+        "poi_id": "poi:故宫:前朝三大殿",
+        "poi_kind": "descriptive_location",
+        "raw_label": "前朝三大殿",
+        "activity": "参观三大殿",
+        "step_type": "visit",
+        "time_slot": "afternoon",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "explicit_phase_in_source",
+        "source_quote": "下午则是由天安门广场经午门进入前朝，参观紫禁城最主要的三大殿，以及钟表馆根珍宝馆。",
+        "source_span": {
+          "start": 403,
+          "end": 444
+        }
+      },
+      {
+        "order": 12,
+        "poi": "钟表馆",
+        "poi_id": "poi:故宫:钟表馆",
+        "poi_kind": "named_poi",
+        "raw_label": "钟表馆",
+        "activity": "参观钟表馆",
+        "step_type": "visit",
+        "time_slot": "afternoon",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "explicit_phase_in_source",
+        "source_quote": "下午则是由天安门广场经午门进入前朝，参观紫禁城最主要的三大殿，以及钟表馆根珍宝馆。",
+        "source_span": {
+          "start": 403,
+          "end": 444
+        }
+      },
+      {
+        "order": 13,
+        "poi": "珍宝馆",
+        "poi_id": "poi:故宫:珍宝馆",
+        "poi_kind": "named_poi",
+        "raw_label": "珍宝馆",
+        "activity": "参观珍宝馆",
+        "step_type": "visit",
+        "time_slot": "afternoon",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "explicit_phase_in_source",
+        "source_quote": "下午则是由天安门广场经午门进入前朝，参观紫禁城最主要的三大殿，以及钟表馆根珍宝馆。",
+        "source_span": {
+          "start": 403,
+          "end": 444
+        }
+      }
+    ],
+    "time_hierarchy": {
+      "morning": [
+        {
+          "order": 1,
+          "poi": "神武门",
+          "poi_id": "poi:故宫:神武门",
+          "poi_kind": "named_poi",
+          "raw_label": "神武门",
+          "activity": "从神武门进入紫禁城",
+          "step_type": "entry",
+          "time_slot": "morning",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "explicit_phase_in_source",
+          "source_quote": "我们就这样从上面写这故宫博物院5个大字的神武门进入紫禁城。",
+          "source_span": {
+            "start": 568,
+            "end": 597
+          }
+        },
+        {
+          "order": 2,
+          "poi": "御花园",
+          "poi_id": "poi:故宫:御花园",
+          "poi_kind": "named_poi",
+          "raw_label": "御花园",
+          "activity": "到御花园游览",
+          "step_type": "visit",
+          "time_slot": "morning",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "explicit_phase_in_source",
+          "source_quote": "早上我们从神武门进来紫禁城，经过顺贞门，首先看到的是御花园",
+          "source_span": {
+            "start": 940,
+            "end": 969
+          }
+        },
+        {
+          "order": 3,
+          "poi": "坤宁宫",
+          "poi_id": "poi:故宫:坤宁宫",
+          "poi_kind": "named_poi",
+          "raw_label": "坤宁宫",
+          "activity": "到坤宁宫参观",
+          "step_type": "visit",
+          "time_slot": "morning",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "explicit_phase_in_source",
+          "source_quote": "在经过御花园，走过坤宁门后，我们来到坤宁宫",
+          "source_span": {
+            "start": 1252,
+            "end": 1273
+          }
+        },
+        {
+          "order": 4,
+          "poi": "乾清宫",
+          "poi_id": "poi:故宫:乾清宫",
+          "poi_kind": "named_poi",
+          "raw_label": "干清宫",
+          "activity": "经过交泰殿后参观乾清宫",
+          "step_type": "visit",
+          "time_slot": "morning",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "explicit_phase_in_source",
+          "source_quote": "经过交泰殿后来到内廷最具规模的建筑-干清宫",
+          "source_span": {
+            "start": 1948,
+            "end": 1969
+          }
+        },
+        {
+          "order": 5,
+          "poi": "养心殿",
+          "poi_id": "poi:故宫:养心殿",
+          "poi_kind": "named_poi",
+          "raw_label": "养心殿",
+          "activity": "参观养心殿",
+          "step_type": "visit",
+          "time_slot": "morning",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "explicit_phase_in_source",
+          "source_quote": "在参观完坤宁宫，交泰殿，干清宫后，我们来到位于后廷中轴线西侧，继续参观慈禧太后垂帘听政的养心殿，还有永寿宫的清代妃嫔生活展跟储秀宫的溥仪生活展。",
+          "source_span": {
+            "start": 2313,
+            "end": 2385
+          }
+        },
+        {
+          "order": 6,
+          "poi": "永寿宫",
+          "poi_id": "poi:故宫:永寿宫",
+          "poi_kind": "named_poi",
+          "raw_label": "永寿宫",
+          "activity": "参观清代妃嫔生活展",
+          "step_type": "visit",
+          "time_slot": "morning",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "explicit_phase_in_source",
+          "source_quote": "在参观完坤宁宫，交泰殿，干清宫后，我们来到位于后廷中轴线西侧，继续参观慈禧太后垂帘听政的养心殿，还有永寿宫的清代妃嫔生活展跟储秀宫的溥仪生活展。",
+          "source_span": {
+            "start": 2313,
+            "end": 2385
+          }
+        },
+        {
+          "order": 7,
+          "poi": "储秀宫",
+          "poi_id": "poi:故宫:储秀宫",
+          "poi_kind": "named_poi",
+          "raw_label": "储秀宫",
+          "activity": "参观溥仪生活展",
+          "step_type": "visit",
+          "time_slot": "morning",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "explicit_phase_in_source",
+          "source_quote": "在参观完坤宁宫，交泰殿，干清宫后，我们来到位于后廷中轴线西侧，继续参观慈禧太后垂帘听政的养心殿，还有永寿宫的清代妃嫔生活展跟储秀宫的溥仪生活展。",
+          "source_span": {
+            "start": 2313,
+            "end": 2385
+          }
+        },
+        {
+          "order": 8,
+          "poi": "御花园",
+          "poi_id": "poi:故宫:御花园",
+          "poi_kind": "named_poi",
+          "raw_label": "御花园",
+          "activity": "返回御花园",
+          "step_type": "visit",
+          "time_slot": "morning",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "explicit_phase_in_source",
+          "source_quote": "在参观完溥仪生活展后，再度回到御花园来，准备循原路从神武门离开",
+          "source_span": {
+            "start": 3928,
+            "end": 3959
+          }
+        },
+        {
+          "order": 9,
+          "poi": "神武门",
+          "poi_id": "poi:故宫:神武门",
+          "poi_kind": "named_poi",
+          "raw_label": "神武门",
+          "activity": "准备从神武门离开",
+          "step_type": "exit",
+          "time_slot": "morning",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "explicit_phase_in_source",
+          "source_quote": "在参观完溥仪生活展后，再度回到御花园来，准备循原路从神武门离开",
+          "source_span": {
+            "start": 3928,
+            "end": 3959
+          }
+        }
+      ],
+      "noon": [],
+      "afternoon": [
+        {
+          "order": 10,
+          "poi": "午门",
+          "poi_id": "poi:故宫:午门",
+          "poi_kind": "named_poi",
+          "raw_label": "午门",
+          "activity": "从午门进入前朝",
+          "step_type": "entry",
+          "time_slot": "afternoon",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "explicit_phase_in_source",
+          "source_quote": "下午则是由天安门广场经午门进入前朝，参观紫禁城最主要的三大殿，以及钟表馆根珍宝馆。",
+          "source_span": {
+            "start": 403,
+            "end": 444
+          }
+        },
+        {
+          "order": 11,
+          "poi": "前朝三大殿",
+          "poi_id": "poi:故宫:前朝三大殿",
+          "poi_kind": "descriptive_location",
+          "raw_label": "前朝三大殿",
+          "activity": "参观三大殿",
+          "step_type": "visit",
+          "time_slot": "afternoon",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "explicit_phase_in_source",
+          "source_quote": "下午则是由天安门广场经午门进入前朝，参观紫禁城最主要的三大殿，以及钟表馆根珍宝馆。",
+          "source_span": {
+            "start": 403,
+            "end": 444
+          }
+        },
+        {
+          "order": 12,
+          "poi": "钟表馆",
+          "poi_id": "poi:故宫:钟表馆",
+          "poi_kind": "named_poi",
+          "raw_label": "钟表馆",
+          "activity": "参观钟表馆",
+          "step_type": "visit",
+          "time_slot": "afternoon",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "explicit_phase_in_source",
+          "source_quote": "下午则是由天安门广场经午门进入前朝，参观紫禁城最主要的三大殿，以及钟表馆根珍宝馆。",
+          "source_span": {
+            "start": 403,
+            "end": 444
+          }
+        },
+        {
+          "order": 13,
+          "poi": "珍宝馆",
+          "poi_id": "poi:故宫:珍宝馆",
+          "poi_kind": "named_poi",
+          "raw_label": "珍宝馆",
+          "activity": "参观珍宝馆",
+          "step_type": "visit",
+          "time_slot": "afternoon",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "explicit_phase_in_source",
+          "source_quote": "下午则是由天安门广场经午门进入前朝，参观紫禁城最主要的三大殿，以及钟表馆根珍宝馆。",
+          "source_span": {
+            "start": 403,
+            "end": 444
+          }
+        }
+      ],
+      "unknown": []
+    }
+  },
+  {
+    "route_id": "route-GG-traveler-GG_T05",
+    "scenic_name": "故宫",
+    "route_kind": "traveler_actual_route",
+    "provenance_kind": "dataset_corpus",
+    "document_id": "GG_T05",
+    "title": "由午门进入从神武门离开的故宫之行",
+    "reference_url": null,
+    "source_note": "Sequence is a conservative manual annotation of explicitly narrated entry, visit, and exit evidence; named neighboring buildings are not assumed visited.",
+    "parse_method": "evidence_anchored_manual_annotation",
+    "time_policy": "Only explicit time-of-day wording is assigned; no clock time or stop duration is inferred.",
+    "steps": [
+      {
+        "order": 1,
+        "poi": "午门",
+        "poi_id": "poi:故宫:午门",
+        "poi_kind": "named_poi",
+        "raw_label": "午门",
+        "activity": "从午门进入",
+        "step_type": "entry",
+        "time_slot": "unknown",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "not_stated",
+        "source_quote": "从午门走进故宫",
+        "source_span": {
+          "start": 221,
+          "end": 228
+        }
+      },
+      {
+        "order": 2,
+        "poi": "太和殿",
+        "poi_id": "poi:故宫:太和殿",
+        "poi_kind": "named_poi",
+        "raw_label": "太和殿",
+        "activity": "游览太和殿",
+        "step_type": "visit",
+        "time_slot": "unknown",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "not_stated",
+        "source_quote": "一路欣赏着，来到了太和殿前。",
+        "source_span": {
+          "start": 395,
+          "end": 409
+        }
+      },
+      {
+        "order": 3,
+        "poi": "乾清宫",
+        "poi_id": "poi:故宫:乾清宫",
+        "poi_kind": "named_poi",
+        "raw_label": "干清宫",
+        "activity": "游览乾清宫",
+        "step_type": "visit",
+        "time_slot": "unknown",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "not_stated",
+        "source_quote": "我们游览了干清宫的雄壮气势",
+        "source_span": {
+          "start": 701,
+          "end": 714
+        }
+      },
+      {
+        "order": 4,
+        "poi": "珍宝馆",
+        "poi_id": "poi:故宫:珍宝馆",
+        "poi_kind": "named_poi",
+        "raw_label": "珍宝馆",
+        "activity": "参观珍宝馆",
+        "step_type": "visit",
+        "time_slot": "unknown",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "not_stated",
+        "source_quote": "紧接着，我们来到了故宫珍宝馆",
+        "source_span": {
+          "start": 736,
+          "end": 750
+        }
+      },
+      {
+        "order": 5,
+        "poi": "神武门",
+        "poi_id": "poi:故宫:神武门",
+        "poi_kind": "named_poi",
+        "raw_label": "神武门",
+        "activity": "从神武门离开",
+        "step_type": "exit",
+        "time_slot": "unknown",
+        "time_start": null,
+        "time_end": null,
+        "time_source": "not_stated",
+        "source_quote": "从故宫南门进，从北面的神武门出了。",
+        "source_span": {
+          "start": 1050,
+          "end": 1067
+        }
+      }
+    ],
+    "time_hierarchy": {
+      "morning": [],
+      "noon": [],
+      "afternoon": [],
+      "unknown": [
+        {
+          "order": 1,
+          "poi": "午门",
+          "poi_id": "poi:故宫:午门",
+          "poi_kind": "named_poi",
+          "raw_label": "午门",
+          "activity": "从午门进入",
+          "step_type": "entry",
+          "time_slot": "unknown",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "not_stated",
+          "source_quote": "从午门走进故宫",
+          "source_span": {
+            "start": 221,
+            "end": 228
+          }
+        },
+        {
+          "order": 2,
+          "poi": "太和殿",
+          "poi_id": "poi:故宫:太和殿",
+          "poi_kind": "named_poi",
+          "raw_label": "太和殿",
+          "activity": "游览太和殿",
+          "step_type": "visit",
+          "time_slot": "unknown",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "not_stated",
+          "source_quote": "一路欣赏着，来到了太和殿前。",
+          "source_span": {
+            "start": 395,
+            "end": 409
+          }
+        },
+        {
+          "order": 3,
+          "poi": "乾清宫",
+          "poi_id": "poi:故宫:乾清宫",
+          "poi_kind": "named_poi",
+          "raw_label": "干清宫",
+          "activity": "游览乾清宫",
+          "step_type": "visit",
+          "time_slot": "unknown",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "not_stated",
+          "source_quote": "我们游览了干清宫的雄壮气势",
+          "source_span": {
+            "start": 701,
+            "end": 714
+          }
+        },
+        {
+          "order": 4,
+          "poi": "珍宝馆",
+          "poi_id": "poi:故宫:珍宝馆",
+          "poi_kind": "named_poi",
+          "raw_label": "珍宝馆",
+          "activity": "参观珍宝馆",
+          "step_type": "visit",
+          "time_slot": "unknown",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "not_stated",
+          "source_quote": "紧接着，我们来到了故宫珍宝馆",
+          "source_span": {
+            "start": 736,
+            "end": 750
+          }
+        },
+        {
+          "order": 5,
+          "poi": "神武门",
+          "poi_id": "poi:故宫:神武门",
+          "poi_kind": "named_poi",
+          "raw_label": "神武门",
+          "activity": "从神武门离开",
+          "step_type": "exit",
+          "time_slot": "unknown",
+          "time_start": null,
+          "time_end": null,
+          "time_source": "not_stated",
+          "source_quote": "从故宫南门进，从北面的神武门出了。",
+          "source_span": {
+            "start": 1050,
+            "end": 1067
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,1172 @@
+[
+  {
+    "sentence_id": "GG_O01_S015",
+    "doc_id": "GG_O01",
+    "condition_text": "想拍照或带孩子观察建筑细节",
+    "advice_text": "可以减少在入口附近停留的时间，把节奏留给中后段",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "any",
+    "context_sentence_ids": [
+      "GG_O01_S015"
+    ],
+    "candidate_id": "4ecd963177510adf"
+  },
+  {
+    "sentence_id": "GG_O01_S015",
+    "doc_id": "GG_O01",
+    "condition_text": "遇临时封闭或明显拥挤",
+    "advice_text": "应服从现场引导，必要时删减停留点，而不是把“两小时”当作必须完成的限时任务",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "any",
+    "context_sentence_ids": [
+      "GG_O01_S015"
+    ],
+    "candidate_id": "519e4297c904897f"
+  },
+  {
+    "sentence_id": "GG_O02_S001",
+    "doc_id": "GG_O02",
+    "condition_text": "希望在较短时间内兼顾建筑与展陈",
+    "advice_text": "可以参考北京旅游网的两小时推荐路线二",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "GG_O02_S001"
+    ],
+    "candidate_id": "8755422bfe9dc086"
+  },
+  {
+    "sentence_id": "GG_O02_S014",
+    "doc_id": "GG_O02",
+    "condition_text": "当天排队较多",
+    "advice_text": "可以压缩某一展厅的停留，而把整体方向保持下来",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "GG_O02_S014"
+    ],
+    "candidate_id": "adce85abdb955b04"
+  },
+  {
+    "sentence_id": "GG_O03_S009",
+    "doc_id": "GG_O03",
+    "condition_text": "同行者兴趣不同",
+    "advice_text": "可预先约定参观结束后的会合地点，避免有人留在展厅、有人已经继续向北",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "GG_O03_S009"
+    ],
+    "candidate_id": "db12cedf7aea46c3"
+  },
+  {
+    "sentence_id": "GG_O04_S006",
+    "doc_id": "GG_O04",
+    "condition_text": "遇等候",
+    "advice_text": "可以酌情缩短停留，避免在行程起点耗去大部分时间",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "GG_O04_S006"
+    ],
+    "candidate_id": "d34dce322bea9559"
+  },
+  {
+    "sentence_id": "GG_O04_S009",
+    "doc_id": "GG_O04",
+    "condition_text": "带老人或孩子",
+    "advice_text": "可以在院落间适当休息",
+    "rule_id": "R_VISITOR_PROFILE",
+    "condition_mode": "context",
+    "condition_operator": "context",
+    "context_sentence_ids": [
+      "GG_O04_S009"
+    ],
+    "candidate_id": "f2fc8c2a61038487"
+  },
+  {
+    "sentence_id": "GG_O04_S014",
+    "doc_id": "GG_O04",
+    "condition_text": "展陈较多",
+    "advice_text": "实际停留容易超过半天，建议按兴趣选出重点，其他部分以了解空间关系为主",
+    "rule_id": "R_CAUSE_ADVICE",
+    "condition_mode": "context",
+    "condition_operator": "context",
+    "context_sentence_ids": [
+      "GG_O04_S014"
+    ],
+    "candidate_id": "68b39d542a82911e"
+  },
+  {
+    "sentence_id": "GG_O04_S015",
+    "doc_id": "GG_O04",
+    "condition_text": "临近结束仍有未看完的内容",
+    "advice_text": "可以留待再次参观，不必在最后一段仓促穿行",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "GG_O04_S015"
+    ],
+    "candidate_id": "ffdb7af4fa920018"
+  },
+  {
+    "sentence_id": "GG_O05_S015",
+    "doc_id": "GG_O05",
+    "condition_text": "有临时闭馆、天气变化或体力下降",
+    "advice_text": "应及时减少支线，把休息和顺利离院纳入行程",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "any",
+    "context_sentence_ids": [
+      "GG_O05_S015"
+    ],
+    "candidate_id": "47aa21e2bcd99b30"
+  },
+  {
+    "sentence_id": "GG_S01_S027",
+    "doc_id": "GG_S01",
+    "condition_text": "带孩子",
+    "advice_text": "在御花园增加休息，并减少珍宝馆的停留",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "GG_S01_S027"
+    ],
+    "candidate_id": "3e4ee146b1a26d6d"
+  },
+  {
+    "sentence_id": "GG_S01_S027",
+    "doc_id": "GG_S01",
+    "condition_text": "同行者是情侣",
+    "advice_text": "可在不妨碍通行的地点安排拍照",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "GG_S01_S027"
+    ],
+    "candidate_id": "80687dde90b3ac10"
+  },
+  {
+    "sentence_id": "GG_S02_S012",
+    "doc_id": "GG_S02",
+    "condition_text": "带老人",
+    "advice_text": "每连续步行二十分钟安排一次休息，并删减珍宝馆支线",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "GG_S02_S012"
+    ],
+    "candidate_id": "d79d254c518ed9af"
+  },
+  {
+    "sentence_id": "GG_S02_S013",
+    "doc_id": "GG_S02",
+    "condition_text": "老人明确表示疲劳",
+    "advice_text": "优先离园，不再增加拍照任务",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "GG_S02_S013"
+    ],
+    "candidate_id": "c98134d073f677db"
+  },
+  {
+    "sentence_id": "GG_S02_S014",
+    "doc_id": "GG_S02",
+    "condition_text": "同行者使用轮椅",
+    "advice_text": "应先核实无障碍通道",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "GG_S02_S014"
+    ],
+    "candidate_id": "3b9a7aa594c11521"
+  },
+  {
+    "sentence_id": "GG_S03_S005",
+    "doc_id": "GG_S03",
+    "condition_text": "在通行与体力都允许时",
+    "advice_text": "执行整个计划",
+    "rule_id": "R_ONLY_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "necessary",
+    "context_sentence_ids": [
+      "GG_S03_S005"
+    ],
+    "candidate_id": "5531fca027d44527"
+  },
+  {
+    "sentence_id": "GG_S03_S006",
+    "doc_id": "GG_S03",
+    "condition_text": "下小雨且现场仍允许游览",
+    "advice_text": "减少露天停留，按现场指引选择可进入的避雨处",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "GG_S03_S006"
+    ],
+    "candidate_id": "c4afda6570b47616"
+  },
+  {
+    "sentence_id": "GG_S03_S006",
+    "doc_id": "GG_S03",
+    "condition_text": "出现雷雨或临时闭园",
+    "advice_text": "停止户外行程并服从管理",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "any",
+    "context_sentence_ids": [
+      "GG_S03_S006"
+    ],
+    "candidate_id": "d6eed34009ecce19"
+  },
+  {
+    "sentence_id": "GG_S03_S008",
+    "doc_id": "GG_S03",
+    "condition_text": "带孩子且孩子已经疲劳",
+    "advice_text": "建议先休息，并取消珍宝馆支线",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "GG_S03_S008"
+    ],
+    "candidate_id": "237a1ea9025de3e7"
+  },
+  {
+    "sentence_id": "GG_S03_S008",
+    "doc_id": "GG_S03",
+    "condition_text": "仅仅想拍照",
+    "advice_text": "可以在太和殿安排短暂停留",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "GG_S03_S008"
+    ],
+    "candidate_id": "cb7c0b9fe3bb9dde"
+  },
+  {
+    "sentence_id": "GG_S03_S010",
+    "doc_id": "GG_S03",
+    "condition_text": "珍宝馆当天未开放",
+    "advice_text": "取消该支线，沿现场开放通道继续参观",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "GG_S03_S010"
+    ],
+    "candidate_id": "b73cdc0d2c128771"
+  },
+  {
+    "sentence_id": "GG_S03_S011",
+    "doc_id": "GG_S03",
+    "condition_text": "体力允许并且相关区域开放",
+    "advice_text": "加入下午支线",
+    "rule_id": "R_ONLY_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "necessary",
+    "context_sentence_ids": [
+      "GG_S03_S011"
+    ],
+    "candidate_id": "fb59977a08586b80"
+  },
+  {
+    "sentence_id": "GG_S03_S012",
+    "doc_id": "GG_S03",
+    "condition_text": "天气与开放情况得到确认",
+    "advice_text": "不承诺乘船、登高或进入特定院落",
+    "rule_id": "R_UNLESS",
+    "condition_mode": "explicit",
+    "condition_operator": "unless",
+    "context_sentence_ids": [
+      "GG_S03_S012"
+    ],
+    "candidate_id": "a1c037f431d0ea85"
+  },
+  {
+    "sentence_id": "GG_S04_S014",
+    "doc_id": "GG_S04",
+    "condition_text": "带孩子且已经疲劳",
+    "advice_text": "减少支线并安排休息",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "GG_S04_S014"
+    ],
+    "candidate_id": "a1653e7a1cb8f615"
+  },
+  {
+    "sentence_id": "GG_S04_S020",
+    "doc_id": "GG_S04",
+    "condition_text": "再次到访",
+    "advice_text": "可以提前选择一个重点，避免把全日清单当成亲子游必须完成的任务",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "GG_S04_S020"
+    ],
+    "candidate_id": "e7281d4e1058cc1e"
+  },
+  {
+    "sentence_id": "GG_S05_S014",
+    "doc_id": "GG_S05",
+    "condition_text": "只剩一小时",
+    "advice_text": "删减支线，并说明无法完成全日路线",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "GG_S05_S014"
+    ],
+    "candidate_id": "4119ebfc1d954124"
+  },
+  {
+    "sentence_id": "GG_T02_S027",
+    "doc_id": "GG_T02",
+    "condition_text": "在皇家宫殿里遛娃",
+    "advice_text": "教育好熊孩子不要触碰到皇家文物",
+    "rule_id": "R_LOCAL_SCENE",
+    "condition_mode": "context",
+    "condition_operator": "context",
+    "context_sentence_ids": [
+      "GG_T02_S027"
+    ],
+    "candidate_id": "94e703fc07a83f47"
+  },
+  {
+    "sentence_id": "GG_T02_S039",
+    "doc_id": "GG_T02",
+    "condition_text": "里面很大很容易迷路",
+    "advice_text": "最好提前规划好游玩攻略，不然时间都浪费在兜圈子上了",
+    "rule_id": "R_LOCAL_SCENE",
+    "condition_mode": "context",
+    "condition_operator": "context",
+    "context_sentence_ids": [
+      "GG_T02_S039"
+    ],
+    "candidate_id": "fad29807f4af43f2"
+  },
+  {
+    "sentence_id": "GG_T04_S025",
+    "doc_id": "GG_T04",
+    "condition_text": "先结婚后当皇帝的",
+    "advice_text": "不能享受这种待遇了",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "GG_T04_S025"
+    ],
+    "candidate_id": "be862c432743f2dc"
+  },
+  {
+    "sentence_id": "TT_O02_S007",
+    "doc_id": "TT_O02",
+    "condition_text": "同行者需要休息",
+    "advice_text": "可放缓节奏，不必在入园后立即赶到每一个拍摄位置",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "TT_O02_S007"
+    ],
+    "candidate_id": "8cc2e52ecbf4b2a6"
+  },
+  {
+    "sentence_id": "TT_O02_S012",
+    "doc_id": "TT_O02",
+    "condition_text": "有接送或会合安排",
+    "advice_text": "应明确约在南门",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "any",
+    "context_sentence_ids": [
+      "TT_O02_S012"
+    ],
+    "candidate_id": "113cc99d08880a9b"
+  },
+  {
+    "sentence_id": "TT_O04_S001",
+    "doc_id": "TT_O04",
+    "condition_text": "想先认识天坛最主要的建筑关系",
+    "advice_text": "可以按南进北行的思路安排中轴线参观",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "TT_O04_S001"
+    ],
+    "candidate_id": "84fe2204da721aef"
+  },
+  {
+    "sentence_id": "TT_O04_S011",
+    "doc_id": "TT_O04",
+    "condition_text": "希望从东门离开",
+    "advice_text": "需要给离开中轴线后的步行留出时间",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "TT_O04_S011"
+    ],
+    "candidate_id": "ae01704b15caffda"
+  },
+  {
+    "sentence_id": "TT_O04_S011",
+    "doc_id": "TT_O04",
+    "condition_text": "选择北门",
+    "advice_text": "也应提前与同行者约定，避免有人在不同园门等待",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "TT_O04_S011"
+    ],
+    "candidate_id": "2c4e3c4847d049a5"
+  },
+  {
+    "sentence_id": "TT_O05_S009",
+    "doc_id": "TT_O05",
+    "condition_text": "只想重点看祈年殿",
+    "advice_text": "可以在前段多停留，后续适当删减",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "TT_O05_S009"
+    ],
+    "candidate_id": "cbe1d7dbcf639f6a"
+  },
+  {
+    "sentence_id": "TT_O05_S015",
+    "doc_id": "TT_O05",
+    "condition_text": "遇院落关闭或体力不支",
+    "advice_text": "应沿开放通道调整，不要把旧路线中的所有名称当作必须完成的清单",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "any",
+    "context_sentence_ids": [
+      "TT_O05_S015"
+    ],
+    "candidate_id": "f355767f01d6f071"
+  },
+  {
+    "sentence_id": "TT_S01_S027",
+    "doc_id": "TT_S01",
+    "condition_text": "带孩子",
+    "advice_text": "在长廊增加休息，并减少斋宫的停留",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "TT_S01_S027"
+    ],
+    "candidate_id": "80016e2a9a14595a"
+  },
+  {
+    "sentence_id": "TT_S01_S027",
+    "doc_id": "TT_S01",
+    "condition_text": "同行者是情侣",
+    "advice_text": "可在不妨碍通行的地点安排拍照",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "TT_S01_S027"
+    ],
+    "candidate_id": "8605040165c08862"
+  },
+  {
+    "sentence_id": "TT_S02_S012",
+    "doc_id": "TT_S02",
+    "condition_text": "带老人",
+    "advice_text": "每连续步行二十分钟安排一次休息，并删减斋宫支线",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "TT_S02_S012"
+    ],
+    "candidate_id": "b56ba84e77299343"
+  },
+  {
+    "sentence_id": "TT_S02_S013",
+    "doc_id": "TT_S02",
+    "condition_text": "老人明确表示疲劳",
+    "advice_text": "优先离园，不再增加拍照任务",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "TT_S02_S013"
+    ],
+    "candidate_id": "328040bcf9df2057"
+  },
+  {
+    "sentence_id": "TT_S02_S014",
+    "doc_id": "TT_S02",
+    "condition_text": "同行者使用轮椅",
+    "advice_text": "应先核实无障碍通道",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "TT_S02_S014"
+    ],
+    "candidate_id": "f2361c47aa1c174a"
+  },
+  {
+    "sentence_id": "TT_S03_S005",
+    "doc_id": "TT_S03",
+    "condition_text": "在通行与体力都允许时",
+    "advice_text": "执行整个计划",
+    "rule_id": "R_ONLY_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "necessary",
+    "context_sentence_ids": [
+      "TT_S03_S005"
+    ],
+    "candidate_id": "30114045d82e6ead"
+  },
+  {
+    "sentence_id": "TT_S03_S006",
+    "doc_id": "TT_S03",
+    "condition_text": "下小雨且现场仍允许游览",
+    "advice_text": "减少露天停留，按现场指引选择可进入的避雨处",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "TT_S03_S006"
+    ],
+    "candidate_id": "c54afe364dd6d5a9"
+  },
+  {
+    "sentence_id": "TT_S03_S006",
+    "doc_id": "TT_S03",
+    "condition_text": "出现雷雨或临时闭园",
+    "advice_text": "停止户外行程并服从管理",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "any",
+    "context_sentence_ids": [
+      "TT_S03_S006"
+    ],
+    "candidate_id": "c72121473e83b000"
+  },
+  {
+    "sentence_id": "TT_S03_S008",
+    "doc_id": "TT_S03",
+    "condition_text": "带孩子且孩子已经疲劳",
+    "advice_text": "建议先休息，并取消斋宫支线",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "TT_S03_S008"
+    ],
+    "candidate_id": "64aa1e2736a7c693"
+  },
+  {
+    "sentence_id": "TT_S03_S008",
+    "doc_id": "TT_S03",
+    "condition_text": "仅仅想拍照",
+    "advice_text": "可以在圜丘安排短暂停留",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "TT_S03_S008"
+    ],
+    "candidate_id": "efbd8602c1a0385c"
+  },
+  {
+    "sentence_id": "TT_S03_S010",
+    "doc_id": "TT_S03",
+    "condition_text": "斋宫当天未开放",
+    "advice_text": "取消该支线，保留祈年殿与长廊的参观",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "TT_S03_S010"
+    ],
+    "candidate_id": "51deabd380a1c97f"
+  },
+  {
+    "sentence_id": "TT_S03_S011",
+    "doc_id": "TT_S03",
+    "condition_text": "体力允许并且相关区域开放",
+    "advice_text": "加入下午支线",
+    "rule_id": "R_ONLY_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "necessary",
+    "context_sentence_ids": [
+      "TT_S03_S011"
+    ],
+    "candidate_id": "a3005d1149f6d880"
+  },
+  {
+    "sentence_id": "TT_S03_S012",
+    "doc_id": "TT_S03",
+    "condition_text": "天气与开放情况得到确认",
+    "advice_text": "不承诺乘船、登高或进入特定院落",
+    "rule_id": "R_UNLESS",
+    "condition_mode": "explicit",
+    "condition_operator": "unless",
+    "context_sentence_ids": [
+      "TT_S03_S012"
+    ],
+    "candidate_id": "dcfd1433547c951c"
+  },
+  {
+    "sentence_id": "TT_S04_S014",
+    "doc_id": "TT_S04",
+    "condition_text": "带孩子且已经疲劳",
+    "advice_text": "减少支线并安排休息",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "TT_S04_S014"
+    ],
+    "candidate_id": "0068a4b41737597a"
+  },
+  {
+    "sentence_id": "TT_S04_S020",
+    "doc_id": "TT_S04",
+    "condition_text": "再次到访",
+    "advice_text": "可以提前选择一个重点，避免把全日清单当成亲子游必须完成的任务",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "TT_S04_S020"
+    ],
+    "candidate_id": "a7e80a2105e218f6"
+  },
+  {
+    "sentence_id": "TT_S05_S014",
+    "doc_id": "TT_S05",
+    "condition_text": "只剩一小时",
+    "advice_text": "删减支线，并说明无法完成全日路线",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "TT_S05_S014"
+    ],
+    "candidate_id": "4a6aaf7ff99d0719"
+  },
+  {
+    "sentence_id": "TT_T01_S017",
+    "doc_id": "TT_T01",
+    "condition_text": "自由行的游客",
+    "advice_text": "可以选择这两个门进出",
+    "rule_id": "R_VISITOR_PROFILE",
+    "condition_mode": "context",
+    "condition_operator": "context",
+    "context_sentence_ids": [
+      "TT_T01_S017"
+    ],
+    "candidate_id": "e5340eabd70bc1c1"
+  },
+  {
+    "sentence_id": "TT_T01_S053",
+    "doc_id": "TT_T01",
+    "condition_text": "两个人分别站在东，西配殿后，贴墙而立，一个人靠墙向北说话，声波会沿着墙面以声波的形式传到一，二百米的另一端，无论说话声音多小",
+    "advice_text": "也可以使对方听得清清楚楚，而且声音悠长，堪称奇趣，给人造成一种\"天人感应\"的神秘气氛",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "TT_T01_S053"
+    ],
+    "candidate_id": "e5aed47e98f1bc42"
+  },
+  {
+    "sentence_id": "TT_T02_S022",
+    "doc_id": "TT_T02",
+    "condition_text": "天坛公园很大",
+    "advice_text": "游玩的时候建议携带适当的饮用水和防晒的物品为宜",
+    "rule_id": "R_CAUSE_ADVICE",
+    "condition_mode": "context",
+    "condition_operator": "context",
+    "context_sentence_ids": [
+      "TT_T02_S022"
+    ],
+    "candidate_id": "1f50937394dda731"
+  },
+  {
+    "sentence_id": "TT_T03_S010",
+    "doc_id": "TT_T03",
+    "condition_text": "带着老人",
+    "advice_text": "不能现去找住宿的地方",
+    "rule_id": "R_VISITOR_PROFILE",
+    "condition_mode": "context",
+    "condition_operator": "context",
+    "context_sentence_ids": [
+      "TT_T03_S010"
+    ],
+    "candidate_id": "29c943b53fb49641"
+  },
+  {
+    "sentence_id": "TT_T03_S011",
+    "doc_id": "TT_T03",
+    "condition_text": "有计划出行日程",
+    "advice_text": "把住宿都预定好，不然现找和续住都很难",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "TT_T03_S011"
+    ],
+    "candidate_id": "583769b863a6836b"
+  },
+  {
+    "sentence_id": "TT_T03_S015",
+    "doc_id": "TT_T03",
+    "condition_text": "预订房间",
+    "advice_text": "建议朋友们慎选",
+    "rule_id": "R_LOCAL_SCENE",
+    "condition_mode": "context",
+    "condition_operator": "context",
+    "context_sentence_ids": [
+      "TT_T03_S015"
+    ],
+    "candidate_id": "a1d268fe1931c0c6"
+  },
+  {
+    "sentence_id": "TT_T03_S019",
+    "doc_id": "TT_T03",
+    "condition_text": "不刮风",
+    "advice_text": "穿两件棉T加件风衣刚好",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "TT_T03_S019"
+    ],
+    "candidate_id": "c114ccdfe7f20764"
+  },
+  {
+    "sentence_id": "TT_T03_S020",
+    "doc_id": "TT_T03",
+    "condition_text": "按顺序浏览",
+    "advice_text": "应该从南门进入",
+    "rule_id": "R_VISITOR_PROFILE",
+    "condition_mode": "context",
+    "condition_operator": "context",
+    "context_sentence_ids": [
+      "TT_T03_S020"
+    ],
+    "candidate_id": "e9b8db965872c198"
+  },
+  {
+    "sentence_id": "TT_T03_S038",
+    "doc_id": "TT_T03",
+    "condition_text": "时间充足的话",
+    "advice_text": "在里边散步拍照",
+    "rule_id": "R_VISITOR_PROFILE",
+    "condition_mode": "context",
+    "condition_operator": "context",
+    "context_sentence_ids": [
+      "TT_T03_S038"
+    ],
+    "candidate_id": "ec3807a7735545ac"
+  },
+  {
+    "sentence_id": "TT_T03_S053",
+    "doc_id": "TT_T03",
+    "condition_text": "喜欢骑车转胡同之类的朋友",
+    "advice_text": "可以租自行车，我在观音寺街看到两家租车店",
+    "rule_id": "R_VISITOR_PROFILE",
+    "condition_mode": "context",
+    "condition_operator": "context",
+    "context_sentence_ids": [
+      "TT_T03_S053"
+    ],
+    "candidate_id": "8892eab16d141a90"
+  },
+  {
+    "sentence_id": "TT_T03_S058",
+    "doc_id": "TT_T03",
+    "condition_text": "喜欢拍照的朋友",
+    "advice_text": "早点到这拍照，自拍都可以呢",
+    "rule_id": "R_VISITOR_PROFILE",
+    "condition_mode": "context",
+    "condition_operator": "context",
+    "context_sentence_ids": [
+      "TT_T03_S058"
+    ],
+    "candidate_id": "42354cd0a4ac6ae9"
+  },
+  {
+    "sentence_id": "TT_T03_S085",
+    "doc_id": "TT_T03",
+    "condition_text": "是年轻人",
+    "advice_text": "可以去长城(因为那句话嘛~)，喜欢拍照的年轻人还可以去五道口和798.喜欢故居的有宋庆龄，郭沫",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "TT_T03_S085"
+    ],
+    "candidate_id": "51efe051e6f53b11"
+  },
+  {
+    "sentence_id": "TT_T05_S031",
+    "doc_id": "TT_T05",
+    "condition_text": "不想去人山人海的北京传统景点",
+    "advice_text": "可以考虑到这里逛半天",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "TT_T05_S031"
+    ],
+    "candidate_id": "3c50b18d7415cfd5"
+  },
+  {
+    "sentence_id": "YHY_O02_S015",
+    "doc_id": "YHY_O02",
+    "condition_text": "当天游船停航或等候过久",
+    "advice_text": "应按园内导览调整后段安排，先保证路线可达，再决定是否继续去南湖岛",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "any",
+    "context_sentence_ids": [
+      "YHY_O02_S015"
+    ],
+    "candidate_id": "c776b5b1416853ab"
+  },
+  {
+    "sentence_id": "YHY_O03_S001",
+    "doc_id": "YHY_O03",
+    "condition_text": "时间有限",
+    "advice_text": "可以把颐和园行程安排在东部院落、长廊和后山之间",
+    "rule_id": "R_VISITOR_PROFILE",
+    "condition_mode": "context",
+    "condition_operator": "context",
+    "context_sentence_ids": [
+      "YHY_O03_S001"
+    ],
+    "candidate_id": "e46cc983fc201319"
+  },
+  {
+    "sentence_id": "YHY_O03_S007",
+    "doc_id": "YHY_O03",
+    "condition_text": "计划严格控制时长",
+    "advice_text": "不宜在所有院落中逐一深入",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "YHY_O03_S007"
+    ],
+    "candidate_id": "9f36c2d191f8f89f"
+  },
+  {
+    "sentence_id": "YHY_O03_S013",
+    "doc_id": "YHY_O03",
+    "condition_text": "不适合上下坡或台阶",
+    "advice_text": "应在行前了解园内导览，必要时调整路线",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "any",
+    "context_sentence_ids": [
+      "YHY_O03_S013"
+    ],
+    "candidate_id": "ea4ea8a0a5d391d0"
+  },
+  {
+    "sentence_id": "YHY_O04_S011",
+    "doc_id": "YHY_O04",
+    "condition_text": "停航或等候较久",
+    "advice_text": "需要重新评估步行安排，不能忽略从船程变为步行后的距离变化",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "any",
+    "context_sentence_ids": [
+      "YHY_O04_S011"
+    ],
+    "candidate_id": "c697919f3e6ad21a"
+  },
+  {
+    "sentence_id": "YHY_O04_S014",
+    "doc_id": "YHY_O04",
+    "condition_text": "前山停留已占用较长时间",
+    "advice_text": "可以减少后段院落的深入参观，把路线作为一个可调整的框架",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "YHY_O04_S014"
+    ],
+    "candidate_id": "a5945457448ceb58"
+  },
+  {
+    "sentence_id": "YHY_O05_S007",
+    "doc_id": "YHY_O05",
+    "condition_text": "带孩子",
+    "advice_text": "不要在桥边长时间分散",
+    "rule_id": "R_VISITOR_PROFILE",
+    "condition_mode": "context",
+    "condition_operator": "context",
+    "context_sentence_ids": [
+      "YHY_O05_S007"
+    ],
+    "candidate_id": "99060c136b65c1af"
+  },
+  {
+    "sentence_id": "YHY_O05_S015",
+    "doc_id": "YHY_O05",
+    "condition_text": "当天不乘船",
+    "advice_text": "需要按园内导览重新评估步行距离，不要把标注的三小时直接套用在变更后的行程上",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "YHY_O05_S015"
+    ],
+    "candidate_id": "de7943891d7277a9"
+  },
+  {
+    "sentence_id": "YHY_S01_S027",
+    "doc_id": "YHY_S01",
+    "condition_text": "带孩子",
+    "advice_text": "在苏州街增加休息，并减少佛香阁的停留",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "YHY_S01_S027"
+    ],
+    "candidate_id": "72e242a8c26ceab3"
+  },
+  {
+    "sentence_id": "YHY_S01_S027",
+    "doc_id": "YHY_S01",
+    "condition_text": "同行者是情侣",
+    "advice_text": "可在不妨碍通行的地点安排拍照",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "YHY_S01_S027"
+    ],
+    "candidate_id": "7eee6619551e4ba7"
+  },
+  {
+    "sentence_id": "YHY_S02_S012",
+    "doc_id": "YHY_S02",
+    "condition_text": "带老人",
+    "advice_text": "每连续步行二十分钟安排一次休息，并删减佛香阁支线",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "YHY_S02_S012"
+    ],
+    "candidate_id": "66dabb811ed3ca72"
+  },
+  {
+    "sentence_id": "YHY_S02_S013",
+    "doc_id": "YHY_S02",
+    "condition_text": "老人明确表示疲劳",
+    "advice_text": "优先离园，不再增加拍照任务",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "YHY_S02_S013"
+    ],
+    "candidate_id": "e5686045a94dec9c"
+  },
+  {
+    "sentence_id": "YHY_S02_S014",
+    "doc_id": "YHY_S02",
+    "condition_text": "同行者使用轮椅",
+    "advice_text": "应先核实无障碍通道",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "YHY_S02_S014"
+    ],
+    "candidate_id": "f68167b331dc725f"
+  },
+  {
+    "sentence_id": "YHY_S03_S005",
+    "doc_id": "YHY_S03",
+    "condition_text": "在通行与体力都允许时",
+    "advice_text": "执行整个计划",
+    "rule_id": "R_ONLY_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "necessary",
+    "context_sentence_ids": [
+      "YHY_S03_S005"
+    ],
+    "candidate_id": "c4018773dd653d7a"
+  },
+  {
+    "sentence_id": "YHY_S03_S006",
+    "doc_id": "YHY_S03",
+    "condition_text": "下小雨且现场仍允许游览",
+    "advice_text": "减少露天停留，按现场指引选择可进入的避雨处",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "YHY_S03_S006"
+    ],
+    "candidate_id": "675ed55db53cf9ff"
+  },
+  {
+    "sentence_id": "YHY_S03_S006",
+    "doc_id": "YHY_S03",
+    "condition_text": "出现雷雨或临时闭园",
+    "advice_text": "停止户外行程并服从管理",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "any",
+    "context_sentence_ids": [
+      "YHY_S03_S006"
+    ],
+    "candidate_id": "1d42fbea08270952"
+  },
+  {
+    "sentence_id": "YHY_S03_S008",
+    "doc_id": "YHY_S03",
+    "condition_text": "带孩子且孩子已经疲劳",
+    "advice_text": "建议先休息，并取消佛香阁支线",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "YHY_S03_S008"
+    ],
+    "candidate_id": "92132a50376785a2"
+  },
+  {
+    "sentence_id": "YHY_S03_S008",
+    "doc_id": "YHY_S03",
+    "condition_text": "仅仅想拍照",
+    "advice_text": "可以在仁寿殿安排短暂停留",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "YHY_S03_S008"
+    ],
+    "candidate_id": "03b9ad4a15945797"
+  },
+  {
+    "sentence_id": "YHY_S03_S010",
+    "doc_id": "YHY_S03",
+    "condition_text": "游船因大风停航",
+    "advice_text": "取消乘船并改为沿开放岸线步行",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "YHY_S03_S010"
+    ],
+    "candidate_id": "bff3d9cfeefcd8d2"
+  },
+  {
+    "sentence_id": "YHY_S03_S012",
+    "doc_id": "YHY_S03",
+    "condition_text": "体力允许并且相关区域开放",
+    "advice_text": "加入下午支线",
+    "rule_id": "R_ONLY_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "necessary",
+    "context_sentence_ids": [
+      "YHY_S03_S012"
+    ],
+    "candidate_id": "72d64c553cba8d0a"
+  },
+  {
+    "sentence_id": "YHY_S03_S013",
+    "doc_id": "YHY_S03",
+    "condition_text": "天气与开放情况得到确认",
+    "advice_text": "不承诺乘船、登高或进入特定院落",
+    "rule_id": "R_UNLESS",
+    "condition_mode": "explicit",
+    "condition_operator": "unless",
+    "context_sentence_ids": [
+      "YHY_S03_S013"
+    ],
+    "candidate_id": "ab69fd6b4df6fb09"
+  },
+  {
+    "sentence_id": "YHY_S04_S014",
+    "doc_id": "YHY_S04",
+    "condition_text": "带孩子且已经疲劳",
+    "advice_text": "减少支线并安排休息",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "YHY_S04_S014"
+    ],
+    "candidate_id": "73b6c5370f3ffcbc"
+  },
+  {
+    "sentence_id": "YHY_S04_S020",
+    "doc_id": "YHY_S04",
+    "condition_text": "再次到访",
+    "advice_text": "可以提前选择一个重点，避免把全日清单当成亲子游必须完成的任务",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "YHY_S04_S020"
+    ],
+    "candidate_id": "b8668ed57bce8d8f"
+  },
+  {
+    "sentence_id": "YHY_S05_S014",
+    "doc_id": "YHY_S05",
+    "condition_text": "只剩一小时",
+    "advice_text": "删减支线，并说明无法完成全日路线",
+    "rule_id": "R_IF_THEN",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "YHY_S05_S014"
+    ],
+    "candidate_id": "ba163f477f4f607a"
+  },
+  {
+    "sentence_id": "YHY_T04_S017",
+    "doc_id": "YHY_T04",
+    "condition_text": "转入展厅",
+    "advice_text": "需配戴口罩",
+    "rule_id": "R_ACCESS_REQUIREMENT",
+    "condition_mode": "explicit",
+    "condition_operator": "all",
+    "context_sentence_ids": [
+      "YHY_T04_S017"
+    ],
+    "candidate_id": "df1af74c0f7a606f"
+  }
+]

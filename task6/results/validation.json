@@ -1,0 +1,88 @@
+{
+  "checks": {
+    "has_required_node_types": true,
+    "has_route_order_edges": true,
+    "has_source_edges": true,
+    "contains_only_pois": true,
+    "task2_context_relations_are_typed": true,
+    "has_connected_components": true,
+    "all_route_steps_have_poi_edges": true,
+    "complete_relation_atlas_covers_all_edges": true
+  },
+  "passed": true,
+  "node_counts": {
+    "scenic": 4,
+    "time": 94,
+    "transport": 24,
+    "poi": 120,
+    "route": 4,
+    "activity": 26,
+    "condition": 95,
+    "advice": 95
+  },
+  "relation_counts": {
+    "mentions_time": 181,
+    "mentions_transport": 24,
+    "contains": 117,
+    "has_condition": 95,
+    "has_route": 4,
+    "next": 30,
+    "occurs_in": 18,
+    "has_activity": 27,
+    "visits": 37,
+    "recommends": 95
+  },
+  "components": 2,
+  "core_nodes": [
+    {
+      "id": "scenic:天坛",
+      "degree": 145,
+      "label": "天坛"
+    },
+    {
+      "id": "scenic:颐和园",
+      "degree": 137,
+      "label": "颐和园"
+    },
+    {
+      "id": "scenic:故宫",
+      "degree": 135,
+      "label": "故宫"
+    },
+    {
+      "id": "poi:故宫:乾清宫",
+      "degree": 17,
+      "label": "乾清宫"
+    },
+    {
+      "id": "poi:故宫:御花园",
+      "degree": 15,
+      "label": "御花园"
+    },
+    {
+      "id": "poi:故宫:神武门",
+      "degree": 15,
+      "label": "神武门"
+    },
+    {
+      "id": "poi:故宫:午门",
+      "degree": 14,
+      "label": "午门"
+    },
+    {
+      "id": "route:route-GG-official-facts",
+      "degree": 13,
+      "label": "route-GG-official-facts"
+    },
+    {
+      "id": "poi:故宫:珍宝馆",
+      "degree": 12,
+      "label": "珍宝馆"
+    },
+    {
+      "id": "route:route-GG-traveler-GG_T01",
+      "degree": 12,
+      "label": "route-GG-traveler-GG_T01"
+    }
+  ]
+}

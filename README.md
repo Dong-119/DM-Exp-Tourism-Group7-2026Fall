@@ -51,3 +51,14 @@ python -m pip install -r requirements.txt
 python run_experiment.py
 python verify.py
 ```
+
+## 实验项目6：多源程序性知识融合与图谱可视化
+
+融合实验二实体、实验三路线和实验五条件建议，使用 NetworkX 构建知识图谱。
+
+```powershell
+python -m pip install -r task6\requirements.txt
+python task6\run_experiment.py
+```
+
+报告和结果位于 [task6/](task6/)；核心结果包括节点/边 CSV、GraphML、SVG 可视化和验证清单。

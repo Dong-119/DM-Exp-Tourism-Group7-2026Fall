@@ -1,0 +1,904 @@
+[
+  {
+    "subject": "GG_S04:122:123",
+    "predicate": "COREFERS_TO",
+    "object": "GG_S04:118:121:POI",
+    "doc_id": "GG_S04",
+    "mention_span": [
+      122,
+      123
+    ],
+    "antecedent": {
+      "text": "太和殿",
+      "start": 118,
+      "end": 121,
+      "kind": "POI",
+      "entity_key": "故宫:太和殿",
+      "canonical": "太和殿",
+      "candidate_id": "GG_S04:118:121:POI",
+      "sentence_index": 4,
+      "distance_chars": 1,
+      "distance_sentences": 1
+    }
+  },
+  {
+    "subject": "GG_S04:184:186",
+    "predicate": "COREFERS_TO",
+    "object": "GG_S04:169:172:POI",
+    "doc_id": "GG_S04",
+    "mention_span": [
+      184,
+      186
+    ],
+    "antecedent": {
+      "text": "太和殿",
+      "start": 169,
+      "end": 172,
+      "kind": "POI",
+      "entity_key": "故宫:太和殿",
+      "canonical": "太和殿",
+      "candidate_id": "GG_S04:169:172:POI",
+      "sentence_index": 7,
+      "distance_chars": 12,
+      "distance_sentences": 1
+    }
+  },
+  {
+    "subject": "GG_S04:190:192",
+    "predicate": "COREFERS_TO",
+    "object": "GG_S04:178:181:POI",
+    "doc_id": "GG_S04",
+    "mention_span": [
+      190,
+      192
+    ],
+    "antecedent": {
+      "text": "中和殿",
+      "start": 178,
+      "end": 181,
+      "kind": "POI",
+      "entity_key": "故宫:中和殿",
+      "canonical": "中和殿",
+      "candidate_id": "GG_S04:178:181:POI",
+      "sentence_index": 7,
+      "distance_chars": 9,
+      "distance_sentences": 1
+    }
+  },
+  {
+    "subject": "GG_S04:278:280",
+    "predicate": "COREFERS_TO",
+    "object": "GG_S04:274:277:POI",
+    "doc_id": "GG_S04",
+    "mention_span": [
+      278,
+      280
+    ],
+    "antecedent": {
+      "text": "御花园",
+      "start": 274,
+      "end": 277,
+      "kind": "POI",
+      "entity_key": "故宫:御花园",
+      "canonical": "御花园",
+      "candidate_id": "GG_S04:274:277:POI",
+      "sentence_index": 11,
+      "distance_chars": 1,
+      "distance_sentences": 1
+    }
+  },
+  {
+    "subject": "GG_S04:296:298",
+    "predicate": "COREFERS_TO",
+    "object": "GG_S04:274:277:POI",
+    "doc_id": "GG_S04",
+    "mention_span": [
+      296,
+      298
+    ],
+    "antecedent": {
+      "text": "御花园",
+      "start": 274,
+      "end": 277,
+      "kind": "POI",
+      "entity_key": "故宫:御花园",
+      "canonical": "御花园",
+      "candidate_id": "GG_S04:274:277:POI",
+      "sentence_index": 11,
+      "distance_chars": 19,
+      "distance_sentences": 1
+    }
+  },
+  {
+    "subject": "GG_S04:470:471",
+    "predicate": "COREFERS_TO",
+    "object": "GG_S04:454:458:POI",
+    "doc_id": "GG_S04",
+    "mention_span": [
+      470,
+      471
+    ],
+    "antecedent": {
+      "text": "景山公园",
+      "start": 454,
+      "end": 458,
+      "kind": "POI",
+      "entity_key": "周边:景山公园",
+      "canonical": "景山公园",
+      "candidate_id": "GG_S04:454:458:POI",
+      "sentence_index": 19,
+      "distance_chars": 12,
+      "distance_sentences": 1
+    }
+  },
+  {
+    "subject": "YHY_S04:123:124",
+    "predicate": "COREFERS_TO",
+    "object": "YHY_S04:119:122:POI",
+    "doc_id": "YHY_S04",
+    "mention_span": [
+      123,
+      124
+    ],
+    "antecedent": {
+      "text": "仁寿殿",
+      "start": 119,
+      "end": 122,
+      "kind": "POI",
+      "entity_key": "颐和园:仁寿殿",
+      "canonical": "仁寿殿",
+      "candidate_id": "YHY_S04:119:122:POI",
+      "sentence_index": 4,
+      "distance_chars": 1,
+      "distance_sentences": 1
+    }
+  },
+  {
+    "subject": "YHY_S04:185:187",
+    "predicate": "COREFERS_TO",
+    "object": "YHY_S04:170:173:POI",
+    "doc_id": "YHY_S04",
+    "mention_span": [
+      185,
+      187
+    ],
+    "antecedent": {
+      "text": "仁寿殿",
+      "start": 170,
+      "end": 173,
+      "kind": "POI",
+      "entity_key": "颐和园:仁寿殿",
+      "canonical": "仁寿殿",
+      "candidate_id": "YHY_S04:170:173:POI",
+      "sentence_index": 7,
+      "distance_chars": 12,
+      "distance_sentences": 1
+    }
+  },
+  {
+    "subject": "YHY_S04:191:193",
+    "predicate": "COREFERS_TO",
+    "object": "YHY_S04:179:182:POI",
+    "doc_id": "YHY_S04",
+    "mention_span": [
+      191,
+      193
+    ],
+    "antecedent": {
+      "text": "乐寿堂",
+      "start": 179,
+      "end": 182,
+      "kind": "POI",
+      "entity_key": "颐和园:乐寿堂",
+      "canonical": "乐寿堂",
+      "candidate_id": "YHY_S04:179:182:POI",
+      "sentence_index": 7,
+      "distance_chars": 9,
+      "distance_sentences": 1
+    }
+  },
+  {
+    "subject": "YHY_S04:278:280",
+    "predicate": "COREFERS_TO",
+    "object": "YHY_S04:274:277:POI",
+    "doc_id": "YHY_S04",
+    "mention_span": [
+      278,
+      280
+    ],
+    "antecedent": {
+      "text": "苏州街",
+      "start": 274,
+      "end": 277,
+      "kind": "POI",
+      "entity_key": "颐和园:苏州街",
+      "canonical": "苏州街",
+      "candidate_id": "YHY_S04:274:277:POI",
+      "sentence_index": 11,
+      "distance_chars": 1,
+      "distance_sentences": 1
+    }
+  },
+  {
+    "subject": "YHY_S04:296:298",
+    "predicate": "COREFERS_TO",
+    "object": "YHY_S04:274:277:POI",
+    "doc_id": "YHY_S04",
+    "mention_span": [
+      296,
+      298
+    ],
+    "antecedent": {
+      "text": "苏州街",
+      "start": 274,
+      "end": 277,
+      "kind": "POI",
+      "entity_key": "颐和园:苏州街",
+      "canonical": "苏州街",
+      "candidate_id": "YHY_S04:274:277:POI",
+      "sentence_index": 11,
+      "distance_chars": 19,
+      "distance_sentences": 1
+    }
+  },
+  {
+    "subject": "YHY_S04:469:470",
+    "predicate": "COREFERS_TO",
+    "object": "YHY_S04:454:457:POI",
+    "doc_id": "YHY_S04",
+    "mention_span": [
+      469,
+      470
+    ],
+    "antecedent": {
+      "text": "圆明园",
+      "start": 454,
+      "end": 457,
+      "kind": "POI",
+      "entity_key": "周边:圆明园",
+      "canonical": "圆明园",
+      "candidate_id": "YHY_S04:454:457:POI",
+      "sentence_index": 19,
+      "distance_chars": 12,
+      "distance_sentences": 1
+    }
+  },
+  {
+    "subject": "TT_S04:120:121",
+    "predicate": "COREFERS_TO",
+    "object": "TT_S04:117:119:POI",
+    "doc_id": "TT_S04",
+    "mention_span": [
+      120,
+      121
+    ],
+    "antecedent": {
+      "text": "圜丘",
+      "start": 117,
+      "end": 119,
+      "kind": "POI",
+      "entity_key": "天坛:圜丘",
+      "canonical": "圜丘",
+      "candidate_id": "TT_S04:117:119:POI",
+      "sentence_index": 4,
+      "distance_chars": 1,
+      "distance_sentences": 1
+    }
+  },
+  {
+    "subject": "TT_S04:181:183",
+    "predicate": "COREFERS_TO",
+    "object": "TT_S04:167:169:POI",
+    "doc_id": "TT_S04",
+    "mention_span": [
+      181,
+      183
+    ],
+    "antecedent": {
+      "text": "圜丘",
+      "start": 167,
+      "end": 169,
+      "kind": "POI",
+      "entity_key": "天坛:圜丘",
+      "canonical": "圜丘",
+      "candidate_id": "TT_S04:167:169:POI",
+      "sentence_index": 7,
+      "distance_chars": 12,
+      "distance_sentences": 1
+    }
+  },
+  {
+    "subject": "TT_S04:187:189",
+    "predicate": "COREFERS_TO",
+    "object": "TT_S04:175:178:POI",
+    "doc_id": "TT_S04",
+    "mention_span": [
+      187,
+      189
+    ],
+    "antecedent": {
+      "text": "皇穹宇",
+      "start": 175,
+      "end": 178,
+      "kind": "POI",
+      "entity_key": "天坛:皇穹宇",
+      "canonical": "皇穹宇",
+      "candidate_id": "TT_S04:175:178:POI",
+      "sentence_index": 7,
+      "distance_chars": 9,
+      "distance_sentences": 1
+    }
+  },
+  {
+    "subject": "TT_S04:274:276",
+    "predicate": "COREFERS_TO",
+    "object": "TT_S04:271:273:POI",
+    "doc_id": "TT_S04",
+    "mention_span": [
+      274,
+      276
+    ],
+    "antecedent": {
+      "text": "长廊",
+      "start": 271,
+      "end": 273,
+      "kind": "POI",
+      "entity_key": "天坛:长廊",
+      "canonical": "长廊",
+      "candidate_id": "TT_S04:271:273:POI",
+      "sentence_index": 11,
+      "distance_chars": 1,
+      "distance_sentences": 1
+    }
+  },
+  {
+    "subject": "TT_S04:292:294",
+    "predicate": "COREFERS_TO",
+    "object": "TT_S04:271:273:POI",
+    "doc_id": "TT_S04",
+    "mention_span": [
+      292,
+      294
+    ],
+    "antecedent": {
+      "text": "长廊",
+      "start": 271,
+      "end": 273,
+      "kind": "POI",
+      "entity_key": "天坛:长廊",
+      "canonical": "长廊",
+      "candidate_id": "TT_S04:271:273:POI",
+      "sentence_index": 11,
+      "distance_chars": 19,
+      "distance_sentences": 1
+    }
+  },
+  {
+    "subject": "TT_S04:464:465",
+    "predicate": "COREFERS_TO",
+    "object": "TT_S04:448:452:POI",
+    "doc_id": "TT_S04",
+    "mention_span": [
+      464,
+      465
+    ],
+    "antecedent": {
+      "text": "前门大街",
+      "start": 448,
+      "end": 452,
+      "kind": "POI",
+      "entity_key": "周边:前门大街",
+      "canonical": "前门大街",
+      "candidate_id": "TT_S04:448:452:POI",
+      "sentence_index": 19,
+      "distance_chars": 12,
+      "distance_sentences": 1
+    }
+  },
+  {
+    "subject": "YHY_T05:50:51",
+    "predicate": "COREFERS_TO",
+    "object": "YHY_T05:26:29:POI",
+    "doc_id": "YHY_T05",
+    "mention_span": [
+      50,
+      51
+    ],
+    "antecedent": {
+      "text": "颐和园",
+      "start": 26,
+      "end": 29,
+      "kind": "POI",
+      "entity_key": "颐和园:颐和园",
+      "canonical": "颐和园",
+      "candidate_id": "YHY_T05:26:29:POI",
+      "sentence_index": 1,
+      "distance_chars": 21,
+      "distance_sentences": 0
+    }
+  },
+  {
+    "subject": "YHY_T05:549:551",
+    "predicate": "COREFERS_TO",
+    "object": "YHY_T05:526:529:ANIMAL",
+    "doc_id": "YHY_T05",
+    "mention_span": [
+      549,
+      551
+    ],
+    "antecedent": {
+      "text": "大熊猫",
+      "start": 526,
+      "end": 529,
+      "kind": "ANIMAL",
+      "entity_key": null,
+      "canonical": "大熊猫",
+      "candidate_id": "YHY_T05:526:529:ANIMAL",
+      "sentence_index": 17,
+      "distance_chars": 20,
+      "distance_sentences": 1
+    }
+  },
+  {
+    "subject": "YHY_T05:590:592",
+    "predicate": "COREFERS_TO",
+    "object": "YHY_T05:512:517:POI",
+    "doc_id": "YHY_T05",
+    "mention_span": [
+      590,
+      592
+    ],
+    "antecedent": {
+      "text": "北京动物园",
+      "start": 512,
+      "end": 517,
+      "kind": "POI",
+      "entity_key": "周边:北京动物园",
+      "canonical": "北京动物园",
+      "candidate_id": "YHY_T05:512:517:POI",
+      "sentence_index": 17,
+      "distance_chars": 73,
+      "distance_sentences": 3
+    }
+  },
+  {
+    "subject": "YHY_T05:598:600",
+    "predicate": "COREFERS_TO",
+    "object": "YHY_T05:573:576:ANIMAL",
+    "doc_id": "YHY_T05",
+    "mention_span": [
+      598,
+      600
+    ],
+    "antecedent": {
+      "text": "大熊猫",
+      "start": 573,
+      "end": 576,
+      "kind": "ANIMAL",
+      "entity_key": null,
+      "canonical": "大熊猫",
+      "candidate_id": "YHY_T05:573:576:ANIMAL",
+      "sentence_index": 20,
+      "distance_chars": 22,
+      "distance_sentences": 1
+    }
+  },
+  {
+    "subject": "YHY_T05:629:631",
+    "predicate": "COREFERS_TO",
+    "object": "YHY_T05:573:576:ANIMAL",
+    "doc_id": "YHY_T05",
+    "mention_span": [
+      629,
+      631
+    ],
+    "antecedent": {
+      "text": "大熊猫",
+      "start": 573,
+      "end": 576,
+      "kind": "ANIMAL",
+      "entity_key": null,
+      "canonical": "大熊猫",
+      "candidate_id": "YHY_T05:573:576:ANIMAL",
+      "sentence_index": 20,
+      "distance_chars": 53,
+      "distance_sentences": 3
+    }
+  },
+  {
+    "subject": "YHY_T05:671:673",
+    "predicate": "COREFERS_TO",
+    "object": "YHY_T05:573:576:ANIMAL",
+    "doc_id": "YHY_T05",
+    "mention_span": [
+      671,
+      673
+    ],
+    "antecedent": {
+      "text": "大熊猫",
+      "start": 573,
+      "end": 576,
+      "kind": "ANIMAL",
+      "entity_key": null,
+      "canonical": "大熊猫",
+      "candidate_id": "YHY_T05:573:576:ANIMAL",
+      "sentence_index": 20,
+      "distance_chars": 53,
+      "distance_sentences": 3
+    }
+  },
+  {
+    "subject": "YHY_T05:685:687",
+    "predicate": "COREFERS_TO",
+    "object": "YHY_T05:573:576:ANIMAL",
+    "doc_id": "YHY_T05",
+    "mention_span": [
+      685,
+      687
+    ],
+    "antecedent": {
+      "text": "大熊猫",
+      "start": 573,
+      "end": 576,
+      "kind": "ANIMAL",
+      "entity_key": null,
+      "canonical": "大熊猫",
+      "candidate_id": "YHY_T05:573:576:ANIMAL",
+      "sentence_index": 20,
+      "distance_chars": 53,
+      "distance_sentences": 3
+    }
+  },
+  {
+    "subject": "YHY_T05:697:699",
+    "predicate": "COREFERS_TO",
+    "object": "YHY_T05:573:576:ANIMAL",
+    "doc_id": "YHY_T05",
+    "mention_span": [
+      697,
+      699
+    ],
+    "antecedent": {
+      "text": "大熊猫",
+      "start": 573,
+      "end": 576,
+      "kind": "ANIMAL",
+      "entity_key": null,
+      "canonical": "大熊猫",
+      "candidate_id": "YHY_T05:573:576:ANIMAL",
+      "sentence_index": 20,
+      "distance_chars": 53,
+      "distance_sentences": 3
+    }
+  },
+  {
+    "subject": "YHY_T05:815:816",
+    "predicate": "COREFERS_TO",
+    "object": "YHY_T05:774:778:VEHICLE",
+    "doc_id": "YHY_T05",
+    "mention_span": [
+      815,
+      816
+    ],
+    "antecedent": {
+      "text": "无轨电车",
+      "start": 774,
+      "end": 778,
+      "kind": "VEHICLE",
+      "entity_key": null,
+      "canonical": "无轨电车",
+      "candidate_id": "YHY_T05:774:778:VEHICLE",
+      "sentence_index": 29,
+      "distance_chars": 37,
+      "distance_sentences": 1
+    }
+  },
+  {
+    "subject": "YHY_T05:917:918",
+    "predicate": "COREFERS_TO",
+    "object": "YHY_T05:911:916:PERSON",
+    "doc_id": "YHY_T05",
+    "mention_span": [
+      917,
+      918
+    ],
+    "antecedent": {
+      "text": "一个售票员",
+      "start": 911,
+      "end": 916,
+      "kind": "PERSON",
+      "entity_key": null,
+      "canonical": "售票员",
+      "candidate_id": "YHY_T05:911:916:PERSON",
+      "sentence_index": 33,
+      "distance_chars": 1,
+      "distance_sentences": 0
+    }
+  },
+  {
+    "subject": "YHY_T05:969:970",
+    "predicate": "COREFERS_TO",
+    "object": "YHY_T05:961:964:PERSON",
+    "doc_id": "YHY_T05",
+    "mention_span": [
+      969,
+      970
+    ],
+    "antecedent": {
+      "text": "售票员",
+      "start": 961,
+      "end": 964,
+      "kind": "PERSON",
+      "entity_key": null,
+      "canonical": "售票员",
+      "candidate_id": "YHY_T05:961:964:PERSON",
+      "sentence_index": 34,
+      "distance_chars": 5,
+      "distance_sentences": 0
+    }
+  },
+  {
+    "subject": "YHY_T05:1022:1023",
+    "predicate": "COREFERS_TO",
+    "object": "YHY_T05:961:964:PERSON",
+    "doc_id": "YHY_T05",
+    "mention_span": [
+      1022,
+      1023
+    ],
+    "antecedent": {
+      "text": "售票员",
+      "start": 961,
+      "end": 964,
+      "kind": "PERSON",
+      "entity_key": null,
+      "canonical": "售票员",
+      "candidate_id": "YHY_T05:961:964:PERSON",
+      "sentence_index": 34,
+      "distance_chars": 5,
+      "distance_sentences": 0
+    }
+  },
+  {
+    "subject": "YHY_T05:1027:1028",
+    "predicate": "COREFERS_TO",
+    "object": "YHY_T05:961:964:PERSON",
+    "doc_id": "YHY_T05",
+    "mention_span": [
+      1027,
+      1028
+    ],
+    "antecedent": {
+      "text": "售票员",
+      "start": 961,
+      "end": 964,
+      "kind": "PERSON",
+      "entity_key": null,
+      "canonical": "售票员",
+      "candidate_id": "YHY_T05:961:964:PERSON",
+      "sentence_index": 34,
+      "distance_chars": 5,
+      "distance_sentences": 0
+    }
+  },
+  {
+    "subject": "YHY_T05:1284:1285",
+    "predicate": "COREFERS_TO",
+    "object": "YHY_T05:1269:1272:PERSON",
+    "doc_id": "YHY_T05",
+    "mention_span": [
+      1284,
+      1285
+    ],
+    "antecedent": {
+      "text": "我朋友",
+      "start": 1269,
+      "end": 1272,
+      "kind": "PERSON",
+      "entity_key": null,
+      "canonical": "朋友",
+      "candidate_id": "YHY_T05:1269:1272:PERSON",
+      "sentence_index": 44,
+      "distance_chars": 12,
+      "distance_sentences": 1
+    }
+  },
+  {
+    "subject": "YHY_T05:1306:1307",
+    "predicate": "COREFERS_TO",
+    "object": "YHY_T05:1269:1272:PERSON",
+    "doc_id": "YHY_T05",
+    "mention_span": [
+      1306,
+      1307
+    ],
+    "antecedent": {
+      "text": "我朋友",
+      "start": 1269,
+      "end": 1272,
+      "kind": "PERSON",
+      "entity_key": null,
+      "canonical": "朋友",
+      "candidate_id": "YHY_T05:1269:1272:PERSON",
+      "sentence_index": 44,
+      "distance_chars": 12,
+      "distance_sentences": 1
+    }
+  },
+  {
+    "subject": "YHY_T05:1321:1322",
+    "predicate": "COREFERS_TO",
+    "object": "YHY_T05:1269:1272:PERSON",
+    "doc_id": "YHY_T05",
+    "mention_span": [
+      1321,
+      1322
+    ],
+    "antecedent": {
+      "text": "我朋友",
+      "start": 1269,
+      "end": 1272,
+      "kind": "PERSON",
+      "entity_key": null,
+      "canonical": "朋友",
+      "candidate_id": "YHY_T05:1269:1272:PERSON",
+      "sentence_index": 44,
+      "distance_chars": 12,
+      "distance_sentences": 1
+    }
+  },
+  {
+    "subject": "YHY_T05:1355:1356",
+    "predicate": "COREFERS_TO",
+    "object": "YHY_T05:1269:1272:PERSON",
+    "doc_id": "YHY_T05",
+    "mention_span": [
+      1355,
+      1356
+    ],
+    "antecedent": {
+      "text": "我朋友",
+      "start": 1269,
+      "end": 1272,
+      "kind": "PERSON",
+      "entity_key": null,
+      "canonical": "朋友",
+      "candidate_id": "YHY_T05:1269:1272:PERSON",
+      "sentence_index": 44,
+      "distance_chars": 12,
+      "distance_sentences": 1
+    }
+  },
+  {
+    "subject": "YHY_T05:1372:1373",
+    "predicate": "COREFERS_TO",
+    "object": "YHY_T05:1269:1272:PERSON",
+    "doc_id": "YHY_T05",
+    "mention_span": [
+      1372,
+      1373
+    ],
+    "antecedent": {
+      "text": "我朋友",
+      "start": 1269,
+      "end": 1272,
+      "kind": "PERSON",
+      "entity_key": null,
+      "canonical": "朋友",
+      "candidate_id": "YHY_T05:1269:1272:PERSON",
+      "sentence_index": 44,
+      "distance_chars": 12,
+      "distance_sentences": 1
+    }
+  },
+  {
+    "subject": "YHY_T05:1383:1384",
+    "predicate": "COREFERS_TO",
+    "object": "YHY_T05:1269:1272:PERSON",
+    "doc_id": "YHY_T05",
+    "mention_span": [
+      1383,
+      1384
+    ],
+    "antecedent": {
+      "text": "我朋友",
+      "start": 1269,
+      "end": 1272,
+      "kind": "PERSON",
+      "entity_key": null,
+      "canonical": "朋友",
+      "candidate_id": "YHY_T05:1269:1272:PERSON",
+      "sentence_index": 44,
+      "distance_chars": 12,
+      "distance_sentences": 1
+    }
+  },
+  {
+    "subject": "TT_T04:88:89",
+    "predicate": "COREFERS_TO",
+    "object": "TT_T04:80:83:OBJECT",
+    "doc_id": "TT_T04",
+    "mention_span": [
+      88,
+      89
+    ],
+    "antecedent": {
+      "text": "建筑物",
+      "start": 80,
+      "end": 83,
+      "kind": "OBJECT",
+      "entity_key": null,
+      "canonical": "建筑物",
+      "candidate_id": "TT_T04:80:83:OBJECT",
+      "sentence_index": 1,
+      "distance_chars": 5,
+      "distance_sentences": 0
+    }
+  },
+  {
+    "subject": "TT_T04:208:209",
+    "predicate": "COREFERS_TO",
+    "object": "TT_T04:203:206:POI",
+    "doc_id": "TT_T04",
+    "mention_span": [
+      208,
+      209
+    ],
+    "antecedent": {
+      "text": "祈年殿",
+      "start": 203,
+      "end": 206,
+      "kind": "POI",
+      "entity_key": "天坛:祈年殿",
+      "canonical": "祈年殿",
+      "candidate_id": "TT_T04:203:206:POI",
+      "sentence_index": 2,
+      "distance_chars": 2,
+      "distance_sentences": 0
+    }
+  },
+  {
+    "subject": "TT_T04:318:319",
+    "predicate": "COREFERS_TO",
+    "object": "TT_T04:313:316:POI",
+    "doc_id": "TT_T04",
+    "mention_span": [
+      318,
+      319
+    ],
+    "antecedent": {
+      "text": "皇穹宇",
+      "start": 313,
+      "end": 316,
+      "kind": "POI",
+      "entity_key": "天坛:皇穹宇",
+      "canonical": "皇穹宇",
+      "candidate_id": "TT_T04:313:316:POI",
+      "sentence_index": 4,
+      "distance_chars": 2,
+      "distance_sentences": 0
+    }
+  },
+  {
+    "subject": "TT_T04:397:398",
+    "predicate": "COREFERS_TO",
+    "object": "TT_T04:392:395:POI",
+    "doc_id": "TT_T04",
+    "mention_span": [
+      397,
+      398
+    ],
+    "antecedent": {
+      "text": "回音壁",
+      "start": 392,
+      "end": 395,
+      "kind": "POI",
+      "entity_key": "天坛:回音壁",
+      "canonical": "回音壁",
+      "candidate_id": "TT_T04:392:395:POI",
+      "sentence_index": 5,
+      "distance_chars": 2,
+      "distance_sentences": 0
+    }
+  }
+]

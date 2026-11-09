@@ -1,0 +1,66 @@
+{
+  "input": {
+    "input_records": 48,
+    "records": 48,
+    "sentences": 1406,
+    "counts": {
+      "天坛/route_guide": 9,
+      "天坛/travelogue": 7,
+      "故宫/route_guide": 9,
+      "故宫/travelogue": 7,
+      "颐和园/route_guide": 9,
+      "颐和园/travelogue": 7
+    },
+    "by_provenance": {
+      "dataset_corpus": 15,
+      "editorial_route_guide": 15,
+      "official_route_facts": 3,
+      "synthetic_teaching": 15
+    }
+  },
+  "rule_candidates": 90,
+  "candidate_counts": {
+    "accept": 64,
+    "correct": 9,
+    "exclude": 17
+  },
+  "additional_source_pairs": 26,
+  "contextual_pairs": 6,
+  "accepted_before_dedup": 105,
+  "main_before_dedup": 95,
+  "main_after_dedup": 95,
+  "outside_scope": 10,
+  "dedup_merges": 0,
+  "by_visitor_type": {
+    "亲子": 15,
+    "老人": 8,
+    "行动不便": 4,
+    "青年": 0,
+    "摄影爱好者": 5,
+    "自由行": 1,
+    "情侣": 3,
+    "未特定": 61
+  },
+  "by_condition_type": {
+    "游客类型": 28,
+    "时间安排": 9,
+    "天气季节": 9,
+    "游览偏好": 9,
+    "出行安排": 2,
+    "现场情境": 18,
+    "开放与通行": 12,
+    "复合条件": 8
+  },
+  "by_target_scope": {
+    "故宫": 32,
+    "颐和园": 29,
+    "天坛": 30,
+    "北京通用": 4
+  },
+  "by_provenance": {
+    "dataset_corpus": 16,
+    "editorial_route_guide": 27,
+    "official_route_facts": 0,
+    "synthetic_teaching": 52
+  }
+}

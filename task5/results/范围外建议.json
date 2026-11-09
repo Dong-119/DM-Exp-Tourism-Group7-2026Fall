@@ -1,0 +1,463 @@
+[
+  {
+    "doc_id": "TT_T03",
+    "source_scenic": "天坛",
+    "source_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_group_id": "dataset:896800004552",
+    "source_urls": [
+      "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+    ],
+    "source_path": "data\\html\\天坛\\游客游记\\TT_T03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "喜欢骑车转胡同之类的朋友",
+    "advice_text": "可以租自行车",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游览偏好",
+    "condition_types": [
+      "游览偏好"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "北京胡同",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_T03",
+        "start": 2281,
+        "end": 2293
+      },
+      "advice_text": {
+        "doc_id": "TT_T03",
+        "start": 2294,
+        "end": 2300
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_T03",
+        "sentence_id": "TT_T03_S053",
+        "quote": "建议喜欢骑车转胡同之类的朋友，可以租自行车，我在观音寺街看到两家租车店。",
+        "start": 2279,
+        "end": 2315
+      }
+    ],
+    "mapping_id": "X001"
+  },
+  {
+    "doc_id": "TT_T03",
+    "source_scenic": "天坛",
+    "source_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_group_id": "dataset:896800004552",
+    "source_urls": [
+      "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+    ],
+    "source_path": "data\\html\\天坛\\游客游记\\TT_T03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "喜欢拍照的朋友",
+    "advice_text": "早点到这拍照，自拍都可以呢",
+    "condition_operator": "context",
+    "condition_mode": "context",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游览偏好"
+    ],
+    "visitor_types": [
+      "摄影爱好者"
+    ],
+    "target_scope": "前门大街",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_T03",
+        "start": 2434,
+        "end": 2441
+      },
+      "advice_text": {
+        "doc_id": "TT_T03",
+        "start": 2441,
+        "end": 2454
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_T03",
+        "sentence_id": "TT_T03_S058",
+        "quote": "清晨的前门大街很肃静，冷调，喜欢拍照的朋友早点到这拍照，自拍都可以呢。",
+        "start": 2420,
+        "end": 2455
+      }
+    ],
+    "mapping_id": "X002"
+  },
+  {
+    "doc_id": "TT_T03",
+    "source_scenic": "天坛",
+    "source_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_group_id": "dataset:896800004552",
+    "source_urls": [
+      "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+    ],
+    "source_path": "data\\html\\天坛\\游客游记\\TT_T03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "是年轻人",
+    "advice_text": "可以去长城(因为那句话嘛~",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游客类型"
+    ],
+    "visitor_types": [
+      "青年"
+    ],
+    "target_scope": "长城",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_T03",
+        "start": 3630,
+        "end": 3634
+      },
+      "advice_text": {
+        "doc_id": "TT_T03",
+        "start": 3635,
+        "end": 3648
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_T03",
+        "sentence_id": "TT_T03_S085",
+        "quote": "如果是年轻人，可以去长城(因为那句话嘛~)，喜欢拍照的年轻人还可以去五道口和798.喜欢故居的有宋庆龄，郭沫若，纪晓岚还有恭王府，在网上可以查一下更多。",
+        "start": 3628,
+        "end": 3704
+      }
+    ],
+    "mapping_id": "X003"
+  },
+  {
+    "doc_id": "TT_T03",
+    "source_scenic": "天坛",
+    "source_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_group_id": "dataset:896800004552",
+    "source_urls": [
+      "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+    ],
+    "source_path": "data\\html\\天坛\\游客游记\\TT_T03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "喜欢拍照的年轻人",
+    "advice_text": "还可以去五道口和798",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游客类型",
+    "condition_types": [
+      "游客类型",
+      "游览偏好"
+    ],
+    "visitor_types": [
+      "青年"
+    ],
+    "target_scope": "五道口和798",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_T03",
+        "start": 3650,
+        "end": 3658
+      },
+      "advice_text": {
+        "doc_id": "TT_T03",
+        "start": 3658,
+        "end": 3669
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_T03",
+        "sentence_id": "TT_T03_S085",
+        "quote": "如果是年轻人，可以去长城(因为那句话嘛~)，喜欢拍照的年轻人还可以去五道口和798.喜欢故居的有宋庆龄，郭沫若，纪晓岚还有恭王府，在网上可以查一下更多。",
+        "start": 3628,
+        "end": 3704
+      }
+    ],
+    "mapping_id": "X004"
+  },
+  {
+    "doc_id": "TT_T03",
+    "source_scenic": "天坛",
+    "source_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_group_id": "dataset:896800004552",
+    "source_urls": [
+      "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+    ],
+    "source_path": "data\\html\\天坛\\游客游记\\TT_T03.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "要听的话",
+    "advice_text": "要提前定啊",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游览偏好",
+    "condition_types": [
+      "现场情境"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "德云社",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_T03",
+        "start": 2015,
+        "end": 2019
+      },
+      "advice_text": {
+        "doc_id": "TT_T03",
+        "start": 2019,
+        "end": 2024
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_T03",
+        "sentence_id": "TT_T03_S045",
+        "quote": "德云社在这里也有一处广德楼，据说天坛附近的德云社听起来更有意思，在网上团票了也要电话预约座位，所以要听的话要提前定啊，开场时间晚七点，至少进行两小时。",
+        "start": 1966,
+        "end": 2041
+      }
+    ],
+    "mapping_id": "X005"
+  },
+  {
+    "doc_id": "TT_T05",
+    "source_scenic": "天坛",
+    "source_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_group_id": "dataset:1782800004472",
+    "source_urls": [
+      "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+    ],
+    "source_path": "data\\html\\天坛\\游客游记\\TT_T05.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "要欣赏正阳门及箭楼",
+    "advice_text": "全北京最好的位置可能是前门 M 餐厅 (Capital M)，靠窗的餐台要提早预订，不妨抽空去吃一份 high tea，一边叹杯咖啡，一边欣赏正阳门箭楼雄宏的景致，不要错过 Capital M 的露天餐区，那里本身已经环境上佳，加上正阳门做衬托，相信晚间日落时份更加迷人",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游览偏好",
+    "condition_types": [
+      "现场情境"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "正阳门箭楼/前门Capital M餐厅（北京）",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_T05",
+        "start": 774,
+        "end": 783
+      },
+      "advice_text": {
+        "doc_id": "TT_T05",
+        "start": 784,
+        "end": 919
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_T05",
+        "sentence_id": "TT_T05_S011",
+        "quote": "要欣赏正阳门及箭楼，全北京最好的位置可能是前门 M 餐厅 (Capital M)，靠窗的餐台要提早预订，不妨抽空去吃一份 high tea，一边叹杯咖啡，一边欣赏正阳门箭楼雄宏的景致，不要错过 Capital M 的露天餐区，那里本身已经环境上佳，加上正阳门做衬托，相信晚间日落时份更加迷人。",
+        "start": 774,
+        "end": 920
+      }
+    ],
+    "mapping_id": "X006"
+  },
+  {
+    "doc_id": "TT_T05",
+    "source_scenic": "天坛",
+    "source_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_group_id": "dataset:1782800004472",
+    "source_urls": [
+      "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+    ],
+    "source_path": "data\\html\\天坛\\游客游记\\TT_T05.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "如果不想去人山人海的北京传统景点",
+    "advice_text": "可以考虑到这里逛半天",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "游览偏好",
+    "condition_types": [
+      "游览偏好"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "798艺术区（北京）",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_T05",
+        "start": 2138,
+        "end": 2154
+      },
+      "advice_text": {
+        "doc_id": "TT_T05",
+        "start": 2155,
+        "end": 2165
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_T05",
+        "sentence_id": "TT_T05_S031",
+        "quote": "如果不想去人山人海的北京传统景点，可以考虑到这里逛半天。",
+        "start": 2138,
+        "end": 2166
+      }
+    ],
+    "mapping_id": "X007"
+  },
+  {
+    "doc_id": "TT_T05",
+    "source_scenic": "天坛",
+    "source_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_group_id": "dataset:1782800004472",
+    "source_urls": [
+      "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+    ],
+    "source_path": "data\\html\\天坛\\游客游记\\TT_T05.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "往北京国家博物馆参观",
+    "advice_text": "要出示身份证件(或回乡证)换领入场卷",
+    "condition_operator": "context",
+    "condition_mode": "context",
+    "condition_type": "出行安排",
+    "condition_types": [
+      "游览偏好"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "中国国家博物馆（北京）",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_T05",
+        "start": 1661,
+        "end": 1671
+      },
+      "advice_text": {
+        "doc_id": "TT_T05",
+        "start": 1688,
+        "end": 1706
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_T05",
+        "sentence_id": "TT_T05_S024",
+        "quote": "路过天安门，原本往北京国家博物馆参观，去到才知道博物馆是免费进场，但是要出示身份证件(或回乡证)换领入场卷，由于当日出门无带回乡证，摸著门钉失望离开。",
+        "start": 1653,
+        "end": 1728
+      }
+    ],
+    "mapping_id": "X008"
+  },
+  {
+    "doc_id": "TT_T05",
+    "source_scenic": "天坛",
+    "source_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_group_id": "dataset:1782800004472",
+    "source_urls": [
+      "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+    ],
+    "source_path": "data\\html\\天坛\\游客游记\\TT_T05.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "走到瀚林院遗址旁",
+    "advice_text": "不开放予游客参观，连在外边拍摄也被禁止",
+    "condition_operator": "context",
+    "condition_mode": "context",
+    "condition_type": "现场情境",
+    "condition_types": [
+      "现场情境"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "瀚林院遗址（北京）",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_T05",
+        "start": 1810,
+        "end": 1818
+      },
+      "advice_text": {
+        "doc_id": "TT_T05",
+        "start": 1838,
+        "end": 1857
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_T05",
+        "sentence_id": "TT_T05_S026",
+        "quote": "不过走到瀚林院遗址旁，才发现建筑物被纳入北京公安部的范围内，不开放予游客参观，连在外边拍摄也被禁止。",
+        "start": 1808,
+        "end": 1858
+      }
+    ],
+    "mapping_id": "X009"
+  },
+  {
+    "doc_id": "TT_T05",
+    "source_scenic": "天坛",
+    "source_type": "travelogue",
+    "provenance_kind": "dataset_corpus",
+    "source_group_id": "dataset:1782800004472",
+    "source_urls": [
+      "https://huggingface.co/datasets/BAAI/IndustryCorpus2_tourism_geography"
+    ],
+    "source_path": "data\\html\\天坛\\游客游记\\TT_T05.html",
+    "duplicate_doc_ids": [],
+    "condition_text": "有空",
+    "advice_text": "到雍和宫一游，至少能够感受一下雍和宫的灵气",
+    "condition_operator": "all",
+    "condition_mode": "explicit",
+    "condition_type": "时间安排",
+    "condition_types": [
+      "现场情境"
+    ],
+    "visitor_types": [
+      "未特定"
+    ],
+    "target_scope": "雍和宫（北京）",
+    "spans": {
+      "condition_text": {
+        "doc_id": "TT_T05",
+        "start": 2748,
+        "end": 2750
+      },
+      "advice_text": {
+        "doc_id": "TT_T05",
+        "start": 2750,
+        "end": 2771
+      }
+    },
+    "evidence": [
+      {
+        "doc_id": "TT_T05",
+        "sentence_id": "TT_T05_S042",
+        "quote": "有空到雍和宫一游，至少能够感受一下雍和宫的灵气。",
+        "start": 2748,
+        "end": 2772
+      }
+    ],
+    "mapping_id": "X010"
+  }
+]

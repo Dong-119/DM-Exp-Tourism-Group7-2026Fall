@@ -1,0 +1,100 @@
+{
+  "input_html_count": 50,
+  "parsed_records": 50,
+  "clean_records": 48,
+  "duplicate_records_removed": 2,
+  "rejected_records": 0,
+  "by_scenic": {
+    "故宫": {
+      "total": 16,
+      "route_guides": 9,
+      "travelogues": 7,
+      "teacher_corpus_travelogues": 5,
+      "source_traceable_official_route_facts": 1,
+      "synthetic_teaching": 5,
+      "step3_quantity_supported": true,
+      "five_corpus_travelogues_supported": true
+    },
+    "颐和园": {
+      "total": 16,
+      "route_guides": 9,
+      "travelogues": 7,
+      "teacher_corpus_travelogues": 5,
+      "source_traceable_official_route_facts": 1,
+      "synthetic_teaching": 5,
+      "step3_quantity_supported": true,
+      "five_corpus_travelogues_supported": true
+    },
+    "天坛": {
+      "total": 16,
+      "route_guides": 9,
+      "travelogues": 7,
+      "teacher_corpus_travelogues": 5,
+      "source_traceable_official_route_facts": 1,
+      "synthetic_teaching": 5,
+      "step3_quantity_supported": true,
+      "five_corpus_travelogues_supported": true
+    }
+  },
+  "minimum_3_scenics_1_traceable_route_3_corpus_travelogues_supported": true,
+  "five_corpus_travelogues_per_scenic_supported": true,
+  "official_full_original_articles_verified": 0,
+  "official_source_verification": "仅检查输入声明与参考链接存在，不进行联网来源真实性核验；路线事实不等于官方全文，整理稿及模拟稿不计作官方原文",
+  "full_main_content_requirement_note": "手册主要内容若按每景区5篇独立官方原文理解，当前输入不满足；代码不能通过改类型或补写来源解决该数据缺口",
+  "missing_optional_fields": {
+    "author": 48,
+    "source_published_at": 36,
+    "original_article_url": 48,
+    "source_url": 15
+  },
+  "missing_required_fields_in_kept": {
+    "doc_id": 0,
+    "title": 0,
+    "scenic_name": 0,
+    "text_type": 0,
+    "source_name": 0,
+    "content_origin": 0,
+    "clean_content": 0
+  },
+  "provenance_counts": {
+    "synthetic_teaching": 15,
+    "dataset_corpus": 15,
+    "official_route_facts": 3,
+    "editorial_route_guide": 15
+  },
+  "text_type_counts": {
+    "travelogue": 21,
+    "route_guide": 27
+  },
+  "residual_url_records": 0,
+  "residual_invalid_character_records": 0,
+  "format_consistency": {
+    "unique_doc_ids": true,
+    "dates_iso_or_null": true,
+    "body_no_blank_lines": true
+  },
+  "cleaning_action_counts": {
+    "normalize_chinese_colons": 96,
+    "normalize_chinese_commas": 3142,
+    "normalize_chinese_stops": 751,
+    "normalize_unicode_nfkc": 240,
+    "normalize_whitespace": 112,
+    "remove_adjacent_duplicate_paragraphs": 3,
+    "remove_html_elements": 639,
+    "remove_image_placeholders": 3,
+    "remove_invisible_chars": 6,
+    "remove_noise_blocks": 26,
+    "remove_ui_lines": 2,
+    "repair_configured_split_words": 3,
+    "truncate_related_links_tail": 1
+  },
+  "warnings": [],
+  "limitations": [
+    "来源真实性依据输入声明保留，不能等同于独立网页核验",
+    "明显乱码只能删除并记录，不能恢复未知原字符",
+    "不改写游记中的历史事实、实际路线、否定或条件语义",
+    "近重复识别采用保守阈值与来源约束，不能保证发现所有改写转载",
+    "只清洗原有数据，不根据文章编号或人工审核答案强制保留/删除记录",
+    "实体/共指偏移需在clean_content重新计算，不能沿用原HTML或加噪前参考偏移"
+  ]
+}

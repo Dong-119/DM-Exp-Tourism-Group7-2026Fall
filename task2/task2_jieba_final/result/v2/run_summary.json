@@ -1,0 +1,30 @@
+{
+  "input_sha256": "dc69a96596ab465e268e044b4225e5131d70e08814886b12e72ba2ee016acbaf",
+  "config_sha256": "ce067b7aa1049ddb50a1ff3387c3b4f3dccb9ae5226289637fb548dbe9002e82",
+  "offset_convention": "Unicode 字符索引，左闭右开，针对任务一 clean_content",
+  "documents": 48,
+  "jieba_version": "0.42.1",
+  "hmm": false,
+  "versions": {
+    "v2": {
+      "by_scenic": {
+        "天坛": {
+          "POI": 420,
+          "TIME": 113,
+          "TRANSPORT": 55
+        },
+        "故宫": {
+          "POI": 512,
+          "TIME": 106,
+          "TRANSPORT": 26
+        },
+        "颐和园": {
+          "POI": 491,
+          "TIME": 112,
+          "TRANSPORT": 76
+        }
+      },
+      "mentions": 1911
+    }
+  }
+}

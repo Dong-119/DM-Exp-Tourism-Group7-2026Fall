@@ -1,0 +1,39 @@
+{
+  "scenic_name": "故宫",
+  "official_route_id": "route-GG-official-facts",
+  "traveler_route_id": "route-GG-traveler-GG_T05",
+  "metric_definitions": {
+    "official_route_coverage": "Shared distinct POIs / official route POIs.",
+    "traveler_route_alignment": "Shared distinct POIs / traveler route POIs.",
+    "shared_order_consistency": "LCS length of the two shared-POI sequences / number of shared distinct POIs."
+  },
+  "official_route_step_count": 12,
+  "traveler_route_step_count": 5,
+  "official_route_distinct_poi_count": 12,
+  "traveler_route_distinct_poi_count": 5,
+  "shared_pois_in_official_order": [
+    "午门",
+    "太和殿",
+    "乾清宫",
+    "神武门"
+  ],
+  "traveler_only_pois": [
+    "珍宝馆"
+  ],
+  "official_only_pois": [
+    "太和门",
+    "弘义阁",
+    "中和殿",
+    "保和殿",
+    "乾清门",
+    "交泰殿",
+    "坤宁宫",
+    "御花园"
+  ],
+  "shared_poi_count": 4,
+  "official_route_coverage": 0.3333333333333333,
+  "traveler_route_alignment": 0.8,
+  "shared_order_consistency": 1.0,
+  "shared_order_lcs_length": 4,
+  "time_comparison": "Not calculated: neither source provides comparable per-stop or time-of-day data."
+}

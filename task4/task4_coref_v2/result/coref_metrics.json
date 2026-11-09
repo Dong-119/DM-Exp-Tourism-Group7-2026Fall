@@ -1,0 +1,990 @@
+{
+  "evaluated_cases": 25,
+  "excluded_ambiguous": [
+    "YHY_S04:416:417",
+    "TT_T04:104:105"
+  ],
+  "gold_linked": 21,
+  "baseline": {
+    "predicted_links": 25,
+    "correct_links": 16,
+    "correct_abstentions": 0,
+    "link_accuracy": 0.64,
+    "link_recall": 0.7619047619047619,
+    "coverage": 1.0,
+    "overall_accuracy": 0.64,
+    "cases": [
+      {
+        "mention_id": "GG_S04:122:123",
+        "gold_status": "linked",
+        "gold_span": [
+          118,
+          121
+        ],
+        "predicted": {
+          "text": "太和殿",
+          "start": 118,
+          "end": 121,
+          "kind": "POI",
+          "entity_key": "故宫:太和殿",
+          "canonical": "太和殿",
+          "candidate_id": "GG_S04:118:121:POI",
+          "sentence_index": 4,
+          "distance_chars": 1,
+          "distance_sentences": 1
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "GG_S04:184:186",
+        "gold_status": "linked",
+        "gold_span": [
+          169,
+          172
+        ],
+        "predicted": {
+          "text": "中和殿",
+          "start": 178,
+          "end": 181,
+          "kind": "POI",
+          "entity_key": "故宫:中和殿",
+          "canonical": "中和殿",
+          "candidate_id": "GG_S04:178:181:POI",
+          "sentence_index": 7,
+          "distance_chars": 3,
+          "distance_sentences": 1
+        },
+        "correct": false
+      },
+      {
+        "mention_id": "GG_S04:190:192",
+        "gold_status": "linked",
+        "gold_span": [
+          178,
+          181
+        ],
+        "predicted": {
+          "text": "中和殿",
+          "start": 178,
+          "end": 181,
+          "kind": "POI",
+          "entity_key": "故宫:中和殿",
+          "canonical": "中和殿",
+          "candidate_id": "GG_S04:178:181:POI",
+          "sentence_index": 7,
+          "distance_chars": 9,
+          "distance_sentences": 1
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "GG_S04:202:204",
+        "gold_status": "nonreferential",
+        "gold_span": null,
+        "predicted": {
+          "text": "中和殿",
+          "start": 178,
+          "end": 181,
+          "kind": "POI",
+          "entity_key": "故宫:中和殿",
+          "canonical": "中和殿",
+          "candidate_id": "GG_S04:178:181:POI",
+          "sentence_index": 7,
+          "distance_chars": 21,
+          "distance_sentences": 2
+        },
+        "correct": false
+      },
+      {
+        "mention_id": "GG_S04:372:374",
+        "gold_status": "unresolved",
+        "gold_span": null,
+        "predicted": {
+          "text": "同伴",
+          "start": 369,
+          "end": 371,
+          "kind": "PERSON",
+          "entity_key": null,
+          "canonical": "同伴",
+          "candidate_id": "GG_S04:369:371:PERSON",
+          "sentence_index": 16,
+          "distance_chars": 1,
+          "distance_sentences": 0
+        },
+        "correct": false
+      },
+      {
+        "mention_id": "YHY_S04:123:124",
+        "gold_status": "linked",
+        "gold_span": [
+          119,
+          122
+        ],
+        "predicted": {
+          "text": "仁寿殿",
+          "start": 119,
+          "end": 122,
+          "kind": "POI",
+          "entity_key": "颐和园:仁寿殿",
+          "canonical": "仁寿殿",
+          "candidate_id": "YHY_S04:119:122:POI",
+          "sentence_index": 4,
+          "distance_chars": 1,
+          "distance_sentences": 1
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "YHY_S04:278:280",
+        "gold_status": "linked",
+        "gold_span": [
+          274,
+          277
+        ],
+        "predicted": {
+          "text": "苏州街",
+          "start": 274,
+          "end": 277,
+          "kind": "POI",
+          "entity_key": "颐和园:苏州街",
+          "canonical": "苏州街",
+          "candidate_id": "YHY_S04:274:277:POI",
+          "sentence_index": 11,
+          "distance_chars": 1,
+          "distance_sentences": 1
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "YHY_S04:372:374",
+        "gold_status": "unresolved",
+        "gold_span": null,
+        "predicted": {
+          "text": "同伴",
+          "start": 369,
+          "end": 371,
+          "kind": "PERSON",
+          "entity_key": null,
+          "canonical": "同伴",
+          "candidate_id": "YHY_S04:369:371:PERSON",
+          "sentence_index": 16,
+          "distance_chars": 1,
+          "distance_sentences": 0
+        },
+        "correct": false
+      },
+      {
+        "mention_id": "YHY_S04:469:470",
+        "gold_status": "linked",
+        "gold_span": [
+          454,
+          457
+        ],
+        "predicted": {
+          "text": "圆明园",
+          "start": 454,
+          "end": 457,
+          "kind": "POI",
+          "entity_key": "周边:圆明园",
+          "canonical": "圆明园",
+          "candidate_id": "YHY_S04:454:457:POI",
+          "sentence_index": 19,
+          "distance_chars": 12,
+          "distance_sentences": 1
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "TT_S04:120:121",
+        "gold_status": "linked",
+        "gold_span": [
+          117,
+          119
+        ],
+        "predicted": {
+          "text": "圜丘",
+          "start": 117,
+          "end": 119,
+          "kind": "POI",
+          "entity_key": "天坛:圜丘",
+          "canonical": "圜丘",
+          "candidate_id": "TT_S04:117:119:POI",
+          "sentence_index": 4,
+          "distance_chars": 1,
+          "distance_sentences": 1
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "TT_S04:181:183",
+        "gold_status": "linked",
+        "gold_span": [
+          167,
+          169
+        ],
+        "predicted": {
+          "text": "皇穹宇",
+          "start": 175,
+          "end": 178,
+          "kind": "POI",
+          "entity_key": "天坛:皇穹宇",
+          "canonical": "皇穹宇",
+          "candidate_id": "TT_S04:175:178:POI",
+          "sentence_index": 7,
+          "distance_chars": 3,
+          "distance_sentences": 1
+        },
+        "correct": false
+      },
+      {
+        "mention_id": "TT_S04:187:189",
+        "gold_status": "linked",
+        "gold_span": [
+          175,
+          178
+        ],
+        "predicted": {
+          "text": "皇穹宇",
+          "start": 175,
+          "end": 178,
+          "kind": "POI",
+          "entity_key": "天坛:皇穹宇",
+          "canonical": "皇穹宇",
+          "candidate_id": "TT_S04:175:178:POI",
+          "sentence_index": 7,
+          "distance_chars": 9,
+          "distance_sentences": 1
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "TT_S04:379:381",
+        "gold_status": "nonreferential",
+        "gold_span": null,
+        "predicted": {
+          "text": "同伴",
+          "start": 363,
+          "end": 365,
+          "kind": "PERSON",
+          "entity_key": null,
+          "canonical": "同伴",
+          "candidate_id": "TT_S04:363:365:PERSON",
+          "sentence_index": 16,
+          "distance_chars": 14,
+          "distance_sentences": 1
+        },
+        "correct": false
+      },
+      {
+        "mention_id": "TT_S04:464:465",
+        "gold_status": "linked",
+        "gold_span": [
+          448,
+          452
+        ],
+        "predicted": {
+          "text": "前门大街",
+          "start": 448,
+          "end": 452,
+          "kind": "POI",
+          "entity_key": "周边:前门大街",
+          "canonical": "前门大街",
+          "candidate_id": "TT_S04:448:452:POI",
+          "sentence_index": 19,
+          "distance_chars": 12,
+          "distance_sentences": 1
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "YHY_T05:50:51",
+        "gold_status": "linked",
+        "gold_span": [
+          26,
+          29
+        ],
+        "predicted": {
+          "text": "颐和园",
+          "start": 26,
+          "end": 29,
+          "kind": "POI",
+          "entity_key": "颐和园:颐和园",
+          "canonical": "颐和园",
+          "candidate_id": "YHY_T05:26:29:POI",
+          "sentence_index": 1,
+          "distance_chars": 21,
+          "distance_sentences": 0
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "YHY_T05:280:281",
+        "gold_status": "linked",
+        "gold_span": [
+          276,
+          279
+        ],
+        "predicted": {
+          "text": "佛香阁",
+          "start": 276,
+          "end": 279,
+          "kind": "POI",
+          "entity_key": "颐和园:佛香阁",
+          "canonical": "佛香阁",
+          "candidate_id": "YHY_T05:276:279:POI",
+          "sentence_index": 7,
+          "distance_chars": 1,
+          "distance_sentences": 0
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "YHY_T05:549:551",
+        "gold_status": "linked",
+        "gold_span": [
+          526,
+          529
+        ],
+        "predicted": {
+          "text": "大熊猫",
+          "start": 526,
+          "end": 529,
+          "kind": "ANIMAL",
+          "entity_key": null,
+          "canonical": "大熊猫",
+          "candidate_id": "YHY_T05:526:529:ANIMAL",
+          "sentence_index": 17,
+          "distance_chars": 20,
+          "distance_sentences": 1
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "YHY_T05:815:816",
+        "gold_status": "linked",
+        "gold_span": [
+          774,
+          778
+        ],
+        "predicted": {
+          "text": "无轨电车",
+          "start": 774,
+          "end": 778,
+          "kind": "VEHICLE",
+          "entity_key": null,
+          "canonical": "无轨电车",
+          "candidate_id": "YHY_T05:774:778:VEHICLE",
+          "sentence_index": 29,
+          "distance_chars": 37,
+          "distance_sentences": 1
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "YHY_T05:1022:1023",
+        "gold_status": "linked",
+        "gold_span": [
+          961,
+          964
+        ],
+        "predicted": {
+          "text": "售票员",
+          "start": 999,
+          "end": 1002,
+          "kind": "PERSON",
+          "entity_key": null,
+          "canonical": "售票员",
+          "candidate_id": "YHY_T05:999:1002:PERSON",
+          "sentence_index": 35,
+          "distance_chars": 20,
+          "distance_sentences": 0
+        },
+        "correct": false
+      },
+      {
+        "mention_id": "YHY_T05:1027:1028",
+        "gold_status": "linked",
+        "gold_span": [
+          961,
+          964
+        ],
+        "predicted": {
+          "text": "售票员",
+          "start": 999,
+          "end": 1002,
+          "kind": "PERSON",
+          "entity_key": null,
+          "canonical": "售票员",
+          "candidate_id": "YHY_T05:999:1002:PERSON",
+          "sentence_index": 35,
+          "distance_chars": 25,
+          "distance_sentences": 0
+        },
+        "correct": false
+      },
+      {
+        "mention_id": "YHY_T05:1133:1135",
+        "gold_status": "linked",
+        "gold_span": [
+          1073,
+          1077
+        ],
+        "predicted": {
+          "text": "公共汽车",
+          "start": 1083,
+          "end": 1087,
+          "kind": "VEHICLE",
+          "entity_key": null,
+          "canonical": "公共汽车",
+          "candidate_id": "YHY_T05:1083:1087:VEHICLE",
+          "sentence_index": 38,
+          "distance_chars": 46,
+          "distance_sentences": 1
+        },
+        "correct": false
+      },
+      {
+        "mention_id": "TT_T04:88:89",
+        "gold_status": "linked",
+        "gold_span": [
+          80,
+          83
+        ],
+        "predicted": {
+          "text": "建筑物",
+          "start": 80,
+          "end": 83,
+          "kind": "OBJECT",
+          "entity_key": null,
+          "canonical": "建筑物",
+          "candidate_id": "TT_T04:80:83:OBJECT",
+          "sentence_index": 1,
+          "distance_chars": 5,
+          "distance_sentences": 0
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "TT_T04:208:209",
+        "gold_status": "linked",
+        "gold_span": [
+          203,
+          206
+        ],
+        "predicted": {
+          "text": "祈年殿",
+          "start": 203,
+          "end": 206,
+          "kind": "POI",
+          "entity_key": "天坛:祈年殿",
+          "canonical": "祈年殿",
+          "candidate_id": "TT_T04:203:206:POI",
+          "sentence_index": 2,
+          "distance_chars": 2,
+          "distance_sentences": 0
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "TT_T04:318:319",
+        "gold_status": "linked",
+        "gold_span": [
+          313,
+          316
+        ],
+        "predicted": {
+          "text": "皇穹宇",
+          "start": 313,
+          "end": 316,
+          "kind": "POI",
+          "entity_key": "天坛:皇穹宇",
+          "canonical": "皇穹宇",
+          "candidate_id": "TT_T04:313:316:POI",
+          "sentence_index": 4,
+          "distance_chars": 2,
+          "distance_sentences": 0
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "TT_T04:397:398",
+        "gold_status": "linked",
+        "gold_span": [
+          392,
+          395
+        ],
+        "predicted": {
+          "text": "回音壁",
+          "start": 392,
+          "end": 395,
+          "kind": "POI",
+          "entity_key": "天坛:回音壁",
+          "canonical": "回音壁",
+          "candidate_id": "TT_T04:392:395:POI",
+          "sentence_index": 5,
+          "distance_chars": 2,
+          "distance_sentences": 0
+        },
+        "correct": true
+      }
+    ]
+  },
+  "v2": {
+    "predicted_links": 19,
+    "correct_links": 19,
+    "correct_abstentions": 4,
+    "link_accuracy": 1.0,
+    "link_recall": 0.9047619047619048,
+    "coverage": 0.76,
+    "overall_accuracy": 0.92,
+    "cases": [
+      {
+        "mention_id": "GG_S04:122:123",
+        "gold_status": "linked",
+        "gold_span": [
+          118,
+          121
+        ],
+        "predicted": {
+          "text": "太和殿",
+          "start": 118,
+          "end": 121,
+          "kind": "POI",
+          "entity_key": "故宫:太和殿",
+          "canonical": "太和殿",
+          "candidate_id": "GG_S04:118:121:POI",
+          "sentence_index": 4,
+          "distance_chars": 1,
+          "distance_sentences": 1
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "GG_S04:184:186",
+        "gold_status": "linked",
+        "gold_span": [
+          169,
+          172
+        ],
+        "predicted": {
+          "text": "太和殿",
+          "start": 169,
+          "end": 172,
+          "kind": "POI",
+          "entity_key": "故宫:太和殿",
+          "canonical": "太和殿",
+          "candidate_id": "GG_S04:169:172:POI",
+          "sentence_index": 7,
+          "distance_chars": 12,
+          "distance_sentences": 1
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "GG_S04:190:192",
+        "gold_status": "linked",
+        "gold_span": [
+          178,
+          181
+        ],
+        "predicted": {
+          "text": "中和殿",
+          "start": 178,
+          "end": 181,
+          "kind": "POI",
+          "entity_key": "故宫:中和殿",
+          "canonical": "中和殿",
+          "candidate_id": "GG_S04:178:181:POI",
+          "sentence_index": 7,
+          "distance_chars": 9,
+          "distance_sentences": 1
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "GG_S04:202:204",
+        "gold_status": "nonreferential",
+        "gold_span": null,
+        "predicted": null,
+        "correct": true
+      },
+      {
+        "mention_id": "GG_S04:372:374",
+        "gold_status": "unresolved",
+        "gold_span": null,
+        "predicted": null,
+        "correct": true
+      },
+      {
+        "mention_id": "YHY_S04:123:124",
+        "gold_status": "linked",
+        "gold_span": [
+          119,
+          122
+        ],
+        "predicted": {
+          "text": "仁寿殿",
+          "start": 119,
+          "end": 122,
+          "kind": "POI",
+          "entity_key": "颐和园:仁寿殿",
+          "canonical": "仁寿殿",
+          "candidate_id": "YHY_S04:119:122:POI",
+          "sentence_index": 4,
+          "distance_chars": 1,
+          "distance_sentences": 1
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "YHY_S04:278:280",
+        "gold_status": "linked",
+        "gold_span": [
+          274,
+          277
+        ],
+        "predicted": {
+          "text": "苏州街",
+          "start": 274,
+          "end": 277,
+          "kind": "POI",
+          "entity_key": "颐和园:苏州街",
+          "canonical": "苏州街",
+          "candidate_id": "YHY_S04:274:277:POI",
+          "sentence_index": 11,
+          "distance_chars": 1,
+          "distance_sentences": 1
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "YHY_S04:372:374",
+        "gold_status": "unresolved",
+        "gold_span": null,
+        "predicted": null,
+        "correct": true
+      },
+      {
+        "mention_id": "YHY_S04:469:470",
+        "gold_status": "linked",
+        "gold_span": [
+          454,
+          457
+        ],
+        "predicted": {
+          "text": "圆明园",
+          "start": 454,
+          "end": 457,
+          "kind": "POI",
+          "entity_key": "周边:圆明园",
+          "canonical": "圆明园",
+          "candidate_id": "YHY_S04:454:457:POI",
+          "sentence_index": 19,
+          "distance_chars": 12,
+          "distance_sentences": 1
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "TT_S04:120:121",
+        "gold_status": "linked",
+        "gold_span": [
+          117,
+          119
+        ],
+        "predicted": {
+          "text": "圜丘",
+          "start": 117,
+          "end": 119,
+          "kind": "POI",
+          "entity_key": "天坛:圜丘",
+          "canonical": "圜丘",
+          "candidate_id": "TT_S04:117:119:POI",
+          "sentence_index": 4,
+          "distance_chars": 1,
+          "distance_sentences": 1
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "TT_S04:181:183",
+        "gold_status": "linked",
+        "gold_span": [
+          167,
+          169
+        ],
+        "predicted": {
+          "text": "圜丘",
+          "start": 167,
+          "end": 169,
+          "kind": "POI",
+          "entity_key": "天坛:圜丘",
+          "canonical": "圜丘",
+          "candidate_id": "TT_S04:167:169:POI",
+          "sentence_index": 7,
+          "distance_chars": 12,
+          "distance_sentences": 1
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "TT_S04:187:189",
+        "gold_status": "linked",
+        "gold_span": [
+          175,
+          178
+        ],
+        "predicted": {
+          "text": "皇穹宇",
+          "start": 175,
+          "end": 178,
+          "kind": "POI",
+          "entity_key": "天坛:皇穹宇",
+          "canonical": "皇穹宇",
+          "candidate_id": "TT_S04:175:178:POI",
+          "sentence_index": 7,
+          "distance_chars": 9,
+          "distance_sentences": 1
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "TT_S04:379:381",
+        "gold_status": "nonreferential",
+        "gold_span": null,
+        "predicted": null,
+        "correct": true
+      },
+      {
+        "mention_id": "TT_S04:464:465",
+        "gold_status": "linked",
+        "gold_span": [
+          448,
+          452
+        ],
+        "predicted": {
+          "text": "前门大街",
+          "start": 448,
+          "end": 452,
+          "kind": "POI",
+          "entity_key": "周边:前门大街",
+          "canonical": "前门大街",
+          "candidate_id": "TT_S04:448:452:POI",
+          "sentence_index": 19,
+          "distance_chars": 12,
+          "distance_sentences": 1
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "YHY_T05:50:51",
+        "gold_status": "linked",
+        "gold_span": [
+          26,
+          29
+        ],
+        "predicted": {
+          "text": "颐和园",
+          "start": 26,
+          "end": 29,
+          "kind": "POI",
+          "entity_key": "颐和园:颐和园",
+          "canonical": "颐和园",
+          "candidate_id": "YHY_T05:26:29:POI",
+          "sentence_index": 1,
+          "distance_chars": 21,
+          "distance_sentences": 0
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "YHY_T05:280:281",
+        "gold_status": "linked",
+        "gold_span": [
+          276,
+          279
+        ],
+        "predicted": null,
+        "correct": false
+      },
+      {
+        "mention_id": "YHY_T05:549:551",
+        "gold_status": "linked",
+        "gold_span": [
+          526,
+          529
+        ],
+        "predicted": {
+          "text": "大熊猫",
+          "start": 526,
+          "end": 529,
+          "kind": "ANIMAL",
+          "entity_key": null,
+          "canonical": "大熊猫",
+          "candidate_id": "YHY_T05:526:529:ANIMAL",
+          "sentence_index": 17,
+          "distance_chars": 20,
+          "distance_sentences": 1
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "YHY_T05:815:816",
+        "gold_status": "linked",
+        "gold_span": [
+          774,
+          778
+        ],
+        "predicted": {
+          "text": "无轨电车",
+          "start": 774,
+          "end": 778,
+          "kind": "VEHICLE",
+          "entity_key": null,
+          "canonical": "无轨电车",
+          "candidate_id": "YHY_T05:774:778:VEHICLE",
+          "sentence_index": 29,
+          "distance_chars": 37,
+          "distance_sentences": 1
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "YHY_T05:1022:1023",
+        "gold_status": "linked",
+        "gold_span": [
+          961,
+          964
+        ],
+        "predicted": {
+          "text": "售票员",
+          "start": 961,
+          "end": 964,
+          "kind": "PERSON",
+          "entity_key": null,
+          "canonical": "售票员",
+          "candidate_id": "YHY_T05:961:964:PERSON",
+          "sentence_index": 34,
+          "distance_chars": 5,
+          "distance_sentences": 0
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "YHY_T05:1027:1028",
+        "gold_status": "linked",
+        "gold_span": [
+          961,
+          964
+        ],
+        "predicted": {
+          "text": "售票员",
+          "start": 961,
+          "end": 964,
+          "kind": "PERSON",
+          "entity_key": null,
+          "canonical": "售票员",
+          "candidate_id": "YHY_T05:961:964:PERSON",
+          "sentence_index": 34,
+          "distance_chars": 5,
+          "distance_sentences": 0
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "YHY_T05:1133:1135",
+        "gold_status": "linked",
+        "gold_span": [
+          1073,
+          1077
+        ],
+        "predicted": null,
+        "correct": false
+      },
+      {
+        "mention_id": "TT_T04:88:89",
+        "gold_status": "linked",
+        "gold_span": [
+          80,
+          83
+        ],
+        "predicted": {
+          "text": "建筑物",
+          "start": 80,
+          "end": 83,
+          "kind": "OBJECT",
+          "entity_key": null,
+          "canonical": "建筑物",
+          "candidate_id": "TT_T04:80:83:OBJECT",
+          "sentence_index": 1,
+          "distance_chars": 5,
+          "distance_sentences": 0
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "TT_T04:208:209",
+        "gold_status": "linked",
+        "gold_span": [
+          203,
+          206
+        ],
+        "predicted": {
+          "text": "祈年殿",
+          "start": 203,
+          "end": 206,
+          "kind": "POI",
+          "entity_key": "天坛:祈年殿",
+          "canonical": "祈年殿",
+          "candidate_id": "TT_T04:203:206:POI",
+          "sentence_index": 2,
+          "distance_chars": 2,
+          "distance_sentences": 0
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "TT_T04:318:319",
+        "gold_status": "linked",
+        "gold_span": [
+          313,
+          316
+        ],
+        "predicted": {
+          "text": "皇穹宇",
+          "start": 313,
+          "end": 316,
+          "kind": "POI",
+          "entity_key": "天坛:皇穹宇",
+          "canonical": "皇穹宇",
+          "candidate_id": "TT_T04:313:316:POI",
+          "sentence_index": 4,
+          "distance_chars": 2,
+          "distance_sentences": 0
+        },
+        "correct": true
+      },
+      {
+        "mention_id": "TT_T04:397:398",
+        "gold_status": "linked",
+        "gold_span": [
+          392,
+          395
+        ],
+        "predicted": {
+          "text": "回音壁",
+          "start": 392,
+          "end": 395,
+          "kind": "POI",
+          "entity_key": "天坛:回音壁",
+          "canonical": "回音壁",
+          "candidate_id": "TT_T04:392:395:POI",
+          "sentence_index": 5,
+          "distance_chars": 2,
+          "distance_sentences": 0
+        },
+        "correct": true
+      }
+    ]
+  }
+}
