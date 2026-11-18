@@ -37,9 +37,9 @@ GitHub 协作目录：DM-Exp-Tourism-GroupX-2026Fall/Kaggle
 
     python src/iterate_v2.py
 
-V2 已正式晋升：最佳 `joint_style_svc` 的五折 OOF Balanced Accuracy 为 0.358553（V1 为 0.307813），五折全部提升。候选对比保存在 `outputs/V2_feature_fusion/`，冻结版本摘要在 `experiments/V2_feature_fusion/`；正式提交 Notebook 位于 `notebooks/V2_feature_fusion_kaggle.ipynb`（尚未在 Kaggle 提交）。只用训练折拟合 TF-IDF 和风格标准化；验证集不参与特征拟合。
+V2 已完成五折验证：最佳 `joint_style_svc` OOF Balanced Accuracy 0.358553（V1 为 0.307813）。Kaggle 独立分类对照版已成功提交：Submission ID **58502734**，Public Score **0.349**。代码位于 `notebooks/V2_feature_fusion_kaggle.ipynb`；仅在训练折拟合特征。
 
-## 第三轮：Prompt 无监督分组与联合标签分配（当前最佳）
+## 第三轮：Prompt 无监督分组与联合标签分配（本地有效、线上退化）
 
     python src/try_v3_joint.py
 
@@ -48,6 +48,17 @@ V2 已正式晋升：最佳 `joint_style_svc` 的五折 OOF Balanced Accuracy �
 提交 Notebook：`notebooks/V3_prompt_joint_kaggle.ipynb`，已用官方 3 条示例做本地完整推理并实际导出 Parquet。**Kaggle 首次正式提交已成功：Submission ID 58502009，官方状态 COMPLETE / Succeeded，Public LB = 0.298。** 线上分数比本地 CV 0.443045 明显更低，可能与隐藏测试的 Prompt 结构或分布不同有关，尚不能确定单一原因。Notebook 保留了小组独立分类回退。详细记录：`docs/20261118_V3_Kaggle首次提交.md`。
 
 服务器离线权重/依赖安装与否定实验记录在 `docs/20261118_迭代试验记录.md`，GPU 微调并未超过 V2，所以未晋升。
+
+## 第四轮：受限外部数据 + 标点风格校准（当前线上最佳）
+
+基于 V2 独立文本分类，加入来源可追溯的 **8,450 条**外部文本（样本权重 0.10），再加入训练折内拟合的标点类条件似然校准（权重 0.05）。**不依赖测试集 Prompt 的完整分组。** 官方数据按 Prompt 分组的五折 OOF BA 为 **0.400062**，较 V2 +4.15 个百分点。
+
+Kaggle 正式提交 **58503681** 已评分成功，Public Score **0.397**，比此前线上最好 V2 **0.349 提升 4.8 个百分点**。当前课程有效提交 3/5 次，私榜尚未公布。
+
+- 正式版本：`experiments/V4_restricted_external_typography/`
+- 自包含 Kaggle Notebook：`notebooks/V4_restricted_external_typography_kaggle.ipynb`
+- 代码：`src/try_v4_combined_typography.py`、`src/try_v4_typography.py`、`scripts/build_v4_pool.py`
+- 公开数据来源与许可见 `experiments/V4_restricted_external_typography/summary.md`，完整分析与提交 ID 见 `docs/20261118_V4_验证与上线.md`。原始外部数据与逐条预测只保留在本地 `outputs/`，不推送 Git。
 
 ## GitHub 同步
 
