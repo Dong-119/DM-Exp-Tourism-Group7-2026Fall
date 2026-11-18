@@ -37,7 +37,7 @@ GitHub 协作目录：DM-Exp-Tourism-GroupX-2026Fall/Kaggle
 
     python src/iterate_v2.py
 
-候选对比写到 outputs/V2_feature_fusion/，是否晋升为正式版本按完整五折指标决定。只用训练折拟合 TF-IDF 和风格标准化；验证集不参与特征拟合。
+V2 已正式晋升：最佳 `joint_style_svc` 的五折 OOF Balanced Accuracy 为 0.358553（V1 为 0.307813），五折全部提升。候选对比保存在 `outputs/V2_feature_fusion/`，冻结版本摘要在 `experiments/V2_feature_fusion/`；正式提交 Notebook 位于 `notebooks/V2_feature_fusion_kaggle.ipynb`（尚未在 Kaggle 提交）。只用训练折拟合 TF-IDF 和风格标准化；验证集不参与特征拟合。
 
 ## GitHub 同步
 
