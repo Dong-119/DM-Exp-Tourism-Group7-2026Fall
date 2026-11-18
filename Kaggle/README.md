@@ -45,7 +45,7 @@ V2 已正式晋升：最佳 `joint_style_svc` 的五折 OOF Balanced Accuracy �
 
 **正式 V3：五折 OOF Balanced Accuracy = 0.443045（44.30%）**，较 V2 **+0.084492（+8.45 个百分点）**，五折全部提升。算法仅凭无标签验证文本、TF-IDF 相似度与最大簇大小 18 的约束推断 Prompt 分组，再对近完整的分组采用 Hungarian 算法进行模型标签的一对一分配；真实 prompt_id 仅用于 CV 划分与事后审计，不参与聚类。详见 `experiments/V3_prompt_joint/`。
 
-提交 Notebook：`notebooks/V3_prompt_joint_kaggle.ipynb`，已用官方 3 条示例做本地完整推理并实际导出 Parquet。**尚未在 Kaggle 提交，不存在真实公榜分数。** 注意：隐藏测试的 Prompt 组可能不完整、模型分布可能不均衡，线上收益不能由本地分数直接保证；Notebook 为小组增加了独立分类回退。
+提交 Notebook：`notebooks/V3_prompt_joint_kaggle.ipynb`，已用官方 3 条示例做本地完整推理并实际导出 Parquet。**Kaggle 首次正式提交已成功：Submission ID 58502009，官方状态 COMPLETE / Succeeded，Public LB = 0.298。** 线上分数比本地 CV 0.443045 明显更低，可能与隐藏测试的 Prompt 结构或分布不同有关，尚不能确定单一原因。Notebook 保留了小组独立分类回退。详细记录：`docs/20261118_V3_Kaggle首次提交.md`。
 
 服务器离线权重/依赖安装与否定实验记录在 `docs/20261118_迭代试验记录.md`，GPU 微调并未超过 V2，所以未晋升。
 
