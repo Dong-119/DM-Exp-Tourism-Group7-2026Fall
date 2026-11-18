@@ -1,0 +1,50 @@
+{
+  "experiment": "V6_sparse_pair",
+  "version_status": "SUBMITTED; worse than V5 online, retain as negative/ablation",
+  "source_model": "V5_expanded_pool_prior",
+  "method": {
+    "tfidf": "word 1-2 grams",
+    "mutual_nearest_neighbor": true,
+    "cosine_similarity_min": 0.1,
+    "hungarian_margin_penalty_max": 0.3,
+    "min_test_size": 30,
+    "max_test_size": 5000,
+    "fallback": "unchanged V5 prediction"
+  },
+  "synthetic_sparse_group_stress": {
+    "full": {
+      "baseline_ba": 0.4174584929757343,
+      "after_ba": 0.4230140485312899,
+      "gain": 0.0055555555555555,
+      "pair_precision": 1.0,
+      "mean_pairs": 107.0
+    },
+    "mixed": {
+      "baseline_ba": 0.4236258083480305,
+      "after_ba": 0.4262066431510876,
+      "gain": 0.002580834803057,
+      "pair_precision": 1.0,
+      "mean_pairs": 22.2
+    },
+    "single": {
+      "baseline_ba": 0.4358816137566138,
+      "after_ba": 0.4358816137566138,
+      "gain": 0.0,
+      "pair_precision": 0.0,
+      "mean_pairs": 0.0
+    },
+    "two": {
+      "baseline_ba": 0.43432384064737,
+      "after_ba": 0.4421565385413424,
+      "gain": 0.0078326978939723,
+      "pair_precision": 1.0,
+      "mean_pairs": 16.733333333333334
+    }
+  },
+  "full_18_group_oof_ba": 0.4230140485312899,
+  "kaggle_submission_id": 58505215,
+  "kaggle_status": "COMPLETE",
+  "public_score": 0.411,
+  "v5_reference_public": 0.417,
+  "note": "Synthetic group tests are not actual hidden test structure"
+}

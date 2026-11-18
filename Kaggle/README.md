@@ -49,16 +49,27 @@ V2 已完成五折验证：最佳 `joint_style_svc` OOF Balanced Accuracy 0.3585
 
 服务器离线权重/依赖安装与否定实验记录在 `docs/20261118_迭代试验记录.md`，GPU 微调并未超过 V2，所以未晋升。
 
-## 第四轮：受限外部数据 + 标点风格校准（当前线上最佳）
+## 第四轮：受限外部数据 + 标点风格校准（历史最佳）
 
 基于 V2 独立文本分类，加入来源可追溯的 **8,450 条**外部文本（样本权重 0.10），再加入训练折内拟合的标点类条件似然校准（权重 0.05）。**不依赖测试集 Prompt 的完整分组。** 官方数据按 Prompt 分组的五折 OOF BA 为 **0.400062**，较 V2 +4.15 个百分点。
 
-Kaggle 正式提交 **58503681** 已评分成功，Public Score **0.397**，比此前线上最好 V2 **0.349 提升 4.8 个百分点**。当前课程有效提交 3/5 次，私榜尚未公布。
+Kaggle 正式提交 **58503681** 已评分成功，Public Score **0.397**，比此前线上最好 V2 **0.349 提升 4.8 个百分点**。该阶段课程累计有效提交 3/5 次，私榜尚未公布。
 
 - 正式版本：`experiments/V4_restricted_external_typography/`
 - 自包含 Kaggle Notebook：`notebooks/V4_restricted_external_typography_kaggle.ipynb`
 - 代码：`src/try_v4_combined_typography.py`、`src/try_v4_typography.py`、`scripts/build_v4_pool.py`
 - 公开数据来源与许可见 `experiments/V4_restricted_external_typography/summary.md`，完整分析与提交 ID 见 `docs/20261118_V4_验证与上线.md`。原始外部数据与逐条预测只保留在本地 `outputs/`，不推送 Git。
+
+## 第五轮与第六轮：完成 5 次官方提交（当前线上最佳 V5）
+
+V5 沿用 V4 的 SVM 独立分类，将受限公开外部数据扩展为 **14,850 条**（样本权重 0.10），标点校准权重 0.03，并对大批量无标签测试文本做保守的模型类别先验修正。五折 OOF BA 为 **0.417470**，2026-11-18 Kaggle 正式评分 **0.417**，Submission ID **58504997**，当前线上最佳。
+
+V6 在 V5 基础上，尝试只对互为文本最近邻的**可信双回答**做一对一模型分配，五折完整组 OOF BA 约 **0.423014**；但官方公榜仅 **0.411**（Submission ID **58505215**），低于 V5，因此**不替代 V5**，仅作为负面/对照实验保存。
+
+- V5：`experiments/V5_expanded_pool_prior/`、`notebooks/V5_expanded_pool_prior_kaggle.ipynb`
+- V6：`experiments/V6_sparse_pair/`、`notebooks/V6_sparse_pair_kaggle.ipynb`
+- 完整分析及五次 Kaggle 提交表：`docs/20261118_V5_V6_提交与验证.md`
+- 课程要求的**五次有效提交已全部完成（5/5）**，官方状态均为 `COMPLETE`；私榜尚未公布，成绩网页截图、Team Page 及最终私榜截图仍需按课程要求留存。
 
 ## GitHub 同步
 
