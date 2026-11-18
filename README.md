@@ -74,3 +74,7 @@ python cli.py --mode demo --question "带孩子去故宫一天"
 ```
 
 代码、测试与运行结果位于 [task7/](task7/)。
+
+## Kaggle 竞赛：Name That LLM
+
+第 7 组的 Kaggle 文本来源识别竞赛独立放在 [Kaggle/](Kaggle/)；包含可复现实验代码、五折 Prompt-disjoint 验证、提交 Notebook 及聚合实验记录。原始竞赛数据和大体积运行产物仅保留在本地，不进入 Git 仓库。

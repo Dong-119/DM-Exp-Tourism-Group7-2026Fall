@@ -1,0 +1,32 @@
+{
+  "license": "CC BY-SA 4.0 (combined, with public source attributions)",
+  "in_style_source": "https://www.kaggle.com/datasets/prvsiyan/ntl-public-in-style-pool-v1",
+  "prvsiyan_source": "https://www.kaggle.com/datasets/prvsiyan/prvsiyans-extended-name-that-llm-dataset",
+  "restrictions": "only 5 vetted public pool source slugs, excluded proxy sources and all pool Gemini3.7; prvsiyan only new and non-proxy routes; strict original normalized text exclusion",
+  "pool_n": 11254,
+  "prvsiyan_n": 3596,
+  "deduplicated": 0,
+  "merged_n": 14850,
+  "per_model": {
+    "claude-fable-5": 931,
+    "claude-opus-4-6": 931,
+    "claude-opus-4-8": 931,
+    "claude-opus-5": 931,
+    "claude-sonnet-5": 931,
+    "glm-5.3-flash": 931,
+    "glm-5.3": 931,
+    "qwen3.8-max": 931,
+    "kimi-k3": 931,
+    "gemini-3.8-flash": 879,
+    "gemini-3.6-flash": 879,
+    "gpt-5.6-terra": 850,
+    "gpt-5.5": 850,
+    "gpt-5.6-luna": 850,
+    "gpt-6-astra": 850,
+    "gpt-5.6-sol": 850,
+    "gemini-3.1-pro-preview": 232,
+    "gemini-3.7-flash": 231
+  },
+  "sha256": "30f3a854824db5c8833cf9b1ec7d47c54f57782b6e35591eded036b8a5e57a48",
+  "random_state": 20261118
+}

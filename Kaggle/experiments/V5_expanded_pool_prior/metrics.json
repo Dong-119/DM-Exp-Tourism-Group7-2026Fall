@@ -1,0 +1,30 @@
+{
+  "experiment": "V5_expanded_pool_prior",
+  "version_status": "PROMOTED; official Kaggle scored",
+  "official_train_sha256": "40a22ce8d88c5f46feb4637a099db815bef5f713ffe53e89dbe1b7b21de77707",
+  "external_csv_sha256": "30f3a854824db5c8833cf9b1ec7d47c54f57782b6e35591eded036b8a5e57a48",
+  "external_n": 14850,
+  "external_weight": 0.1,
+  "typography_weight": 0.03,
+  "prior": {
+    "test_min_samples": 200,
+    "temperature": 0.6,
+    "strength": 0.5,
+    "target": "uniform prior 18 labels"
+  },
+  "v5_no_prior_oof_ba": 0.4115535669898086,
+  "v5_with_prior_oof_ba": 0.4174695500869997,
+  "fold_ba": [
+    0.4092592592592592,
+    0.4296296296296295,
+    0.3925925925925925,
+    0.4333333333333333,
+    0.4224776500638569
+  ],
+  "kaggle_submission_id": 58504997,
+  "kaggle_status": "COMPLETE",
+  "public_score": 0.417,
+  "v4_reference_local": 0.40006214268,
+  "v4_reference_public": 0.397,
+  "score_note": "Kaggle Public BA, Private BA not yet available"
+}

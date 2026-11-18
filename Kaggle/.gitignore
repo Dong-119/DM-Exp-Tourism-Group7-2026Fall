@@ -1,0 +1,20 @@
+# Competition data and private/archive artifacts
+data/
+outputs/
+*.zip
+*.parquet
+*.joblib
+*.pkl
+*.pt
+*.pth
+*.safetensors
+# Python / Notebook local state
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+# secrets
+.env
+.env.*
+kaggle.json
