@@ -1,0 +1,64 @@
+{
+  "experiment": "V3_prompt_joint",
+  "date_utc": "2026-11-18T08:07:58.346017+00:00",
+  "train_sha256": "40a22ce8d88c5f46feb4637a099db815bef5f713ffe53e89dbe1b7b21de77707",
+  "protocol": "Frozen 5fold GroupKFold prompt_id. V2 decision scores. Validation groups inferred from validation text only, max group size=18; Hungarian for groups of size 16..18.",
+  "v2_independent_oof_ba": 0.358553,
+  "joint_oof_ba": 0.443045,
+  "gain_vs_v2": 0.084492,
+  "folds": [
+    {
+      "fold": 1,
+      "samples": 540,
+      "prompts": 30,
+      "independent_ba": 0.348148,
+      "joint_ba": 0.405556,
+      "improvement": 0.057407,
+      "group_ari_diagnostic_only": 1.0,
+      "clusters_assigned": 30
+    },
+    {
+      "fold": 2,
+      "samples": 540,
+      "prompts": 30,
+      "independent_ba": 0.340741,
+      "joint_ba": 0.403704,
+      "improvement": 0.062963,
+      "group_ari_diagnostic_only": 1.0,
+      "clusters_assigned": 30
+    },
+    {
+      "fold": 3,
+      "samples": 540,
+      "prompts": 30,
+      "independent_ba": 0.374074,
+      "joint_ba": 0.485185,
+      "improvement": 0.111111,
+      "group_ari_diagnostic_only": 1.0,
+      "clusters_assigned": 30
+    },
+    {
+      "fold": 4,
+      "samples": 540,
+      "prompts": 30,
+      "independent_ba": 0.390741,
+      "joint_ba": 0.490741,
+      "improvement": 0.1,
+      "group_ari_diagnostic_only": 1.0,
+      "clusters_assigned": 30
+    },
+    {
+      "fold": 5,
+      "samples": 539,
+      "prompts": 30,
+      "independent_ba": 0.339017,
+      "joint_ba": 0.429885,
+      "improvement": 0.090868,
+      "group_ari_diagnostic_only": 1.0,
+      "clusters_assigned": 30
+    }
+  ],
+  "elapsed_seconds": 143.32,
+  "status": "PROMOTED: V3 official local-validation version",
+  "kaggle_submission": "NOT SUBMITTED"
+}

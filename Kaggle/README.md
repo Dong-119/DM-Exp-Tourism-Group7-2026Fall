@@ -39,6 +39,16 @@ GitHub 协作目录：DM-Exp-Tourism-GroupX-2026Fall/Kaggle
 
 V2 已正式晋升：最佳 `joint_style_svc` 的五折 OOF Balanced Accuracy 为 0.358553（V1 为 0.307813），五折全部提升。候选对比保存在 `outputs/V2_feature_fusion/`，冻结版本摘要在 `experiments/V2_feature_fusion/`；正式提交 Notebook 位于 `notebooks/V2_feature_fusion_kaggle.ipynb`（尚未在 Kaggle 提交）。只用训练折拟合 TF-IDF 和风格标准化；验证集不参与特征拟合。
 
+## 第三轮：Prompt 无监督分组与联合标签分配（当前最佳）
+
+    python src/try_v3_joint.py
+
+**正式 V3：五折 OOF Balanced Accuracy = 0.443045（44.30%）**，较 V2 **+0.084492（+8.45 个百分点）**，五折全部提升。算法仅凭无标签验证文本、TF-IDF 相似度与最大簇大小 18 的约束推断 Prompt 分组，再对近完整的分组采用 Hungarian 算法进行模型标签的一对一分配；真实 prompt_id 仅用于 CV 划分与事后审计，不参与聚类。详见 `experiments/V3_prompt_joint/`。
+
+提交 Notebook：`notebooks/V3_prompt_joint_kaggle.ipynb`，已用官方 3 条示例做本地完整推理并实际导出 Parquet。**尚未在 Kaggle 提交，不存在真实公榜分数。** 注意：隐藏测试的 Prompt 组可能不完整、模型分布可能不均衡，线上收益不能由本地分数直接保证；Notebook 为小组增加了独立分类回退。
+
+服务器离线权重/依赖安装与否定实验记录在 `docs/20261118_迭代试验记录.md`，GPU 微调并未超过 V2，所以未晋升。
+
 ## GitHub 同步
 
 本地代码与记录是开发源；仓库 Kaggle/ 是用于团队协作的共享成果。修改成功并验证后，可执行：
